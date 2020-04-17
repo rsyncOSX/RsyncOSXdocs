@@ -1,7 +1,7 @@
 ---
-layout: post
+type: post
+date: 2020-04-16T09:34:29+02:00
 title:  "RcloneOSX changelog"
-permalink: RcloneChangelog
 ---
 
 Rclone is **rsync for cloud storage**. Even if `rclone` and `rsync` are somewhat equal they are also in many ways different. RcloneOSX is utilizing `rclone` for **synchronizing** and **backup** of files to a number of cloud services. RcloneOSX utilizes rclone copy, sync, move and check commands.

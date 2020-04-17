@@ -1,7 +1,7 @@
 ---
-layout: post
+type: post
+date: 2020-04-16T09:34:29+02:00
 title:  "Executing single tasks, edit tasks"
-permalink: SingleTask
 ---
 In Synchronize view (which is the opening view) tasks can be executed as **singletasks**. Execute single tasks requires a couple of double clicks: one for **estimation** run and the second for **executing** the real task. The output from rsync is presented after each run.
 ![](/images/RsyncOSX/master/singletask/singletask.png)

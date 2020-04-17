@@ -1,7 +1,7 @@
 ---
-layout: post
+type: post
+date: 2020-04-16T09:34:29+02:00
 title:  "Verify and changed files"
-permalink: Verify
 ---
 The view is depended upon selecting a row in Synchronize view. When the row is selected the numbers of source and remote destination are automatically collected.
 

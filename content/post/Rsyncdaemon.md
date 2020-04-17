@@ -1,7 +1,7 @@
 ---
-layout: post
+type: post
+date: 2020-04-16T09:34:29+02:00
 title:  "Rsync daemon setup"
-permalink: Rsyncdaemon
 ---
 It is advised to utilize ssh keys for setup of password less logins for rsync. But it is possible to setup rsync and password less login by utilize a rsync daemon setup.
 

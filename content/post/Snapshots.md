@@ -1,7 +1,7 @@
 ---
-layout: post
+type: post
+date: 2020-04-16T09:34:29+02:00
 title:  "Snapshots"
-permalink: Snapshots
 ---
 Snapshot is an effective method for saving changed and deleted data. Snapshot utilize [hardlinks](https://en.wikipedia.org/wiki/Hard_link) and only changed and deleted data are saved as separate files in a snapshot. Files which are not changed are  hardlinks to the original file in the snapshot.
 

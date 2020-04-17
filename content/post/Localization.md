@@ -1,7 +1,7 @@
 ---
-layout: post
+type: post
+date: 2020-04-16T09:34:29+02:00
 title:  "Localization"
-permalink: Localization
 ---
 RsyncOSX and the menu app RsyncOSXsched are prepared for localization. RsyncOSX is translated to Chinese (Simplified), German, Norwegian and French. RsyncOSXsched is translated to German, Norwegian and French. Default language for both is English
 

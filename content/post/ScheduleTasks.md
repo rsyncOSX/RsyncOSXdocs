@@ -1,7 +1,7 @@
 ---
-layout: post
+type: post
+date: 2020-04-16T09:34:29+02:00
 title:  "Scheduled task"
-permalink: ScheduleTasks
 ---
 The [menu app](/Menuapp) to RsyncOSX is responsible for **executing scheduled tasks**. Adding and deleting scheduled tasks are done within RsyncOSX. By selecting a row and choose schedule applies a scheduled. All schedules is set to start at selected date.
 

@@ -1,7 +1,7 @@
 ---
-layout: post
+type: post
+date: 2020-04-16T09:34:29+02:00
 title:  "Passwordless logins by ssh-keys"
-permalink: PasswordlessLogin
 ---
 
 To enable passwordless login by using ssh you must use `ssh-keygen` to create a private and public key-pair. The method below is a manually setup. [RsyncOSX does also assist in setting up ssh-keys.](/ssh)

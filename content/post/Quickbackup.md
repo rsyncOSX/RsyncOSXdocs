@@ -1,7 +1,7 @@
 ---
-layout: post
+type: post
+date: 2020-04-16T09:34:29+02:00
 title:  "Execute tasks in Quickbackup"
-permalink: Quickbackup
 ---
 There are two options for executing quick synchronize tasks, either estimate and select or execute directly. In either way RsyncOSX does an estimation run and the numbers to indicate the progress of synchronizing.
 - execute synchronizing task directly
