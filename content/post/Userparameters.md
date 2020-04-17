@@ -11,7 +11,7 @@ The website LibreByte has written an article [16 Practical examples of the rsync
 - `--parameter`
 	- sample `--stats`, `--dry-run`
 
-See also the [standard parameters](/post/RsyncParameters) to rsync.
+See also the [standard parameters](/post/rsyncparameters/) to rsync.
 
 ## Backup catalog by parameter to rsync
 
