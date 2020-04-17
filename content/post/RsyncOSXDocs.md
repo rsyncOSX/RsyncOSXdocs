@@ -5,9 +5,9 @@ date: 2020-04-17T09:34:29+02:00
 ---
 Rsync is a file-based synchronization and backup tool. There is no custom solution for the backup archive. You can quit utilizing RsyncOSX (and rsync) at any time and still have access to all synchronized files.
 
- - [getting and installing RsyncOSX](/Install)
- - [there is a changelog](/Changelog)
- - [some info about signing and notarizing of RsyncOSX](/Notarized).
+ - [getting and installing RsyncOSX](/post/rsyncosx)
+ - [there is a changelog](/post/changelog)
+ - [some info about signing and notarizing of RsyncOSX](/post/notarized).
 
 Using RsyncOSX for synchronize files to **remote servers** [require to setup passwordless logins](/Remotelogins).
 
