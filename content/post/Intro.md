@@ -1,13 +1,13 @@
 ---
-layout: post
+type: post
+date: 2020-04-16T09:34:29+02:00
 title:  "A short intro to RsyncOSX"
-permalink: Intro
 ---
 All configurations to execute are listed in table. From the Synchronize view most actions (edit configurations, adding parameters to rsync, delete configurations) regarding configurations are executed. Configurations can be saved in user selected profiles. The profile in use is shown in label `Profile: profilname`. Information about new or delete files and numbers remote of directories are only available if version 3.x of rsync is used.
 
 ### Passwordless logins to remote servers
 
-Using RsyncOSX for backup to **remote servers** [require to setup ssh passwordless logins](/Remotelogins). The intro is not depended on setting up remote servers.
+Using RsyncOSX for backup to **remote servers** [require to setup ssh passwordless logins](/post/Remotelogins). The intro is not depended on setting up remote servers.
 
 ## Where to start?
 
@@ -29,9 +29,9 @@ There are **four** types of how to synchronize source and destination (backup):
   - this is the standard synchronize task in RsyncOSX, after execution source and destination (backup) is 100% in sync if there are no `--exclude` parameters to rsync
   - an `--exclude` parameter instructs rsync to disregard files, catalogs and patterns included in the parameter
 
-(2) **snapshot**  tasks, a [snapshot](/Snapshots) of previous synchronize task is stored before a new task is executed, number of snapshots are user defined, copy deleted or previous versions of files from snapshots
+(2) **snapshot**  tasks, a [snapshot](/post/Snapshots) of previous synchronize task is stored before a new task is executed, number of snapshots are user defined, copy deleted or previous versions of files from snapshots
 
-(3) **synchronize** and **save changed** and **deleted** files in a separate backup catalog by adding a [parameters](/Parameters) to rsync
+(3) **synchronize** and **save changed** and **deleted** files in a separate backup catalog by adding a [parameters](/post/Parameters) to rsync
 
 (4) **syncremote** task, this is a kind of restore task, syncing data from a **remote server** to local disk on Mac
 

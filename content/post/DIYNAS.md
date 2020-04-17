@@ -1,7 +1,7 @@
 ---
-layout: post
+type: post
+date: 2020-04-16T09:34:29+02:00
 title:  "My DIY NAS"
-permalink: DIYNAS
 ---
 This is a short resume about my do it yourself (DIY) [NAS](https://en.wikipedia.org/wiki/Network-attached_storage). I do not spend much time building or maintaining my NAS. The main purposes of my NAS are:
 

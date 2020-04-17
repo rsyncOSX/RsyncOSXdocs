@@ -1,7 +1,7 @@
 ---
-layout: post
+type: post
+date: 2020-04-16T09:34:29+02:00
 title:  "Restore files"
-permalink: Restore
 ---
 There are two types of restore files:
 - Full restore

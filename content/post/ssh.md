@@ -1,14 +1,13 @@
 ---
-layout: post
+type: post
+date: 2020-04-16T09:34:29+02:00
 title:  "Passwordless logins by ssh-keys"
-permalink: ssh
 ---
-
 If you already have setup ssh utilizing ssh keys there is no need to follow the instructions below. RsyncOSX is depended upon passwordless logins for synchronizing data to remote servers. The instructions below only applies if passwordless login is not setup.
 
 If utilizing RsyncOSX on local attached disks this does not apply.
 
-The objective is to assist setting up [passwordless](/PasswordlessLogin) logins. Ssh does not provide any possibilities to pass password as parameter. Some actions to setup passwordless logins therefore require a terminal window for copy/paste commands for password prompt and execution of task.
+The objective is to assist setting up [passwordless](/post/PasswordlessLogin) logins. Ssh does not provide any possibilities to pass password as parameter. Some actions to setup passwordless logins therefore require a terminal window for copy/paste commands for password prompt and execution of task.
 
 ### Local ssh keys
 
@@ -33,7 +32,7 @@ After both keys are created the `Create keys` button is disabled.
 
 ### Remote server
 
-After local private and public ssh key pair is created choosing `Remote server` to select which remote server to setup. It is required to [add](/AddConfigurations) configuration before setting up passwordless logins.
+After local private and public ssh key pair is created choosing `Remote server` to select which remote server to setup. It is required to [add](/post/AddConfigurations) configuration before setting up passwordless logins.
 - `Ssh directory` - copy and paste command in Terminal.app to create remote `~/.ssh` catalog
 - `Scp rsa` - copy and paste command in Terminal.app to secure copy public rsa key.
 - `Scp dsa` - copy and paste command in Terminal.app to secure copy public dsa key

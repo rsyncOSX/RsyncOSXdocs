@@ -1,6 +1,6 @@
 ---
-title: "Toppturblogg"
-featured_image: '/images/Toppturminner/uranostind.jpeg'
-description: "Tyin og Uranostinden"
+title: "RsyncOSX"
+featured_image:
+description: "RsyncOSX Documentation"
 ---
-Dette er en blog om mine toppturer.
+This is RsyncOSX Documentation.

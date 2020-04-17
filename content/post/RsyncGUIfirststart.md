@@ -1,9 +1,9 @@
 ---
-layout: post
+type: post
+date: 2020-04-16T09:34:29+02:00
 title:  "First time start RsyncGUI"
-permalink: RsyncGUIfirststart
 ---
-This is a short guide what to do when first start of **RsyncGUI**, the Mac App Store version of RsyncOSX. This guide is primarily for executing synchronizing tasks to **remote servers**. It includes how to setup passwordless login to remote server. RsyncGUI only support  default version of `rsync` which is included in macOS. The default version of `rsync` in macOS is old, version 2.6.9, protocol version 29 released in nov 2006. This version of `rsync` does not support snapshot tasks. If you want to utilize [snapshot tasks](/Snapshots) please use RsyncOSX instead.
+This is a short guide what to do when first start of **RsyncGUI**, the Mac App Store version of RsyncOSX. This guide is primarily for executing synchronizing tasks to **remote servers**. It includes how to setup passwordless login to remote server. RsyncGUI only support  default version of `rsync` which is included in macOS. The default version of `rsync` in macOS is old, version 2.6.9, protocol version 29 released in nov 2006. This version of `rsync` does not support snapshot tasks. If you want to utilize [snapshot tasks](/post/Snapshots) please use RsyncOSX instead.
 
 If you plan only utilizing RsyncGUI on local attached volumes you can skip this guide.
 
@@ -19,7 +19,7 @@ If you plan utilizing remote servers the following steps are required. It is onl
 
 ### First steps setting up passwordless logins for rsync
 
-See [manual setup of passwordless logins](/PasswordlessLogin) or the [RsyncOSX guide](/ssh) for info. Setting up passwordless logins is not required if this works before using RsyncGUI. It is **required** that ssh is utilizing the `.ssh` catalog in the users home root catalog.
+See [manual setup of passwordless logins](/post/PasswordlessLogin) or the [RsyncOSX guide](/post/ssh) for info. Setting up passwordless logins is not required if this works before using RsyncGUI. It is **required** that ssh is utilizing the `.ssh` catalog in the users home root catalog.
 
 ### Create private and public ssh certificates
 

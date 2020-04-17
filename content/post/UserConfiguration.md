@@ -1,7 +1,7 @@
 ---
-layout: post
+type: post
+date: 2020-04-16T09:34:29+02:00
 title:  "User configuration"
-permalink: UserConfiguration
 ---
 There are only a few parameters to choose in user configuration. Configurations are saved to permanent store. This applies for version 6.1.5 or greater of RsyncOSX.
 
@@ -11,7 +11,7 @@ There are only a few parameters to choose in user configuration. Configurations 
 
  - 3.1.2 or 3.1.3 rsync - set optional path in **not** in `/usr/local/bin`
    	- any version of rsync should work, but only rsync  version 3.1.2, version 3.1.3 protocol version 31 and rsync  version 2.6.9  protocol version 29 are tested and verified
-    - [utilizing the snapshot feature](/Snapshots) require either version 3.1.2 or 3.1.3 of rsync
+    - [utilizing the snapshot feature](/post/Snapshots) require either version 3.1.2 or 3.1.3 of rsync
 - optional path for rsync:
     - if other version of rsync is installed in other path than `/usr/local/bin` it must be set here
 - temporary path restore:
