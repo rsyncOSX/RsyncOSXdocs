@@ -53,7 +53,7 @@ Inside the folder of your Hugo site run:
 
     $ git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
 
-For more information read the official [setup guide](//gohugo.io/overview/installing/) of Hugo.
+For more information read the official [setup guide](/post//gohugo.io/overview/installing/) of Hugo.
 
 
 
@@ -94,7 +94,7 @@ example: `background_color_class = "bg-blue"` or `background_color_class = "bg-g
 
 ### Activate the contact form
 
-This theme includes a shortcode for a contact form that you can add to any page (there is an example on the contact page in the exampleSite folder). One option is to use [formspree.io](//formspree.io/) as proxy to send the actual email. Each month, visitors can send you up to one thousand emails without incurring extra charges. Visit the Formspree site to get the "action" link and add it to your shortcode like this:
+This theme includes a shortcode for a contact form that you can add to any page (there is an example on the contact page in the exampleSite folder). One option is to use [formspree.io](/post//formspree.io/) as proxy to send the actual email. Each month, visitors can send you up to one thousand emails without incurring extra charges. Visit the Formspree site to get the "action" link and add it to your shortcode like this:
 
 ```
 {{< form-contact action="https://formspree.io/your@email.com" >}}

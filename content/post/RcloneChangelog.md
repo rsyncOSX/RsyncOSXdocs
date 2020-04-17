@@ -6,7 +6,7 @@ title:  "RcloneOSX changelog"
 
 Rclone is **rsync for cloud storage**. Even if `rclone` and `rsync` are somewhat equal they are also in many ways different. RcloneOSX is utilizing `rclone` for **synchronizing** and **backup** of files to a number of cloud services. RcloneOSX utilizes rclone copy, sync, move and check commands.
 
-The app is signed with my Apple ID developer certificate and [notarized](/Notarized) by Apple.
+The app is signed with my Apple ID developer certificate and [notarized](/post/Notarized) by Apple.
 
 ## macOS Catalina
 
@@ -66,7 +66,7 @@ The release is **signed and notarized**. The major changes in the release are:
 
 [Released](https://github.com/rsyncOSX/rcloneosx/releases/tag/v1.9.4) 4 October 2019. The release is **signed and notarized**. This version is built by Xcode 11 on macOS Catalina GM.
 
-**Important** - from macOS 10.15 Catalina, [notarization is required](/Notarized) by default for all software.
+**Important** - from macOS 10.15 Catalina, [notarization is required](/post/Notarized) by default for all software.
 
 - fixed a bug in copy files
 
@@ -74,7 +74,7 @@ The release is **signed and notarized**. The major changes in the release are:
 
 [Released](https://github.com/rsyncOSX/rcloneosx/releases/tag/v1.9.3) 21 September 2019. The release is **signed and notarized**. This version is built by [Xcode 11)](https://developer.apple.com/documentation/xcode_release_notes/xcode_11_release_notes).
 
-**Important** - from macOS 10.15 Catalina, [notarization is required](/Notarized) by default for all software.
+**Important** - from macOS 10.15 Catalina, [notarization is required](/post/Notarized) by default for all software.
 
 - fixed a bug in delete logs
 
@@ -82,7 +82,7 @@ The release is **signed and notarized**. The major changes in the release are:
 
 [Released](https://github.com/rsyncOSX/rcloneosx/releases/tag/v1.9.2) 14 September 2019. The release is **signed and notarized**. This version is built by [Xcode 11GM (Gold Master)](https://developer.apple.com/documentation/xcode_release_notes/xcode_11_release_notes).
 
-**Important** - from macOS 10.15 Catalina, [notarization is required](/Notarized) by default for all software.
+**Important** - from macOS 10.15 Catalina, [notarization is required](/post/Notarized) by default for all software.
 
 The major part (about 80%) in this version are refactor and cleanup in code. Refactor is mainly for decoupling of code and make RcloneOSX easier for maintenance.
 
@@ -153,9 +153,9 @@ The following are changes in the release:
 - refactor batch tasks
 - the userconfig is refactored
 - and some minor bugfixes and tweaks
-- the rcloneosx.app is [notarized](/Notarized) by Apple
+- the rcloneosx.app is [notarized](/post/Notarized) by Apple
 
-Here are some screenshots of what is in [this version](/nextversionrclone).
+Here are some screenshots of what is in [this version](/post/nextversionrclone).
 
 ## Version 1.6.5
 
@@ -200,7 +200,7 @@ Released 16 August 2018.
 Released 21 June 2018.
 
 - fixed a bug (crash) if RcloneOSX is started without installing rclone first
-- some enhancements in [logs](/Logging) and caching of remote info
+- some enhancements in [logs](/post/Logging) and caching of remote info
 
 ## Version 1.5.2
 
@@ -223,7 +223,7 @@ There are several enhancements in this release:
 ## Version 1.4.0
 
 - released 23 April 2018
-- minor fix for enable restore of encrypted backups (see [encrypted](/Encrypted) backups in RsyncOSX)
+- minor fix for enable restore of encrypted backups (see [encrypted](/post/Encrypted) backups in RsyncOSX)
 
 ## Version 1.3.6
 

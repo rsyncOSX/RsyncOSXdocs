@@ -7,7 +7,7 @@ Adding a configuration is easy. A configuration require minimum a **Local catalo
 
 Select **Local catalog** either by *drag and drop* or by *enter text* directly. For **Remote catalogs** only drag and drop for local volumes. For remote server catalogs enter by text only.
 
-There are four types of tasks, `synchronize` which is standard, `snapshots`, `syncremote` and `single file`. For [snapshots](/Snapshots) see documentation.
+There are four types of tasks, `synchronize` which is standard, `snapshots`, `syncremote` and `single file`. For [snapshots](/post/Snapshots) see documentation.
 
 ### Sample configuration
 
@@ -34,6 +34,6 @@ The `Capacity` button query remote storage in all configurations about available
 - **Type**:
     - There are four types of tasks, `synchronize` which is standard, `snapshots`, `syncremote` and `single file`.
 - **rsync daemon**:
-    Enabling rsync daemon puts a double colon `::` in address parameter to rsync. It forces rsync to use the rsync daemon remote. There are [two possible setup for using the rsync daemon](/Rsyncdaemon). Utilizing a rsync daemon setup does **not** encrypt the transfer between client and server. To encrypt the transfer require tunneling traffic in a ssh protocol. [See how to setup ssh passwordless logins](/Remotelogins).
+    Enabling rsync daemon puts a double colon `::` in address parameter to rsync. It forces rsync to use the rsync daemon remote. There are [two possible setup for using the rsync daemon](/post/Rsyncdaemon). Utilizing a rsync daemon setup does **not** encrypt the transfer between client and server. To encrypt the transfer require tunneling traffic in a ssh protocol. [See how to setup ssh passwordless logins](/post/Remotelogins).
 
 Select the `Add` button when completed and configuration is added to RsyncOSX. RsyncOSX adds a trailing `/` character to both local and remote volume. After selecting the Add button another configuration might be added. Any changes (edit or delete) to configurations are done from the Synchronize view. Additional parameters to rsync might be added utilizing the `Parameter` button.

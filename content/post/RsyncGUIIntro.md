@@ -3,7 +3,7 @@ type: post
 date: 2020-04-16T09:34:29+02:00
 title:  "A short intro to RsyncGUI"
 ---
-Please see caution about using RsyncGUI and the `--delete` parameter to rsync at bottom of this page. There is also [a first start intro](/RsyncGUIfirststart) about RsyncGUI.
+Please see caution about using RsyncGUI and the `--delete` parameter to rsync at bottom of this page. There is also [a first start intro](/post/RsyncGUIfirststart) about RsyncGUI.
 
 ### Some words about RsyncGUI
 
@@ -13,7 +13,7 @@ If your plan is to use RsyncGUI as your main tool for backup of files, please in
 
 ## When you start RsyncGUI for the first time
 
-RsyncGUI is a sandboxed macOS app and the first to do is to grant RsyncGUI permission to read the users home catalog. When RsyncGUI is started for the first time, it asks for permission to access your home catalog. Please see the [start RsyncGUI for the first time](/RsyncGUIfirststart).
+RsyncGUI is a sandboxed macOS app and the first to do is to grant RsyncGUI permission to read the users home catalog. When RsyncGUI is started for the first time, it asks for permission to access your home catalog. Please see the [start RsyncGUI for the first time](/post/RsyncGUIfirststart).
 
 ## Where to start?
 
@@ -38,9 +38,9 @@ There  are **three** types of how to synchronize source and destination (backup)
 (2) **syncremote** which synchronize a **remote** source to your local Mac.
   - please pay attention before using this task, if you syncremote an empty source it will delete all local files
 
-(3) **synchronize** and **save changed** and **deleted** files in a separate backup catalog by adding a [parameters](/Parameters) to rsync
+(3) **synchronize** and **save changed** and **deleted** files in a separate backup catalog by adding a [parameters](/post/Parameters) to rsync
 
-Snapshot tasks is not possible in RsyncGUI, see [the RsyncGUI Changelog](/RsyncGUIChangelog).
+Snapshot tasks is not possible in RsyncGUI, see [the RsyncGUI Changelog](/post/RsyncGUIChangelog).
 
 ## How to execute any type of tasks
 

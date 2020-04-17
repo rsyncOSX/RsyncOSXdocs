@@ -27,25 +27,25 @@ The class `Configurations` (plural) holds required data, as an `Array<Configurat
 - the **struct** [Configuration.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/Configuration.swift) holds data about one task
 - the **class** [Configurations.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/Configurations.swift) holds all computed data and methods operating on tasks
 
-Documentation of [Configurations](/Configuration).
+Documentation of [Configurations](/post/Configuration).
 
 ## Scheduled tasks and log records
 
 All log records are stored in a Schedule record. For one task it might be several schedule records depended upon type of schedule and start of scheduled task. The type of schedules are `manual`, `once`, `daily` and `monthly`. If Schedules is not used meaning only manually executed tasks, one Schedule record is created with type `manual`. All log records for this manually executed tasks are added to this record.
 
-Documentation of [scheduled tasks and log records](/Schedule).
+Documentation of [scheduled tasks and log records](/post/Schedule).
 
 
 ## Reading and writing data to permanent storage
 
 One object takes care of reading and writing data to permanent storage. The object is also responsible to either read or write data utilizing profiles.
 
-Documentation of [reading and writing](/Readwrite).
+Documentation of [reading and writing](/post/Readwrite).
 
 ## Parameters to rsync
 
-Rsync utilizes a ton of parameters. RsyncOSX let the user pass any parameter to rsync. A few rsync parameters are predefined, both mandatory and user selected. Documentation of [rsync parameters in RsyncOSX](/Parameters).
+Rsync utilizes a ton of parameters. RsyncOSX let the user pass any parameter to rsync. A few rsync parameters are predefined, both mandatory and user selected. Documentation of [rsync parameters in RsyncOSX](/post/Parameters).
 
 ## The main view controller
 
-Documentation of [the main viewcontroller](/Viewcontroller).
+Documentation of [the main viewcontroller](/post/Viewcontroller).

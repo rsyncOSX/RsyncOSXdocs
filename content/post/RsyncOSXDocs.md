@@ -5,28 +5,28 @@ date: 2020-04-17T09:34:29+02:00
 ---
 Rsync is a file-based synchronization and backup tool. There is no custom solution for the backup archive. You can quit utilizing RsyncOSX (and rsync) at any time and still have access to all synchronized files.
 
- - [getting and installing RsyncOSX](/post/rsyncosx)
- - [there is a changelog](/post/changelog)
- - [some info about signing and notarizing of RsyncOSX](/post/notarized).
+ - [getting and installing RsyncOSX](/post/post/rsyncosx)
+ - [there is a changelog](/post/post/changelog)
+ - [some info about signing and notarizing of RsyncOSX](/post/post/notarized).
 
-Using RsyncOSX for synchronize files to **remote servers** [require to setup passwordless logins](/Remotelogins).
+Using RsyncOSX for synchronize files to **remote servers** [require to setup passwordless logins](/post/Remotelogins).
 
 ### Using RsyncOSX
 
 The following are documents about using RsyncOSX:
-- a short [intro to RsyncOSX](/Intro)
-- [add configurations](/AddConfigurations)
-- [executing single tasks](/SingleTask)
-  - also edit tasks and [add parameters to rsync](/Parameters) from main view
-- utilizing the [snapshot feature](/Snapshots)
-- utilizing the [quick backup feature](/Quickbackup)
-- [scheduling of tasks](/ScheduleTasks)
-- [restore of files](/Restore)
-- some info about [logging execution of tasks](/Logging)
-- some info about [user configuration](/UserConfiguration)
-- for [automatic backups](/Automatic)
-- where does RsyncOSX [stores the config files](/configfiles)
-- [the verify function](/Verify)
+- a short [intro to RsyncOSX](/post/Intro)
+- [add configurations](/post/AddConfigurations)
+- [executing single tasks](/post/SingleTask)
+  - also edit tasks and [add parameters to rsync](/post/Parameters) from main view
+- utilizing the [snapshot feature](/post/Snapshots)
+- utilizing the [quick backup feature](/post/Quickbackup)
+- [scheduling of tasks](/post/ScheduleTasks)
+- [restore of files](/post/Restore)
+- some info about [logging execution of tasks](/post/Logging)
+- some info about [user configuration](/post/UserConfiguration)
+- for [automatic backups](/post/Automatic)
+- where does RsyncOSX [stores the config files](/post/configfiles)
+- [the verify function](/post/Verify)
 
 ### Why use RsyncOSX (and rsync)?
 
@@ -55,8 +55,8 @@ RsyncOSX is also released as [RsyncGUI](https://itunes.apple.com/us/app/rsyncgui
 
 ## My own NAS setup
 
-I have setup up my own [NAS](/DIYNAS). I am doing backups by using RsyncOSX and sharing out disk by AFP and SMB.
+I have setup up my own [NAS](/post/DIYNAS). I am doing backups by using RsyncOSX and sharing out disk by AFP and SMB.
 
 ## The Source
 
-There are some documents about [the source code](/Source)
+There are some documents about [the source code](/post/Source)
