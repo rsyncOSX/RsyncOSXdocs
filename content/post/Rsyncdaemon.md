@@ -10,7 +10,6 @@ With a few tweaks it is possible to get RsyncOSX working with rsync daemon. Be a
 The sample setup below is based upon a Ubuntu 19.04 server. How to get the rsync daemon up and running on the Ubuntu server is **not** part of this document. The rsync daemon on the server is setup to listen on port 873. It is also advised that the versions of rsync are equal on both client and server. There are two solutions for enabling a rsync daemon connection. For both setup of `/etc/rsyncd.conf` serverside is required.
 
 The following lines are created on the server side in file: `/etc/rsyncd.conf`
-
 ```
 pid file = /var/run/rsyncd.pid
 lock file = /var/run/rsync.lock
@@ -26,7 +25,6 @@ timeout = 300
 auth users = thomas
 secrets file = /etc/rsyncd.secrets
 ```
-
 The `files` in `[files]` is used in the setup.
 
 ### Prefix username in RsyncOSX
