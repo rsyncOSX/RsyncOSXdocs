@@ -7,7 +7,7 @@ Adding a configuration is easy. A configuration require minimum a **Local catalo
 
 Select **Local catalog** either by *drag and drop* or by *enter text* directly. For **Remote catalogs** only drag and drop for local volumes. For remote server catalogs enter by text only.
 
-There are four types of tasks, `synchronize` which is standard, `snapshots`, `syncremote` and `single file`. For [snapshots](/post/Snapshots) see documentation.
+There are four types of tasks, `synchronize` which is standard, `snapshots`, `syncremote` and `single file`. For [snapshots](/post/snapshots/) see documentation.
 
 ### Sample configuration
 
