@@ -11,11 +11,11 @@ RsyncOSX does also facilitate user selected parameters. User selected parameters
 
 The following parameters are applied to all tasks.
 
-- `--archive`
+- --archive
 	- ensures that all files are transferred with all attributes preserved
-- `--verbose`
+- --verbose
 	- make rsync very outspoken, required for counting files in RsyncOSX
-- `--delete`
+- --delete
 	- delete all files at **destination** which are not in the **source**
 	- **caution:** this parameter also applies when restoring files, always do a restore to a temporary restore catalog
 
@@ -23,9 +23,9 @@ The following parameters are applied to all tasks.
 
 The following parameters are for networked tasks only. A networked task is a task where destination is on a remote server, either on local LAN or on Internet.
 
-- `--compress`
+- --compress
 	- compress files before transmitting, applies only if remote server
-- `-e ssh`
+- -e ssh
 	- to ensure rsync tunnels traffic through a ssh-tunnel, applies only if there is a remote server
-- `-e "ssh -p nn"`
-	- choose another port `nn` if standard port 22 is not used, enable by setting port number in parameters, applies only if remote server
+- -e "ssh -p nn"
+	- choose another port nn if standard port 22 is not used, enable by setting port number in parameters, applies only if remote server

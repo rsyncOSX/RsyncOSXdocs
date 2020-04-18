@@ -9,11 +9,11 @@ The menu app is reloading the schedules after each scheduled task is completed. 
 
 There are three choices for schedules:
 
-- `once`
+- once
 	- is executed _once_ at date and time given
-- `daily`
+- daily
 	- is executed _every 24-hour_ from a selected date
-- `weekly`
+- weekly
 	- as for daily, but _every 7 day_ from a selected date
 
 Select task (row), set the start date and time and select the schedule (once, daily or weekly) to set up a schedule. The schedule is a stack of tasks. The top most element is the first task to be executed. RsyncOSX keeps track of the first task only. All other scheduled tasks remains on stack until popped of.
@@ -22,4 +22,4 @@ The stack is a reference only to a configuration (by a hidden key). The user can
 
 The [menu app](/post/menuapp/) should be started from RsyncOSX.
 
-The yellow flag in column `Sched` indicates there are active scheduled tasks. The flag is either yellow or green. Green is next task within one hour.
+The yellow flag in column Sched indicates there are active scheduled tasks. The flag is either yellow or green. Green is next task within one hour.

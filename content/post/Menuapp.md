@@ -3,13 +3,13 @@ type: post
 date: 2020-04-16T09:34:29+02:00
 title:  "Menuapp"
 ---
-This is the `menu app` (RsyncOSXsched.app) for executing scheduled tasks in RsyncOSX. Scheduled tasks are added in RsyncOSX. Quit RsyncOSX and let the menu app take care of executing the scheduled tasks. RsyncOSX does **not** execute scheduled tasks. Scheduled tasks are only added and deleted in RsyncOSX.
+This is the menu app (RsyncOSXsched.app) for executing scheduled tasks in RsyncOSX. Scheduled tasks are added in RsyncOSX. Quit RsyncOSX and let the menu app take care of executing the scheduled tasks. RsyncOSX does **not** execute scheduled tasks. Scheduled tasks are only added and deleted in RsyncOSX.
 
-The `menu app` can be started from RsyncOSX. If the `menu app` is installed in other catalog than `/Applications`, alternative catalogs has to be set in userconfiguration.
+The menu app can be started from RsyncOSX. If the menu app is installed in other catalog than /Applications, alternative catalogs has to be set in userconfiguration.
 
 ![](/images/RsyncOSX/master/menuapp/userconfig.png).
 
-The `menu app` submits a notification when a scheduled tasks are completed. A scheduled task is either of type `once`, `daily` or `weekly`. If there are tasks waiting to execute the status light will be green.
+The menu app submits a notification when a scheduled tasks are completed. A scheduled task is either of type once, daily or weekly. If there are tasks waiting to execute the status light will be green.
 
 ![](/images/RsyncOSX/master/menuapp/menuapp1.png)
 

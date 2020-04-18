@@ -14,5 +14,5 @@ Only full restore is allowed from remote (destination) catalog to source catalog
 ![](/images/RsyncOSX/master/restore/restore.png)
 To do a restore, either full or files, an estimation is required. The status light changes from red to yellow when an estimation can be executed. The status light is green when a restore can be executed.
 
-The button `Do the real thing:` must be checked before a restore is executed. If not only a simulation message is shown.
+The button Do the real thing: must be checked before a restore is executed. If not only a simulation message is shown.
 ![](/images/RsyncOSX/master/restore/restore2.png)

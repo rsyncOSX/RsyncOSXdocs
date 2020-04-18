@@ -7,15 +7,15 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 ## RsyncOSX on macOS Catalina
 
-If you are installing on macOS Catalina and utilize a local version of rsync, execute the `rsync` utility in a terminal window before using RsyncOSX. There is a process of granting access for the `rsync` utility before using it by RsyncOSX. MacOS Catalina will also ask permission for accessing your home catalog first time you start RsyncOSX.
+If you are installing on macOS Catalina and utilize a local version of rsync, execute the rsync utility in a terminal window before using RsyncOSX. There is a process of granting access for the rsync utility before using it by RsyncOSX. MacOS Catalina will also ask permission for accessing your home catalog first time you start RsyncOSX.
 
 If you also utilize the menu-app (RsyncOSXsched), be aware of you might have to force quit RsyncOSX the first time you start the menu-app. This is because the macOS Catalina ask for permissions when starting the menu-app for the first time and RsyncOSX is not closed automatically when starting the menu-app. This might happen only once first time start on the macOS Catalina.
 
 ### Some words about RsyncOSX
 
-RsyncOSX is not developed to be an easy to use synchronize and backup tool. The main purpose is to assist and ease the use of `rsync` to synchronize files on your Mac to remote FreeBSD and Linux servers. And of course restore files from those remote servers.
+RsyncOSX is not developed to be an easy to use synchronize and backup tool. The main purpose is to assist and ease the use of rsync to synchronize files on your Mac to remote FreeBSD and Linux servers. And of course restore files from those remote servers.
 
-The UI can for users who dont know `rsync`, be difficult or complex to understand. It is not required to know `rsync` but it will ease the use and understanding of RsyncOSX. But it is though, possible to use RsyncOSX by just adding a source and remote backup catalog using default parameters.
+The UI can for users who dont know rsync, be difficult or complex to understand. It is not required to know rsync but it will ease the use and understanding of RsyncOSX. But it is though, possible to use RsyncOSX by just adding a source and remote backup catalog using default parameters.
 
 RsyncOSX supports synchronize and snapshots of files.
 
@@ -73,9 +73,9 @@ The release is **signed and notarized**.
 
 The release is **signed and notarized**.
 
-- added new type of task `syncremote`
-- added possibility to remove the trailing `/` when adding tasks, if you remove the trailing `/` be sure you understand what it means
-- added parameter to set `$date` on backup folder
+- added new type of task syncremote
+- added possibility to remove the trailing / when adding tasks, if you remove the trailing / be sure you understand what it means
+- added parameter to set $date on backup folder
 - refactor of schedule
 - check of schedule logs
 - minimized GUI of the menu app
@@ -114,7 +114,7 @@ The following are changes in the release:
 - a few GUI adjustments
 - fixed a bug in search logs, the search was not localized
 - fixed a bug in delete logs and save logs to permanent store
-- fixed a bug in removal of `--delete` parameter
+- fixed a bug in removal of --delete parameter
 - some adjustments in search and sort (in logs and all profiles)
 - some localization fixes Norwegian
 - some localization fixes Chinese (Simplified)
@@ -132,7 +132,7 @@ The following are new features and updates in version 5.8.6.
 - in snapshots save day and plan on each snapshot task
 - cleanup of GUI snapshots and copy files
 - fixed a bug i rsync parameters, now all default parameters might be deleted
-- added possibility to execute a selected tasks `Now` in RsyncOSXsched app (menu app)
+- added possibility to execute a selected tasks Now in RsyncOSXsched app (menu app)
 - added possibility to auto execute tasks in RsyncOSXsched app (menu app) when local disk is attached
 - some refactor and cleanup of code
 - [localization](/post/localization/)
@@ -153,7 +153,7 @@ The following are new features and updates in version 5.8.6.
 - view all profiles and configurations by menu button (moved from tab view)
 - backup now and automatic backup my be executed from any view (tab) by menu buttons or shortcuts
 - clean up of code and some bugfixes
-- configuration is available by shortcut `⌘,` (Preferences)
+- configuration is available by shortcut ⌘, (Preferences)
 
 ## Version 5.7.3
 
@@ -198,7 +198,7 @@ In this release executing scheduled tasks is **moved** to the [menu app](/post/m
 The following changes compared to version 5.5.7 are:
 - a lot of cleanup in code (delete of dead code)
 - delete code for execution of scheduled tasks, the [menu app](/post/menuapp/) executes scheduled tasks, add and delete schedules in RsyncOSX
-- some enhancements in `restore` and restore defaults to temporary restore catalog if set in user config
+- some enhancements in restore and restore defaults to temporary restore catalog if set in user config
 - some enhancements in cleaning (deleting) snapshots and log records
 - and as always some bugfixes
 
@@ -233,7 +233,7 @@ The following are changes in the release:
 
 I am not able to predict and test for all possible user interactions. I have tried to smoke out most bugs and make the code as robust as possible. The most common errors are nil pointer errors and not taking care of it if a program variable is not initialized nor has a default value when accessed. I have also tried, by program logic, to verify required input ahead of an action. I believe the last version is robust. RsyncOSX can be minimized during operations and all tasks can be aborted at any time. But there are no guarantee that RsyncOSX will handle all situations.
 
-If RsyncOSX does halt or crash during operation there is no damage to files or deletion of files in the `source`. The `source` is only read during `synchronize` and `snapshot` tasks. And always do a restore to a temporary restore catalog.
+If RsyncOSX does halt or crash during operation there is no damage to files or deletion of files in the source. The source is only read during synchronize and snapshot tasks. And always do a restore to a temporary restore catalog.
 
 ## Version 5.5.3
 
@@ -312,7 +312,7 @@ Released 1 June 2018.
 
 Released 23 April 2018.
 
-Rsync does not support encrypted backups directly. There is another tool `rclone` which does. By utilizing RsyncOSX and [RcloneOSX](https://github.com/rsyncOSX/rcloneosx) to synchronize encrypted backup to **remote servers** running OS as FreeBSD, Linux, Solaris and so on. RsyncOSX executes the `rclone` and `rsync` command line tool in one go. The administration of the rclone part is done in [RcloneOSX](https://github.com/rsyncOSX/rcloneosx).
+Rsync does not support encrypted backups directly. There is another tool rclone which does. By utilizing RsyncOSX and [RcloneOSX](https://github.com/rsyncOSX/rcloneosx) to synchronize encrypted backup to **remote servers** running OS as FreeBSD, Linux, Solaris and so on. RsyncOSX executes the rclone and rsync command line tool in one go. The administration of the rclone part is done in [RcloneOSX](https://github.com/rsyncOSX/rcloneosx).
 
 Please read the documents about [encrypted](/post/Encrypted) backups.
 
@@ -328,19 +328,19 @@ The RsyncOSXsched.app is not required to install, it is the [menu app](/post/Men
 - fixed a bug in schedule
 - some other enhancements, se below..
 
-Within the dynamic info view a progress bar informs about the progress. There is a `Select` button to select all tasks with changed files compared to backup catalog.
+Within the dynamic info view a progress bar informs about the progress. There is a Select button to select all tasks with changed files compared to backup catalog.
 
 ## Version 5.1.1
 
 Released 27 February 2018
 
 - added a [menu app](/post/Menuapp)
-to execute scheduled backups, the `menu app`is a minimal version of RsyncOSX only capable of executing scheduled tasks
+to execute scheduled backups, the menu appis a minimal version of RsyncOSX only capable of executing scheduled tasks
 	- all editing of tasks and schedules are within RsyncOSX
 - added notifications when scheduled task is completed
 - the scheduled part is redesigned, to activate a schedule select start date and time and type of schedule.
 	- the schedules are active until *deleted* or *stopped*
-	- schedule `once` only executes once, `daily` and `weekly` until stopped or deleted
+	- schedule once only executes once, daily and weekly until stopped or deleted
 
 ## Version 5.0.0
 
@@ -362,7 +362,7 @@ to execute scheduled backups, the `menu app`is a minimal version of RsyncOSX onl
 - new function for **quick backups**, sort and select which tasks to be executed in one go
 - new function for **info about backup locations**
 - new function for doing **quick backups** from the **info about backup locations**
-- in parameter view the rsync parameter `--compress` can be toggled on/off
+- in parameter view the rsync parameter --compress can be toggled on/off
 - sort and filter in **quick backups** and **info about backup locations**
 
 ## Version 4.9.2
@@ -371,11 +371,11 @@ to execute scheduled backups, the `menu app`is a minimal version of RsyncOSX onl
 - focus on GUI single tasks and batch
 - adding several shortcuts
 	- after selecting a row the following shortcuts are effective
-	- `⌘E` - shortcut for edit task
-	- `⌘O` - shortcut for rsync parameters to task
-	- `⌘D` - shortcut for delete task
-	- `⌘R` - shortcut for immediate execute task
-	- `⌘A` - Abort task
+	- ⌘E - shortcut for edit task
+	- ⌘O - shortcut for rsync parameters to task
+	- ⌘D - shortcut for delete task
+	- ⌘R - shortcut for immediate execute task
+	- ⌘A - Abort task
 
 ## Version 4.9.1
 
@@ -392,7 +392,7 @@ to execute scheduled backups, the `menu app`is a minimal version of RsyncOSX onl
 
 - released 23 Nov 2017
 - logging result after execution of tasks is fixed
-- added possibility of logging, either minimum or full, output from rsync to loggfile in `Documents/rsynclog.txt`
+- added possibility of logging, either minimum or full, output from rsync to loggfile in Documents/rsynclog.txt
 	- the logging to file is default off when starting RsyncOSX, status of logging is not saved in userconfiguration
 	- the log function appends new logs, be careful not logging all actions
 - fixed some other minor glitches
@@ -451,12 +451,12 @@ There is a rsync-3.1.2.dmg included which is a built version of latest rsync. To
 * using [SwiftLint](https://github.com/realm/SwiftLint) has caused several and major rewrites in parts of code
 	* some of the classes are yet not adapted to SwiftLint rules
 * code is adapted to Swift 4
-* fixed a bug when choosing task for batch, an `execute` of task might accidentally start when select or deselect batch task
+* fixed a bug when choosing task for batch, an execute of task might accidentally start when select or deselect batch task
 * fixed a bug in discover new version of RsyncOSX
 * there are numerous internal changes and quite a few minor bugfixes
 * refactor filter (search) functions in logs and copy files
 * fixed a bug causing RsyncOSX to crash if loading new profile during a test for TCP connections
-* added parameter `--max-delete=-1` to secure no execution of task if files will be deleted during run (user selected in setting rsync parameters)
+* added parameter --max-delete=-1 to secure no execution of task if files will be deleted during run (user selected in setting rsync parameters)
 
 ## Version 4.4.6
 
@@ -498,7 +498,7 @@ There is a rsync-3.1.2.dmg included which is a built version of latest rsync. To
 * adjusted the parameters to rsync
 * adjusted the schedule
 
-In the parameter to rsync, if `backup` option is selected RsyncOSX adds the directory to the backup catalog (for saving changed and deleted files). Choose either suffix for FreeBSD or Linux. Neither of them works on **local backup** macOS (have to test more). But, if you copy and paste the FreeBSD suffix in a terminal window it works on macOS (it adds the correct timestamp to the changed files in the backup directory).
+In the parameter to rsync, if backup option is selected RsyncOSX adds the directory to the backup catalog (for saving changed and deleted files). Choose either suffix for FreeBSD or Linux. Neither of them works on **local backup** macOS (have to test more). But, if you copy and paste the FreeBSD suffix in a terminal window it works on macOS (it adds the correct timestamp to the changed files in the backup directory).
 
 The schedule now informs if a scheduled backup plan is to short ahead. A weekly backup must be at least seven days ahead of current date and time.
 
@@ -525,11 +525,11 @@ The schedule now informs if a scheduled backup plan is to short ahead. A weekly 
 
 * released 8 March 2017
 * new application icon by Forrest Walter (this is the primary reason why releasing a new version)
-* added new functionality in `Copy files` - double click on source get list of files from remote server
+* added new functionality in Copy files - double click on source get list of files from remote server
 
 ## Version 3.9.7
 
-Sometimes rsync throws errors and does not execute as expected. Single task is implemented as queue of work (`estimate`, `execute` and `done`). If `estimate` or `execute` fails (by some reason) the user has to be made aware of situation and fix it.
+Sometimes rsync throws errors and does not execute as expected. Single task is implemented as queue of work (estimate, execute and done). If estimate or execute fails (by some reason) the user has to be made aware of situation and fix it.
 
 RsyncOSX checks output from rsync for string *rsync error:*. If found Synchronize view is notified, error is marked (in red) and work queue is reset if option in userconfig (see below) is set. To test enter a not valid user name for a remote server ([edit task](/post/SingleTask) in Synchronize view).
 
@@ -543,9 +543,9 @@ Other changes:
 
 ## Version 3.9.5
 
-Version 3.9.5 might **crash** for some user. This is due to localized string representation of dates in logs. RsyncOSX only accepts `en_US` format of dates in logs. Comparing and sorting other localized string representation of dates causes a crash.
+Version 3.9.5 might **crash** for some user. This is due to localized string representation of dates in logs. RsyncOSX only accepts en_US format of dates in logs. Comparing and sorting other localized string representation of dates causes a crash.
 
-If RsyncOSX crash during startup please delete the schedule and loggfile: `Documents/Rsync/MacID/scheduleRsync.plist` (deleting this file only deletes any schedule and logs).
+If RsyncOSX crash during startup please delete the schedule and loggfile: Documents/Rsync/MacID/scheduleRsync.plist (deleting this file only deletes any schedule and logs).
 
 
 - released 28 January 2017
@@ -554,7 +554,7 @@ If RsyncOSX crash during startup please delete the schedule and loggfile: `Docum
 - logs are now sorted with most recent log on top (first row in table)
 - active schedules are marked red
 	- number of logs in each schedule
-	- manual execution of tasks are logged under start date `1 Jan 1900 00:00`
+	- manual execution of tasks are logged under start date 1 Jan 1900 00:00
 - dates are forced to "en_US" localization to prevent RsyncOSX from crashing if the preferred language of macOS is other than english (e.g. Norwegian)
 
 ## Version 3.9.1
@@ -592,11 +592,11 @@ After releasing this version I will not release new versions for some time. I ha
 ## Version 3.7.1
 - updated **13 December 2016**, compiled with new version 8.2 of Xcode released 12 December 2016
 - released **10 December 2016**
-- fixed a bug `--suffix` parameter used together with `--backup` parameter to set date and time suffix (e.g `changed-file_2016-12-10.15.25`) of changed or deleted files in backup directory
-- split `--backup` parameter and `--suffix` in parameter view
+- fixed a bug --suffix parameter used together with --backup parameter to set date and time suffix (e.g changed-file_2016-12-10.15.25) of changed or deleted files in backup directory
+- split --backup parameter and --suffix in parameter view
 - refactor of code for rsync parameters and logging
 - speed of sorting and filter logs improved
-- added display both `--dry-run` and `real run` of rsync command in Synchronize view
+- added display both --dry-run and real run of rsync command in Synchronize view
 
 ## Version 3.6.5
 
