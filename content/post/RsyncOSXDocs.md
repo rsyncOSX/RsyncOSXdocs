@@ -17,7 +17,7 @@ The following are documents about using RsyncOSX:
 - a short [intro to RsyncOSX](/post/intro/)
 - [add configurations](/post/addconfigurations/)
 - [executing single tasks](/post/singletask/)
-  - also edit tasks and [add parameters to rsync](/post/parameters/) from main view
+  - also edit tasks and [add parameters to rsync](/post/userparameters//) from main view
 - utilizing the [snapshot feature](/post/snapshots/)
 - utilizing the [quick backup feature](/post/quickbackup/)
 - [scheduling of tasks](/post/scheduletasks/)
