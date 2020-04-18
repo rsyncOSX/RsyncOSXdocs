@@ -38,7 +38,6 @@ The default version of rsync in macOS is old (version 2.6.9, [protocol](https://
 	- required tools are gcc and make which are part of Xcode command line tool (you might be able to install Xcode command line tool only by downloading the tools from [Apple Developer page](https://developer.apple.com/))
 	- untar the [source archive](https://download.samba.org/pub/rsync/src/) and use make to compile and install, rsync compiles without any issues on macOS
 
-
 In RsyncOSX select [user configuration](/post/userconfiguration/) and set path for optional version of rsync.
 
 ## Passwordless logins to remote servers
