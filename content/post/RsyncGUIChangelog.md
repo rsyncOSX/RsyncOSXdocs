@@ -1,6 +1,6 @@
 ---
 type: post
-date: 2020-04-16T09:34:29+02:00
+date: 2020-04-01T09:34:29+02:00
 title:  "RsyncGUI Changelog"
 ---
 ![](/images/RsyncOSX/appstore/appstore.svg)

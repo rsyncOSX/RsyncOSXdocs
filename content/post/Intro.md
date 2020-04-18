@@ -7,7 +7,7 @@ All configurations to execute are listed in table. From the Synchronize view mos
 
 ### Passwordless logins to remote servers
 
-Using RsyncOSX for backup to **remote servers** [require to setup ssh passwordless logins](/post/Remotelogins). The intro is not depended on setting up remote servers.
+Using RsyncOSX for backup to **remote servers** [require to setup ssh passwordless logins](/post/remotelogins/). The intro is not depended on setting up remote servers.
 
 ## Where to start?
 

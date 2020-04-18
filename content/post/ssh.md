@@ -7,7 +7,7 @@ If you already have setup ssh utilizing ssh keys there is no need to follow the 
 
 If utilizing RsyncOSX on local attached disks this does not apply.
 
-The objective is to assist setting up [passwordless](/post/passwordlessLogin/) logins. Ssh does not provide any possibilities to pass password as parameter. Some actions to setup passwordless logins therefore require a terminal window for copy/paste commands for password prompt and execution of task.
+The objective is to assist setting up [passwordless](/post/passwordlesslogin/) logins. Ssh does not provide any possibilities to pass password as parameter. Some actions to setup passwordless logins therefore require a terminal window for copy/paste commands for password prompt and execution of task.
 
 ### Local ssh keys
 

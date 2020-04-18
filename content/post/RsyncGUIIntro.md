@@ -1,9 +1,9 @@
 ---
 type: post
-date: 2020-04-16T09:34:29+02:00
+date: 2020-04-01T09:34:29+02:00
 title:  "A short intro to RsyncGUI"
 ---
-Please see caution about using RsyncGUI and the `--delete` parameter to rsync at bottom of this page. There is also [a first start intro](/post/RsyncGUIfirststart) about RsyncGUI.
+Please see caution about using RsyncGUI and the `--delete` parameter to rsync at bottom of this page. There is also [a first start intro](/post/rsyncguifirststart) about RsyncGUI.
 
 ### Some words about RsyncGUI
 
