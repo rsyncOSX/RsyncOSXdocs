@@ -3,7 +3,6 @@ type: post
 date: 2020-04-01T09:34:29+02:00
 title:  "RsyncGUI Changelog"
 ---
-![](/images/RsyncOSX/appstore/appstore.svg)
 RsyncGUI is a sandboxed macOS app compiled with support for **macOS El Capitan version 10.11 - macOS Mojave version 10.15**. The application is implemented in Swift 5 by using Xcode 11.
 
 Rsync is a file-based synchronization and backup tool. There is no custom solution for the backup archive. You can quit utilizing RsyncGUI (and rsync) at any time and still have access to all synchronized files.

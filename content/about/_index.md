@@ -9,10 +9,7 @@ If you like using RsyncOSX please consider giving me a star on the GitHub reposi
 
 There are four MacOS applications:
 
-- [RsyncOSX](/post/rsyncosxdocs/) a GUI for rsync
-- [The menuapp](/post/menuapp/) for executing scheduled RsyncOSX tasks
-- [RsyncGUI](/post/rsyncguichangelog/) an Apple Sandboxed version of RsyncOSX
-- [RcloneOSX](https://github.com/rsyncOSX/rcloneosx) a GUI for rclone
+[RsyncOSX](/post/rsyncosxdocs/) a GUI for rsync. [The menuapp](/post/menuapp/) for executing scheduled RsyncOSX tasks. [RsyncGUI](/post/rsyncguichangelog/) an Apple Sandboxed version of RsyncOSX and [RcloneOSX](https://github.com/rsyncOSX/rcloneosx) a GUI for rclone.
 
 All applications are compiled with support for macOS 10.11 - latest version of macOS.
 
