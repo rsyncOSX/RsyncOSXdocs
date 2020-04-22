@@ -35,19 +35,18 @@ There is one simple answer to the question and the answer is [rsync](https://en.
 The following features are implemented in RsyncOSX:
 
 - do single synchronize tasks, synchronize source and destination (backup)
-- do snapshot tasks, previous snapshots are saved to restore previous versions or deleted files
-- do quick synchronize tasks, either single tasks or group of tasks, both synchronize and snapshot tasks
+- do snapshot tasks, previous snapshots are saved to restore previous versions and deleted files
+  - there is also a plan for delete and keep snapshots
+- do quick synchronize tasks, either single tasks or group of tasks
 - do synchronize tasks utilizing predefined parameters to rsync to save changed and deleted files
-- adding new tasks by drag and drop (for local volumes)
-- tasks my be aborted at any time
-- choose other version of rsync in user configuration
-- user defined rsync parameters
-  - the user can add parameters to rsync
-- manage tasks in profiles
-- either a full restore or restore of single files from remote storage
-- scheduling of tasks
+- choose other version of rsync in user configuration if preferred
+- set user defined parameters to rsync
+- tasks may be organized in profiles
+- execute either a full restore or restore of single files from remote storage
+- do scheduling of tasks
   - once, daily or weekly schedules
-- detailed logging of tasks
+- detailed logging of tasks, output from rsync may be copied to macOS clipboard
+- tasks my be aborted at any time
 
 ### RsyncGUI, a Sandboxed version of RsyncOSX
 
