@@ -21,20 +21,15 @@ RsyncOSX supports synchronize and snapshots of files.
 
 If your plan is to use RsyncOSX as your main tool for backup of files, please investigate and understand the limits of it. RsyncOSX is quite powerful, but it is might not the primary backup tool for the average user of macOS.
 
-## Version 6.2.5 release candidate
+## Version 6.2.6
 
-[Updated](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.2.0) 14 April 2020.
-
-Next version will be released in beginning of May 2020.
+[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.2.6) 23 April 2020.
 
 - batch is removed and replaced with multiple selection of tasks to execute
 - Italian localization added
 - clean up of GUIs and code
 - refactor of the Restore part
 - updated the GUI of menu app (for executing scheduled tasks)
-
-And the following are in code but not i release candidate
-
 - logging rsync errors to file
 - added set ssh identity file (normally either id_dsa or id_rsa)
 - added copy output from rsync to macOS clipboard
