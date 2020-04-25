@@ -33,6 +33,7 @@ If your plan is to use RsyncOSX as your main tool for backup of files, please in
 - logging rsync errors to file
 - added set ssh identity file (normally either id_dsa or id_rsa)
 - added copy output from rsync to macOS clipboard
+
 Multiple select and Italian localization...
 ![](/images/RsyncOSX/master/nextversion/italian.png)
 Restore files...
