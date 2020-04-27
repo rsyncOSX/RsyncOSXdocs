@@ -1,6 +1,6 @@
 ---
 title: "RsyncOSX"
 featured_image: '/images/RsyncOSX/master/intro/main.png'
-description: "RsyncOSX Documentation"
+description: "RsyncOSX"
 ---
-This is RsyncOSX Documentation.
+This is some documents about using RsyncOSX.
