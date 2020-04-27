@@ -34,18 +34,6 @@ If your plan is to use RsyncOSX as your main tool for backup of files, please in
 - added set ssh identity file (normally either id_dsa or id_rsa)
 - added copy output from rsync to macOS clipboard
 
-Multiple select and Italian localization...
-![](/images/RsyncOSX/master/nextversion/italian.png)
-Restore files...
-![](/images/RsyncOSX/master/nextversion/restore.png)
-The menu app...
-![](/images/RsyncOSX/master/nextversion/schedule.png)
-Ssh identity file..
-![](/images/RsyncOSX/master/nextversion/sshidentityfile.png)
-Copy output from rsync to macOS clipboard...
-![](/images/RsyncOSX/master/nextversion/copypast1.png)
-![](/images/RsyncOSX/master/nextversion/copypast2.png)
-
 ## Version 6.2.0
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.2.0) 27 February 2020.
