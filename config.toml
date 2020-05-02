@@ -1,7 +1,7 @@
 baseURL = "https://rsyncosx.netlify.app"
 languageCode = "nb-NB"
 title = "RsyncOSX"
-theme = "hyde"
+theme = "ananke"
 
 MetaDataFormat = "yaml"
 DefaultContentLanguage = "en"
@@ -19,7 +19,7 @@ enableRobotsTXT = true
 
 [params]
   favicon = ""
-  description = "RsyncOSX documentation."
+  description = "RsyncOSX."
   facebook = ""
   instagram = ""
   youtube = ""
@@ -33,9 +33,9 @@ enableRobotsTXT = true
   background_color_class = "bg-silver"
   featured_image = ""
   recent_posts_number = 3
-  themeColor = "theme-base-08"
+#  themeColor = "theme-base-08"
 
-[Menus]
-  main = [
-      {Name = "Github", URL = "https://github.com/rsyncOSX/RsyncOSX"},
-  ]
+#[Menus]
+#  main = [
+#      {Name = "Github", URL = "https://github.com/rsyncOSX/RsyncOSX"},
+#  ]
