@@ -23,6 +23,15 @@ Utilizing **snapshots** in RsyncGUI is **not possible** due a bug in default ver
 
 If you need either of them, please use [RsyncOSX](https://github.com/rsyncOSX/RsyncOSX).
 
+## Version 2.1.0
+
+This version is approved for release on Apple Mac Store 4 May 2020.
+
+- some minor bugfixes
+- refactor of restore
+- copy and paste output from rsync to macOS clipboard
+- view logfile in view for rsync output
+
 ## Version 2.0.1
 
 This version is approved for release on Apple Mac Store 15 April 2020.
