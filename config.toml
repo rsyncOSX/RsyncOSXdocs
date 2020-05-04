@@ -1,12 +1,12 @@
 baseURL = "https://rsyncosx.netlify.app"
-languageCode = "nb-NB"
+languageCode = "en"
 title = "RsyncOSX"
 theme = "ananke"
 
 MetaDataFormat = "yaml"
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
-Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+Paginate = 12 # this is set low for demonstrating with dummy content. Set to a higher number
 googleAnalytics = "UA-111111111111-1"
 canonifyURLs = true
 copyright = "Thomas Evensen"
