@@ -23,7 +23,7 @@ This is the message when opening a downloaded version.
 
 The message is in Norwegian: "Apple har sjekket programmet uten å finne ondsinnet programvare."  The english version of it is: "Apple checked it for malicious software and none was detected."
 
-If you have Xcode developer tools installed executing the following command xcrun stapler validate no.blogspot.RsyncOSX RsyncOSX.app will verify RsyncOSX.
+If you have Xcode developer tools installed executing the following command to verify RsyncOSX.
 
 > xcrun stapler validate no.blogspot.RsyncOSX RsyncOSX.app
 
@@ -36,15 +36,12 @@ This is the message when opening a downloaded version.
 
 ![](/images/RsyncOSX/master/notarize/verifyRsyncOSXsched.png)
 
-The message is in Norwegian: "Apple har sjekket programmet uten å finne ondsinnet programvare."  The english version of it is: "Apple checked it for malicious software and none was detected."
-
-If you have Xcode developer tools installed executing the following command xcrun stapler validate no.blogspot.RsyncOSXsched RsyncOSXsched.app will verify the RsyncOSX.app.
+If you have Xcode developer tools installed executing the following command to verify the RsyncOSXsched.app.
 
 > xcrun stapler validate no.blogspot.RsyncOSXsched RsyncOSXsched.app
 
 Processing: /Volumes/Home/thomas/GitHub/RsyncOSXsched/Build/Products/Release/RsyncOSXsched.app
 The validate action worked!
-
 
 ## RcloneOSX
 
@@ -52,9 +49,7 @@ This is the message when opening a downloaded version.
 
 ![](/images/RsyncOSX/master/notarize/verifyRcloneOSX.png)
 
-The message is in Norwegian: "Apple har sjekket programmet uten å finne ondsinnet programvare."  The english version of it is: "Apple checked it for malicious software and none was detected."
-
-If you have Xcode developer tools installed executing the following command xcrun stapler validate no.blogspot.rcloneosx rcloneosx.app will verify the the rcloneosx.app.
+If you have Xcode developer tools installed executing the following command to verify the the rcloneosx.app.
 
 > xcrun stapler validate no.blogspot.rcloneosx rcloneosx.app
 
