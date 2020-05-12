@@ -5,6 +5,10 @@ title:  "Changelog"
 ---
 I am using the application on a daily basis and it evolves during my own use. Suggestions for new *features*, *enhancements* and *bug reports* are more than welcome. [Please add an issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding requests or bugs. For more information about signing and notarizing of RsyncOSX see [the notarized info](/post/notarized/).
 
+## Signing and notarizing
+
+Also see [signing and notarized of RsyncOSX](/post/notarized/). All releases of RsyncOSX are signed and notarized.
+
 ## RsyncOSX on macOS Catalina
 
 If you are installing on macOS Catalina and utilize a local version of rsync, execute the rsync utility in a terminal window before using RsyncOSX. There is a process of granting access for the rsync utility before using it by RsyncOSX. MacOS Catalina will also ask permission for accessing your home catalog first time you start RsyncOSX.
@@ -38,8 +42,6 @@ If your plan is to use RsyncOSX as your main tool for backup of files, please in
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.2.0) 27 February 2020.
 
-The release is **signed and notarized**.
-
 - restore single files and the full restore are combined
 - cleaned up some other views as well
 - cleaned (refactor) up some code
@@ -48,15 +50,11 @@ The release is **signed and notarized**.
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.1.7) 5 February 2020.
 
-The release is **signed and notarized**.
-
 There are a few minor changes and enhancements in this release. The most noticeable change is the possibility to select another profile direct from the main, schedule and snapshot view (not from the profile dropdown menu). There are also some other minor changes which improves the usability of RsyncOSX. localization are updated as well.
 
 ## Version 6.1.5
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.1.5) 11 January 2020.
-
-The release is **signed and notarized**.
 
 - added German and French localization
 - fixed a minor bug
@@ -66,8 +64,6 @@ The release is **signed and notarized**.
 ## Version 6.1.0
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.1.0) 24 December 2019.
-
-The release is **signed and notarized**.
 
 - added new type of task syncremote
 - added possibility to remove the trailing / when adding tasks, if you remove the trailing / be sure you understand what it means
@@ -81,8 +77,6 @@ If you have any suggestions for enhancements or if you discover bugs, [please re
 ## Version 6.0.1
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.0.1) 10 November 2019.
-
-The release is **signed and notarized**. The major changes are:
 
 - refactor of restore (the restore view is now a tabview)
 - some adjustments in Copy Files
