@@ -4,6 +4,7 @@ date = "2020-04-16"
 title =  "My DIY NAS"
 tags = ["NAS"]
 categories = ["info"]
+description = "My do it yourself NAS."
 +++
 This is a short resume about my do it yourself (DIY) [NAS](https://en.wikipedia.org/wiki/Network-attached_storage). I do not spend much time building or maintaining my NAS. The main purposes of my NAS are:
 

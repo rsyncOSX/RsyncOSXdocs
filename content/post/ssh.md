@@ -38,6 +38,7 @@ After local private and public ssh key pair is created choosing Remote server to
 - Ssh directory - copy and paste command in Terminal.app to create remote ~/.ssh catalog
 - Scp rsa - copy and paste command in Terminal.app to secure copy public rsa key.
 - Scp dsa - copy and paste command in Terminal.app to secure copy public dsa key
+
 ![ssh](/images/RsyncOSX/master/ssh/ssh2.png)
 
 ### Transfer public key to remote server

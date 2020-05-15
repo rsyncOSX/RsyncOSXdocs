@@ -2,6 +2,7 @@
 author = "RsyncOSX"
 date = "2020-04-16"
 title =  "Add configurations"
+description = "How to enter synchronize tasks into RsyncOSX."
 tags = ["add"]
 categories = ["info"]
 +++
@@ -21,8 +22,10 @@ For [snapshots](/post/snapshots/) see documentation.
 Local catalog and Remote catalog are added either by using *drag and drop* from filemanager or *by text* only. If enter by text please remember to add the full path. Remote catalogs is entered either by full paths or use the ~ character to expand remote user home catalog. See sample configuration.
 
 The Capacity button query remote storage in all configurations about available storage space. Only valid for remote hosts.
+
 ![](/images/RsyncOSX/master/add/add.png)
 ![](/images/RsyncOSX/master/add/add2.png)
+
 - **Local catalog**: /Users/thomas/Documents/
   - my Documents catalog in my home catalog
   - required field

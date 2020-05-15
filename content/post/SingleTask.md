@@ -6,7 +6,9 @@ tags = ["single task"]
 categories = ["synchronize"]
 +++
 In Synchronize view (which is the opening view) tasks can be executed as **singletasks**. Execute single tasks requires a couple of double clicks: one for **estimation** run and the second for **executing** the real task. The output from rsync is presented after each run.
+
 ![](/images/RsyncOSX/master/singletask/singletask.png)
+
 There are three options for editing after selecting a task in row:
 - edit task
 - parameters (to rsync, see [parameters](/post/parameters/))

@@ -30,9 +30,12 @@ You can get up and running in just a few clicks. Open RsyncGUI and select the Ad
 In the Add tab, as an example, add the Documents catalog as source and the /Volumes/backup/Documents catalog as remote. This will setup a task to synchronize (backup) all content of the Documents to the attached backup volume in catalog Documents. Use drag and drop from Finder to add data.
 
 Select Add button to add task.
+
 ![](/images/RsyncOSX/master/intro/main2.png)
 ![](/images/RsyncOSX/master/intro/main3.png)
+
 Go back to the Execute tab, select the task and you are ready to go.
+
 ![](/images/RsyncOSX/master/intro/main4.png)
 
 ## Type of tasks
@@ -84,21 +87,21 @@ First select **one** task in Synchronize view, applies to (1) and (2) below.
 Before a real execution of a task please execute an estimation run. An estimation run is started by selecting a task and the stat light is yellow. A double click on the task does a simulated run and displays which files to be transferred. Please pay attention to the info in the display when the simulate run is completed. A drop down display presents the result.
 
 Ready for an estimation run. A double click on row executes the estimation run.
+
 ![](/images/RsyncOSX/master/intro/simulate.png)
+
 Estimation run completed, dropdown presents result.
+
 ![](/images/RsyncOSX/master/intro/display.png)
+
 Ready for real run. A double click on row actually executes the task.
+
 ![](/images/RsyncOSX/master/intro/realrun.png)
 
 ## The --delete parameter
 
-Caution about RsyncOSX and the --delete parameter. The
---delete is a default parameter. The parameter instructs
-rsync to keep the source and destination synchronized (in sync).
-The parameter instructs rsync to delete all files in the
-destination which are not present in the source.
+Caution about RsyncOSX and the --delete parameter. The --delete is a default parameter. The parameter instructs
+rsync to keep the source and destination synchronized (in sync). The parameter instructs rsync to delete all files in the destination which are not present in the source.
 
-Every time you add a new task to RsyncOSX, execute an estimation
-run (--dry-run) and inspect the result before executing a real
-run. If you by accident set an empty catalog as source
-RsyncOSX (rsync) will delete all files in the destination.
+Every time you add a new task to RsyncOSX, execute an estimation run (--dry-run) and inspect the result before executing a real
+run. If you by accident set an empty catalog as source RsyncOSX (rsync) will delete all files in the destination.

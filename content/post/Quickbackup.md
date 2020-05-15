@@ -13,5 +13,7 @@ The quickbackup executes a estimation run and selects all tasks with files to be
 ![](/images/RsyncOSX/master/quickbackup/quickbackup1.png)
 ![](/images/RsyncOSX/master/quickbackup/quickbackup2.png)
 ![](/images/RsyncOSX/master/quickbackup/quickbackup3.png)
+
 The tasks are executed and the progress about each tasks is presented.
+
 ![](/images/RsyncOSX/master/quickbackup/quickbackup4.png)
