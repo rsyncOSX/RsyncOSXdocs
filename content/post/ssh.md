@@ -48,11 +48,18 @@ Next step is to manually create a remote .ssh catalog and scp (secure copy) the 
 
 - Scp rsa - copy and paste command
 
-The command /usr/bin/scp /Volumes/Home/thomas/.ssh/id_rsa.pub thomas@10.0.0.57:.ssh/authorized_keys copy the rsa public key ~/.ssh/id_rsa.pub to remote server as file ~/.ssh/authorized_keys
+The command
+
+> /usr/bin/scp /Volumes/Home/thomas/.ssh/id_rsa.pub thomas@10.0.0.57:.ssh/authorized_keys
+
+copy the rsa public key ~/.ssh/id_rsa.pub to remote server as file ~/.ssh/authorized_keys
 
 - Scp dsa - copy and paste command
 
-The command /usr/bin/scp /Volumes/Home/thomas/.ssh/id_dsa.pub thomas@10.0.0.57:.ssh/authorized_keys2 copy the dsa public key ~/.ssh/id_dsa.pub to remote server as file ~/.ssh/authorized_keys2
+The command
+> /usr/bin/scp /Volumes/Home/thomas/.ssh/id_dsa.pub thomas@10.0.0.57:.ssh/authorized_keys2
+
+copy the dsa public key ~/.ssh/id_dsa.pub to remote server as file ~/.ssh/authorized_keys2
 
 After public key(s) are copied it is important to set correct permissions on remote public key files. The correct permissions are set by: chmod 700 means owner can read, write and execute on ./ssh catalog and chmod 600 on .ssh/authorized_keys means owner can read and write file.
 
