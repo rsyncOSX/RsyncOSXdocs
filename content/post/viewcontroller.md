@@ -1,8 +1,10 @@
----
-type: post
-date: 2020-04-16T09:34:29+02:00
-title:  "The main viewcontroller"
----
++++
+author = "RsyncOSX"
+date = "2020-04-16"
+title =  "The main viewcontroller"
+tags = ["development"]
+categories = ["viewcontroller"]
++++
 The [main viewcontroller](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ViewControllerMain.swift) contains no logic at all. The only task for the main viewcontroller is to act on whatever the user choose of action. E.g. if the user choose to double click on a row to activate a single task (two step - estimate and execute), the main viewcontroller only create and holds a reference to a [Singletask object](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/SingleTask.swift).
 
 Every time RsyncOSX [executes](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ProcessCmd.swift) a command, RsyncOSX is listening for two notifications didTerminateNotification and NSFileHandleDataAvailable. Those two notifications kicks of other functions depended upon the state of RsyncOSX.

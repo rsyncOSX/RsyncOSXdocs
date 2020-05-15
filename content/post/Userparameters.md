@@ -1,8 +1,10 @@
----
-type: post
-date: 2020-04-16T09:34:29+02:00
-title:  "Parameters to rsync"
----
++++
+author = "RsyncOSX"
+date = "2020-04-16"
+title =  "Parameters to rsync"
+tags = ["rsync"]
+categories = ["parameters, user parameters"]
++++
 The website LibreByte has written an article [16 Practical examples of the rsync command](http://www.librebyte.net/en/gnulinux/14-practical-examples-of-the-rsync-command/). One of the examples is instructing rsync to store backups of files in a backup folder and rename old files by a date suffix. Rsync utilizes a ton of parameters. RsyncOSX has only presented a few. Parameters are normally constructed as:
 
 - --parameter=value

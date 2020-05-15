@@ -1,8 +1,10 @@
----
-type: post
-date: 2020-04-16T09:34:29+02:00
-title:  "User configuration"
----
++++
+author = "RsyncOSX"
+date = "2020-04-16"
+title =  "User configuration"
+tags = ["userconfig"]
+categories = ["userconfig"]
++++
 There are only a few parameters to choose in user configuration. Configurations are saved to permanent store. This applies for version 6.1.5 or greater of RsyncOSX.
 
 ![](/images/RsyncOSX/master/userconfig/user.png)

@@ -1,8 +1,10 @@
----
-type: post
-date: 2020-04-16T09:34:29+02:00
-title:  "Automatic backups"
----
++++
+author = "RsyncOSX"
+date = "2020-04-16"
+title =  "Automatic backups"
+tags = ["add"]
+categories = ["synchronize"]
++++
 The automatic feature of RsyncOSX is triggered by ⌘B shortcut or by select the **double arrow**. RsyncOSX executes a --dry-run task for all configurations and execute a backup run for all tasks with data to be transferred or files to be deleted.
 
 ![](/images/RsyncOSX/master/intro/menu4.png)

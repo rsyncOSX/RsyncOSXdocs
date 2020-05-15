@@ -1,8 +1,10 @@
----
-type: post
-date: 2020-04-16T09:34:29+02:00
-title:  "Snapshots"
----
++++
+author = "RsyncOSX"
+date = "2020-04-16"
+title =  "Snapshots"
+tags = ["snapshot"]
+categories = ["synchronize"]
++++
 Snapshot is an effective method for saving changed and deleted data. Snapshot utilize [hardlinks](https://en.wikipedia.org/wiki/Hard_link) and only changed and deleted data are saved as separate files in a snapshot. Files which are not changed are  hardlinks to the original file in the snapshot.
 
 ## Snapshot administration - delete and keep snapshots
@@ -61,4 +63,3 @@ a terminal window. RsyncOSX saves the number n to the
 configuration. The number n is the next snapshot number.
 The number n is used when computing the parameter for rsync
 and is picked up from the configuration.
-

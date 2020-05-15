@@ -1,41 +1,158 @@
-baseURL = "https://rsyncosx.netlify.app"
-languageCode = "en"
-title = "RsyncOSX"
-theme = "ananke"
-
-MetaDataFormat = "yaml"
-DefaultContentLanguage = "en"
-SectionPagesMenu = "main"
-Paginate = 12 # this is set low for demonstrating with dummy content. Set to a higher number
-googleAnalytics = "UA-111111111111-1"
-canonifyURLs = true
-copyright = "Thomas Evensen"
-enableRobotsTXT = true
-
-[sitemap]
-  changefreq = "monthly"
-  priority = 0.5
-  filename = "sitemap.xml"
+baseurl                 = "https://rsyncosx.netlify.app/"
+DefaultContentLanguage  = "en"
+title                   = "Hugo Future Imperfect Slim"
+theme                   = "hugo-future-imperfect-slim"
+preserveTaxonomyNames   = true
+paginate                = 3
+disqusShortname         = ""
+googleAnalytics         = ""
+pluralizeListTitles     = false
+disableLanguages        = [""]
 
 [params]
-  favicon = ""
-  description = "RsyncOSX."
-  facebook = ""
-  instagram = ""
-  youtube = ""
-  github = ""
-  gitlab = ""
-  linkedin = ""
-  mastodon = ""
-  slack = ""
-  stackoverflow = ""
-  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
-  background_color_class = "bg-silver"
-  featured_image = ""
-  recent_posts_number = 3
-#  themeColor = "theme-base-08"
+  # Add additional section names to mainSections to include posts from
+  # those sections on the homepage.
+  enableCDN             = false
 
-#[Menus]
-#  main = [
-#      {Name = "Github", URL = "https://github.com/rsyncOSX/RsyncOSX"},
-#  ]
+  # Loads CSS and JavaScript files. The variable is an array so that you can load
+  # multiple/additional files if necessary. The standard theme files can be loaded
+  # by adding the value, "default". Default includes the add-on.css and and-on.js.
+  # Example: ["default", "/path/to/file"]
+  cssFiles              = ["default"]
+  jsFiles               = ["default"]
+  # Sets options for highlight.js
+  highlightjs           = true
+  highlightjsTheme      = "github"
+  highlightjsLang       = ["html", "css", "js", "toml"]
+  # Sets where "View More Posts" links to
+  viewMorePostsLink     = "/post/"
+  # Activate Estimated Reading Times, which appear in the post headers
+  readingTime           = true
+  # Sets which Social Share links appear in posts.
+  # Options are twitter, facebook, reddit, linkedin, pinterest, email
+  # socialShare           = ["twitter", "facebook", "reddit", "linkedin",
+  #                        "pinterest", "email"]
+
+  [params.meta]
+    # Sets the meta tag description
+    description         = "The RsyncOSX documentation."
+    # Sets the meta tag author
+    author              = "RsyncOSX"
+    # If you would like to add more comprehensive favicon support passed root
+    # directory favicon.ico, utlize this funtion. It is recommened to use
+    # https://realfavicongenerator.net to generate your icons as that is the basis
+    # for the theme's naming.
+    favicon             = false
+    svg                 = true
+    faviconVersion      = "1"
+    msColor             = "#ffffff" # Copy from the https://realfavicongenerator.net
+    iOSColor            = "#ffffff" # Copy from the https://realfavicongenerator.net
+
+  [params.header]
+    # Sets the navbarTitle that appears in the top left of the navigation bar
+    navbarTitle         = "RsyncOSX"
+    # Sets navbarTitle to match the section of the website
+    dynamicTitles       = true
+    searchMenu          = true
+    shareMenu           = false
+    languageMenu        = false
+
+  # These are optional params related to the sidebar. They are recommended, but not
+  # required for proper functionality. HTML is supported within the params.
+  [params.intro]
+    header                = "RsyncOSX documents"
+    paragraph             = "Documentation of RsyncOSX."
+    rssIntro              = false
+    socialIntro           = true
+    # You may not want to display a long intro above content in the
+    # single column layout used on smaller screens.
+    hideWhenSingleColumn  = false
+    # But you may want to always display the intro on the homepage.
+    alwaysOnHomepage      = false
+
+    # This appears at the top of the sidebar above params.intro.header.
+    # A width of less than 100px is recommended from a design perspective.
+    [params.intro.pic]
+      src                 = "/images/rsyncosx.png"
+      # Masks image in a certain shape. Supported are circle, triangle, diamond, and hexagon.
+      shape               = "circle"
+      width               = ""
+      alt                 = ""
+
+  [params.sidebar]
+    # about               = "test"
+    # Sets the number of recent posts to show in the sidebar. The default value is 5.
+    postAmount          = 5
+    # set to show or to hide categories in the sidebar
+    categories          = true
+    # Sets Categories to sort by number of posts instead of alphabetical
+    categoriesByCount   = true
+
+  [params.footer]
+    # Sets RSS icons to appear on the sidebar with the social media buttons
+    rssFooter           = false
+    # Sets Social Media icons to appear on the sidebar
+    socialFooter        = true
+
+  # Disqus will take priority over Staticman (github.com/eduardoboucas/staticman)
+  # due to its ease of use. Feel free to check out both and decide which you would
+  # prefer to use. See staticman.yml for additional settings.
+  [params.staticman]
+    # If using GitHub, go to https://github.com/apps/staticman-net
+    # If using GitLab, just add the GitLab bot, NO need to hit `/connect/v3/...`
+    enabled             = false
+    api                 = ""  # without trailing slash, defaults to "staticman3.herokuapp.com"
+    gitProvider         = "github"  # either "github" or "gitlab"
+    username            = ""
+    repo                = ""
+    branch              = ""
+
+    [params.staticman.recaptcha]
+      # Both keys must be present to enable recaptcha
+      siteKey           = "" # Site Key
+      encryptedKey      = ""
+
+[menu]
+  # Sets the menu items in the navigation bar
+  # Identifier prepends a Font Awesome icon to the menu item
+  [[menu.main]]
+    name              = "Home"
+    identifier        = "home"
+    url               = "/"
+    pre               = "<i class='fa fa-home'></i>"
+    weight            = 1
+
+  [[menu.main]]
+    name              = "About"
+    identifier        = "about"
+    url               = "/about/"
+    pre               = "<i class='far fa-id-card'></i>"
+    weight            = 2
+
+  [[menu.main]]
+    name              = "Posts"
+    identifier        = "post"
+    url               = "/post/"
+    pre               = "<i class='far fa-newspaper'></i>"
+    weight            = 3
+
+  [[menu.main]]
+    name              = "Categories"
+    identifier        = "categories"
+    url               = "/categories/"
+    pre               = "<i class='fas fa-sitemap'></i>"
+    weight            = 5
+
+[Languages]
+  # Each language has its own menu.
+  [Languages.en]
+    LanguageCode        = "en"
+    LanguageName        = "English"
+    weight              = 1
+
+# Sets Social Media icons to appear and link to your account. Value should be your
+# username unless otherwise noted. These are the icons affected by socialAppearAtTop
+# and socialAppearAtBottom.
+[social]
+  # Coding Communities
+  github                = "rsyncOSX/RsyncOSX"

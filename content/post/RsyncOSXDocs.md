@@ -1,8 +1,13 @@
----
-type: post
-title:  "About RsyncOSX"
-date: 2020-04-24T09:34:29+02:00
----
++++
+author = "RsyncOSX"
+title = "About RsyncOSX"
+date = "2020-04-24"
+description = "Some start info about using RsyncOSX."
+tags = ["info"]
+categories = ["info", "userdocuments"]
+images  = ["images/RsyncOSX/master/intro/main.png"]
++++
+
 Rsync is a file-based synchronization and backup tool. There is no custom solution for the backup archive. You can quit utilizing RsyncOSX (and rsync) at any time and still have access to all synchronized files.
 
  - [getting and installing RsyncOSX](/post/rsyncosx/)

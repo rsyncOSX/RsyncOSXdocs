@@ -1,8 +1,10 @@
----
-type: post
-date: 2020-04-16T09:34:29+02:00
-title:  "License"
----
++++
+author = "RsyncOSX"
+date = "2020-04-16"
+title =  "License"
+tags = [""]
+categories = [""]
++++
 The MIT License (MIT)
 
 Copyright (c) 2017 - Thomas Evensen

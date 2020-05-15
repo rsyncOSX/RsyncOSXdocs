@@ -1,8 +1,10 @@
----
-type: post
-date: 2020-04-16T09:34:29+02:00
-title:  "Passwordless logins to remote servers"
----
++++
+author = "RsyncOSX"
+date = "2020-04-16"
+title =  "Passwordless logins to remote servers"
+tags = [""]
+categories = [""]
++++
 There are two ways to setup passwordless logins to a **remote server** and RsyncOSX supports both. It is advised to use ssh and ssh-keys because the traffic is encrypted and it is considered more secure.
 
 ### (1) Encrypted protocol by ssh and ssh-keys

@@ -1,8 +1,10 @@
----
-type: post
-date: 2020-04-16T09:34:29+02:00
-title:  "Verify and changed files"
----
++++
+author = "RsyncOSX"
+date = "2020-04-16"
+title =  "Verify and changed files"
+tags = ["rsync"]
+categories = ["verify"]
++++
 The view is depended upon selecting a row in Synchronize view. When the row is selected the numbers of source and remote destination are automatically collected.
 
 The --archive parameter is the normal parameter to use in synchronize and snapshot tasks because it is fast. The --archive parameter to [rsync](https://en.wikipedia.org/wiki/Rsync) preserves a lot of attributes of files when synchronizing. Files transferred in --archive mode ensures that symbolic links, devices, permissions, ownerships, modification times, ACLs, and extended attributes are preserved. When synchronizing files based upon the --archive parameter, rsync compares file size and last modification time to compute which files to be synchronized.

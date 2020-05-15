@@ -1,8 +1,10 @@
----
-type: post
-date: 2020-04-16T09:34:29+02:00
-title:  "Restore files"
----
++++
+author = "RsyncOSX"
+date = "2020-04-16"
+title =  "Restore files"
+tags = [""]
+categories = [""]
++++
 There are two types of restore files:
 - Full restore
   - if the remote (destination) is a snapshot the Full restore is from the latest snapshot

@@ -1,8 +1,10 @@
----
-type: post
-date: 2020-04-16T09:34:29+02:00
-title:  "Passwordless logins by ssh-keys"
----
++++
+author = "RsyncOSX"
+date = "2020-04-16"
+title =  "Passwordless logins by ssh-keys"
+tags = ["ssh"]
+categories = ["remote setup"]
++++
 If you already have setup ssh utilizing ssh keys there is no need to follow the instructions below. RsyncOSX is depended upon passwordless logins for synchronizing data to remote servers. The instructions below only applies if passwordless login is not setup.
 
 If utilizing RsyncOSX on local attached disks this does not apply.

@@ -1,8 +1,10 @@
----
-type: post
-date: 2020-04-16T09:34:29+02:00
-title:  "Localization"
----
++++
+author = "RsyncOSX"
+date = "2020-04-16"
+title =  "Localization"
+tags = [""]
+categories = [""]
++++
 RsyncOSX and the menu app RsyncOSXsched are prepared for localization.
 
 RsyncOSX is translated to Chinese (Simplified), German, Norwegian, French and Italian.

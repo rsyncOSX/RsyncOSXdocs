@@ -1,8 +1,10 @@
----
-type: post
-date: 2020-04-16T09:34:29+02:00
-title:  "Reading and writing data to permanent storage"
----
++++
+author = "RsyncOSX"
+date = "2020-04-16"
+title =  "Reading and writing data to permanent storage"
+tags = ["development"]
+categories = ["permanent storage"]
++++
 The object [ReadWriteDictionary.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ReadWriteDictionary.swift) reads and writes to permanent storage. All data (configurations, schedules and log records, user config) is read from permanent storage utilizing the [NSDictionary](https://developer.apple.com/documentation/foundation/nsdictionary) foundation class.
 
 RsyncOSX configuration file, scheduled tasks which also includes log records and user configuration are plain XML-files ([property list files](https://en.wikipedia.org/wiki/Property_list)). Files are saved in:
