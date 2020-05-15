@@ -2,8 +2,8 @@
 author = "RsyncOSX"
 date = "2020-04-16"
 title =  "Localization"
-tags = [""]
-categories = [""]
+tags = ["languages"]
+categories = ["locations"]
 +++
 RsyncOSX and the menu app RsyncOSXsched are prepared for localization.
 

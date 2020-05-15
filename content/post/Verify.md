@@ -2,8 +2,8 @@
 author = "RsyncOSX"
 date = "2020-04-16"
 title =  "Verify and changed files"
-tags = ["rsync"]
-categories = ["verify"]
+tags = ["verify"]
+categories = ["rsync"]
 +++
 The view is depended upon selecting a row in Synchronize view. When the row is selected the numbers of source and remote destination are automatically collected.
 

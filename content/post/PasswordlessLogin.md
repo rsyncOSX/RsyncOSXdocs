@@ -2,8 +2,8 @@
 author = "RsyncOSX"
 date = "2020-04-16"
 title =  "Passwordless logins by ssh-keys"
-tags = [""]
-categories = [""]
+tags = ["passwordless"]
+categories = ["remotelogins"]
 +++
 To enable passwordless login by using ssh you must use ssh-keygen to create a private and public key-pair. The method below is a manually setup. [RsyncOSX does also assist in setting up ssh-keys.](/post/ssh/)
 

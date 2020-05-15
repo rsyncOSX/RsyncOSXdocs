@@ -3,8 +3,8 @@ author = "RsyncOSX"
 title = "About RsyncOSX"
 date = "2020-04-24"
 description = "Some start info about using RsyncOSX."
-tags = ["info"]
-categories = ["info", "userdocuments"]
+tags = ["documents"]
+categories = ["info"]
 images  = ["images/RsyncOSX/master/intro/main.png"]
 +++
 

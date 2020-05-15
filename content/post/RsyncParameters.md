@@ -2,8 +2,8 @@
 author = "RsyncOSX"
 date = "2020-04-16"
 title =  "RsyncOSX default parameters"
-tags = ["rsync"]
-categories = ["parameters, default parameters"]
+tags = ["parameters", "default"]
+categories = ["rsync"]
 +++
 RsyncOSX implements default parameters which are working fine for simple synchronize and restore tasks. The actual parameters used in tasks is depended upon executing rsync over **network connection** or not. Which standard parameters to use is computed during startup of application by reading the configuration file.
 

@@ -2,8 +2,8 @@
 author = "RsyncOSX"
 date = 2020-04-23T09:34:29+02:00
 title =  "Install RsyncOSX"
-tags = ["info"]
-categories = ["install"]
+tags = ["install"]
+categories = ["info"]
 +++
 RsyncOSX is [released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.2.6) in version 6.2.6 (23 April 2020). It is **not** required to install the [RsyncOSXsched.app](https://github.com/rsyncOSX/RsyncOSXsched). RsyncOSXsched.app is for scheduled tasks only.
 

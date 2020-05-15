@@ -2,8 +2,8 @@
 author = "RsyncOSX"
 date = 2020-04-01T09:34:29+02:00
 title =  "RsyncGUI Changelog"
-tags = [""]
-categories = [""]
+tags = ["changelog","rsyncgui"]
+categories = ["info"]
 +++
 RsyncGUI is a sandboxed macOS app compiled with support for **macOS El Capitan version 10.11 - macOS Mojave version 10.15**. The application is implemented in Swift 5 by using Xcode 11.
 

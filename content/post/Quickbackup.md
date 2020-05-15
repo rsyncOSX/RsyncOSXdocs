@@ -2,8 +2,8 @@
 author = "RsyncOSX"
 date = "2020-04-16"
 title =  "Execute tasks in Quickbackup"
-tags = [""]
-categories = [""]
+tags = ["quickbackup"]
+categories = ["synchronize"]
 +++
 There are two options for executing quick synchronize tasks, either estimate and select or execute directly. In either way RsyncOSX does an estimation run and the numbers to indicate the progress of synchronizing.
 - execute synchronizing task directly

@@ -2,8 +2,8 @@
 author = "RsyncOSX"
 date = "2020-04-16"
 title =  "Signing and notarize the apps"
-tags = [""]
-categories = [""]
+tags = ["notarize"]
+categories = ["sequrity"]
 +++
  RsyncOSX and RcloneOSX are signed with my Apple ID developer certificate and [notarized](https://support.apple.com/en-us/HT202491) by Apple. This means both apps are verified and checked for not containing malicious code. It ensures the users that the apps are clean and that they are working together with Apples Gatekeeper technology. A message from Apple is issued when opening either a new or updated application the first time.
 

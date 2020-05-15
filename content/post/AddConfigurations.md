@@ -2,8 +2,8 @@
 author = "RsyncOSX"
 date = "2020-04-16"
 title =  "Add configurations"
-tags = ["basic info"]
-categories = ["add"]
+tags = ["add"]
+categories = ["info"]
 +++
 Adding a configuration is easy. A configuration require minimum a **local catalog** and a **remote catalog**. After entering information about a configuration select the Add button to add it to RsyncOSX. Continue adding new configurations until completed and configurations are saved to permanent storage after each entry.
 

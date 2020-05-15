@@ -2,8 +2,8 @@
 author = "RsyncOSX"
 date = "2020-04-16"
 title =  "Restore files"
-tags = [""]
-categories = [""]
+tags = ["restore"]
+categories = ["synchronize"]
 +++
 There are two types of restore files:
 - Full restore
