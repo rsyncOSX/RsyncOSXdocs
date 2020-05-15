@@ -4,6 +4,7 @@ date = "2020-04-16"
 title =  "Reading and writing data to permanent storage"
 tags = ["storage"]
 categories = ["development"]
+description = "Some internal details about RsyncOSX."
 +++
 The object [ReadWriteDictionary.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ReadWriteDictionary.swift) reads and writes to permanent storage. All data (configurations, schedules and log records, user config) is read from permanent storage utilizing the [NSDictionary](https://developer.apple.com/documentation/foundation/nsdictionary) foundation class.
 

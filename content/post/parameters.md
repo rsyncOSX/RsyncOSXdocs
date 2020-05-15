@@ -3,7 +3,8 @@ author = "RsyncOSX"
 date = "2020-04-16"
 title =  "Parameters"
 tags = ["parameters"]
-categories = ["rsync"]
+categories = ["development"]
+description = "There are a few logging options to file in RsyncOSX."
 +++
 RsyncOSX utilizes the object [RsyncParameters.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/RsyncParameters.swift) to analyze and set whatever parameters to rsync the user sets. There are no check of parameters set for rsync is correct. If the user enters bad parameters RsyncOSX passes bad parameters to rsync.
 

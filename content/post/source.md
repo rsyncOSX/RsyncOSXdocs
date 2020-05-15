@@ -4,6 +4,7 @@ date = "2020-04-16"
 title =  "Documentation of RsyncOSX source"
 tags = ["source code"]
 categories = ["development"]
+description = "Some internal details about RsyncOSX."
 +++
 This is some documentation of the design and code of RsyncOSX. The documentation is only a brief summary of some parts of RsyncOSX. The design of RsyncOSX is based upon ideas of the [MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) pattern. One of the objectives in MVC is to separate the views and models.
 
