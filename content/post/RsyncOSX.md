@@ -19,6 +19,7 @@ The command
 will print the shasum for the .dmg file. For your own safety verify the shasums.
 
 > RsyncOSX-6.2.6.dmg: 198d371b38e25c4078dc94621dba3ed12d593528
+
 > RsyncOSXsched-6.2.6.dmg: 0484570868f4655afa1087f2d8df3422bcb4075d
 
 To install RsyncOSX open the downloaded RsyncOSX-version.dmg file, copy the RsyncOSX.app to the /Application catalog or any other preferred catalog. And likewise for the RsyncOSXsched-version.dmg.
