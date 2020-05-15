@@ -15,7 +15,9 @@ Using RsyncOSX for backup to **remote servers** [require to setup ssh passwordle
 ## Where to start?
 
 You can get up and running in just a few clicks. Open RsyncOSX and select the Add tab.
+
 ![](/images/RsyncOSX/master/intro/main1.png)
+
 In the Add tab, as an example, add the Documents catalog as source and the /Volumes/backup/Documents catalog as remote. This will setup a task to synchronize (backup) all content of the Documents to the attached backup volume in catalog Documents. Use drag and drop from Finder to add data.
 
 Select Add button to add task.
