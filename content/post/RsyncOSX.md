@@ -45,4 +45,4 @@ In RsyncOSX select [user configuration](/post/userconfiguration/) and set path f
 
 ## Passwordless logins to remote servers
 
-Using RsyncOSX for backup to **remote servers** require [passwordless logins to remote servers](/post/remotelogins/).
+Using RsyncOSX for backup to remote servers require to setup [passwordless logins to remote servers](/post/remotelogins/).

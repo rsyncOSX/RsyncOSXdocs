@@ -2,17 +2,19 @@
 author = "RsyncOSX"
 date = 2020-04-01T09:34:29+02:00
 title =  "A short intro to RsyncGUI"
-tags = ["rsyncgui"]
-categories = ["userdoc"]
+tags = ["intro"]
+categories = ["rsyncgui"]
+description = "RsyncGUI is the Apple Mac Store version of RsyncOSX."
 +++
 Please see caution about using RsyncGUI and the --delete parameter to rsync at bottom of this page. There is also [a first start intro](/post/rsyncguifirststart) about RsyncGUI.
 
 ## Logging
 
 The user can set logging on of in userconfig. If there is an error, RsyncGUI logs the error from rsync. All logging to file is found in the following catalog:
-
- > ~/Library/Containers/no.blogspot.rsyncgui/Data/Documents/rsynclog.txt
-
+```
+ ~/Library/Containers/no.blogspot.rsyncgui/Data/Documents/rsynclog.txt
+```
+Logfiles can also be viewed in view for rsync output.
 ## Some words about RsyncGUI
 
 RsyncGUI is **not developed to be an easy synchronize and backup tool**. The main purpose is to ease the use of rsync and synchronize files on your Mac to remote FreeBSD and Linux servers. And of course restore files from remote servers. The UI might also be difficult to understand or complex if you don't know what rsync is. It is not required to know rsync but it will ease the use and understanding of RsyncGUI. But it is though, possible to use RsyncGUI by just adding a source and remote backup catalog using default parameters.

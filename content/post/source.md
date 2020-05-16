@@ -1,6 +1,6 @@
 +++
 author = "RsyncOSX"
-date = "2020-04-16"
+date = "2020-04-17"
 title =  "Documentation of RsyncOSX source"
 tags = ["source code"]
 categories = ["development"]
