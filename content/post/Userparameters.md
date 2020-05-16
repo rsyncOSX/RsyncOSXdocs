@@ -4,15 +4,17 @@ date = "2020-04-16"
 title =  "Parameters to rsync"
 tags = ["parameters", "user"]
 categories = ["rsync"]
+description = "Setting user selected parameters to rsync."
 +++
 The website LibreByte has written an article [16 Practical examples of the rsync command](http://www.librebyte.net/en/gnulinux/14-practical-examples-of-the-rsync-command/). One of the examples is instructing rsync to store backups of files in a backup folder and rename old files by a date suffix. Rsync utilizes a ton of parameters. RsyncOSX has only presented a few. Parameters are normally constructed as:
 
 - --parameter=value
-	- sample --exclude-from=/Volumes/home/user/exclude-list.txt
-- --parameter
-	- sample --stats, --dry-run
+>--exclude-from=/Volumes/home/user/exclude-list.txt
 
-See also the [standard parameters](/post/rsyncparameters/) to rsync.
+- --parameter
+>--stats, --dry-run
+
+See also [default parameters](/post/rsyncparameters/) to rsync.
 
 ## Backup catalog by parameter to rsync
 

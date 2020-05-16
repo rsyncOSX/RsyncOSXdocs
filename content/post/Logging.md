@@ -3,7 +3,7 @@ author = "RsyncOSX"
 date = "2020-04-16"
 title =  "Logging"
 tags = ["logging"]
-categories = ["info"]
+categories = ["userdoc"]
 description = "There are a few logging options to file in RsyncOSX."
 +++
 Logging in RsyncOSX might be switched on/off in user configuration. All log records are listed in table within Logs tab. The log records are by default sorted with most recent log ontop. Log records can be *filtered* by text search by selecting the appropriate column. The direction, ascending or descending, is selected by direction of the arrow.

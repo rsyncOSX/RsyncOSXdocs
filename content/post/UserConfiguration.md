@@ -3,7 +3,7 @@ author = "RsyncOSX"
 date = "2020-04-16"
 title =  "User configuration"
 tags = ["userconfig"]
-categories = ["info"]
+categories = ["userdoc"]
 +++
 There are only a few parameters to choose in user configuration. Configurations are saved to permanent store. This applies for version 6.1.5 or greater of RsyncOSX.
 

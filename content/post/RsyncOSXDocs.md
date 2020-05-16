@@ -4,7 +4,7 @@ title = "About RsyncOSX"
 date = "2020-04-24"
 description = "Some start info about using RsyncOSX."
 tags = ["documents"]
-categories = ["info"]
+categories = ["userdoc"]
 images  = ["images/RsyncOSX/master/intro/main.png"]
 +++
 

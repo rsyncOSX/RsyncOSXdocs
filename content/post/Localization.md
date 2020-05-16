@@ -3,7 +3,7 @@ author = "RsyncOSX"
 date = "2020-04-16"
 title =  "Localization"
 tags = ["languages"]
-categories = ["locations"]
+categories = ["localization"]
 description = "RsyncOSX speaks several languages."
 +++
 RsyncOSX and the menu app RsyncOSXsched are prepared for localization.
