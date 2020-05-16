@@ -1,7 +1,7 @@
 +++
 author = "RsyncOSX"
 date = "2020-04-16"
-title =  "Signing and notarize the apps"
+title =  "Signing and notarization"
 tags = ["notarize"]
 categories = ["sequrity"]
 description = "Some info about signing and notarizing."
@@ -18,7 +18,7 @@ description = "Some info about signing and notarizing."
 
  Important: from macOS 10.15 Catalina, notarization is required by default for all software. RsyncOSX is signed and notarized and a new signed and notarized release will be available shortly after release of macOS 10.15.
 
-## RsyncOSX
+### RsyncOSX
 
 This is the message when opening a downloaded version.
 
@@ -27,34 +27,32 @@ This is the message when opening a downloaded version.
 The message is in Norwegian: "Apple har sjekket programmet uten å finne ondsinnet programvare."  The english version of it is: "Apple checked it for malicious software and none was detected."
 
 If you have Xcode developer tools installed executing the following command to verify RsyncOSX.
-
-> xcrun stapler validate no.blogspot.RsyncOSX RsyncOSX.app
-
+```
+xcrun stapler validate no.blogspot.RsyncOSX RsyncOSX.app
 Processing: /Volumes/Home/thomas/GitHub/RsyncOSX/Build/Products/Release/RsyncOSX.app
 The validate action worked!
-
-## RsyncOSXsched (the menu app)
+```
+### RsyncOSXsched (the menu app)
 
 This is the message when opening a downloaded version.
 
 ![](/images/RsyncOSX/master/notarize/verifyRsyncOSXsched.png)
 
 If you have Xcode developer tools installed executing the following command to verify the RsyncOSXsched.app.
-
-> xcrun stapler validate no.blogspot.RsyncOSXsched RsyncOSXsched.app
-
+```
+xcrun stapler validate no.blogspot.RsyncOSXsched RsyncOSXsched.app
 Processing: /Volumes/Home/thomas/GitHub/RsyncOSXsched/Build/Products/Release/RsyncOSXsched.app
 The validate action worked!
-
-## RcloneOSX
+```
+### RcloneOSX
 
 This is the message when opening a downloaded version.
 
 ![](/images/RsyncOSX/master/notarize/verifyRcloneOSX.png)
 
 If you have Xcode developer tools installed executing the following command to verify the the rcloneosx.app.
-
-> xcrun stapler validate no.blogspot.rcloneosx rcloneosx.app
-
+```
+xcrun stapler validate no.blogspot.rcloneosx rcloneosx.app
 Processing: /Volumes/Home/thomas/GitHub/RcloneOSX/Build/Products/Release/rcloneosx.app
 The validate action worked!
+```

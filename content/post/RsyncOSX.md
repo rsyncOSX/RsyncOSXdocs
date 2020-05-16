@@ -13,15 +13,14 @@ RsyncOSX is [signed and notarized](/post/notarized/). There is a short [intro](/
 ### Install RsyncOSX.app and  RsyncOSXsched.app
 
 The command
-
-> shasum ~/pathtodownload/RsyncOSX-version.dmg
-
+```
+shasum ~/pathtodownload/RsyncOSX-version.dmg
+```
 will print the shasum for the .dmg file. For your own safety verify the shasums.
-
-> RsyncOSX-6.2.6.dmg: 198d371b38e25c4078dc94621dba3ed12d593528
-
-> RsyncOSXsched-6.2.6.dmg: 0484570868f4655afa1087f2d8df3422bcb4075d
-
+```
+RsyncOSX-6.2.6.dmg: 198d371b38e25c4078dc94621dba3ed12d593528
+RsyncOSXsched-6.2.6.dmg: 0484570868f4655afa1087f2d8df3422bcb4075d
+```
 To install RsyncOSX open the downloaded RsyncOSX-version.dmg file, copy the RsyncOSX.app to the /Application catalog or any other preferred catalog. And likewise for the RsyncOSXsched-version.dmg.
 
 RsyncOSX is installed and used at your own risk and developer accepts no responsibility for any errors, omissions or loss of data by using the application.
@@ -29,9 +28,9 @@ RsyncOSX is installed and used at your own risk and developer accepts no respons
 ### Version 3.1.3 of rsync
 
 See readme.txt within dmg file for how to manually install version rsync 3.1.3.
-
-> rsync313.dmg: 568ccf4d0981223f51e1c54941bc6cbc87988ae8
-
+```
+rsync313.dmg: 568ccf4d0981223f51e1c54941bc6cbc87988ae8
+```
 ## Versions of rsync
 
 The default version of rsync in macOS is old (version 2.6.9, [protocol](https://rsync.samba.org/how-rsync-works.html) version 29). Version [2.6.9](https://download.samba.org/pub/rsync/src/rsync-2.6.9-NEWS) was released in nov 2006. The current release of rsync is version [3.1.3](https://download.samba.org/pub/rsync/src/rsync-3.1.3-NEWS) protocol 31 released 28 January 2018. There are at least three options to get and install the current version of rsync for use in RsyncOSX:
