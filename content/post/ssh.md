@@ -1,10 +1,10 @@
 +++
 author = "RsyncOSX"
 date = "2020-04-16"
-title =  "Passwordless logins by ssh-keys"
+title =  "Passwordless logins by ssh-keys - assisted by RsyncOSX."
 tags = ["ssh"]
 categories = ["remotelogins"]
-description = "How to setup remote logins, there are two possibilties."
+description = "RsyncOSX can guide you in setting up password less login by ssh-keys."
 +++
 If you already have setup ssh utilizing ssh keys there is no need to follow the instructions below. RsyncOSX is depended upon passwordless logins for synchronizing data to remote servers. The instructions below only applies if passwordless login is not setup.
 
@@ -49,16 +49,17 @@ Next step is to manually create a remote .ssh catalog and scp (secure copy) the 
 - Scp rsa - copy and paste command
 
 The command
-
-> /usr/bin/scp /Volumes/Home/thomas/.ssh/id_rsa.pub thomas@10.0.0.57:.ssh/authorized_keys
-
+```
+/usr/bin/scp /Volumes/Home/thomas/.ssh/id_rsa.pub thomas@10.0.0.57:.ssh/authorized_keys
+```
 copy the rsa public key ~/.ssh/id_rsa.pub to remote server as file ~/.ssh/authorized_keys
 
 - Scp dsa - copy and paste command
 
 The command
-> /usr/bin/scp /Volumes/Home/thomas/.ssh/id_dsa.pub thomas@10.0.0.57:.ssh/authorized_keys2
-
+```
+/usr/bin/scp /Volumes/Home/thomas/.ssh/id_dsa.pub thomas@10.0.0.57:.ssh/authorized_keys2
+```
 copy the dsa public key ~/.ssh/id_dsa.pub to remote server as file ~/.ssh/authorized_keys2
 
 After public key(s) are copied it is important to set correct permissions on remote public key files. The correct permissions are set by: chmod 700 means owner can read, write and execute on ./ssh catalog and chmod 600 on .ssh/authorized_keys means owner can read and write file.

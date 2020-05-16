@@ -1,6 +1,6 @@
 +++
 author = "RsyncOSX"
-title = "About RsyncOSX"
+title = "How to use RsyncOSX"
 date = "2020-04-24"
 description = "Some start info about using RsyncOSX."
 tags = ["documents"]
