@@ -35,13 +35,13 @@ The snapshot feature enables saving changed and deleted files ahead of a new syn
 ## How does the snapshots work?
 
 Every snapshot is in sync with local catalog at the time of creating the snapshot. Previous versions of files can be restored from snapshots. The snapshot is by utilizing the --link-dest parameter to rsync. The rsync parameters for snapshots are:
-
---link-dest=~/snapshots/n-1 /Volumes/.../user/data/ user@remote.server:~/snapshots/n
-
+```
+--link-dest=~/snapshots/n-1 /Volumes/user/data/ user@remote.server:~/snapshots/n
+```
 where
 
 - n is the number of snapshots
-- and /Volumes/.../data/ is the source catalog
+- and /Volumes/user/data/ is the source catalog
 - and the remote catalogs is ~/snapshots/
 
 If remote catalog is a local volume full path must be added. The source catalog is **never** touched, only read by rsync. RsyncOSX creates the snapshots within the remote catalog. The ~ is expanded to the user home catalog on remote server. Utilizing snapshot on local attached disks require full path for remote catalog.

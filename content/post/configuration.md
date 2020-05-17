@@ -23,6 +23,6 @@ Changes to configurations (change, delete, new, parameters to rsync) is a **thre
 - any change, delete, new or parameters to rsync operations on configurations are updated in memory (to the Array<Configuration>)
   - [Configuration.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/Configuration.swift) is a struct holding all attributes for one task
 - any change, delete or add operation causes a write operation from memory to permanent store of all configurations
-  - the Array<Configuration> are transformed into an Array<NSDictionary> in the class [PersistentStorageConfiguration.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/PersistentStorageConfiguration.swift) before a write operation is executed
+  - the Array of Configuration (structs) are transformed into an Array of NSDictionary in the class [PersistentStorageConfiguration.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/PersistentStorageConfiguration.swift) before a write operation is executed
 - the object [Configurations.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/Configurations.swift) is created, a read operation is initiated and new values are computed
 There is no need for partly updates and it secures a 100% correct and updated configuration in memory at all time.
