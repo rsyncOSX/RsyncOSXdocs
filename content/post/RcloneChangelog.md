@@ -1,10 +1,10 @@
 +++
 author = "RsyncOSX"
 date = "2020-04-16"
-title =  "RcloneOSX changelog"
-tags = ["changelog", "rclone"]
-categories = ["info"]
-description = "The RcloneOSX changelog."
+title =  "The RcloneOSX changelog"
+tags = ["changelog"]
+categories = ["rcloneosx"]
+description = "Changelog"
 +++
 Rclone is **rsync for cloud storage**. Even if rclone and rsync are somewhat equal they are also in many ways different. RcloneOSX is utilizing rclone for **synchronizing** and **backup** of files to a number of cloud services. RcloneOSX utilizes rclone copy, sync, move and check commands.
 
@@ -26,6 +26,11 @@ For the moment there is no active development of RcloneOSX. I will continue to c
 - added clean logfile in view output from rsync
 - some minor fixes and cleanups
 
+Shasum:
+```
+rcloneosx 2.2.0.dmg: 88a587d89085b741af4cf5f8e366cf31749aebda
+```
+
 ## Version 2.1.9
 
 [Released](https://github.com/rsyncOSX/rcloneosx/releases/tag/v2.1.9) 4 May 2020.
@@ -35,11 +40,21 @@ For the moment there is no active development of RcloneOSX. I will continue to c
 - logging rclone errors to logfile
 - view logfile in view for rclone output
 
+Shasum:
+```
+rcloneosx.2.1.9.dmg: 8f2f8281c6bf08d6a6387679c759d35411c02c73
+```
+
 ## Version 2.1.5
 
 [Released](https://github.com/rsyncOSX/rcloneosx/releases/tag/v2.1.5) 27 March 2020.
 
 This is a "maintenance release". Batch is removed and replaced with multiple selection of tasks to execute.
+
+Shasum:
+```
+RcloneOSX-2.1.5.dmg: c3c70473d2db49e5f1e59b1b243a7cef6faa3408
+```
 
 ## Version 2.1.1
 
