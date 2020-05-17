@@ -10,15 +10,29 @@ The object [ReadWriteDictionary.swift](https://github.com/rsyncOSX/RsyncOSX/blob
 
 RsyncOSX configuration file, scheduled tasks which also includes log records and user configuration are plain XML-files ([property list files](https://en.wikipedia.org/wiki/Property_list)). Files are saved in:
 
-- ~/Documents/Rsync/MacID/configRsync.plist - configurations
-  - ~/ is user home directory
-  - MacID is the Mac serial number and is automatically set by RsyncOSX
-- ~/Documents/Rsync/MacID/scheduleRsync.plist - scheduled tasks including log records
-- ~/Documents/Rsync/MacID/config.plist - user config
+configurations
+```
+~/Documents/Rsync/MacID/configRsync.plist
+```
+- ~/ is user home directory
+- MacID is the Mac serial number and is automatically set by RsyncOSX
 
-If _profile_ is used:
+log records and scheduled tasks
+```
+~/Documents/Rsync/MacID/scheduleRsync.plist
+```
+user config
+```
+~/Documents/Rsync/MacID/config.plist
+```
 
-- ~/Documents/Rsync/MacID/profile/configRsync.plist
-- ~/Documents/Rsync/MacID/profile/scheduleRsync.plist
-  - profile is the profile name
-- ~/Documents/Rsync/MacID/config.plist - user config
+If profile is used:
+
+configurations
+```
+~/Documents/Rsync/MacID/profile/configRsync.plist
+```
+log records and scheduled tasks
+```
+~/Documents/Rsync/MacID/profile/scheduleRsync.plist
+```

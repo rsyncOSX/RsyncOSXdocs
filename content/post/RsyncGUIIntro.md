@@ -1,6 +1,6 @@
 +++
 author = "RsyncOSX"
-date = 2020-04-01T09:34:29+02:00
+date = "2020-04-01"
 title =  "A short intro to RsyncGUI"
 tags = ["intro"]
 categories = ["rsyncgui"]

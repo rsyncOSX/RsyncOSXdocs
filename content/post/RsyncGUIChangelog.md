@@ -1,9 +1,9 @@
 +++
 author = "RsyncOSX"
-date = 2020-04-01T09:34:29+02:00
+date = "2020-04-02"
 title =  "RsyncGUI Changelog"
-tags = ["changelog","rsyncgui"]
-categories = ["info"]
+tags = ["changelog"]
+categories = ["rsyncgui"]
 +++
 RsyncGUI is a sandboxed macOS app compiled with support for **macOS El Capitan version 10.11 - macOS Mojave version 10.15**. The application is implemented in Swift 5 by using Xcode 11.
 
@@ -24,6 +24,15 @@ The default version of rsync in macOS is old (version 2.6.9, [protocol](https://
 Utilizing **snapshots** in RsyncGUI is **not possible** due a bug in default version version 2.6.9 of rsync. It is not allowed because of the macOS sandbox, to execute an updated version of rsync in e.g /usr/local/bin. Utilizing **scheduled** task is also not implemented in RsyncGUI.
 
 If you need either of them, please use [RsyncOSX](https://github.com/rsyncOSX/RsyncOSX).
+
+## Version 2.1.0
+
+This version is approved for release on Apple Mac Store 17 May 2020.
+
+- added counting numbers in quick backup
+- added clean logfile in view output from rsync
+- some minor fixes and cleanups
+
 
 ## Version 2.1.0
 

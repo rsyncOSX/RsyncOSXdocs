@@ -7,8 +7,7 @@ tags = ["documents"]
 categories = ["userdoc"]
 images  = ["images/RsyncOSX/master/intro/main.png"]
 +++
-
-Rsync is a file-based synchronization and backup tool. There is no custom solution for the backup archive. You can quit utilizing RsyncOSX (and rsync) at any time and still have access to all synchronized files.
+RsyncOSX is a GUI ontop of the command line utility rsync. Rsync is a file-based synchronization and backup tool. There is no custom solution for the synchronized archive. You can quit utilizing RsyncOSX (and rsync) at any time and still have access to all synchronized files.
 
  - [getting and installing RsyncOSX](/post/rsyncosx/)
  - [there is a changelog](/post/changelog/)
