@@ -18,6 +18,12 @@ If you are installing on macOS Catalina, execute the rclone utility in a termina
 
 For the moment there is no active development of RcloneOSX. I will continue to compile, notarize and sign RcloneOSX for new versions of macOS and fix serious bugs. I will also refactor and enhance the code when required. But there will not be any new functions. My main effort in the future is to continue development of RsyncOSX and RsyncGUI.
 
+## Version 2.2.0
+
+[Released](https://github.com/rsyncOSX/rcloneosx/releases/tag/v2.2.0) 17 May 2020.
+
+- a few minor bugfixes and cleanups
+
 ## Version 2.1.9
 
 [Released](https://github.com/rsyncOSX/rcloneosx/releases/tag/v2.1.9) 4 May 2020.
