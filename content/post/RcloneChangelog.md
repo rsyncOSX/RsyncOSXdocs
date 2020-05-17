@@ -22,7 +22,9 @@ For the moment there is no active development of RcloneOSX. I will continue to c
 
 [Released](https://github.com/rsyncOSX/rcloneosx/releases/tag/v2.2.0) 17 May 2020.
 
-- a few minor bugfixes and cleanups
+- added counting numbers in quick backup
+- added clean logfile in view output from rsync
+- some minor fixes and cleanups
 
 ## Version 2.1.9
 
