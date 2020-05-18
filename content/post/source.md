@@ -6,13 +6,13 @@ tags = ["source code"]
 categories = ["development"]
 description = "Some internal details about RsyncOSX."
 +++
-This is some documentation of the design and code of RsyncOSX. The documentation is only a brief summary of some parts of RsyncOSX. The design of RsyncOSX is based upon ideas of the [MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) pattern. One of the objectives in MVC is to separate the views and models.
-
-First will the data model and some of the methods operating on the data be documented. After that some of the high level details about how RsyncOSX is working. RsyncOSX kicks off the rsync utility to do the real work. The rsync is executed in a Process object.
+This is some information of the design and code of RsyncOSX. The documentation is only a brief summary of some parts of RsyncOSX. The design of RsyncOSX is based upon ideas of the [MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) pattern. One of the objectives in the MVC pattern is to separate the views and models.
 
 Every time RsyncOSX [executes](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ProcessCmd.swift) a command, RsyncOSX is listening for two notifications didTerminateNotification and NSFileHandleDataAvailable. Those two notifications kicks of other functions depended upon the state of RsyncOSX.
 
-I am also adapting most of the code to [SwiftLint](https://github.com/realm/SwiftLint) guidelines for code. Most of the classes are compliant and a few are not. The main reason for this is I discovered SwiftLint to late in development. This project commenced because I wanted to learn Swift. And the codebase from beginning until now is quite different.
+I am also adapting the code to [SwiftLint](https://github.com/realm/SwiftLint) guidelines. This project commenced because I wanted to learn Swift. The codebase from beginning and today has changed a lot. RsyncOSX has matured a lot during this years and the application is today quite robust and stable. It is also important to say that I am not a professional developer. I don´t read a lot of Swift resources, follows a few from time to time. I use Gooogle when developing and have got a few ideas by searching for solutions.
+
+I also try to use Swift as effective as I can. There is no need to develop code when Swift supports the functionality by default.
 
 ### Localization
 
@@ -22,9 +22,9 @@ RsyncOSX is prepared for localization. Dates are stored on permanent storage and
 
 The views has no knowledge about the models or data stored about configurations, schedules and logdata. Data presented in RsyncOSX are mostly table data. Presenting table data in all views utilizes the NSTableViewDelegate. All data which are saved to permanent storage (configurations, schedules, logs and userconfig) are stored as xml-files ([plist](https://en.wikipedia.org/wiki/Property_list) files). RsyncOSX does not utilize the Core Data because the data about configurations, schedules and logs are simple and there is no need for a complex datamodel.
 
-Data is read from permanent store and loaded when RsyncOSX either starts or if a new profile is either selected or created. The Synchronize view loads and holds the data objects during lifetime of data. There are **two** main objects which holds the data about configurations and schedules including logdata. The objects lives during lifetime of RsyncOSX or until a profile is either selected or created.
+Data is read from permanent store and loaded when RsyncOSX either starts or a new profile is either selected or created. The Synchronize view loads and holds the data objects during lifetime of data. There are **two** main objects which holds the data about configurations and schedules including logdata. The objects lives during lifetime of RsyncOSX or until a profile is either selected or created.
 
-Classes in Swift are *by reference* and both the  configurations and schedules objects are created in the Synchronize view of RsyncOSX. Other objects utilizing data and methods in configurations and schedules objects are by protocol functions, getting the reference for the data objects. The references to  configurations and schedules are weak to avoid strong references and memory leaks.
+Classes in Swift are by reference and both the  configurations and schedules objects are created in the Synchronize view of RsyncOSX. Other objects utilizing data and methods in configurations and schedules objects are by protocol functions, getting the reference for the data objects. The references to  configurations and schedules are weak to avoid strong cyclic references and memory leaks.
 
 ### Configurations
 
