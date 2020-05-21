@@ -8,7 +8,7 @@ description = "Some internal details about RsyncOSX."
 +++
 ### Compile the code
 
-See here for [compile instructions](/post/compile)
+See here for [compile instructions](/post/compile). There are about 130 classes with 14,900 lines of code in RsyncOSX.
 
 ### The source
 
@@ -36,8 +36,8 @@ Classes in Swift are by reference and both the  configurations and schedules obj
 
 The class Configurations (plural) holds required data, as an Array<Configuration>, about all tasks including all parameters for rsync and user selected parameters. All Configuration objects, which is a struct about one task, are stored in memory in an Array<Configuration> in order loaded from permanent storage. Last timestamp for execution is also stored in the configuration object.
 
-- the **struct** [Configuration.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/Configuration.swift) holds data about one task
-- the **class** [Configurations.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/Configurations.swift) holds all computed data and methods operating on tasks
+- [the struct Configuration.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/Configuration.swift) holds data about one task
+- [the class Configurations.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/Configurations.swift) holds all computed data and methods operating on tasks
 
 Documentation of [Configurations](/post/configuration/).
 
@@ -46,7 +46,6 @@ Documentation of [Configurations](/post/configuration/).
 All log records are stored in a Schedule record. For one task it might be several schedule records depended upon type of schedule and start of scheduled task. The type of schedules are manual, once, daily and monthly. If Schedules is not used meaning only manually executed tasks, one Schedule record is created with type manual. All log records for this manually executed tasks are added to this record.
 
 Documentation of [scheduled tasks and log records](/post/configurationschedule/).
-
 
 ### Reading and writing data to permanent storage
 

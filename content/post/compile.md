@@ -26,7 +26,7 @@ To remove select "Team: none" and "Signing Certificates: Sign to Run Locally".
 
 ### Compile scripts
 
-There are two utilities used, swiftlint and swiftformat. Both can be removed, select tab "Build Phases" and delete the lines. Or you can use [homebrew](https://brew.sh/index_nb) to install both utilities.
+There are two utilities used, [SwiftLint](https://github.com/realm/SwiftLint) and [SwiftFormat](https://github.com/nicklockwood/SwiftFormat). Both can be removed, select tab "Build Phases" and delete the lines. Or you can use [homebrew](https://brew.sh/index_nb) to install both utilities.
 
 ![](/images/RsyncOSX/master/compile/scripts.png)
 
@@ -37,12 +37,12 @@ Delete the build scripts.
 ### Ready to Compile
 
 Either execute RsyncOSX directly in Xcode or utilize make. Go to the catalog top RsyncOSX and execute the following commands.
-
 ```
 make clean
 make
 ```
 After compiling is completed the RsyncOSX.app is build and saved in:
-```
-RsyncOSX/Build/Products/Release/RsyncOSX.app
-```
+
+`RsyncOSX/Build/Products/Release/RsyncOSX.app`
+
+`make dmg` will make a dmg file to be released.  The build of dmg files are by utilizing [andreyvit](https://github.com/andreyvit/create-dmg) script for creating dmg and [syncthing-macos](https://github.com/syncthing/syncthing-macos) setup.
