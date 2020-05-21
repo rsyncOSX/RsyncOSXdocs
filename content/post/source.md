@@ -8,7 +8,7 @@ description = "Some internal details about RsyncOSX."
 +++
 ### Compile the code
 
-See here for [compile instructions](/post/compile). There are about 130 classes with 14,900 lines of code in RsyncOSX.
+See [instructions for compile instructions](/post/compile). There are about 130 classes with 14,900 lines of code in RsyncOSX.
 
 ### The source
 

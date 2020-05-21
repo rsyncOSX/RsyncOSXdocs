@@ -34,6 +34,8 @@ The following are documents about using RsyncOSX:
 - where does RsyncOSX [stores the config files](/post/configfiles/)
 - [the verify function](/post/verify/)
 
+There are also some info [about the source code and how to compile RsyncOSX](/post/source).
+
 ### Why use RsyncOSX (and rsync)?
 
 There is one simple answer to the question and the answer is [rsync](https://en.wikipedia.org/wiki/Rsync). Rsync is a **rock solid, well proven, secure, fast, reliable** and **very accessible** command line tool across platforms. RsyncOSX is just a GUI for executing rsync commands. Rsync is a command line tool with tons of parameters. Choosing the right parameter and to get the predicted result from rsync might be a challenge. RsyncOSX does the job for you. RsyncOSX also stores configurations in profiles and makes it easy to use different configurations.
