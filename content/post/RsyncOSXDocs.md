@@ -2,12 +2,14 @@
 author = "RsyncOSX"
 title = "How to use RsyncOSX"
 date = "2020-04-24"
-description = "Some start info about using RsyncOSX."
+description = "If you want some more info about RsyncOSX there are some resources on this page."
 tags = ["documents"]
 categories = ["userdoc"]
 images  = ["images/RsyncOSX/master/intro/main.png"]
 +++
-RsyncOSX is a GUI ontop of the command line utility rsync. Rsync is a file-based synchronization and backup tool. There is no custom solution for the synchronized archive. You can quit utilizing RsyncOSX (and rsync) at any time and still have access to all synchronized files.
+### What is RsyncOSX?
+
+RsyncOSX is a GUI ontop of the command line utility rsync. No more no less. Rsync is a file-based synchronization and backup tool. RsyncOSX supports both synchronize and snapshot tasks. There is no custom solution for the synchronized archive. And you can quit utilizing RsyncOSX (and rsync) at any time and still have access to all synchronized files.
 
  - [getting and installing RsyncOSX](/post/rsyncosx/)
  - [there is a changelog](/post/changelog/)
