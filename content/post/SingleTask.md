@@ -14,6 +14,7 @@ There are three options for editing after selecting a task in row:
 - edit task
 - parameters (to rsync, see [parameters](/post/parameters/))
 - delete task
+
 After selecting a row choosing one of the above pops up a new view according to selection. Select Edit task to editing basic information about task. Select Delete task to delete the selected row (task).
 
 ## Execute single tasks

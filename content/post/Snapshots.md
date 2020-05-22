@@ -35,22 +35,22 @@ The snapshot feature enables saving changed and deleted files ahead of a new syn
 ## How does the snapshots work?
 
 Every snapshot is in sync with local catalog at the time of creating the snapshot. Previous versions of files can be restored from snapshots. The snapshot is by utilizing the --link-dest parameter to rsync. The rsync parameters for snapshots are:
-```
---link-dest=~/snapshots/n-1 /Volumes/user/data/ user@remote.server:~/snapshots/n
-```
+
+`--link-dest=~/snapshots/n-1 /Volumes/user/data/ user@remote.server:~/snapshots/n`
+
 where
 
-- n is the number of snapshots
-- and /Volumes/user/data/ is the source catalog
-- and the remote catalogs is ~/snapshots/
+- `n` is the number of snapshots
+- and `/Volumes/user/data/` is the source catalog
+- and the remote catalogs is `~/snapshots/`
 
 If remote catalog is a local volume full path must be added. The source catalog is **never** touched, only read by rsync. RsyncOSX creates the snapshots within the remote catalog. The ~ is expanded to the user home catalog on remote server. Utilizing snapshot on local attached disks require full path for remote catalog.
 
-- ~/snapshots/1 - snapshot 1
+- `~/snapshots/1` - snapshot one
   - a full sync when snapshot is created
-- ~/snapshots/2 - snapshot 2
+- `~/snapshots/2` - snapshot two
   - the next snapshots saves the changed files and makes hard links for files not changed
-- ~/snapshots/n - snapshot n
+- `~/snapshots/n` - snapshot n
   - n is the latest snapshot
 
 When the old snapshots are deleted, the filesystem takes care of saving the real files which are hard linked.
@@ -59,8 +59,5 @@ When the old snapshots are deleted, the filesystem takes care of saving the real
 
 To create a snapshot task select snapshots as type in Add tab.
 
-Important: do not copy and paste command for execution within
-a terminal window. RsyncOSX saves the number n to the
-configuration. The number n is the next snapshot number.
-The number n is used when computing the parameter for rsync
+Important: do not copy and paste command for execution within a terminal window. RsyncOSX saves the number n to the configuration. The number n is the next snapshot number. The number n is used when computing the parameter for rsync
 and is picked up from the configuration.

@@ -12,12 +12,9 @@ The menu app is reloading the schedules after each scheduled task is completed. 
 
 There are three choices for schedules:
 
-- once
-	- is executed _once_ at date and time given
-- daily
-	- is executed _every 24-hour_ from a selected date
-- weekly
-	- as for daily, but _every 7 day_ from a selected date
+- `once` is executed _once_ at date and time given
+- `daily` is executed _every 24-hour_ from a selected date
+- `weekly` as for daily, but _every 7 day_ from a selected date
 
 Select task (row), set the start date and time and select the schedule (once, daily or weekly) to set up a schedule. The schedule is a stack of tasks. The top most element is the first task to be executed. RsyncOSX keeps track of the first task only. All other scheduled tasks remains on stack until popped of.
 
