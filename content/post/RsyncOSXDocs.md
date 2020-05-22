@@ -36,8 +36,8 @@ The following are information about using RsyncOSX:
 #### Snapshots, quick backup, scheduling
 - utilizing the [snapshot feature](/post/snapshots/)
 - utilizing the [quick backup feature](/post/quickbackup/)
-- [scheduling of tasks](/post/scheduletasks/)
 - [automatic backups](/post/automatic/)
+- [scheduling of tasks](/post/scheduletasks/)
 
 #### Restore
 - [restore of files](/post/restore/)

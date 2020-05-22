@@ -7,8 +7,10 @@ categories = ["synchronize"]
 description = "How to execute automatic synchronize tasks."
 +++
 There are two options for executing quick synchronize tasks, either estimate and select or execute directly. In either way RsyncOSX does an estimation run and the numbers to indicate the progress of synchronizing.
-- execute synchronizing task directly
+
+- execute synchronizing task directly, `⌘B` shortcut
 - do an estimate first and select
+
 The quickbackup executes a estimation run and selects all tasks with files to be synchronized. To commence the actual synchronizing select the marked play button.
 
 ![](/images/RsyncOSX/master/quickbackup/quickbackup1.png)
