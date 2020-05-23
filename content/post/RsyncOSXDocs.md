@@ -24,7 +24,7 @@ The following are information about using RsyncOSX:
 #### Intro
 - a short [intro to RsyncOSX](/post/intro/)
 
-#### Add, execute single tasks
+#### Add and execute single tasks
 - [add configurations](/post/addconfigurations/)
 - [executing single tasks](/post/singletask/)
 
@@ -33,7 +33,7 @@ The following are information about using RsyncOSX:
   - [default parameters](/post/rsyncparameters)
   - [user selected parameters](/post/userparameters/)
 
-#### Snapshots, quick backup, scheduling
+#### Snapshots, quick backup and scheduling
 - utilizing the [snapshot feature](/post/snapshots/)
 - utilizing the [quick backup feature](/post/quickbackup/)
 - [automatic backups](/post/automatic/)
@@ -48,7 +48,7 @@ The following are information about using RsyncOSX:
 - where does RsyncOSX [stores the config files](/post/configfiles/)
 - [the verify function](/post/verify/)
 
-#### Source code, compile
+#### Source code and compile
 - some info [about the source code and how to compile RsyncOSX](/post/source)
 
 ### Why use RsyncOSX (and rsync)?
@@ -71,14 +71,10 @@ The following features are implemented in RsyncOSX:
 - detailed logging of tasks, output from rsync may be copied to macOS clipboard
 - tasks my be aborted at any time
 
-### RsyncGUI, a Sandboxed version of RsyncOSX
+### RsyncGUI - a Sandboxed version of RsyncOSX
 
 RsyncOSX is also released as [RsyncGUI](https://itunes.apple.com/us/app/rsyncgui/id1449707783?l=nb&ls=1&mt=12) on Apple Mac App Store. RsyncGUI only utilize the stock version of rsync in macOS. Because of that the snapshots feature not available in RsyncGUI. Neither is scheduled backups.s
 
-## My own NAS setup
+### My own NAS setup
 
 I have setup up my own [NAS](/post/diynas/). I am doing backups by using RsyncOSX and sharing out disk by AFP and SMB.
-
-## The Source
-
-There are some documents about [the source code](/post/source/)

@@ -47,7 +47,6 @@ RsyncOSX-6.2.6.dmg: 198d371b38e25c4078dc94621dba3ed12d593528
 RsyncOSXsched-6.2.6.dmg: 0484570868f4655afa1087f2d8df3422bcb4075d
 rsync313.dmg: 568ccf4d0981223f51e1c54941bc6cbc87988ae8
 ```
-
 ## Version 6.2.0
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.2.0) 27 February 2020.
@@ -56,12 +55,6 @@ rsync313.dmg: 568ccf4d0981223f51e1c54941bc6cbc87988ae8
 - cleaned up some other views as well
 - cleaned (refactor) up some code
 
-Shasums
-```
-RsyncOSX-6.2.0.dmg: 7afafa77f48f39effb9e97cd2cb2f2117be4bfee
-RsyncOSXsched-6.2.0.dmg: 64d9262a179f1ec7fdfde05aba6720105e74b4af
-rsync313.dmg: 568ccf4d0981223f51e1c54941bc6cbc87988ae8
-```
 ## Version 6.1.7
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.1.7) 5 February 2020.
