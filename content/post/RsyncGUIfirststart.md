@@ -4,9 +4,9 @@ date = "2020-04-01"
 title =  "First time start RsyncGUI"
 tags = ["first start"]
 categories = ["rsyncgui"]
-description = "RsyncGUI is the Apple Mac Store version of RsyncOSX."
+description = "What to do the first time you start RsyncGUI."
 +++
-This is a short guide what to do when first start of **RsyncGUI**, the Mac App Store version of RsyncOSX. This guide is primarily for executing synchronizing tasks to **remote servers**. It includes how to setup passwordless login to remote server. RsyncGUI only support  default version of rsync which is included in macOS. The default version of rsync in macOS is old, version 2.6.9, protocol version 29 released in nov 2006. This version of rsync does not support snapshot tasks. If you want to utilize [snapshot tasks](/post/Snapshots) please use RsyncOSX instead.
+This is a short guide what to do the first start of RsyncGUI, the Mac App Store version of RsyncOSX. This guide is primarily for executing synchronizing tasks to **remote servers**. It includes how to setup passwordless login to remote server. RsyncGUI only support  default version of rsync which is included in macOS. The default version of rsync in macOS is old, version 2.6.9, protocol version 29 released in nov 2006. This version of rsync does not support snapshot tasks. If you want to utilize [snapshot tasks](/post/snapshots) please use RsyncOSX instead.
 
 If you plan only utilizing RsyncGUI on local attached volumes you can skip this guide.
 
@@ -22,13 +22,11 @@ If you plan utilizing remote servers the following steps are required. It is onl
 
 ### First steps setting up passwordless logins for rsync
 
-See [manual setup of passwordless logins](/post/PasswordlessLogin) or the [RsyncOSX guide](/post/ssh) for info. Setting up passwordless logins is not required if this works before using RsyncGUI. It is **required** that ssh is utilizing the .ssh catalog in the users home root catalog.
+See [how to setup passwordless logins](/post/remotelogins/) for info.
 
 ### Create private and public ssh certificates
 
-Ssh saves by default, private ssh-keys in .ssh catalog on root of your home catalog. RsyncGUI can assist you creating both the .ssh catalog and private and public key pair. If this is created **before** using RsyncGUI this action is not required.
-
-Select the Ssh tab and create both keys.
+Ssh saves by default, private ssh-keys in .ssh catalog on root of your home catalog. RsyncGUI can assist you creating both the .ssh catalog and private and public key pair. Select the Ssh tab and create both keys.
 
 ![](/images/RsyncOSX/master/RsyncGUIfirststart/main3.png)
 ![](/images/RsyncOSX/master/RsyncGUIfirststart/main4.png)

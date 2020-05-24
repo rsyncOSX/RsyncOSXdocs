@@ -10,9 +10,11 @@ RsyncOSX implements default parameters which are working fine for simple synchro
 
 ![](/images/RsyncOSX/master/userparameters/userparameters.png)
 
+## User selected rsync parameters
+
 RsyncOSX does also facilitate user selected parameters. User selected parameters are stored by each task and set by user, see [user selected parameters](/post/userparameters/).
 
-## Standard parameters all tasks
+## Standard rsync parameters all tasks
 
 The following parameters are applied to all tasks:
 
@@ -21,7 +23,7 @@ The following parameters are applied to all tasks:
 - `--delete` delete all files at **destination** which are not in the **source**
 	- this parameter also applies when restoring files, always do a restore to a temporary restore catalog
 
-## Standard parameters networked tasks only
+## Standard rsync parameters networked tasks only
 
 The following parameters are for networked tasks only. A networked task is a task where destination is on a remote server, either on local LAN or on Internet.
 

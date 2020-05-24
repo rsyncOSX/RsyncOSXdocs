@@ -47,16 +47,16 @@ Go back to the Execute tab, select the task and you are ready to go.
 
 There  are three types of how to synchronize source and destination (backup):
 
-(1) synchronize source and backup location, any changed and deleted files in backup location will either be overwritten or deleted
+(1)synchronize source and backup location, any changed and deleted files in backup location will either be overwritten or deleted
   - this is the standard synchronize task in RsyncGUI, after execution source and destination (backup) is 100% in sync if there are no --exclude parameters to rsync
   - an --exclude parameter instructs rsync to disregard files, catalogs and patterns included in the parameter
 
 (2) syncremote which synchronize a remote source to your local Mac.
   - please pay attention before using this task, if you syncremote an empty source it will delete all local files
 
-(3) synchronize and save changed and deleted files in a separate backup catalog by adding a [parameters](/post/Parameters) to rsync
+(3) synchronize and save changed and deleted files in a separate backup catalog by adding a [parameters](/post/rsyncparameters) to rsync
 
-Snapshot tasks is not possible in RsyncGUI, see [the RsyncGUI Changelog](/post/RsyncGUIChangelog).
+Snapshot tasks is not possible in RsyncGUI, see [the RsyncGUI Changelog](/post/rsyncguichangelog).
 
 ## How to execute any type of tasks
 
@@ -65,40 +65,37 @@ Snapshot tasks is not possible in RsyncGUI, see [the RsyncGUI Changelog](/post/R
 Tasks can be aborted at any time by selecting the stop button.
 
 1. a `double click` on a task executes first a test run, the next double click executes the real run
-2. `⌘R` - shortcut for immediate execute the selected task (no test run)
+2. `⌘R`shortcut for immediate execute the selected task (no test run)
 
 ![](/images/RsyncOSX/master/intro/menu4.png)
 
-3. `⌘B` - shortcut for automatic executing synchronizing or by select in menu bar
+3. `⌘B` shortcut for automatic synchronizing
 
 ![](/images/RsyncOSX/master/intro/menu2.png)
 
-4. `⌘T` - shortcut for quick synchronizing or by select in menu bar
+4. `⌘T` shortcut for quick synchronizing
 
 ![](/images/RsyncOSX/master/intro/menu3.png)
 
-5. execute the selected tasks (one or more) by select in menu bar
+5. execute the selected tasks (one or more)
 
-## Caution about RsyncGUI
+## Always verify a task
 
-Before a real execution of a task please execute an estimation run. An estimation run is started by selecting a task and the stat light is yellow. A double click on the task does a simulated run and displays which files to be transferred. Please pay attention to the info in the display when the simulate run is completed. A drop down display presents the result.
-
-Ready for an estimation run. A double click on row executes the estimation run.
+Before a real execution of a task, please execute an estimation run. An estimation run is started by selecting a task and the stat light is yellow. A double click on the task does a simulated run and displays which files to be transferred. Please pay attention to the info in the display when the simulate run is completed. A drop down display presents the result.
 
 ![](/images/RsyncOSX/master/intro/simulate.png)
 
-Estimation run completed, dropdown presents result.
+Ready for an estimation run. A double click on row executes the estimation run.
 
 ![](/images/RsyncOSX/master/intro/display.png)
 
-Ready for real run. A double click on row actually executes the task.
+Estimation run completed, dropdown presents result.
 
 ![](/images/RsyncOSX/master/intro/realrun.png)
 
+Ready for real run. A double click on row actually executes the task.
+
 ## The --delete parameter
 
-Caution about RsyncGUI and the --delete parameter. The --delete is a default parameter. The parameter instructs
-rsync to keep the source and destination synchronized (in sync). The parameter instructs rsync to delete all files in the destination which are not present in the source.
-
-Every time you add a new task to RsyncGUI, execute an estimation run (--dry-run) and inspect the result before executing a real
-run. If you by accident set an empty catalog as source RsyncGUI (rsync) will delete all files in the destination.
+Caution about RsyncGUI and the `--delete` parameter. The `--delete` is a default parameter. The parameter instructs
+rsync to keep the source and destination synchronized (in sync). The parameter instructs rsync to delete all files in the destination which are not present in the source. Every time you add a new task to RsyncGUI, execute an estimation run `--dry-run` and inspect the result before executing a real run. If you by accident set an empty catalog as source RsyncGUI (rsync) will delete all files in the destination.
