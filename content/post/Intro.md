@@ -74,5 +74,5 @@ First select **one** task in Synchronize view, applies to (1) and (2) below.
 There are a couple of short YouTube videos of RsyncOSX:
 
 - [getting](https://youtu.be/MrT8NzdF9dE) RsyncOSX and installing it
-  - the video also shows how to create the two local ssh certificates for password less logins to remote server
+  - the video also shows how to create the two local ssh certificates for passwordless logins to remote server
 - adding and executing the [first backup](https://youtu.be/8oe1lKgiDx8)

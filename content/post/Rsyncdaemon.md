@@ -6,7 +6,7 @@ tags = ["daemon"]
 categories = ["remotelogins"]
 description = "How to setup remote logins by rsync daemon. There are also two methods for setting up."
 +++
-It is advised to utilize ssh keys for setup of password less logins for rsync. But it is possible to setup rsync and password less login by utilize a rsync daemon setup.
+It is advised to utilize ssh keys for setup of passwordless logins for rsync. But it is possible to setup rsync and passwordless login by utilize a rsync daemon setup.
 
 With a few tweaks it is possible to get RsyncOSX working with rsync daemon. Be aware of not utilizing ssh, transfer of data is **not** encrypted. This is might not a problem on a local network, but I would not advise it on a public network (depends on what data is synchronized).
 

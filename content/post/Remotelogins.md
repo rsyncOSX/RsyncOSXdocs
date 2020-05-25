@@ -4,7 +4,7 @@ date = "2020-04-17"
 title =  "Remote servers and passwordless logins"
 tags = ["passwordless"]
 categories = ["remotelogins"]
-description = "There are two ways to setup password less logins to remote servers."
+description = "There are two ways to setup passwordless logins to remote servers."
 +++
 There are two ways to setup passwordless logins to a remote server and RsyncOSX supports both. It is advised to use ssh and ssh-keys, method one below, because the traffic is encrypted and it is considered more secure.
 

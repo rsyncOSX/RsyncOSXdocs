@@ -4,7 +4,7 @@ date = "2020-04-16"
 title =  "Passwordless logins by ssh-keys - assisted by RsyncOSX."
 tags = ["ssh"]
 categories = ["remotelogins"]
-description = "RsyncOSX can guide you in setting up password less login by ssh-keys."
+description = "RsyncOSX can guide you in setting up passwordless login by ssh-keys."
 +++
 If you already have setup ssh utilizing ssh keys there is no need to follow the instructions below. RsyncOSX is depended upon passwordless logins for synchronizing data to remote servers. The instructions below only applies if passwordless login is not setup.
 

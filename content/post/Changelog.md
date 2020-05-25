@@ -356,7 +356,7 @@ to execute scheduled backups, the menu appis a minimal version of RsyncOSX only 
 - released 9 January 2018
 - a couple of minor bugfixes
 	- in logging
-	- in the ssh-tab for assisting setup of password less logins, when port number in use there is a bug, thx to [pierre-fromager](https://github.com/pierre-fromager) reporting the bug
+	- in the ssh-tab for assisting setup of passwordless logins, when port number in use there is a bug, thx to [pierre-fromager](https://github.com/pierre-fromager) reporting the bug
 	- bug in copy files when ssh port in use
 - new function for **quick backups**, sort and select which tasks to be executed in one go
 - new function for **info about backup locations**
