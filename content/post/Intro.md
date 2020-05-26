@@ -33,41 +33,37 @@ Go back to the Synchronize tab, select the task and you are ready to go.
 
 There are **four** types of how to synchronize source and destination (backup):
 
-(1) **synchronize** source and backup location, any changed and deleted files in backup location will either be overwritten or deleted
-- this is the standard synchronize task in RsyncOSX, after execution source and destination (backup) is 100% in sync if there are no --exclude parameters to rsync
+(1) synchronize source and backup location, any changed and deleted files in backup location will either be overwritten or deleted
+- this is the default synchronize task in RsyncOSX, after execution source and destination (backup) is 100% in sync if there are no --exclude parameters to rsync
 - an --exclude parameter instructs rsync to disregard files, catalogs and patterns included in the parameter
 
-(2) **snapshot**  tasks, [a snapshot](/post/Snapshots) of previous synchronize task is stored before a new task is executed, number of snapshots are user defined, copy deleted or previous versions of files from snapshots
+(2) snapshot  tasks, [a snapshot](/post/Snapshots) of previous synchronize task is stored before a new task is executed, number of snapshots are user defined, copy deleted or previous versions of files from snapshots
 
-(3) **synchronize** and **save changed** and **deleted** files in a separate backup catalog by [adding user parameters](/post/userparameters/) to rsync
+(3) synchronize and save changed and deleted files in a separate backup catalog by [adding user parameters](/post/userparameters/) to rsync
 
-(4) **syncremote** task, this is a kind of restore task, syncing data from a **remote server** to local disk on Mac
+(4) syncremote task, this is a kind of restore task, syncing data from a remote server to local disk on Mac
 - please pay attention before using this task, if you syncremote an empty source it will delete all local files
 
 ## How to execute any type of tasks
 
-All tasks can be **aborted** at any time by selecting the stop button.
-
 ![](/images/RsyncOSX/master/intro/menu1.png)
 
-First select **one** task in Synchronize view, applies to (1) and (2) below.
+Tasks can be aborted at any time by selecting the stop button.
 
-(1) single task, a **double click** on a task executes first a test run (--dry-run), the next double click executes the real run
-
-(2) **⌘R** (execute one task now) - shortcut for immediate execute the selected task
-- if a task is executed by shortcut ⌘R, a select of another task during execution will terminate (abort) the current task
-
-(3) **⌘B** (execute all tasks now) - shortcut for **automatic executing** backups or by select the double arrow, the command checks tasks for files to be synchronized and automatically executes those tasks
+1. a `double click` on a task executes first a test run, the next double click executes the real run
+2. `⌘R`shortcut for immediate execute the selected task (no test run)
 
 ![](/images/RsyncOSX/master/intro/menu4.png)
 
-(4) **quick backup**, select the marked arrow button in menu bar
+3. `⌘B` shortcut for automatic synchronizing
 
 ![](/images/RsyncOSX/master/intro/menu2.png)
 
-- start with dynamic view of local vs remote storage, automatically selecting tasks with files to be synchronized
+4. `⌘T` shortcut for quick synchronizing
 
-(5) **schedule** a task, scheduled tasks are executed according to date and time, either once, daily or weekly
+![](/images/RsyncOSX/master/intro/menu3.png)
+
+5. execute the selected tasks (one or more)
 
 ## YouTube videos
 
