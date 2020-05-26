@@ -13,9 +13,9 @@ RsyncOSX is [signed and notarized](/post/notarized/). There is a short [intro](/
 ### Install RsyncOSX.app and  RsyncOSXsched.app
 
 The command
-```
-shasum ~/pathtodownload/RsyncOSX-version.dmg
-```
+
+`shasum ~/pathtodownload/RsyncOSX-version.dmg`
+
 will print the shasum for the .dmg file. For your own safety verify the shasums.
 ```
 RsyncOSX-6.2.6.dmg: 198d371b38e25c4078dc94621dba3ed12d593528

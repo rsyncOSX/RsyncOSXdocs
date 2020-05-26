@@ -10,10 +10,10 @@ description = "If you pull RsyncOSX from GitHub you can easy compile your own ve
 
 RsyncOSX is only depended upon Cocoa and  Foundation classes which are standard Swift libraries.
 
-There are two ways to compile, either in Xcode directly or utilize make from commandline in RsyncOSX catalog. To use make require Xcode command line utilities to be installed. Execute the following command and follow the instructions.
-```
-xcode-select --install
-```
+There are two ways to compile, either in Xcode or utilize `make` from commandline in RsyncOSX catalog. To use make require Xcode command line utilities to be installed. Execute the following command and follow the instructions.
+
+`xcode-select --install`
+
 ### Remove signing credentials or replace
 
 To compile you have to either remove signing or replace signing credentials. To remove or replace select Target RsyncOSX and tab "Signing and Capabilities". The first view is my signing credentials.
@@ -30,18 +30,17 @@ There are two utilities used, [SwiftLint](https://github.com/realm/SwiftLint) an
 
 ![](/images/RsyncOSX/master/compile/scripts.png)
 
-Delete the build scripts.
+Remove the build scripts.
 
 ![](/images/RsyncOSX/master/compile/nonscripts.png)
 
 ### Ready to Compile
 
-Either execute RsyncOSX directly in Xcode or utilize make. Go to the catalog top RsyncOSX and execute the following commands.
-```
-make clean
-make
-```
-After compiling is completed the RsyncOSX.app is build and saved in:
+Either execute RsyncOSX directly in Xcode or utilize make. Go to the catalog top RsyncOSX and execute the following command.
+
+`make clean & make`
+
+After the compiling is completed the RsyncOSX.app is build and saved in:
 
 `RsyncOSX/Build/Products/Release/RsyncOSX.app`
 
