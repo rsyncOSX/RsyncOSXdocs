@@ -37,6 +37,14 @@ If your plan is to use RsyncOSX as your main tool for backup of files, please in
 - added clean logfile in view output from rsync
 - some minor fixes and cleanups
 
+Shasums
+
+```
+RsyncOSX 6.3.0.dmg: 2f062df9d68b760de702851489e8986371a644b6
+RsyncOSXsched 6.3.0.dmg: 91fea19d902a4ee8727f0555f781eb7af8a9742b
+rsync313.dmg: 568ccf4d0981223f51e1c54941bc6cbc87988ae8
+```
+
 ## Version 6.2.6
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.2.6) 23 April 2020.
