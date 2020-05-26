@@ -28,6 +28,15 @@ RsyncOSX supports synchronize and snapshots of files.
 
 If your plan is to use RsyncOSX as your main tool for backup of files, please investigate and understand the limits of it. RsyncOSX is quite powerful, but it is might not the primary backup tool for the average user of macOS.
 
+## Version 6.3.0
+
+[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.3.0) 26 May 2020
+
+- added counting numbers in quick backup
+- updatet a more precise counting when rsync is transferring files
+- added clean logfile in view output from rsync
+- some minor fixes and cleanups
+
 ## Version 6.2.6
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.2.6) 23 April 2020.
