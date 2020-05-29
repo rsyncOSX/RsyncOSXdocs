@@ -28,6 +28,14 @@ RsyncOSX supports synchronize and snapshots of files.
 
 If your plan is to use RsyncOSX as your main tool for backup of files, please investigate and understand the limits of it. RsyncOSX is quite powerful, but it is might not the primary backup tool for the average user of macOS.
 
+## Version 6.3.1 release candidate
+
+[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.3.0) 29 May 2020
+
+The only change in this rc is user selected ssh keypath and identity file. Please see info about [user selected ssh keypath and identity file](https://rsyncosx.netlify.app/post/ssh/).
+
+Users of version 6.3.0 who does not require user selected ssh keypath and identity file should not update. The release candidate is signed and notarized.
+
 ## Version 6.3.0
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.3.0) 26 May 2020
