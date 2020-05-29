@@ -6,6 +6,8 @@ tags = ["ssh"]
 categories = ["remotelogins"]
 description = "RsyncOSX can guide you in setting up passwordless login by ssh-keys."
 +++
+**From next version** the RsyncOSX assist in setting up ssh is changed. For some details see last on this page. The changes does not change anything for current users, but enables users to set their own ssh keypath and identity file.
+
 If you already have setup ssh utilizing ssh keys there is no need to follow the instructions below. RsyncOSX is depended upon passwordless logins for synchronizing data to remote servers. The instructions below only applies if passwordless login is not setup.
 
 If utilizing RsyncOSX on local attached disks this does not apply.
@@ -68,3 +70,26 @@ After public key(s) are copied it is important to set correct permissions on rem
 - Check dsa - as above but for the dsa public key
 
 ![ssh](/images/RsyncOSX/master/ssh/ssh3.png)
+
+## Next version of RsyncOSX
+
+From next version of RsyncOSX (version 6.3.x) there is a change in how RsyncOSX assist in setting up private and public ssh key pair. The current version of RsyncOSX does not allow the user to select an alternative private key to use with RsyncOSX. There is also a change in which ssh tools used in RsyncOSX to assist in setting up. The following ssh tools are used: `ssh-keygen` and `ssh-copy-id`. Support for DSA key is also removed. RsyncOSX only assist in setting up RSA based key.
+
+The ssh functions assist in two methods:
+
+- private and public ssh key pair based upon default ssh values for RSA based key `~/.ssh/id_rsa`
+- private and public ssh key pair based upon user selected values as `~/.ssh_rsyncosx/rsyncosx`
+
+The following is command for creating a new, alternative private and public ssh key pair:
+
+`ssh-keygen -t rsa -N "" -f ~/.ssh_rsyncosx/rsyncosx`
+
+where `~/.ssh_rsyncosx/rsyncosx` is set by the user.
+
+![ssh](/images/RsyncOSX/master/ssh/ssh4.png)
+
+![ssh](/images/RsyncOSX/master/ssh/ssh5.png)
+
+`-e  "ssh -i ~/.ssh_rsyncosx/rsyncosx -p 22"`
+
+`chmod 700 ~/.ssh_rsyncosx`
