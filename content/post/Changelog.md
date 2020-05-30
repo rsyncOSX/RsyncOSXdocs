@@ -515,7 +515,7 @@ There is a rsync-3.1.2.dmg included which is a built version of latest rsync. To
 ## Version 4.3.0
 
 * released 8 May 2017
-* assist in setup of [passwordless logins](/post/PasswordlessLogin)
+* assist in setup of passwordless logins
 	* see [doc](/post/ssh) - documentation in progress
 * couple of bugfixes
 
@@ -523,7 +523,7 @@ There is a rsync-3.1.2.dmg included which is a built version of latest rsync. To
 
 **Bug** in version 4.2.5 causes RsyncOSX to crash if RsyncOSX is minimized during execution of a task. Bug is fixed and will be released in version 4.3.0.
 
-**Next** release (version 4.3.0) will probably include some functionality for assisting setup of [passwordless logins](/post/PasswordlessLogin). Don't know when it will be released. Summer is coming and further development of RsyncOSX will be slowed down during summer. I am currently working on this release now and (slowly) progressing...
+**Next** release (version 4.3.0) will probably include some functionality for assisting setup of passwordless logins. Don't know when it will be released. Summer is coming and further development of RsyncOSX will be slowed down during summer. I am currently working on this release now and (slowly) progressing...
 
 * released 23 Apr 2017
 * minor bugfixes and cleanup of code
