@@ -81,7 +81,7 @@ There is a check and QA of ssh keypath and identityfile. When enabling user sele
 
 `~/.mynewsshcatalog/mynewkey`
 
-The prefix has to be `~/`. If not adding the prefix RsyncOSX will automatically add it for you. It is not required to be a `.` catalog.
+The prefix has to be `~` followed by a `/`. If not adding the prefix RsyncOSX will automatically add it for you. It is not required to be a `.` catalog. The check verify that the ssh keypath has the prefix `~` and at least two `/`.
 
 If global ssh parameters are set, it applies to all configurations. It is possible to set other ssh values on each task.
 
