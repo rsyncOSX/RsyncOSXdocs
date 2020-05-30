@@ -6,21 +6,26 @@ description = "If you want some more info about RsyncOSX there are some resource
 tags = ["documents"]
 categories = ["userdoc"]
 +++
-### What is RsyncOSX?
+#### What is RsyncOSX?
 
 RsyncOSX is a GUI ontop of the command line utility rsync. No more no less. Rsync is a file-based synchronization and backup tool. RsyncOSX supports both synchronize and snapshot tasks. There is no custom solution for the synchronized archive. And you can quit utilizing RsyncOSX (and rsync) at any time and still have access to all synchronized files.
 
  - [getting and installing RsyncOSX](/post/rsyncosx/)
  - [there is a changelog](/post/changelog/)
- - [some info about signing and notarizing of RsyncOSX](/post/notarized/)
+ - [signing and notarizing of RsyncOSX](/post/notarized/)
 
 ![](/images/RsyncOSX/master/intro/main.png)
 
-### Remote servers
+#### Remote servers
 
-Using RsyncOSX for synchronize files to remote servers [require to setup passwordless logins](/post/remotelogins/). It is not possible to add login credentials during execution of any tasks.
+Using RsyncOSX for synchronize files to remote servers require some setup. It is not possible to add login credentials during execution of any tasks.
+
+- [there are two options to setup passwordless logins](/post/remotelogins/)
+- the preferred [setup by ssh keys](/post/ssh/)
+- and a [rsync daemon setup](/post/rsyncdaemon/)
 
 #### Intro
+
 - a short [intro to RsyncOSX](/post/intro/)
 
 #### Add and execute single tasks

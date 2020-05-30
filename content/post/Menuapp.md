@@ -3,7 +3,7 @@ author = "RsyncOSX"
 date = "2020-04-16"
 title =  "Menuapp"
 tags = ["schedule"]
-categories = ["synchronize"]
+categories = ["synchronize","scheduling"]
 description = "The menu app for executing scheduled tasks."
 +++
 This is the menu app (RsyncOSXsched.app) for executing scheduled tasks in RsyncOSX. Scheduled tasks are added in RsyncOSX. Quit RsyncOSX and let the menu app take care of executing the scheduled tasks. RsyncOSX does **not** execute scheduled tasks. Scheduled tasks are only added and deleted in RsyncOSX.

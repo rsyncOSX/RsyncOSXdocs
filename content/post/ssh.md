@@ -3,7 +3,7 @@ author = "RsyncOSX"
 date = "2020-04-16"
 title =  "Passwordless logins by ssh-keys - assisted by RsyncOSX."
 tags = ["ssh"]
-categories = ["remotelogins"]
+categories = ["remotelogins","ssh keypath and identity file"]
 description = "RsyncOSX can guide you in setting up passwordless login by ssh-keys."
 +++
 The RsyncOSX function for assisting in setting up ssh is changed in **release candidate version 6.3.1**. The new feature does not change anything for current users, but enables users to set their own ssh keypath and identity file. It is advised to utilize the release candidate if you want RsyncOSX to assist in setting up passwordless logins by ssh keys.

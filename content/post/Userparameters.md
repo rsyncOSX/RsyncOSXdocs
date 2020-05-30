@@ -3,17 +3,17 @@ author = "RsyncOSX"
 date = "2020-04-16"
 title =  "User selected rsync parameters"
 tags = ["user"]
-categories = ["rsyncparameters"]
+categories = ["rsyncparameters","user selected rsync parameters"]
 description = "RsyncOSX allows the user to set parameters to rsync."
 +++
-The website LibreByte has written an article [16 Practical examples of the rsync command](http://www.librebyte.net/en/gnulinux/14-practical-examples-of-the-rsync-command/). One of the examples is instructing rsync to store backups of files in a backup folder and rename old files by a date suffix. Rsync utilizes a ton of parameters. RsyncOSX has only presented a few. Parameters are normally constructed as:
+Rsync utilizes a ton of parameters. RsyncOSX has only presented a few. Parameters are normally constructed as:
 
 - --parameter=value `--exclude-from=/Volumes/home/user/exclude-list.txt`
 - --parameter `--stats`, `--dry-run`
 
 For a full list of parameters to rsync please see the [rsync docs](https://download.samba.org/pub/rsync/rsync.html).
 
-## Backup catalog by parameter to rsync
+#### Backup catalog by parameter to rsync
 
 You can instruct rsync to save changed and deleted files in a separate backup catalog ahead of the change. This feature is utilized by setting the following parameters:
 
@@ -23,7 +23,7 @@ You can instruct rsync to save changed and deleted files in a separate backup ca
 
 ![](/images/RsyncOSX/master/rsync/rsync.png)
 
-### Suffix on changed and deleted files
+#### Suffix on changed and deleted files
 
 Rsync can also set a time stamp as suffix on files. This might be useful if there are several revisions of files. The --suffix parameter set suffix on files, suffix can be set on files together with the --backup parameter. One suffix might rename files which are either deleted or replaced newer files with a trailing date and time stamp.
 
@@ -40,12 +40,14 @@ I have experienced some variations regarding the suffix. If you want to use suff
 
 The parameters in picture (below) instructs rsync to save changed files in catalog ../backup_Directory (relative to destination catalog) and suffix the backup file with timestamps. The above is enabled or disabled by select the backup button. The user might change the backup catalog. The backup catalog can either be absolute path or relative path. Default backup catalog is ../backup_Directory.
 
-## Passing user selected parameters to rsync
+#### Passing user selected parameters to rsync
 
 The user can set own parameters by using user in dropdown menu. Preset parameters are:
 
-`user`  - user selected parameter
+- `user`  - user selected parameter
 
-RsyncOSX passes whatever set by user to rsync, parameters must be either `--parameter=value` or `--parameter`
+RsyncOSX passes whatever set by user to rsync, parameters must be either:
+- `--parameter=value` or
+- `--parameter`
 
 `delete` - delete the parameterdeletes the parameter when OK button is selected
