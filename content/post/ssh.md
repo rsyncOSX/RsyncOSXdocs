@@ -11,11 +11,11 @@ The RsyncOSX function for assisting in setting up ssh is changed in **release ca
 `-e  "ssh -i ~/.ssh_rsyncosx/rsyncosx -p NN"` where:
 
 - `-i` is the ssh keypath and identityfile
-- `-p` is the port number ssh communicates throug, default port 22
+- `-p` is the port number ssh communicates through, default port 22
 
-If global ssh parameters are set, it applies to all configurations. It is possible to set other ssh values on each task.
+If global ssh parameters are set, it applies to **all configurations**. It is possible to set other ssh values on each task.
 
-## Enable user selected ssk keypath and identityfile
+## ssh keypath and identityfile
 
 There is a check and QA of ssh keypath and identityfile. When enabling user selected ssh keypath and identityfile please make sure it is in compliance with:
 
@@ -23,9 +23,7 @@ There is a check and QA of ssh keypath and identityfile. When enabling user sele
 
 The prefix has to be `~` followed by a `/`. If not adding the prefix RsyncOSX will automatically add it for you. It is not required to be a `.` catalog. The check verify that the ssh keypath has the prefix `~` and at least two `/`.
 
-The release candidate version 6.3.1 adds a change in how RsyncOSX assist in setting up private and public ssh key pair. The current version of RsyncOSX does not allow the user to select an alternative private key to use with RsyncOSX. There is also a change in which ssh tools used in RsyncOSX to assist in setting up. The following ssh tools are used: `ssh-keygen` and `ssh-copy-id`.
-
-Support for DSA key is removed. RsyncOSX only assist in setting up RSA based key.
+The following ssh tools are used: `ssh-keygen` and `ssh-copy-id`. RsyncOSX only assist in setting up RSA based key.
 
 The ssh functions assist in two methods:
 
@@ -38,7 +36,10 @@ The following is the command for creating a new, alternative private and public 
 
 `ssh-keygen -t rsa -N "" -f ~/.ssh_rsyncosx/rsyncosx`
 
+- `-t rsa ""` generates a RSA based key-pair
+- `-N ""` sets no password
 - where `~/.ssh_rsyncosx/rsyncosx` is set by the user
+
 
 The following command copy the newly created public key to the server:
 
