@@ -141,6 +141,21 @@ For example, if your css files are `static/css/custom.css` and `static/css/custo
 If you add a key of `show_reading_time` true to either the Config Params, a page or section's front matter, articles will show the reading time and word count.
 
 
+### Adding Scripts to the Page Head
+
+Some scripts need to be added within the page head. To add your own scripts to the page head, simply insert them into the `head-additions.html` partial located in the `layouts/partials` folder.
+
+
+### Logo
+
+You can replace the title of your site in the top left corner of each page with your own logo. To do that put your own logo into the `static` directory of your website, and add the `site_logo` parameter to the site params in your config file. For example:
+
+```
+[params]
+  site_logo = "img/logo.svg"
+```
+
+
 ### Nearly finished
 
 In order to see your site in action, run Hugo's built-in local server.
@@ -160,7 +175,8 @@ HUGO_ENV=production hugo
 Note: The above command will not work on Windows. If you are running a Windows OS, use the below command:
 
 ```
-hugo --environment production
+set HUGO_ENV=production
+hugo
 ```
 
 ## Contributing

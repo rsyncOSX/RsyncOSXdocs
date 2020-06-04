@@ -3,7 +3,7 @@ author = "RsyncOSX"
 date = "2020-04-16"
 title =  "A short intro to RsyncOSX"
 tags = ["intro"]
-categories = ["userdoc"]
+categories = ["introduction"]
 description = "How to get started with RsyncOSX."
 +++
 All configurations to execute are listed in table. From the Synchronize view most actions (edit configurations, adding parameters to rsync, delete configurations) regarding configurations are executed. Configurations can be saved in user selected profiles. The profile in use is shown in label Profile: profilname. Information about new or delete files and numbers remote of directories are only available if version 3.x of rsync is used.
