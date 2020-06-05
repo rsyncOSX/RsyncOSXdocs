@@ -4,7 +4,7 @@ date = "2020-04-16"
 title =  "Add configurations"
 description = "How to enter synchronize tasks into RsyncOSX."
 tags = ["add"]
-categories = ["add configurations"]
+categories = ["add configurations","configurations"]
 +++
 Adding a configuration is easy. A configuration require minimum a **local catalog** and a **remote catalog**. After entering information about a configuration select the Add button to add it to RsyncOSX. Continue adding new configurations until completed and configurations are saved to permanent storage after each entry.
 

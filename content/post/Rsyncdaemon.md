@@ -2,7 +2,7 @@
 author = "RsyncOSX"
 date = "2020-04-16"
 title =  "Rsync daemon setup"
-tags = ["daemon"]
+tags = ["passwordless"]
 categories = ["remotelogins","rsync daemon"]
 description = "How to setup remote logins by rsync daemon. There are also two methods for setting up."
 +++

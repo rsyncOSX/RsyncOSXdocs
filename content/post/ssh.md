@@ -2,7 +2,7 @@
 author = "RsyncOSX"
 date = "2020-04-16"
 title =  "Passwordless logins by ssh-keys - assisted by RsyncOSX."
-tags = ["ssh"]
+tags = ["passwordless"]
 categories = ["remotelogins","ssh keypath and identity file"]
 description = "RsyncOSX can guide you in setting up passwordless login by ssh-keys."
 +++
@@ -15,7 +15,7 @@ The RsyncOSX function for assisting in setting up ssh is changed in **release ca
 
 If global ssh parameters are set, it applies to **all configurations**. It is possible to set other ssh values on each task.
 
-## ssh keypath and identityfile
+### ssh keypath and identityfile
 
 There is a check and QA of ssh keypath and identityfile. When enabling user selected ssh keypath and identityfile please make sure it is in compliance with:
 

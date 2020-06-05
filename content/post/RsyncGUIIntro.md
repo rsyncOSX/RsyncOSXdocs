@@ -3,7 +3,7 @@ author = "RsyncOSX"
 date = "2020-04-01"
 title =  "A short intro to RsyncGUI"
 tags = ["intro"]
-categories = ["rsyncgui"]
+categories = ["rsyncgui","intro"]
 description = "RsyncGUI is the Apple Mac Store version of RsyncOSX."
 +++
 Please see caution about using RsyncGUI and the --delete parameter to rsync at bottom of this page. There is also [a first start intro](/post/rsyncguifirststart) about RsyncGUI.

@@ -2,8 +2,8 @@
 author = "RsyncOSX"
 date = "2020-04-16"
 title =  "Scheduled task"
-tags = ["schedule", "menu app"]
-categories = ["synchronize"]
+tags = ["schedule"]
+categories = ["synchronize", "schedule", "menu app"]
 description = "Tasks can be scheduled for executing."
 +++
 The [menu app](/post/menuapp/) to RsyncOSX is responsible for executing scheduled tasks. Adding and deleting scheduled tasks are done within RsyncOSX. By selecting a row and choose schedule applies a scheduled. All schedules is set to start at selected date.
