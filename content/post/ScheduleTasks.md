@@ -16,6 +16,8 @@ There are three choices for schedules:
 - `daily` is executed _every 24-hour_ from a selected date
 - `weekly` as for daily, but _every 7 day_ from a selected date
 
+The user can set multiple schedules on one task.
+
 Select task (row), set the start date and time and select the schedule (once, daily or weekly) to set up a schedule. The schedule is a stack of tasks. The top most element is the first task to be executed. RsyncOSX keeps track of the first task only. All other scheduled tasks remains on stack until popped of.
 
 The stack is a reference only to a configuration (by a hidden key). The user can change anything regarding a configuration up to the moment the task is executed by schedule. If a configuration is deleted all scheduled tasks connected to configuration is deleted as well.
@@ -23,3 +25,11 @@ The stack is a reference only to a configuration (by a hidden key). The user can
 The [menu app](/post/menuapp/) should be started from RsyncOSX.
 
 The yellow flag in column Sched indicates there are active scheduled tasks. The flag is either yellow or green. Green is next task within one hour.
+
+Remember, only the menu app which executes scheduled tasks. Select the calendar icon to start the menu app and automaticall close RsyncOSX.
+
+![](/images/RsyncOSX/master/schedule/schedule1.png)
+
+In the schedule view start, stop and delete schedules.
+
+![](/images/RsyncOSX/master/schedule/schedule2.png)
