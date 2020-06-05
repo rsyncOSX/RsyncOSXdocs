@@ -2,7 +2,7 @@
 author = "RsyncOSX"
 date = "2020-04-16"
 title =  "Scheduled task"
-tags = ["schedule"]
+tags = ["synchronize","scheduling","menu app"]
 categories = ["synchronize", "schedule", "menu app"]
 description = "Tasks can be scheduled for executing."
 +++
