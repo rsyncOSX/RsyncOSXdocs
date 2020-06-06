@@ -3,7 +3,7 @@ author = "RsyncOSX"
 date = "2020-04-16"
 title =  "Configurations (tasks)"
 tags = ["configurations"]
-categories = ["development"]
+categories = ["source code"]
 description = "The swift class and struct for configurations."
 +++
 The configurations are read from the permanent storage and kept in memory until a new profile is loaded or RsyncOSX quits. Each record (one task) are read from permanent storage as a NSDictionary item, copied to a Configuration and loaded into an Array<Configuration>.

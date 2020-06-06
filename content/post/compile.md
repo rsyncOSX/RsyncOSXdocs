@@ -3,7 +3,7 @@ author = "RsyncOSX"
 date = "2020-04-17"
 title =  "How to compile RsyncOSX"
 tags = ["compile"]
-categories = ["development"]
+categories = ["source code"]
 description = "If you pull RsyncOSX from GitHub you can easy compile your own version."
 +++
 ### Before compiling

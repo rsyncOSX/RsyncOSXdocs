@@ -3,7 +3,7 @@ author = "RsyncOSX"
 date = "2020-04-01"
 title =  "First time start RsyncGUI"
 tags = ["first start"]
-categories = ["rsyncgui"]
+categories = ["general information"]
 description = "What to do the first time you start RsyncGUI."
 +++
 This is a short guide what to do the first start of RsyncGUI, the Mac App Store version of RsyncOSX. This guide is primarily for executing synchronizing tasks to **remote servers**. It includes how to setup passwordless login to remote server. RsyncGUI only support  default version of rsync which is included in macOS. The default version of rsync in macOS is old, version 2.6.9, protocol version 29 released in nov 2006. This version of rsync does not support snapshot tasks. If you want to utilize [snapshot tasks](/post/snapshots) please use RsyncOSX instead.

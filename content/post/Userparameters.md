@@ -2,8 +2,8 @@
 author = "RsyncOSX"
 date = "2020-04-16"
 title =  "User selected rsync parameters"
-tags = ["user"]
-categories = ["rsyncparameters","user selected rsync parameters"]
+tags = ["user rsync parameters"]
+categories = ["rsyncparameters"]
 description = "RsyncOSX allows the user to set parameters to rsync."
 +++
 Rsync utilizes a ton of parameters. RsyncOSX has only presented a few. Parameters are normally constructed as:

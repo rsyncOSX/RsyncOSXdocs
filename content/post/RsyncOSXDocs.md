@@ -3,8 +3,8 @@ author = "RsyncOSX"
 title = "How to use RsyncOSX"
 date = "2020-04-24"
 description = "If you want some more info about RsyncOSX there are some resources here."
-tags = ["documents"]
-categories = ["general information","summary"]
+tags = ["summary"]
+categories = ["general information"]
 +++
 #### What is RsyncOSX?
 

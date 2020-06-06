@@ -3,7 +3,7 @@ author = "RsyncOSX"
 date = "2020-04-16"
 title =  "License"
 tags = ["license"]
-categories = ["general information";"license"]
+categories = ["general information"]
 description = "The License of RsyncOSX."
 +++
 The MIT License (MIT)

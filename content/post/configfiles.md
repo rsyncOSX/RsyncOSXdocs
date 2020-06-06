@@ -2,7 +2,7 @@
 author = "RsyncOSX"
 date = "2020-04-16"
 title =  "RsyncOSX config files"
-tags = ["files"]
+tags = ["RsyncOSX files"]
 categories = ["general information"]
 description = "Where does RsyncOSX stores the various configuration files."
 +++

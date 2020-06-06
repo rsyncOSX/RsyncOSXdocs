@@ -1,9 +1,9 @@
 +++
 author = "RsyncOSX"
 date = "2020-04-16"
-title =  "Executing single tasks, edit tasks"
-tags = ["single task"]
-categories = ["synchronize", "single task"]
+title =  "Executing single tasks"
+tags = ["single task","edit tasks"]
+categories = ["synchronize"]
 description = "Execute single task, first a verify run and then the real run."
 +++
 In Synchronize view (which is the opening view) tasks can be executed as **singletasks**. Execute single tasks requires a couple of double clicks: one for **estimation** run and the second for **executing** the real task. The output from rsync is presented after each run.

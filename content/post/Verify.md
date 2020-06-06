@@ -3,7 +3,7 @@ author = "RsyncOSX"
 date = "2020-04-16"
 title =  "Verify and changed files"
 tags = ["verify"]
-categories = ["rsync","verify"]
+categories = ["rsync"]
 description = "Sometimes you want to verify the synchronized data."
 +++
 The view is depended upon selecting a row in Synchronize view. When the row is selected the numbers of source and remote destination are automatically collected.

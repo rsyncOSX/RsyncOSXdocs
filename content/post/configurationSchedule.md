@@ -3,7 +3,7 @@ author = "RsyncOSX"
 date = "2020-04-16"
 title =  "Schedules and log records"
 tags = ["schedules","logs"]
-categories = ["development"]
+categories = ["source code"]
 description = "The swift class and struct for schedules and logs."
 +++
 Schedules including log records are loaded into a separate data structure. Schedules and log records  [ConfigurationSchedule](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ConfigurationSchedule.swift) are linked to [Configuration](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/Configuration.swift) by hiddenID = Int. Schedules including *log records* are saved in a separate XML-file (plist).

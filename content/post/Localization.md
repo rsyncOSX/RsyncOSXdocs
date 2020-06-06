@@ -2,8 +2,8 @@
 author = "RsyncOSX"
 date = "2020-04-16"
 title =  "Localization"
-tags = ["languages"]
-categories = ["localization"]
+tags = ["Localization"]
+categories = ["general information"]
 description = "RsyncOSX speaks several languages."
 +++
 RsyncOSX and the menu app RsyncOSXsched are prepared for localization. Default language for both is English.

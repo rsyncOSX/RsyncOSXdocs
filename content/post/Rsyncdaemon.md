@@ -2,8 +2,8 @@
 author = "RsyncOSX"
 date = "2020-04-16"
 title =  "Rsync daemon setup"
-tags = ["passwordless"]
-categories = ["remotelogins","rsync daemon"]
+tags = ["passwordless","rsync daemon"]
+categories = ["remotelogins"]
 description = "How to setup remote logins by rsync daemon. There are also two methods for setting up."
 +++
 It is advised to utilize ssh keys for setup of passwordless logins for rsync. But it is possible to setup rsync and passwordless login by utilize a rsync daemon setup.

@@ -2,8 +2,8 @@
 author = "RsyncOSX"
 date = "2020-04-17"
 title =  "Documentation of RsyncOSX source"
-tags = ["source code"]
-categories = ["development"]
+tags = ["swift"]
+categories = ["source code"]
 description = "Some internal details about RsyncOSX."
 +++
 ### Compile the code
