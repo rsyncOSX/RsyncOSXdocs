@@ -12,7 +12,7 @@ In Synchronize view (which is the opening view) tasks can be executed as **singl
 
 There are three options for editing after selecting a task in row:
 - edit task
-- parameters (to rsync, see [parameters](/post/parameters/))
+- parameters (to rsync, see [parameters](/post/userparameters/))
 - delete task
 
 After selecting a row choosing one of the above pops up a new view according to selection. Select Edit task to editing basic information about task. Select Delete task to delete the selected row (task).
