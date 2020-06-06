@@ -5,7 +5,7 @@ title =  "User configuration"
 tags = ["userconfig"]
 categories = ["userconfig"]
 +++
-There are only a few parameters to choose in user configuration. Configurations are saved to permanent store. This applies for version 6.1.5 or greater of RsyncOSX.
+There are only a few parameters to choose in user configuration. Configurations are saved to permanent store. This applies for version 6.3.x and greater of RsyncOSX.
 
 ![](/images/RsyncOSX/master/userconfig/user.png)
 
@@ -32,8 +32,12 @@ If both apps are installed in /Applications there is no need for setting paths. 
 
 ### Logging
 
-- detailed logging on or off
-   	- if detailed logging is on all backup tasks are logged, if off only last date for task is updated in Synchronize view
+Detailed logging on or off
+- if detailed logging is on all backup tasks are logged, if off only last date for task is updated in Synchronize view
+
+### Halt on error
+
+If RsyncOSX discover error in output from rsync, operation will terminate if checked. Normally this should not be checked.
 
 ### Logging to file
 
@@ -42,25 +46,37 @@ Logging is saved to permanent store.
 - either minimum (last 10 lines) or full logging of output from rsync, be carful not logging everything, the log file might be big
 - log file is Documents/rsynclog.txt
 
-### Number of days
-
-- Number of days
-  - in Synchronize view tasks older than number of days are marked red
-
 ### Check data when loading
 
 - Check data
 
 The schedule part is refactored. Select a configuration and all schedules are listed. Schedules can be stopped and deleted. Logs can be deleted. Logs are stored by configuration and schedule. There has been a bug in storing logs which creates more records than necessary. By setting check data, RsyncOSX will clean up. The check data flag is **not** persistent and have to be set each time.
 
+### Ssh parameters (global)
+
+The user can set a selected ssh keypath and identityfile. Default values for ssh are `~/.ssh/id_rsa` and portnumber `22`. It is not required to set if default values are used.
+
+- portnumber, which ssh communicates through
+- keypath + identityfile, user selected if other than default
+
+If global values are set, this is what the ssh parameter within the rsync command looks like.
+
+`-e  "ssh -i ~/.ssh_rsyncosx/rsyncosx -p NN"` where:
+
+- `-i` is the ssh keypath and identityfile
+- `-p` is the port number ssh communicates through, default port 22
+
+If global ssh parameters are set, it applies to **all configurations**. It is possible to set other ssh values on each task.
+
+### Number of days
+
+Number of days
+- in Synchronize view tasks older than number of days are marked red
+
 ### Environment
 
-- Enable environment
+Enable environment
 
 It is possible to enter an environment variable to the process which executes the synchronize task. An example of such is :
 
 `"SSH_AUTH_SOCK": "/Users/username/.gnupg/S.gpg-agent.ssh"`
-
-### Halt on error
-
-If RsyncOSX discover error in output from rsync, operation will terminate if checked. Normally this should not be checked.
