@@ -15,9 +15,9 @@ pygmentsUseClasses = true
 pygmentsCodefencesGuessSyntax = true
 
 hasCJKLanguage = false     # has chinese/japanese/korean ? # 自动检测是否包含 中文\日文\韩文
-paginate = 5                                              # 首页每页显示的文章数
+paginate = 7                                              # 首页每页显示的文章数
 disqusShortname = ""      # disqus_shortname
-googleAnalytics = ""      # UA-XXXXXXXX-X
+googleAnalytics = "UA-168706149-1"      # UA-XXXXXXXX-X
 copyright = "RsyncOSX"            # default: author.name ↓        # 默认为下面配置的author.name ↓
 
 [author]                  # essential                     # 必需
@@ -178,14 +178,14 @@ copyright = "RsyncOSX"            # default: author.name ↓        # 默认为�
     wechat = "/path/to/your/wechat-qr-code.png"           # 微信二维码
     alipay = "/path/to/your/alipay-qr-code.png"           # 支付宝二维码
 #
-#  [params.social]
+  [params.social]
 #    a-email = "mailto:your@email.com"
 #    b-stack-overflow = "http://localhost:1313"
 #    c-twitter = "http://localhost:1313"
 #    d-facebook = "http://localhost:1313"
 #    e-linkedin = "http://localhost:1313"
 #    f-google = "http://localhost:1313"
-#    g-github = "http://localhost:1313"
+    g-github = "https://github.com/rsyncOSX/RsyncOSX"
 #    h-weibo = "http://localhost:1313"
 #    i-zhihu = "http://localhost:1313"
 #    j-douban = "http://localhost:1313"
