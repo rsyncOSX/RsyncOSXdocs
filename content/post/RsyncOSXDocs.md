@@ -33,7 +33,6 @@ Using RsyncOSX for synchronize files to remote servers require some setup. It is
 
 ### Parameters to rsync
 
-parameters to rsync:
 - [default parameters](/post/rsyncparameters)
 - [user selected parameters](/post/userparameters/)
 
