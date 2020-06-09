@@ -2,7 +2,7 @@
 author = "RsyncOSX"
 date = 2020-04-23T09:34:29+02:00
 title =  "Install RsyncOSX"
-tags = ["install"]
+tags = ["install","rsync version"]
 categories = ["general information"]
 description = "How to install RsyncOSX."
 +++
