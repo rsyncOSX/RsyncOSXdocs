@@ -16,6 +16,10 @@ The user can set logging on of in userconfig. If there is an error, RsyncGUI log
 
 Logfiles can also be viewed in view for rsync output.
 
+## SSH keypath and identityfile
+
+See more info about [ssh keypath and identityfile](/post/ssh/). If utilized the ssh keypath has to in the form `~/.mynewsshcatalog/mynewkey`. Before saving the path RsyncGUI checks the format. It must be prefixed a `~` and include at least two `/`.
+
 ## Some words about RsyncGUI
 
 RsyncGUI is **not developed to be an easy synchronize and backup tool**. The main purpose is to ease the use of rsync and synchronize files on your Mac to remote FreeBSD and Linux servers. And of course restore files from remote servers. The UI might also be difficult to understand or complex if you don't know what rsync is. It is not required to know rsync but it will ease the use and understanding of RsyncGUI. But it is though, possible to use RsyncGUI by just adding a source and remote backup catalog using default parameters.
