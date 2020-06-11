@@ -18,7 +18,9 @@ Logfiles can also be viewed in view for rsync output.
 
 ## SSH keypath and identityfile
 
-See more info about [ssh keypath and identityfile](/post/ssh/). If utilized the ssh keypath has to in the form `~/.mynewsshcatalog/mynewkey`. Before saving the path RsyncGUI checks the format. It must be prefixed a `~` and include at least two `/`.
+See more info about [ssh keypath and identityfile](/post/ssh/). If utilized the ssh keypath has to be in the form `~/.mynewsshcatalog/mynewkey`. Before saving the keypath, RsyncGUI checks the format. If it is not conformant, there is no saving.
+
+The ssh keypath and identityfile has to be prefixed one `~` and must include at least two `/`.
 
 ## Some words about RsyncGUI
 
