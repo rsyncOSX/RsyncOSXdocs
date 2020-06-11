@@ -36,7 +36,7 @@ rsync313.dmg: 568ccf4d0981223f51e1c54941bc6cbc87988ae8
 
 The only change in this rc is user selected ssh keypath and identity file. Please see info about [user selected ssh keypath and identity file](https://rsyncosx.netlify.app/post/ssh/).
 ```
-RsyncOSX 6.3.1.dmg: cf216f05b8613086df16819e8386d590570647b1
+RsyncOSX 6.3.1.dmg: 8e3cba25efcd6368eeb29cc2ff660bcaf23aa3b3
 RsyncOSXsched 6.3.1.dmg: dc4ccffc8792152a0f28314cf070fdb678dfbf24
 ```
 
