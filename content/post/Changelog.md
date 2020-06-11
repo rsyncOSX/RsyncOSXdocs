@@ -30,9 +30,10 @@ If your plan is to use RsyncOSX as your main tool for backup of files, please in
 
 ### Version 6.3.1 release candidate
 
-[Updated](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.3.0) 30 May 2020
+[Updated](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.3.0) 11 June 2020
 
-The update includes a more robust check of the user selected ssh keypath and identity file.
+- 11 June, the update includes some localization updates and some minor fixes
+- 30 May, the update includes a more robust check of the user selected ssh keypath and identity file.
 
 The only change in this rc is user selected ssh keypath and identity file. Please see info about [user selected ssh keypath and identity file](https://rsyncosx.netlify.app/post/ssh/).
 
@@ -41,7 +42,7 @@ Users of version 6.3.0 who does not require user selected ssh keypath and identi
 Shasums
 
 ```
-RsyncOSX 6.3.1.dmg: cf216f05b8613086df16819e8386d590570647b1
+RsyncOSX 6.3.1.dmg: 8e3cba25efcd6368eeb29cc2ff660bcaf23aa3b3
 RsyncOSXsched 6.3.1.dmg: dc4ccffc8792152a0f28314cf070fdb678dfbf24
 ```
 
