@@ -2,7 +2,7 @@
 author = "RsyncOSX"
 date = "2020-04-01"
 title =  "First time start RsyncGUI"
-tags = ["first start"]
+tags = ["first start","rsyncgui"]
 categories = ["general information"]
 description = "What to do the first time you start RsyncGUI."
 +++

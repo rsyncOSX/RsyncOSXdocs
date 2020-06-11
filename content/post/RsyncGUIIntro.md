@@ -2,7 +2,7 @@
 author = "RsyncOSX"
 date = "2020-04-01"
 title =  "A short intro to RsyncGUI"
-tags = ["introduction"]
+tags = ["introduction","rsyncgui"]
 categories = ["general information"]
 description = "RsyncGUI is the Apple Mac Store version of RsyncOSX."
 +++
