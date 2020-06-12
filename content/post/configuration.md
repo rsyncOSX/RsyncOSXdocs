@@ -17,7 +17,7 @@ Every time configurations are read from permanent store, the rsync arguments are
 
 The class [Configurations.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/Configurations.swift) creates an Array<NSMutableDictionary> which holds all data about [Configuration.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/Configuration.swift) and computed values of rsync arguments. Computed values are **not** saved to permanent storage. They are computed either when RsyncOSX starts or when a new profile is loaded. Any changes (change, delete, new operations) causes a read from permanent store.
 
-### Changes to configurations
+## Changes to configurations
 
 Changes to configurations (change, delete, new, parameters to rsync) is a **three** step operation:
 - any change, delete, new or parameters to rsync operations on configurations are updated in memory (to the Array<Configuration>)

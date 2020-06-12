@@ -13,7 +13,7 @@ Rsync utilizes a ton of parameters. RsyncOSX has only presented a few. Parameter
 
 For a full list of parameters to rsync please see the [rsync docs](https://download.samba.org/pub/rsync/rsync.html).
 
-#### Backup catalog by parameter to rsync
+## Backup catalog by parameter to rsync
 
 You can instruct rsync to save changed and deleted files in a separate backup catalog ahead of the change. This feature is utilized by setting the following parameters:
 
@@ -23,7 +23,7 @@ You can instruct rsync to save changed and deleted files in a separate backup ca
 
 ![](/images/RsyncOSX/master/rsync/rsync.png)
 
-#### Suffix on changed and deleted files
+## Suffix on changed and deleted files
 
 Rsync can also set a time stamp as suffix on files. This might be useful if there are several revisions of files. The --suffix parameter set suffix on files, suffix can be set on files together with the --backup parameter. One suffix might rename files which are either deleted or replaced newer files with a trailing date and time stamp.
 
@@ -40,7 +40,7 @@ I have experienced some variations regarding the suffix. If you want to use suff
 
 The parameters in picture (below) instructs rsync to save changed files in catalog ../backup_Directory (relative to destination catalog) and suffix the backup file with timestamps. The above is enabled or disabled by select the backup button. The user might change the backup catalog. The backup catalog can either be absolute path or relative path. Default backup catalog is ../backup_Directory.
 
-#### Passing user selected parameters to rsync
+## Passing user selected parameters to rsync
 
 The user can set own parameters by using user in dropdown menu. Preset parameters are:
 

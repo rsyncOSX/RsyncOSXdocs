@@ -32,7 +32,7 @@ secrets file = /etc/rsyncd.secrets
 
 The files in [files] is used in the setup.
 
-### Prefix username in RsyncOSX
+## Prefix username in RsyncOSX
 
 - prefix username `rsync://username`
 
@@ -56,7 +56,7 @@ Pull files (restore)
 --password-file=/Users/thomas/passord.txt --exclude=.git --dry-run
 --stats rsync://thomas@10.0.0.41:/files/ /Users/thomas/GitHub/
 ```
-### Double colon ::
+## Double colon ::
 
 By utilizing the double colon `::` is a slightly different syntax which does the same.  
 

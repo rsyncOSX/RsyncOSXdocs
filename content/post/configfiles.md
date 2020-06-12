@@ -8,7 +8,7 @@ description = "Where does RsyncOSX stores the various configuration files."
 +++
 RsyncOSX stores its configurations, schedules, log records and user configuration as [property list files](https://en.wikipedia.org/wiki/Property_list). There are three kinds of files and all are stored in the Documents/Rsync catalog. RsyncOSX evaluates the computer mac serial number at startup and all files are stored in Documents/Rsync/macserialnumber
 
-### Configuration files
+## Configuration files
 
 Default profile stores all configurations in:
 ```
@@ -20,7 +20,7 @@ If profile is utilized:
 ```
 where profile is a sub catalog.
 
-### Schedules and log records
+## Schedules and log records
 
 Default profile stores all Schedules and log records in:
 ```
@@ -30,7 +30,7 @@ If profile is utilized:
 ```
 ~Documents/Rsync/macserialnumber/profile/scheduleRsync.plist
 ```
-### User configurations
+## User configurations
 
 The user configurations is stored in:
 ```

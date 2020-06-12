@@ -24,10 +24,10 @@ The following features are implemented in RsyncOSX:
 - detailed logging of tasks, output from rsync may be copied to macOS clipboard
 - tasks my be aborted at any time
 
-### RsyncGUI - a Sandboxed version of RsyncOSX
+## RsyncGUI - a Sandboxed version of RsyncOSX
 
 RsyncOSX is also released as [RsyncGUI](https://itunes.apple.com/us/app/rsyncgui/id1449707783?l=nb&ls=1&mt=12) on Apple Mac App Store. RsyncGUI only utilize the stock version of `rsync` in macOS. Because of that the snapshots feature is not available in RsyncGUI. Neither is scheduled backups.
 
-### My own NAS setup
+## My own NAS setup
 
 I have setup up my own [NAS](/post/diynas/). I am doing backups by using RsyncOSX and sharing out disk by AFP and SMB.

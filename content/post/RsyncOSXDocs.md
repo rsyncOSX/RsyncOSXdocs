@@ -14,7 +14,7 @@ RsyncOSX is a GUI ontop of the command line utility rsync, no more no less. Rsyn
 
 ![](/images/RsyncOSX/master/intro/main.png)
 
-### Remote servers
+## Remote servers
 
 Using RsyncOSX for synchronize files to remote servers require some setup. It is not possible to add login credentials during execution of any tasks.
 
@@ -22,38 +22,38 @@ Using RsyncOSX for synchronize files to remote servers require some setup. It is
 - the preferred [setup by ssh keys](/post/ssh/)
 - and a [rsync daemon setup](/post/rsyncdaemon/)
 
-### Intro
+## Intro
 
 - a short [intro to RsyncOSX](/post/intro/)
 
-### Add and execute single tasks
+## Add and execute single tasks
 
 - [add configurations](/post/addconfigurations/)
 - [executing single tasks](/post/singletask/)
 
-### Parameters to rsync
+## Parameters to rsync
 
 - [default parameters](/post/rsyncparameters)
 - [user selected parameters](/post/userparameters/)
 
-### Snapshots, quick backup and scheduling
+## Snapshots, quick backup and scheduling
 
 - utilizing the [snapshot feature](/post/snapshots/)
 - utilizing the [quick backup feature](/post/quickbackup/)
 - [automatic backups](/post/automatic/)
 - [scheduling of tasks](/post/scheduletasks/)
 
-### Restore
+## Restore
 
 - [restore of files](/post/restore/)
 
-### Logging, configuration, config files, verify
+## Logging, configuration, config files, verify
 
 - some info about [logging execution of tasks](/post/logging/)
 - some info about [user configuration](/post/userconfiguration/)
 - where does RsyncOSX [stores the config files](/post/configfiles/)
 - [the verify function](/post/verify/)
 
-### Source code and compile
+## Source code and compile
 
 - some info [about the source code and how to compile RsyncOSX](/post/source)

@@ -15,7 +15,7 @@ My knowledge about computer hardware is very limited. The most important objecti
 
 To choose the correct HW as NAS is not an easy task. I have spend some time googling, reading HW-guides and checking for availability of HW. My advise is use some time before buying HW. My local supplier used about four weeks to get the HW I ordered. And it seems like most HW pushers are more focused on desktop computers and MS Windows than dedicated server HW. Not much help to get in other words. Server HW is also more expensive than desktop HW.
 
-### My NAS setup since 2017
+## My NAS setup since 2017
 
 **FreeBSD** 12.1 (regularly updated) is installed and zpools created on my previous FreeNAS installation are imported in FreeBSD. My NAS is build by the following components. The server components in my NAS are a bit more expensive than desktop components.
 
