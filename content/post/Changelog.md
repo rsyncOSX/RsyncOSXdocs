@@ -20,7 +20,6 @@ If you also utilize the menu-app (RsyncOSXsched), be aware of you might have to 
 
 ## Some words about RsyncOSX
 
-
 RsyncOSX is not developed to be an easy to use synchronize and backup tool. The main purpose is to assist and ease the use of rsync to synchronize files on your Mac to remote FreeBSD and Linux servers. And of course restore files from those remote servers.
 
 The UI can for users who dont know rsync, be difficult or complex to understand. It is not required to know rsync but it will ease the use and understanding of RsyncOSX. But it is though, possible to use RsyncOSX by just adding a source and remote backup catalog using default parameters.
@@ -58,13 +57,11 @@ RsyncOSXsched 6.3.1.dmg: dc4ccffc8792152a0f28314cf070fdb678dfbf24
 - some minor fixes and cleanups
 
 Shasums
-
 ```
 RsyncOSX 6.3.0.dmg: 2f062df9d68b760de702851489e8986371a644b6
 RsyncOSXsched 6.3.0.dmg: 91fea19d902a4ee8727f0555f781eb7af8a9742b
 rsync313.dmg: 568ccf4d0981223f51e1c54941bc6cbc87988ae8
 ```
-
 ## Version 6.2.6
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.2.6) 23 April 2020.

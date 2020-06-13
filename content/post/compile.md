@@ -43,5 +43,3 @@ Either execute RsyncOSX directly in Xcode or utilize make. Go to the catalog top
 After the compiling is completed the RsyncOSX.app is build and saved in:
 
 `RsyncOSX/Build/Products/Release/RsyncOSX.app`
-
-`make dmg` will make a dmg file to be released.  The build of dmg files are by utilizing [andreyvit](https://github.com/andreyvit/create-dmg) script for creating dmg and [syncthing-macos](https://github.com/syncthing/syncthing-macos) setup.
