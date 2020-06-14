@@ -10,50 +10,41 @@ This is a short guide what to do the first start of RsyncGUI, the Mac App Store 
 
 If you plan only utilizing RsyncGUI on local attached volumes you can skip this guide.
 
-## First start of RsyncGUI
+## Access root home catalog
 
 The first action required when starting RsyncGUI for the first time is to allow RsyncGUI to access the root home catalog. Before choosing Allow **select root** of the home catalog.
 
-![](/images/RsyncOSX/master/RsyncGUIfirststart/main2.png)
+![](/images/RsyncOSX/master/RsyncGUIfirststart/homecatalog.png)
+
+After allowing RsyncGUI to access your home catalog you are ready to add configurations. RsyncGUI will open with no tasks.
+
+![](/images/RsyncOSX/master/RsyncGUIfirststart/initialstart.png)
+
+Also check the Ssh tab, it should look like this. If you dont plan to utilize Remote servers access the `.ssh`catalog is **not** relevant.
+
+![](/images/RsyncOSX/master/RsyncGUIfirststart/sshinitial.png)
 
 ## If you plan utilizing remote servers
 
 If you plan utilizing remote servers the following steps are required. It is only required if you have not setup the ssh private and public key-pair before. The private ssh keys are created and saved in .ssh catalog in your root home catalog.
 
-## First steps setting up passwordless logins for rsync
-
 See [how to setup passwordless logins](/post/remotelogins/) for info.
 
-## Create private and public ssh certificates
+### SSH keypath and identityfile
 
-Ssh saves by default, private ssh-keys in .ssh catalog on root of your home catalog. RsyncGUI can assist you creating both the .ssh catalog and private and public key pair. Select the Ssh tab and create both keys.
+See more info about [ssh keypath and identityfile](/post/ssh/). If utilized the ssh keypath has to be in the form `~/.mynewsshcatalog/mynewkey`. Before saving the keypath, RsyncGUI checks the format. If it is not conformant, there is no saving.
 
-![](/images/RsyncOSX/master/RsyncGUIfirststart/main3.png)
-![](/images/RsyncOSX/master/RsyncGUIfirststart/main4.png)
+The ssh keypath and identityfile has to be prefixed one `~` and must include at least two `/`.
 
-## Adding a synchronizing task
+## Logging
 
-Then it is time to add a synchronizing task with a remote destination.
+The user can set logging on of in userconfig. If there is an error, RsyncGUI logs the error from rsync. All logging to file is found in the following catalog:
 
-![](/images/RsyncOSX/master/RsyncGUIfirststart/main5.png)
+`~/Library/Containers/no.blogspot.rsyncgui/Data/Documents/rsynclog.txt`
 
-## Transferring public ssh certificates
+Logfiles can also be viewed in view for rsync output.
 
-After the synchronizing task is entered go back to the Ssh tab and let RsyncGUI assist you in transferring the public ssh-keys to the remote server.
+## The --delete parameter
 
-![](/images/RsyncOSX/master/RsyncGUIfirststart/main6.png)
-
-Select the Remote button and choose the correct remote server. Choose Terminal.app to open a terminal and copy and paste the three lines in that order into the terminal.
-
-![](/images/RsyncOSX/master/RsyncGUIfirststart/main7.png)
-![](/images/RsyncOSX/master/RsyncGUIfirststart/main8.png)
-
-The last action to do is select the Check rsa and Check dsa to verify and set correct permissions on the remote .ssh catalog and public ssh-keys.
-
-![](/images/RsyncOSX/master/RsyncGUIfirststart/main9.png)
-
-## Ready for first synchronizing tasks
-
-Now you can do your first synchronizing task.
-
-![](/images/RsyncOSX/master/RsyncGUIfirststart/main10.png)
+Caution about RsyncGUI and the `--delete` parameter. The `--delete` is a default parameter. The parameter instructs
+rsync to keep the source and destination synchronized (in sync). The parameter instructs rsync to delete all files in the destination which are not present in the source. Every time you add a new task to RsyncGUI, execute an estimation run `--dry-run` and inspect the result before executing a real run. If you by accident set an empty catalog as source RsyncGUI (rsync) will delete all files in the destination.

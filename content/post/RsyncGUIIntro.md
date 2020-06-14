@@ -6,27 +6,14 @@ tags = ["introduction","rsyncgui"]
 categories = ["general information"]
 description = "RsyncGUI is the Apple Mac Store version of RsyncOSX."
 +++
-Please see caution about using RsyncGUI and the --delete parameter to rsync at bottom of this page. There is also [a first start intro](/post/rsyncguifirststart) about RsyncGUI.
-
-## Logging
-
-The user can set logging on of in userconfig. If there is an error, RsyncGUI logs the error from rsync. All logging to file is found in the following catalog:
-
-`~/Library/Containers/no.blogspot.rsyncgui/Data/Documents/rsynclog.txt`
-
-Logfiles can also be viewed in view for rsync output.
-
-## SSH keypath and identityfile
-
-See more info about [ssh keypath and identityfile](/post/ssh/). If utilized the ssh keypath has to be in the form `~/.mynewsshcatalog/mynewkey`. Before saving the keypath, RsyncGUI checks the format. If it is not conformant, there is no saving.
-
-The ssh keypath and identityfile has to be prefixed one `~` and must include at least two `/`.
+Before you start using RsyncGUI, [please read the first start intro](/post/rsyncguifirststart). RsyncGUI is a Sandboxed application and you must allow RsyncGUI to access your home catalog. Also read about the `--delete` parameter to rsync in [the first start intro](/post/rsyncguifirststart).
 
 ## Some words about RsyncGUI
 
 RsyncGUI is **not developed to be an easy synchronize and backup tool**. The main purpose is to ease the use of rsync and synchronize files on your Mac to remote FreeBSD and Linux servers. And of course restore files from remote servers. The UI might also be difficult to understand or complex if you don't know what rsync is. It is not required to know rsync but it will ease the use and understanding of RsyncGUI. But it is though, possible to use RsyncGUI by just adding a source and remote backup catalog using default parameters.
 
 If your plan is to use RsyncGUI as your main tool for backup of files, please investigate and understand the limits of it. RsyncGUI is quite powerful, but it is might not the primary backup tool for the average user of macOS.
+|---|
 
 ## When you start RsyncGUI for the first time
 
@@ -100,8 +87,3 @@ Estimation run completed, dropdown presents result.
 ![](/images/RsyncOSX/master/intro/realrun.png)
 
 Ready for real run. A double click on row actually executes the task.
-
-## The --delete parameter
-
-Caution about RsyncGUI and the `--delete` parameter. The `--delete` is a default parameter. The parameter instructs
-rsync to keep the source and destination synchronized (in sync). The parameter instructs rsync to delete all files in the destination which are not present in the source. Every time you add a new task to RsyncGUI, execute an estimation run `--dry-run` and inspect the result before executing a real run. If you by accident set an empty catalog as source RsyncGUI (rsync) will delete all files in the destination.
