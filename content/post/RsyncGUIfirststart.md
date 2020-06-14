@@ -10,7 +10,7 @@ This is a short guide what to do the first start of RsyncGUI, the Mac App Store 
 
 ## Grant RsyncGUI access root home catalog
 
-Access to remote servers from RsyncGUI is normally by utilizing ssh and ssh keys. There are more info about [the two options to setup passwordless logins](/post/remotelogins/). Default ssh keys are installed in `.ssh` catalog in your home catalog. If you dont have created ssh keys and .ssh catalog, the following is show and you are not allowed to create default ssh keys.
+Access to remote servers from RsyncGUI is normally by utilizing ssh and ssh keys. There are more info about [the two options to setup passwordless logins](/post/remotelogins/). Default ssh keys are installed in `.ssh` catalog in your home catalog. If you dont have created ssh keys and `.ssh` catalog, the following are shown and you are not allowed to create default ssh keys.
 
 ![](/images/RsyncOSX/master/RsyncGUIfirststart/nossh.png)
 
@@ -22,7 +22,7 @@ cd
 mdkir .ssh
 chmod 700 .ssh
 ```
-After executing the above commands restart RsyncGUI. The first action required when restarting RsyncGUI, is to grant access the root home catalog. Before choosing Allow, select root of the home catalog.
+After executing the above commands, quit and restart RsyncGUI. The first action required when restarting RsyncGUI, is to grant access the root home catalog. Before choosing Allow, select root of the home catalog.
 
 ![](/images/RsyncOSX/master/RsyncGUIfirststart/homecatalog.png)
 
@@ -30,7 +30,7 @@ After allowing RsyncGUI to access your home catalog you are ready to add configu
 
 ![](/images/RsyncOSX/master/RsyncGUIfirststart/initialstart.png)
 
-Also check the Ssh tab, it should look like this. If you dont plan to utilize Remote servers access the `.ssh` catalog is **not** relevant.
+Also check the SSH tab, it should look like this. If you dont plan to utilize remote servers access the `.ssh` catalog is **not** relevant.
 
 ![](/images/RsyncOSX/master/RsyncGUIfirststart/sshinitial.png)
 

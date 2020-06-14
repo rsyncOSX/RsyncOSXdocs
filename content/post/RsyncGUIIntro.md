@@ -6,7 +6,7 @@ tags = ["introduction","rsyncgui"]
 categories = ["general information"]
 description = "RsyncGUI is the Apple Mac Store version of RsyncOSX."
 +++
-RsyncGUI is a Sandboxed application and if you plan to use remote servers there are some [first start info](/post/rsyncguifirststart) to read. Also read about the `--delete` parameter to rsync below. Connecting RsyncGUI to remote servers are normally through ssh. RsyncGUI need permission to read the home catalog and the .ssh catalog. There are more info about that in [the first start info](/post/rsyncguifirststart).
+RsyncGUI is a Sandboxed application and if you plan to use remote servers there are some [first start info](/post/rsyncguifirststart) to read. Also read about the `--delete` parameter to rsync below. Connecting RsyncGUI to remote servers are normally through ssh. RsyncGUI need permission to read the home catalog and the `.ssh` catalog. There are more info about that in [the first start info](/post/rsyncguifirststart).
 
 ## Some words about RsyncGUI
 
@@ -23,10 +23,6 @@ rsync to keep the source and destination synchronized (in sync). The parameter i
 ### Rsync version 2.6.9
 
 The default version of rsync in macOS is old, version 2.6.9, protocol version 29 released in nov 2006. This version of rsync does not support snapshot tasks. If you want to utilize [snapshot tasks](/post/snapshots) or [scheduling of tasks](/post/scheduletasks/) please use RsyncOSX instead.
-
-## When you start RsyncGUI for the first time
-
-RsyncGUI is a sandboxed macOS app and the first to do is to grant RsyncGUI permission to read the users home catalog. When RsyncGUI is started for the first time, it asks for permission to access your home catalog. Please see the [start RsyncGUI for the first time](/post/RsyncGUIfirststart).
 
 ## Where to start?
 
@@ -60,7 +56,7 @@ There  are three types of how to synchronize source and destination (backup):
 
 Snapshot tasks is not possible in RsyncGUI, see [the RsyncGUI Changelog](/post/rsyncguichangelog).
 
-## How to execute any type of tasks
+## How to execute tasks
 
 ![](/images/RsyncOSX/master/intro/menu1.png)
 
@@ -81,7 +77,7 @@ Tasks can be aborted at any time by selecting the stop button.
 
 5. execute the selected tasks (one or more)
 
-## Always verify a task
+## Verify a task
 
 Before a real execution of a task, please execute an estimation run. An estimation run is started by selecting a task and the stat light is yellow. A double click on the task does a simulated run and displays which files to be transferred. Please pay attention to the info in the display when the simulate run is completed. A drop down display presents the result.
 
