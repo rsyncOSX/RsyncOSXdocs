@@ -10,9 +10,9 @@ This is a short guide what to do the first start of RsyncGUI, the Mac App Store 
 
 If you plan only utilizing RsyncGUI on local attached volumes you can skip this guide.
 
-## Access root home catalog
+## Grant RsyncGUI access root home catalog
 
-The first action required when starting RsyncGUI for the first time is to allow RsyncGUI to access the root home catalog. Before choosing Allow **select root** of the home catalog.
+The first action required when starting RsyncGUI for the first time is to grant RsyncGUI to access the root home catalog. Before choosing Allow, select root of the home catalog.
 
 ![](/images/RsyncOSX/master/RsyncGUIfirststart/homecatalog.png)
 
@@ -24,7 +24,7 @@ Also check the Ssh tab, it should look like this. If you dont plan to utilize Re
 
 ![](/images/RsyncOSX/master/RsyncGUIfirststart/sshinitial.png)
 
-## If you plan utilizing remote servers
+## Remote servers
 
 If you plan utilizing remote servers the following steps are required. It is only required if you have not setup the ssh private and public key-pair before. The private ssh keys are created and saved in .ssh catalog in your root home catalog.
 
