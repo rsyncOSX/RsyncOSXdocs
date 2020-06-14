@@ -6,13 +6,23 @@ tags = ["first start","rsyncgui"]
 categories = ["general information"]
 description = "What to do the first time you start RsyncGUI."
 +++
-This is a short guide what to do the first start of RsyncGUI, the Mac App Store version of RsyncOSX. This guide is primarily for executing synchronizing tasks to **remote servers**. It includes how to setup passwordless login to remote server. RsyncGUI only support  default version of rsync which is included in macOS. The default version of rsync in macOS is old, version 2.6.9, protocol version 29 released in nov 2006. This version of rsync does not support snapshot tasks. If you want to utilize [snapshot tasks](/post/snapshots) please use RsyncOSX instead.
-
-If you plan only utilizing RsyncGUI on local attached volumes you can skip this guide.
+This is a short guide what to do the first start of RsyncGUI, the Mac App Store version of RsyncOSX. This guide is primarily for executing synchronizing tasks to **remote servers**. It includes a link to how to setup passwordless login to remote server.
 
 ## Grant RsyncGUI access root home catalog
 
-The first action required when starting RsyncGUI for the first time is to grant RsyncGUI to access the root home catalog. Before choosing Allow, select root of the home catalog.
+Access to remote servers from RsyncGUI is normally by utilizing ssh and ssh keys. There are more info about [the two options to setup passwordless logins](/post/remotelogins/). Default ssh keys are installed in `.ssh` catalog in your home catalog. If you dont have created ssh keys and .ssh catalog, the following is show and you are not allowed to create default ssh keys.
+
+![](/images/RsyncOSX/master/RsyncGUIfirststart/nossh.png)
+
+Not allowed to create ssh keys du to no access to the `.ssh` catalog. You have to create a .ssh catalog and restart RsyncGUI to grant access to the newly created .ssh catalog. Ececute the following commands from a terminal window:
+
+![](/images/RsyncOSX/master/RsyncGUIfirststart/norsakey.png)
+```
+cd
+mdkir .ssh
+chmod 700 .ssh
+```
+After executing the above commands restart RsyncGUI. The first action required when restarting RsyncGUI, is to grant access the root home catalog. Before choosing Allow, select root of the home catalog.
 
 ![](/images/RsyncOSX/master/RsyncGUIfirststart/homecatalog.png)
 
@@ -20,15 +30,11 @@ After allowing RsyncGUI to access your home catalog you are ready to add configu
 
 ![](/images/RsyncOSX/master/RsyncGUIfirststart/initialstart.png)
 
-Also check the Ssh tab, it should look like this. If you dont plan to utilize Remote servers access the `.ssh`catalog is **not** relevant.
+Also check the Ssh tab, it should look like this. If you dont plan to utilize Remote servers access the `.ssh` catalog is **not** relevant.
 
 ![](/images/RsyncOSX/master/RsyncGUIfirststart/sshinitial.png)
 
-## Remote servers
-
-If you plan utilizing remote servers the following steps are required. It is only required if you have not setup the ssh private and public key-pair before. The private ssh keys are created and saved in .ssh catalog in your root home catalog.
-
-See [how to setup passwordless logins](/post/remotelogins/) for info.
+Now you can let RsyncGUI assist in creating a ssh key pair. The default ssh key pairs are stored in `.ssh` catalog. See also info in link below about ssh, ssh keypath and identityfile.
 
 ### SSH keypath and identityfile
 
@@ -43,8 +49,3 @@ The user can set logging on of in userconfig. If there is an error, RsyncGUI log
 `~/Library/Containers/no.blogspot.rsyncgui/Data/Documents/rsynclog.txt`
 
 Logfiles can also be viewed in view for rsync output.
-
-## The --delete parameter
-
-Caution about RsyncGUI and the `--delete` parameter. The `--delete` is a default parameter. The parameter instructs
-rsync to keep the source and destination synchronized (in sync). The parameter instructs rsync to delete all files in the destination which are not present in the source. Every time you add a new task to RsyncGUI, execute an estimation run `--dry-run` and inspect the result before executing a real run. If you by accident set an empty catalog as source RsyncGUI (rsync) will delete all files in the destination.

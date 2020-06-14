@@ -6,7 +6,7 @@ tags = ["introduction","rsyncgui"]
 categories = ["general information"]
 description = "RsyncGUI is the Apple Mac Store version of RsyncOSX."
 +++
-Before you start using RsyncGUI, [please read the first start intro](/post/rsyncguifirststart). RsyncGUI is a Sandboxed application and you must allow RsyncGUI to access your home catalog. Also read about the `--delete` parameter to rsync in [the first start intro](/post/rsyncguifirststart).
+RsyncGUI is a Sandboxed application and if you plan to use remote servers there are some [first start info](/post/rsyncguifirststart) to read. Also read about the `--delete` parameter to rsync below. Connecting RsyncGUI to remote servers are normally through ssh. RsyncGUI need permission to read the home catalog and the .ssh catalog. There are more info about that in [the first start info](/post/rsyncguifirststart).
 
 ## Some words about RsyncGUI
 
@@ -14,6 +14,15 @@ RsyncGUI is **not developed to be an easy synchronize and backup tool**. The mai
 
 If your plan is to use RsyncGUI as your main tool for backup of files, please investigate and understand the limits of it. RsyncGUI is quite powerful, but it is might not the primary backup tool for the average user of macOS.
 |---|
+
+### The --delete parameter
+
+Caution about RsyncGUI and the `--delete` parameter. The `--delete` is a default parameter. The parameter instructs
+rsync to keep the source and destination synchronized (in sync). The parameter instructs rsync to delete all files in the destination which are not present in the source. Every time you add a new task to RsyncGUI, execute an estimation run `--dry-run` and inspect the result before executing a real run. If you by accident set an empty catalog as source RsyncGUI (rsync) will delete all files in the destination.
+
+### Rsync version 2.6.9
+
+The default version of rsync in macOS is old, version 2.6.9, protocol version 29 released in nov 2006. This version of rsync does not support snapshot tasks. If you want to utilize [snapshot tasks](/post/snapshots) or [scheduling of tasks](/post/scheduletasks/) please use RsyncOSX instead.
 
 ## When you start RsyncGUI for the first time
 
