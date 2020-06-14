@@ -26,6 +26,12 @@ Utilizing **snapshots** in RsyncGUI is **not possible** due a bug in default ver
 
 If you need either of them, please use [RsyncOSX](https://github.com/rsyncOSX/RsyncOSX).
 
+## Version 2.1.6
+
+This version is approved for release on Apple Mac Store 14 June 2020.
+
+- fixed a bug in the Sequrity Scoped part of RsyncGUI
+
 ## Version 2.1.5
 
 This version is approved for release on Apple Mac Store 12 June 2020.
