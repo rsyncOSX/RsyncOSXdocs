@@ -6,7 +6,7 @@ tags = ["introduction"]
 categories = ["general information"]
 description = "How to get started with RsyncOSX."
 +++
-All configurations to execute are listed in table. From the Synchronize view most actions (edit configurations, adding parameters to rsync, delete configurations) regarding configurations are executed. Configurations can be saved in user selected profiles. The profile in use is shown in label Profile: profilname. Information about new or delete files and numbers remote of directories are only available if version 3.x of rsync is used.
+All configurations to execute are listed in table. From the Synchronize view most actions (edit configurations, adding parameters to rsync, delete configurations) regarding configurations are executed. Configurations can be saved in user selected profiles. The profile in use is shown in label `Profile: profilname`. Information about new or delete files and numbers remote of directories are only available if version 3.x of rsync is used.
 
 ## Passwordless logins to remote servers
 
@@ -18,7 +18,7 @@ You can get up and running in just a few clicks. Open RsyncOSX and select the Ad
 
 ![](/images/RsyncOSX/master/intro/main1.png)
 
-In the Add tab, as an example, add the Documents catalog as source and the /Volumes/backup/Documents catalog as remote. This will setup a task to synchronize (backup) all content of the Documents to the attached backup volume in catalog Documents. Use drag and drop from Finder to add data.
+In the Add tab, as an example, add the `/Users/thomas/Documents` catalog as source and the `/Volumes/backup/Documents` catalog as remote. This will setup a task to synchronize (backup) all content of the Documents to the attached backup volume in catalog Documents. Use drag and drop from Finder to add data.
 
 Select Add button to add task.
 
@@ -28,6 +28,8 @@ Select Add button to add task.
 Go back to the Synchronize tab, select the task and you are ready to go.
 
 ![](/images/RsyncOSX/master/intro/main4.png)
+
+A double click on the row executes a estimation run. Another double click executes the real run.
 
 ## Four type of tasks
 
@@ -67,8 +69,7 @@ Tasks can be aborted at any time by selecting the stop button.
 
 ## YouTube videos
 
-There are a couple of short YouTube videos of RsyncOSX:
+There are a couple of short YouTube videos of RsyncOSX (it is an older version of RsyncOSX):
 
 - [getting](https://youtu.be/MrT8NzdF9dE) RsyncOSX and installing it
-  - the video also shows how to create the two local ssh certificates for passwordless logins to remote server
 - adding and executing the [first backup](https://youtu.be/8oe1lKgiDx8)

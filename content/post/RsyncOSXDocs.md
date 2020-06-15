@@ -14,17 +14,17 @@ RsyncOSX is a GUI ontop of the command line utility rsync, no more no less. Rsyn
 
 ![](/images/RsyncOSX/master/intro/main.png)
 
-## Remote servers
-
-Using RsyncOSX for synchronize files to remote servers require some setup. It is not possible to add login credentials during execution of any tasks.
-
-- [there are two options to setup passwordless logins](/post/remotelogins/)
-- the preferred [setup by ssh keys](/post/ssh/)
-- and a [rsync daemon setup](/post/rsyncdaemon/)
-
 ## Intro
 
 - a short [intro to RsyncOSX](/post/intro/)
+
+## Remote servers
+
+Using RsyncOSX for synchronize files to remote servers require some setup.
+
+- [there are two options to setup passwordless logins](/post/remotelogins/)
+  - the preferred [setup by ssh keys](/post/ssh/)
+  - a [rsync daemon setup](/post/rsyncdaemon/)
 
 ## Add and execute single tasks
 
