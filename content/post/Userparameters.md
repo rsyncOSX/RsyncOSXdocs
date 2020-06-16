@@ -50,4 +50,6 @@ RsyncOSX passes whatever set by user to rsync, parameters must be either:
 - `--parameter=value` or
 - `--parameter`
 
+![](/images/RsyncOSX/master/rsync/parameters.png)
+
 `delete` - delete the parameterdeletes the parameter when OK button is selected
