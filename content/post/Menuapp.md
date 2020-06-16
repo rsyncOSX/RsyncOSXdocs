@@ -6,20 +6,31 @@ tags = ["menu app","scheduling"]
 categories = ["synchronize"]
 description = "The menu app for executing scheduled tasks."
 +++
-This is the menu app (RsyncOSXsched.app) for executing scheduled tasks in RsyncOSX. Scheduled tasks are added in RsyncOSX. Quit RsyncOSX and let the menu app take care of executing the scheduled tasks. RsyncOSX does **not** execute scheduled tasks. Scheduled tasks are only added and deleted in RsyncOSX.
+The menu app is available for download together with RsyncOSX, see [install](/post/rsyncosx/) for more info. The menu app is a scaled down and minimal app for executing scheduled tasks in RsyncOSX. It executes as a menu app and keeps track on next task to execute. The app is monitoring all schedules in all profiles. Scheduled tasks are added in RsyncOSX.
 
-The menu app can be started from RsyncOSX. If the menu app is installed in **other catalog** than `/Applications`, alternative catalogs has to be set in userconfiguration. The menu app is a simple app with a few screens. The one and only task for the menu app is to execute scheduled RsyncOSX tasks. Every time a task is executed a notification is submitted. If there are tasks waiting for executing there is a green statuslight.
+RsyncOSX does **not** execute scheduled tasks. Scheduled tasks are only added and deleted in RsyncOSX. The menu app is a simple app with a few screens. Every time a task is executed a notification is submitted. The menu app executes tasks including all rsync parameters applied to the task.
+
+The menu app does not check if two or more tasks are set to be executed at the same time. Only one task is executed at a time. After each execution is completed a recalculation of the schedule is done. The menu app then keeps track of next task in time to execute.
+|---|
+
+## Start
+
+The menu app should normally be started from RsyncOSX. If the menu app is installed in other catalog than `/Applications`, alternative catalogs has to be set in userconfiguration.  If there are tasks waiting for executing there is a green statuslight.
 
 Selecting the Home icon (house) quits the menu app and automatically opens RsyncOSX. The arrow icon executes the selected task now.
 
-The menu app submits a notification when a scheduled tasks are completed. A scheduled task is either of type once, daily or weekly. If there are tasks waiting to execute the status light will be green.
+The menu app submits a notification when a scheduled tasks are completed. A scheduled task is either of type once, daily or weekly. If there are tasks waiting to be executed, the status light will be green. Both `synchronize`and `snapshot` tasks can be executed as scheduled tasks.
 
 ![](/images/RsyncOSX/master/menuapp/menuapp1.png)
 
-There is a minimal logging in the menu app. The menu app logs the major actions within the menu app.
+## Active tasks
+
+Active scheduled tasks.
 
 ![](/images/RsyncOSX/master/menuapp/menuapp3.png)
 
-Active scheduled tasks.
+## Logging
+
+There is a minimal logging in the menu app. The menu app logs the major actions within the menu app.
 
 ![](/images/RsyncOSX/master/menuapp/menuapp2.png)

@@ -10,7 +10,7 @@ RsyncOSX is [released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.3.0)
 
 RsyncOSX is [signed and notarized](/post/notarized/). There is a short [intro](/post/intro/) to RsyncOSX.
 
-## Install RsyncOSX.app and  RsyncOSXsched.app
+## Install RsyncOSX.app and RsyncOSXsched.app
 
 The command
 
