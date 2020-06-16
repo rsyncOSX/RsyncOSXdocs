@@ -5,12 +5,13 @@ title =  "Install RsyncOSX"
 tags = ["install","rsync version"]
 categories = ["general information"]
 description = "How to install RsyncOSX."
+lastmod = "2020-06-16"
 +++
-RsyncOSX is [released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.3.0) in version 6.3.0 (26 May 2020). It is **not** required to install the [RsyncOSXsched.app](https://github.com/rsyncOSX/RsyncOSXsched). RsyncOSXsched.app is for scheduled tasks only.
+RsyncOSX is [released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.3.0) in version 6.3.0 (26 May 2020). It is not required to install the menu app (RsyncOSXsched.app). The menu app is for executing [scheduled tasks](/post/scheduletasks) only.
 
 RsyncOSX is [signed and notarized](/post/notarized/). There is a short [intro](/post/intro/) to RsyncOSX.
 
-## Install RsyncOSX.app and RsyncOSXsched.app
+## Install
 
 The command
 
@@ -52,6 +53,6 @@ The default version of rsync in macOS is old (version 2.6.9, [protocol](https://
 
 In RsyncOSX select [user configuration](/post/userconfiguration/) and set path for optional version of rsync.
 
-## Passwordless logins to remote servers
+## Passwordless logins
 
 Using RsyncOSX for backup to remote servers require to setup [passwordless logins to remote servers](/post/remotelogins/).
