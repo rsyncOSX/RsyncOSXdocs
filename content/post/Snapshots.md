@@ -7,7 +7,9 @@ categories = ["synchronize"]
 description = "Snapshot is a very effective method for saving changes to file."
 lastmod = "2020-06-18"
 +++
-Snapshot is an effective method for saving changed and deleted data. Snapshot utilize [hardlinks](https://en.wikipedia.org/wiki/Hard_link) and only changed and deleted data are saved as separate files in a snapshot. Files which are not changed are  hardlinks to the original file in the snapshot.
+Utilizing snapshot is an effective method for restore of previous versions of data and deleted files. Snapshot utilize [hardlinks](https://en.wikipedia.org/wiki/Hard_link) and only changed and deleted files are saved as separate files in a snapshot. Files which are not changed are hardlinks to the original file.
+
+If a `file.txt` is saved in snapshot number one and never changed or deleted, the file `file.txt` in the latest snapshot is just a hardlink to the original file. If the `file.txt` is deleted from the first snapshot, the filesystem takes care of updating and where to save the original file as part of the delete operation.  
 
 ## What is a snapshots?
 
@@ -30,12 +32,11 @@ RsyncOSX creates the snapshots within the remote catalog. The ~ is expanded to t
   - a full sync when snapshot is created
 - `~/snapshots/2` - snapshot two
   - the next snapshots saves the changed files and makes hard links for files not changed
-  - `~/snapshots/n-1` - snapshot n
-    - n-1 is the latest snapshot saved to disk
+- ...
+- `~/snapshots/n-1` - snapshot n
+  - n-1 is the latest snapshot saved to disk
 - `~/snapshots/n` - snapshot n
   - n is the latest snapshot to be saved
-
-When the old snapshots are deleted, the filesystem takes care of saving the real files which are hard linked.
 
 ## Create a snapshot
 
@@ -48,7 +49,7 @@ and is picked up from the configuration.
 
 ## Snapshot administration
 
-It is important to administrate snapshots. By administrate means deleting snapshots. If snapshots are never deleted the number of snapshots might become difficult to use. A snapshot is most likely used to restore old and deleted files. This is why a plan to administrate snapshots are important. RsyncOSX can assist you in this.
+It is important to administrate snapshots. By administrate means deleting not relevant snapshots. If snapshots are never deleted the number of snapshots might become difficult to use. A snapshot is most likely used to restore old and deleted files. This is why a plan to administrate snapshots is important. RsyncOSX can assist you in this.
 
 To administrate snapshots select the snapshot tab. Deleting snapshots is a **destructive** operation and should be performed with care. It is important to have a plan about which snapshots to keep and which to delete. RsyncOSX utilizes a simple plan for delete and keep snapshots. The plan is based upon three parts:
 
