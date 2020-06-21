@@ -29,6 +29,10 @@ RsyncOSX supports synchronize and snapshots of files.
 If your plan is to use RsyncOSX as your main tool for backup of files, please investigate and understand the limits of it. RsyncOSX is quite powerful, but it is might not the primary backup tool for the average user of macOS.
 |---|
 
+## Rsync version 3.2.0
+
+[Rsync version 3.2.0 is released](https://download.samba.org/pub/rsync/src/rsync-3.2.0-NEWS). I tried to compile the new version, but there were some issues due to new features in rsync and missing libraries. I recommend all to install Homebrew and install rsync in Homebrew. There is work in Homebrew to update to latest version. When updated I will verify that RsyncOSX works with updated version of rsync as well.
+
 ## Version 6.3.1 release candidate
 
 [Updated](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.3.0) 11 June 2020
