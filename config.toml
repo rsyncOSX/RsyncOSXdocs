@@ -15,7 +15,7 @@ pygmentsUseClasses = true
 pygmentsCodefencesGuessSyntax = true
 
 hasCJKLanguage = false     # has chinese/japanese/korean ? # 自动检测是否包含 中文\日文\韩文
-paginate = 7                                              # 首页每页显示的文章数
+paginate = 20                                              # 首页每页显示的文章数
 disqusShortname = ""      # disqus_shortname
 googleAnalytics = "UA-168706149-1"      # UA-XXXXXXXX-X
 copyright = "RsyncOSX"            # default: author.name ↓        # 默认为下面配置的author.name ↓
@@ -64,7 +64,7 @@ copyright = "RsyncOSX"            # default: author.name ↓        # 默认为�
   description = "Hugo theme even example site."
 
   # paginate of archives, tags and categories             # 归档、标签、分类每页显示的文章数目，建议修改为一个较大的值
-  archivePaginate = 5
+  archivePaginate = 20
 
   # show 'xx Posts In Total' in archive page ?            # 是否在归档页显示文章的总数
   showArchiveCount = false
