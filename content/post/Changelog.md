@@ -31,7 +31,9 @@ If your plan is to use RsyncOSX as your main tool for backup of files, please in
 
 ## Rsync version 3.2.0
 
-[Rsync version 3.2.0 is released](https://download.samba.org/pub/rsync/src/rsync-3.2.0-NEWS). I tried to compile the new version, but there were some issues due to new features in rsync and missing libraries. I recommend all to install Homebrew and install rsync in Homebrew. There is work in Homebrew to update to latest version. When updated I will verify that RsyncOSX works with updated version of rsync as well.
+[Rsync version 3.2.0 is released](https://download.samba.org/pub/rsync/src/rsync-3.2.0-NEWS). I tried to compile the new version, but there were some issues due to new features in rsync and missing libraries. I recommend all to [install Homebrew](https://brew.sh/) and install rsync in Homebrew.
+
+Rsync version 3.2.0 is installed (by Homebrew) and verified OK with RsyncOSX.
 
 ## Version 6.3.1 release candidate
 
