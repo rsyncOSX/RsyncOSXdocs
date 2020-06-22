@@ -43,13 +43,10 @@ RsyncOSXsched 6.3.1.dmg: dc4ccffc8792152a0f28314cf070fdb678dfbf24
 
 ## Versions of rsync
 
-The default version of rsync in macOS is old (version 2.6.9, [protocol](https://rsync.samba.org/how-rsync-works.html) version 29). Version [2.6.9](https://download.samba.org/pub/rsync/src/rsync-2.6.9-NEWS) was released in nov 2006. The current release of rsync is version [3.1.3](https://download.samba.org/pub/rsync/src/rsync-3.1.3-NEWS) protocol 31 released 28 January 2018. There are at least three options to get and install the current version of rsync for use in RsyncOSX:
+The default version of rsync in macOS is old (version 2.6.9, [protocol](https://rsync.samba.org/how-rsync-works.html) version 29). Version [2.6.9](https://download.samba.org/pub/rsync/src/rsync-2.6.9-NEWS) was released in nov 2006. The current release of rsync is version [3.2.0](https://download.samba.org/pub/rsync/NEWS) protocol 31 released 19 June 2020. Version 3.1.3 of rsync is bundled together with RsyncOSX. It is strongly recommended to install rsync as part of Homebrew if other version than default version in macOS.
 
-- install [homebrew](https://en.wikipedia.org/wiki/Homebrew_(package_management_software)) and then install rsync as part of homebrew
+- install [homebrew](https://brew.sh/) and install rsync as part of homebrew (`brew install rsync`)
 - get rsync-3.1.3.dmg from [releases](https://github.com/rsyncOSX/RsyncOSX/releases) to install the latest version of rsync
-- install Xcode and download the rsync [source](https://rsync.samba.org/) from rsync.samba.org
-	- required tools are gcc and make which are part of Xcode command line tool (you might be able to install Xcode command line tool only by downloading the tools from [Apple Developer page](https://developer.apple.com/))
-	- untar the [source archive](https://download.samba.org/pub/rsync/src/) and use make to compile and install, rsync compiles without any issues on macOS
 
 In RsyncOSX select [user configuration](/post/userconfiguration/) and set path for optional version of rsync.
 
