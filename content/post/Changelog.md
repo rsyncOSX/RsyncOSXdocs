@@ -31,7 +31,7 @@ If your plan is to use RsyncOSX as your main tool for backup of files, please in
 
 ## Rsync version 3.2.0
 
-See info about [latest version of rsync in install](/post/rsyncosx/).
+See info about [the latest version of rsync in install](/post/rsyncosx/).
 
 ## Version 6.3.1 release candidate
 
