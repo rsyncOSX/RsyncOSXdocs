@@ -20,9 +20,7 @@ If your plan is to use RsyncGUI as your main tool for backup of files, please in
 
 ## Old version of rsync
 
-The default version of rsync in macOS is old (version 2.6.9, [protocol](https://rsync.samba.org/how-rsync-works.html) version 29). Version [2.6.9](https://download.samba.org/pub/rsync/src/rsync-2.6.9-NEWS) was released in nov 2006. The current release of rsync is version [3.1.3](https://download.samba.org/pub/rsync/src/rsync-3.1.3-NEWS) protocol 31 released 28 January 2018.
-
-Utilizing **snapshots** in RsyncGUI is **not possible** due a bug in default version version 2.6.9 of rsync. It is not allowed because of the macOS sandbox, to execute an updated version of rsync in e.g /usr/local/bin. Utilizing **scheduled** task is also not implemented in RsyncGUI.
+The default version of rsync in macOS is old (version 2.6.9, [protocol](https://rsync.samba.org/how-rsync-works.html) version 29). Version 2.6.9 was released in nov 2006. The current release of rsync is version [3.2.0](https://download.samba.org/pub/rsync/NEWS) protocol 31 released 19 June 2020. Utilizing snapshots in RsyncGUI is not possible due a bug in default version version 2.6.9 of rsync. It is not allowed because of the macOS sandbox, to execute an updated version of rsync in e.g /usr/local/bin. Utilizing scheduled task is also not implemented in RsyncGUI.
 
 If you need either of them, please use [RsyncOSX](https://github.com/rsyncOSX/RsyncOSX).
 
