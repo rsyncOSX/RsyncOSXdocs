@@ -33,7 +33,7 @@ RsyncOSX supports synchronize and snapshots of files.
 If your plan is to use RsyncOSX as your main tool for backup of files, please investigate and understand the limits of it. RsyncOSX is quite powerful, but it is might not the primary backup tool for the average user of macOS.
 |---|
 
-## Rsync version 3.2.0
+## Rsync version 3.2.1
 
 See info about [the latest version of rsync in install](/post/rsyncosx/).
 
