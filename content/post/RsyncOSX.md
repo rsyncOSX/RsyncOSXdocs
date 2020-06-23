@@ -43,7 +43,7 @@ RsyncOSXsched 6.3.1.dmg: dc4ccffc8792152a0f28314cf070fdb678dfbf24
 
 ## Versions of rsync
 
-The default version of rsync in macOS is old (version 2.6.9, [protocol](https://rsync.samba.org/how-rsync-works.html) version 29). Version 2.6.9 was released in nov 2006. The current release of rsync is version [3.2.0](https://download.samba.org/pub/rsync/NEWS) protocol 31 released 19 June 2020. Version 3.1.3 of rsync is bundled together with RsyncOSX. It is strongly recommended to install rsync as part of Homebrew if other version than default version in macOS.
+The default version of rsync in macOS is old (version 2.6.9, [protocol](https://rsync.samba.org/how-rsync-works.html) version 29). Version 2.6.9 was released in nov 2006. The current release of rsync is version [3.2.1](https://download.samba.org/pub/rsync/NEWS) protocol 31 released 22 June 2020. Version 3.1.3 of rsync is bundled together with RsyncOSX. It is strongly recommended to install rsync as part of Homebrew if other version than default version in macOS.
 
 - install [homebrew](https://brew.sh/) and install the latest version of rsync as part of homebrew (`brew install rsync`)
 - get rsync-3.1.3.dmg from [releases](https://github.com/rsyncOSX/RsyncOSX/releases) to install version 3.1.3 of rsync
