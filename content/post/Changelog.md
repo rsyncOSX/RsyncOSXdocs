@@ -39,11 +39,11 @@ See info about [the latest version of rsync in install](/post/rsyncosx/).
 
 ## Version 6.3.1 release candidate
 
-What is [in next release](/post/nextrelease/)? Please read before using. The release candidate is as stabel as the released version. There are a few changes in code, 
+What is [in next release](/post/nextrelease/)? Please read before using. The release candidate is as stabel as the released version. There are a few changes in code,
 
 Shasums
 ```
-RsyncOSX 6.3.1.dmg: 036d01398accbeb2f3e38a2635776041a6a77c28
+RsyncOSX 6.3.1.dmg: 983907dc70f142360d28c4572ea8a2c5284062ff
 RsyncOSXsched 6.3.1.dmg: dc4ccffc8792152a0f28314cf070fdb678dfbf24
 ```
 
