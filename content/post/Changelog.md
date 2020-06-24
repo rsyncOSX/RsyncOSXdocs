@@ -39,7 +39,7 @@ See info about [the latest version of rsync in install](/post/rsyncosx/).
 
 ## Version 6.3.1 release candidate
 
-What is [in next release](/post/nextrelease/)? Please read before using. The release candidate is as stabel as the released version. There are a few changes in code,
+What is [in next release](/post/nextrelease/)? Please read before using. The release candidate is as stabel as the released version.
 
 Shasums
 ```
