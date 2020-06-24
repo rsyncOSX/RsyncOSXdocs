@@ -11,7 +11,7 @@ There are only a few parameters to choose in user configuration. Configurations 
 
 ## Rsync
 
- - 3.1.2 or 3.1.3 rsync - set optional path in **not** in /usr/local/bin
+ - 3.1.2, 3.1.3, 3.1.2 rsync - set optional path if **not** in /usr/local/bin
    	- any version of rsync should work, but only rsync  version 3.1.2, version 3.1.3 protocol version 31 and rsync  version 2.6.9  protocol version 29 are tested and verified
     - [utilizing the snapshot feature](/post/snapshots/) require either version 3.1.2 or 3.1.3 of rsync
 - optional path for rsync:
