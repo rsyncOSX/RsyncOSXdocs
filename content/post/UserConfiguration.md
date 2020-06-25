@@ -4,6 +4,7 @@ date = "2020-04-16"
 title =  "User configuration"
 tags = ["userconfig"]
 categories = ["general information"]
+astmod = "2020-06-25"
 +++
 There are only a few parameters to choose in user configuration. Configurations are saved to permanent store. This applies for version 6.3.x and greater of RsyncOSX.
 
@@ -11,9 +12,9 @@ There are only a few parameters to choose in user configuration. Configurations 
 
 ## Rsync
 
- - 3.1.2, 3.1.3, 3.1.2 rsync - set optional path if **not** in /usr/local/bin
+ - 3.1.2, 3.1.3, 3.2.1 rsync - set optional path if **not** in /usr/local/bin
    	- any version of rsync should work, but only rsync  version 3.1.2, version 3.1.3 protocol version 31 and rsync  version 2.6.9  protocol version 29 are tested and verified
-    - [utilizing the snapshot feature](/post/snapshots/) require either version 3.1.2 or 3.1.3 of rsync
+    - [utilizing the snapshot feature](/post/snapshots/) require either version 3.1.2, 3.1.3, 3.2.1 of rsync
 - optional path for rsync:
     - if other version of rsync is installed in other path than /usr/local/bin it must be set here
 - temporary path restore:
@@ -28,7 +29,9 @@ If there is a not valid rsync path is set an error is presented in bottom of use
 - path RsyncOSX
 - path RsyncOSXsched
 
-If both apps are installed in /Applications there is no need for setting paths. Automatic execution of local configurations enables the menu app to automatically execute synchronize operations when local volumes are mounted.
+If both apps are installed in `/Applications` there is no need for setting paths.
+
+Automatic execution of local configurations enables the menu app to automatically execute synchronize operations when local volumes are mounted.
 
 ## Logging
 
@@ -45,6 +48,10 @@ Logging is saved to permanent store.
 
 - either minimum (last 10 lines) or full logging of output from rsync, be carful not logging everything, the log file might be big
 - log file is Documents/rsynclog.txt
+
+## Monitor network connection
+
+On macOS 10.14 and later, RsyncOSX can monitor the network connection during execution of tasks. If a network connection is dropped during execution, RsyncOSX sends an interrupt signal to the task and it halts with an error.
 
 ## Check data when loading
 

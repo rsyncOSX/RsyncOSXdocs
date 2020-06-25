@@ -5,6 +5,7 @@ date = "2020-04-23"
 description = "Changelog"
 tags = ["rsyncosx"]
 categories = ["changelog"]
+lastmod = "2020-06-25"
 +++
 I am using the application on a daily basis and it evolves during my own use. Suggestions for new *features*, *enhancements* and *bug reports* are more than welcome. [Please add an issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding requests or bugs. For more information about signing and notarizing of RsyncOSX see [the notarized info](/post/notarized/).
 
@@ -30,8 +31,9 @@ The UI can for users who dont know rsync, be difficult or complex to understand.
 
 RsyncOSX supports synchronize and snapshots of files.
 
-If your plan is to use RsyncOSX as your main tool for backup of files, please investigate and understand the limits of it. RsyncOSX is quite powerful, but it is might not the primary backup tool for the average user of macOS.
+RsyncOSX as your main backuptool
 |---|
+If your plan is to use RsyncOSX as your main tool for backup of files, please investigate and understand the limits of it. RsyncOSX is quite powerful, but it is might not the primary backup tool for the average user of macOS.
 
 ## Rsync version 3.2.1
 
