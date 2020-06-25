@@ -11,8 +11,10 @@ The menu app is available for download together with RsyncOSX, see [install](/po
 
 RsyncOSX does **not** execute scheduled tasks. Scheduled tasks are only added and deleted within RsyncOSX. The menu app is a simple app with a few screens. Every time a task is completed a notification is submitted. The menu app executes tasks applying all user selected rsync parameters to the task.
 
-The menu app does not check if two or more tasks are set to be executed at the same time. Only one task is executed at a time. After each execution is completed a recalculation of the schedule is done. The menu app then keeps track of the next and first task to be executed.
+Menu app keeps track of the first task 
 |---|
+The menu app does not check if two or more tasks are set to be executed at the same time. Only one task is executed at a time. After each execution is completed a recalculation of the schedule is done. The menu app then keeps track of the next and first task to be executed.
+
 
 ## Start
 

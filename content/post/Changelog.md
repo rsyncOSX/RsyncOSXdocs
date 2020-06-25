@@ -15,7 +15,7 @@ Also see [signing and notarized of RsyncOSX](/post/notarized/). All releases of 
 
 ## RsyncOSX on macOS 11 - Big Sur and Xcode 12
 
-I have installed in test, macOS 11 - Big Sur and Xcode 12. RsyncOSX is built and executed on macOS 11. For the moment only used default version of rsync because there were some issues installing latest version of rsync (issues with `xcode-select --install` which is required to install Homebrew).
+I have installed in test, macOS 11 - Big Sur and Xcode 12. RsyncOSX is built and executed on macOS 11.
 
 ## RsyncOSX on macOS Catalina
 
@@ -41,13 +41,7 @@ See info about [the latest version of rsync in install](/post/rsyncosx/).
 
 ## Version 6.3.1 release candidate
 
-What is [in next release](/post/nextrelease/)? Please read before using. The release candidate is as stabel as the released version.
-
-Shasums
-```
-RsyncOSX 6.3.1.dmg: 983907dc70f142360d28c4572ea8a2c5284062ff
-RsyncOSXsched 6.3.1.dmg: dc4ccffc8792152a0f28314cf070fdb678dfbf24
-```
+What is [in next release](/post/nextrelease/)? Please read before using.
 
 ## Version 6.3.0
 
@@ -58,12 +52,6 @@ RsyncOSXsched 6.3.1.dmg: dc4ccffc8792152a0f28314cf070fdb678dfbf24
 - added clean logfile in view output from rsync
 - some minor fixes and cleanups
 
-Shasums
-```
-RsyncOSX 6.3.0.dmg: 2f062df9d68b760de702851489e8986371a644b6
-RsyncOSXsched 6.3.0.dmg: 91fea19d902a4ee8727f0555f781eb7af8a9742b
-rsync313.dmg: 568ccf4d0981223f51e1c54941bc6cbc87988ae8
-```
 ## Version 6.2.6
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.2.6) 23 April 2020.
@@ -77,12 +65,6 @@ rsync313.dmg: 568ccf4d0981223f51e1c54941bc6cbc87988ae8
 - added set ssh identity file (normally either id_dsa or id_rsa)
 - added copy output from rsync to macOS clipboard
 
-Shasums
-```
-RsyncOSX-6.2.6.dmg: 198d371b38e25c4078dc94621dba3ed12d593528
-RsyncOSXsched-6.2.6.dmg: 0484570868f4655afa1087f2d8df3422bcb4075d
-rsync313.dmg: 568ccf4d0981223f51e1c54941bc6cbc87988ae8
-```
 ## Version 6.2.0
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.2.0) 27 February 2020.
