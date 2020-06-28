@@ -12,7 +12,12 @@ RsyncOSX is a GUI ontop of the command line utility rsync, no more no less. Rsyn
  - [there is a changelog](/post/changelog/)
  - [signing and notarizing of RsyncOSX](/post/notarized/)
 
+ MacOS 11 Beta and Xcode 12 Beta are released. In the info about the next release there are some info about RsyncOSX on macOS 11.
+
+ - what is [in next release](/post/nextrelease/)?
+
 ![](/images/RsyncOSX/master/intro/main.png)
+
 
 ## Intro
 

@@ -5,7 +5,7 @@ title =  "Next release of RsyncOSX."
 tags = ["nextrelease"]
 categories = ["changelog"]
 description = "What is in next release of RsyncOSX?"
-lastmod = "2020-06-25"
+lastmod = "2020-06-28"
 +++
 Next release of RsyncOSX
 |---|
@@ -17,7 +17,7 @@ Others changes to the ssh part is only supporting rsa based creation of ssh keyp
 
 ![](/images/RsyncOSX/master/nextversion/globalssh.png)
 
-A global ssh keypath and identityfile value can be overridden by a local set value. Also applies to SSH port number. Either global er local values are used.
+A global ssh keypath and identityfile value can be overridden by a local set value. Also applies to SSH port number. Either global or local values are used.
 
 ![](/images/RsyncOSX/master/nextversion/localssh.png)
 
@@ -36,4 +36,21 @@ In the user configuration ssh keypath, identity file, ssh port and select monito
 ## New version of rsync
 
 New version of rsync is released. RsyncOSX is verified working with latest version.
+
 ![](/images/RsyncOSX/master/nextversion/newversionrsync.png)
+
+## Main view in macOS 11
+
+The top menus in RsyncOSX are slightly changed. I have an older Mac Book pro (2016 model) which macOS 11 and Xcode 12 are installed on. I have also installed Homebrew (rsync, hugo and other tools), atom (the editor) and other applications on macOS 11. And they all works as expected. The old Mac might become my daily driver until macOS 11 is released.
+
+Dark view.
+
+![](/images/RsyncOSX/master/nextversion/mainmacOS11.png)
+
+Light view.
+
+![](/images/RsyncOSX/master/nextversion/mainmacOS112.png)
+
+This is the current version.
+
+![](/images/RsyncOSX/master/intro/main.png)
