@@ -16,9 +16,6 @@ RsyncOSX is a GUI ontop of the command line utility rsync, no more no less. Rsyn
 
  - what is [in next release](/post/nextrelease/)?
 
-![](/images/RsyncOSX/master/intro/main.png)
-
-
 ## Intro
 
 - a short [intro to RsyncOSX](/post/intro/)

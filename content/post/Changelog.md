@@ -13,10 +13,6 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 Also see [signing and notarized of RsyncOSX](/post/notarized/). All releases of RsyncOSX are signed and notarized.
 
-## RsyncOSX on macOS 11 - Big Sur and Xcode 12
-
-I have installed in test, macOS 11 - Big Sur and Xcode 12. RsyncOSX is built and executed on macOS 11.
-
 ## RsyncOSX on macOS Catalina
 
 If you are installing on macOS Catalina and utilize a local version of rsync, execute the rsync utility in a terminal window before using RsyncOSX. There is a process of granting access for the rsync utility before using it by RsyncOSX. MacOS Catalina will also ask permission for accessing your home catalog first time you start RsyncOSX.
