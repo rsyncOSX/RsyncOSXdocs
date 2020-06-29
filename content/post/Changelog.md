@@ -37,7 +37,7 @@ See info about [the latest version of rsync in install](/post/rsyncosx/).
 
 ## Version 6.3.1 release candidate
 
-What is [in next release](/post/nextrelease/)? Please read before using.
+[Updated](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.3.0) 24 June 2020.  What is [in next release](/post/nextrelease/)? Please read before using.
 
 ## Version 6.3.0
 
