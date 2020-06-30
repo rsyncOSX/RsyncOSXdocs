@@ -35,9 +35,16 @@ If your plan is to use RsyncOSX as your main tool for backup of files, please in
 
 See info about [the latest version of rsync in install](/post/rsyncosx/).
 
-## Version 6.3.1 release candidate
+## Version 6.3.5
 
-[Updated](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.3.0) 24 June 2020.  What is [in next release](/post/nextrelease/)? Please read before using.
+[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.3.5) 30 June 2020
+
+- some localization updates (German, Chinese Simplified, French)
+- added user set SSH keypath and identityfile, global and local settings
+- refactor of RsyncOSX support SSH keypair creation
+- enabled monitoring if drop in network connection during execution of tasks (only valid in macOS 10.14 and higher)
+
+There is some more info [about this release](/post/nextrelease/).
 
 ## Version 6.3.0
 

@@ -5,11 +5,9 @@ title =  "Next release of RsyncOSX."
 tags = ["nextrelease"]
 categories = ["changelog"]
 description = "What is in next release of RsyncOSX?"
-lastmod = "2020-06-28"
+lastmod = "2020-06-30"
 +++
-Next release of RsyncOSX
-|---|
-This release candidate is most likely to be the next release of RsyncOSX. There will probably be some more QA and cleanup in code, but there are no plans for new functionality. I will focus on next version of RsyncOSX and macOS 11 - Big Sur.
+Version 6.3.5 of RsyncOSX
 
 ## SSH part
 
