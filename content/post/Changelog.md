@@ -46,6 +46,10 @@ See info about [the latest version of rsync in install](/post/rsyncosx/).
 
 There is some more info [about this release](/post/nextrelease/).
 
+Version 3.2.1 of rsync
+|---|
+If you experience problems with rsync 3.2.1 caused by missing libraries, please use version 3.1.3. Or install rsync as part of Homebrew (recommended).
+
 ## Version 6.3.0
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.3.0) 26 May 2020

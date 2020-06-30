@@ -28,9 +28,14 @@ RsyncOSX is installed and used at your own risk and developer accepts no respons
 
 ## Version 3.2.1 of rsync
 
+Version 3.2.1 of rsync
+|---|
+If you experience problems with rsync 3.2.1 caused by missing libraries, please use version 3.1.3. Or install rsync as part of Homebrew (recommended).
+
 See readme.txt within dmg file for how to manually install version rsync 3.2.1.
 ```
 rsync321.dmg: 559b4e48b3531896a8bfa51d37ec5c579a1ffb41
+rsync313.dmg: 568ccf4d0981223f51e1c54941bc6cbc87988ae8
 ```
 
 ## Versions of rsync
