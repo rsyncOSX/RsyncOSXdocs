@@ -7,11 +7,11 @@ categories = ["changelog"]
 description = "What is in next release of RsyncOSX?"
 lastmod = "2020-06-30"
 +++
-Version 6.3.5 of RsyncOSX
+Version 6.3.5 of RsyncOSX, release 30 June 2020. The following are enhancements in this release of RsyncOSX.
 
 ## SSH part
 
-Others changes to the ssh part is only supporting rsa based creation of ssh keypair. The user can of course create a new key and just tell RsyncOSX where the new key is.
+Others changes to the ssh part is only supporting rsa based creation of ssh keypair. The user can create a new key outside of RsyncOSX and just tell RsyncOSX where the new key is. The info about SSH keypath and identityfile must be [set in userconfig](/post/userconfiguration/).
 
 ![](/images/RsyncOSX/master/nextversion/globalssh.png)
 
@@ -33,22 +33,22 @@ In the user configuration ssh keypath, identity file, ssh port and select monito
 
 ## New version of rsync
 
-New version of rsync is released. RsyncOSX is verified working with latest version.
+New version of rsync is released. RsyncOSX is verified working with latest version. It is advised to install [Homebrew](https://brew.sh/) and rsync as part of Homebrew.
 
 ![](/images/RsyncOSX/master/nextversion/newversionrsync.png)
 
 ## Main view in macOS 11
 
-The top menus in RsyncOSX are slightly changed. I have an older Mac Book pro (2016 model) which macOS 11 and Xcode 12 are installed on. I have also installed Homebrew (rsync, hugo and other tools), atom (the editor) and other applications on macOS 11. And they all works as expected. The old Mac might become my daily driver until macOS 11 is released.
+The top menus in RsyncOSX are slightly changed. I have an older Mac Book pro, 2016 model, which macOS 11 and Xcode 12 are installed on. I have also installed Homebrew (rsync, hugo and other tools), atom (the editor) and other applications on macOS 11. And they all works as expected. The old Mac might become my daily driver until macOS 11 is released.
 
-Dark view.
+Dark view in macOS Big Sur.
 
 ![](/images/RsyncOSX/master/nextversion/mainmacOS11.png)
 
-Light view.
+Light view in macOS Big Sur.
 
 ![](/images/RsyncOSX/master/nextversion/mainmacOS112.png)
 
-This is the current version.
+This is the current version in macOS Catalina.
 
 ![](/images/RsyncOSX/master/intro/main.png)
