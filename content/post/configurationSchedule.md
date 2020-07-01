@@ -6,9 +6,9 @@ tags = ["schedules","logs"]
 categories = ["source code"]
 description = "The swift class and struct for schedules and logs."
 +++
-Schedules including log records are loaded into a separate data structure. Schedules and log records  [ConfigurationSchedule](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ConfigurationSchedule.swift) are linked to [Configuration](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/Configuration.swift) by hiddenID = Int. Schedules including *log records* are saved in a separate XML-file (plist).
+Schedules including log records are loaded into a separate data structure. Schedules and log records  [ConfigurationSchedule](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ConfigurationSchedule.swift) are linked to [Configuration](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/Configuration.swift) by `hiddenID = Int`. Schedules including *log records* are saved in a separate XML-file (plist).
 
-Manually executed task is stamped with dateStart = 01 Jan 1900 00:00 (US-format) in the struct for schedule ([ConfigurationSchedule](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ConfigurationSchedule.swift)). Manually executed schedule is of type manuel. All log records for manually executed tasks are appended to this struct record. Records of scheduled backups are stamped with dateStart for execution, example 01 Jun 2017 22:35 and type of schedule, either once, daily or monthly. All log records of scheduled runs are appended to this struct record. And log records are linked to its schedule by a computed key.
+Manually executed task is stamped with `dateStart = 01 Jan 1900 00:00` (US-format) in the struct for schedule ([ConfigurationSchedule](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ConfigurationSchedule.swift)). Manually executed schedule is of type manuel. All log records for manually executed tasks are appended to this struct record. Records of scheduled backups are stamped with dateStart for execution, example `01 Jun 2017 22:35` and type of schedule, either `once`, `daily` or `weekly`. All log records of scheduled runs are appended to this struct record. And log records are linked to its schedule by a computed key.
 
 The above is used to group log records e.g in [table view](/post/scheduletasks/).
 

@@ -14,15 +14,15 @@ See [instructions for compile](/post/compile). There are about 130 classes with 
 
 This is some information about the design and code of RsyncOSX. The documentation is only a brief summary of some parts of RsyncOSX. The design of RsyncOSX is based upon ideas of the [MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller) pattern. One of the objectives in the MVC pattern is to separate the views and models.
 
-Every time RsyncOSX [executes](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ProcessCmd.swift) a command, RsyncOSX is listening for two notifications didTerminateNotification and NSFileHandleDataAvailable. Those two notifications kicks of other functions depended upon the state of RsyncOSX.
+Every time RsyncOSX [executes](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ProcessCmd.swift) a command, RsyncOSX is listening for two notifications `didTerminateNotification` and `NSFileHandleDataAvailable`. Those two notifications kicks of other functions depended upon the state of RsyncOSX.
 
-I am also adapting the code to [SwiftLint](https://github.com/realm/SwiftLint) guidelines. This project commenced because I wanted to learn Swift. The codebase from beginning and today has changed a lot. RsyncOSX has matured during this years and the application today is quite robust and stable. It is also important to say that I am not a professional developer. I don´t read a lot of Swift resources, but follows a few from time to time. I use Gooogle when developing and have got a few ideas by searching for solutions.
+I am also adapting the code to [SwiftLint](https://github.com/realm/SwiftLint) guidelines. This project commenced because I wanted to learn Swift. The codebase from the beginning to today is changed a lot. RsyncOSX has matured during the years and the application today is robust and stable. It is also important to say that I am not a professional developer. I don´t read a lot of Swift resources, but follows a few from time to time. I use Gooogle when developing and have got a few ideas by searching for solutions.
 
 I also try to use Swift as effective as I can. There is no need to develop code when Swift supports the functionality by default. The Swift code is more or less traditional code, no SwiftUI code and there are not any plans for converting to SwiftUI either.  
 
 ## Localization
 
-RsyncOSX is prepared for localization. Dates are stored on permanent storage and used in calculations. Dates in views are localized and [saved on permanent storage in "en_US" format](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/extensionDate.swift). All calculations using dates are based upon the "en_US" format.
+RsyncOSX is prepared for localization. Dates are stored on permanent storage and used in calculations. Dates in views are localized and [saved on permanent storage in "en_US" format](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/extensionDate.swift). All calculations utilizing dates is based upon the `en_US` date format.
 
 ## Data model
 
