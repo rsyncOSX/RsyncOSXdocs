@@ -11,7 +11,7 @@ I am using the application on a daily basis and it evolves during my own use. Su
 
 ## Signing and notarizing
 
-All releases of RsyncOSX is [signed and notarized](/post/notarized/).
+All releases of RsyncOSX are [signed and notarized](/post/notarized/).
 
 ## RsyncOSX on macOS Catalina
 
