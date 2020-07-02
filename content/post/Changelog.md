@@ -48,7 +48,7 @@ There is some more info [about this release](/post/nextrelease/).
 
 Version 3.2.1 of rsync
 |---|
-If you experience problems with rsync 3.2.1 caused by missing libraries, please use version 3.1.3. Or install rsync as part of Homebrew (recommended).
+If you experience problems with rsync 3.2.1 caused by missing libraries, please use version 3.1.3. Or install rsync as part of Homebrew, which is the recommended option. Homebrew keeps your installed commandline tools updated.
 
 ## Version 6.3.0
 
