@@ -7,7 +7,9 @@ categories = ["general information"]
 description = "How to install RsyncOSX."
 lastmod = "2020-07-05"
 +++
-The default version of rsync in macOS is old (version 2.6.9, [protocol](https://rsync.samba.org/how-rsync-works.html) version 29). Version 2.6.9 was released in nov 2006. The current release of rsync is version [3.2.2](https://download.samba.org/pub/rsync/NEWS) protocol 31 released 4 July 2020. Version 3.2.2 of rsync is bundled together with RsyncOSX. It is strongly recommended to install rsync as part of Homebrew if other version than default version in macOS.
+The default version of rsync in macOS is old (version 2.6.9, [protocol](https://rsync.samba.org/how-rsync-works.html) version 29). Version 2.6.9 was released in nov 2006. The current release of rsync is version [3.2.2](https://download.samba.org/pub/rsync/NEWS) protocol 31 released 4 July 2020. Only version 3.1.3 of rsync is bundled together with RsyncOSX. Due to new features in the latest version and dependency to shared libraries it is not possible for me to bundle the latest version of rsync together with RsyncOSX.
+
+It is strongly recommended to install rsync as part of Homebrew if other version than default version in macOS.
 
 In RsyncOSX select [user configuration](/post/userconfiguration/) and set path for optional version of rsync.
 
