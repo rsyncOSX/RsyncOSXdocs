@@ -33,7 +33,7 @@ If your plan is to use RsyncOSX as your main tool for backup of files, please in
 
 ## Rsync version 3.2.2
 
-See info about [the latest version of rsync in install](/post/rsyncosx/).
+See info about [the latest version of rsync in install](/post/rsync/).
 
 ## Version 6.3.5
 
