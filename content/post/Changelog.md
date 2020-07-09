@@ -35,6 +35,16 @@ If your plan is to use RsyncOSX as your main tool for backup of files, please in
 
 See info about [the latest version of rsync in install](/post/rsync/).
 
+## What is going on?
+
+Version 6.3.5 was released in June. MacOS Big Sur and Xcode 12 is here in beta. I have installed both on a 2016 MacBook Pro, compiled and executed all apps. When macOS Big Sur is released in some months, RsyncOSX will be released for macOS Big Sur as well.
+
+During summer 2020 I am focusing on:
+
+- QA and updates of old code, some of the old code needs update
+- prepare release on macOS Big Sur
+- working on adding [execute post and pre scripts](https://github.com/rsyncOSX/RsyncOSX/issues/1813) on tasks
+
 ## Version 6.3.5
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.3.5) 30 June 2020

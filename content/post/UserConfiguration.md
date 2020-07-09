@@ -6,13 +6,13 @@ tags = ["userconfig"]
 categories = ["general information"]
 astmod = "2020-06-25"
 +++
-There are only a few parameters to choose in user configuration. Configurations are saved to permanent store. This applies for version 6.3.x and greater of RsyncOSX.
+There are a few parameters to choose in user configuration. Parameters are saved to permanent store.
 
 ![](/images/RsyncOSX/master/userconfig/user.png)
 
 ## Rsync
 
- - 3.1.2, 3.1.3, 3.2.1 rsync - set optional path if **not** in /usr/local/bin
+ - 3.1.2, 3.1.3, 3.2.x rsync - set optional path if **not** in /usr/local/bin
    	- any version of rsync should work, but only rsync  version 3.1.2, version 3.1.3 protocol version 31 and rsync  version 2.6.9  protocol version 29 are tested and verified
     - [utilizing the snapshot feature](/post/snapshots/) require either version 3.1.2, 3.1.3, 3.2.x of rsync
 - optional path for rsync:
@@ -36,6 +36,7 @@ Automatic execution of local configurations enables the menu app to automaticall
 ## Logging
 
 Detailed logging on or off
+
 - if detailed logging is on all backup tasks are logged, if off only last date for task is updated in Synchronize view
 
 ## Halt on error
@@ -78,6 +79,7 @@ If global ssh parameters are set, it applies to **all configurations**. It is po
 ## Number of days
 
 Number of days
+
 - in Synchronize view tasks older than number of days are marked red
 
 ## Environment
