@@ -13,7 +13,7 @@ RsyncOSX is a GUI ontop of the command line utility rsync, no more no less. Rsyn
 
 There is [a changelog](/post/changelog/).
 
-## Insalling RsyncOSX
+## Installing RsyncOSX
 
 It is easy to download and install RsyncOSX. Download the .dmg file and drag the application to the folder you want to install in, defaul is `/Applications`. The application is signed and notarized by Apple.
 
