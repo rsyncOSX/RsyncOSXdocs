@@ -5,16 +5,20 @@ date = "2020-04-24"
 description = "If you want some more info about RsyncOSX there are some resources here."
 tags = ["summary"]
 categories = ["general information"]
+lastmod = "2020-07-11"
 +++
 RsyncOSX is a GUI ontop of the command line utility rsync, no more no less. Rsync is a file-based synchronization and backup tool. RsyncOSX supports both synchronize and snapshot tasks. There is no custom solution for the synchronized archive. And you can quit utilizing RsyncOSX (and rsync) at any time and still have access to all synchronized files.
 
+## Changelog
+
+There is [a changelog](/post/changelog/).
+
+## Insalling RsyncOSX
+
+It is easy to download and install RsyncOSX. Download the .dmg file and drag the application to the folder you want to install in, defaul is `/Applications`. The application is signed and notarized by Apple.
+
  - [getting and installing RsyncOSX](/post/rsyncosx/)
- - [there is a changelog](/post/changelog/)
  - [signing and notarizing of RsyncOSX](/post/notarized/)
-
- MacOS 11 Beta and Xcode 12 Beta are released. In the info about the next release there are some info about RsyncOSX on macOS 11.
-
- - what is [in next release](/post/nextrelease/)?
 
 ## Intro
 

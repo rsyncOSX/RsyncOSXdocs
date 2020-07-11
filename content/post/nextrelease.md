@@ -7,7 +7,7 @@ categories = ["changelog"]
 description = "What is in next release of RsyncOSX?"
 lastmod = "2020-06-30"
 +++
-Version 6.3.5 of RsyncOSX, release 30 June 2020. The following are enhancements in this release of RsyncOSX.
+Version 6.3.5 of RsyncOSX, released 30 June 2020. The following are enhancements in this release of RsyncOSX.
 
 ## SSH part
 
