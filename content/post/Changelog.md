@@ -43,7 +43,10 @@ During summer 2020 I am focusing on:
 
 - QA and updates of old code, some of the old code needs update
 - prepare release on macOS Big Sur
-- working on adding [execute post and pre scripts](https://github.com/rsyncOSX/RsyncOSX/issues/1813) on tasks
+- adding [execute post and pre scripts](https://github.com/rsyncOSX/RsyncOSX/issues/1813) on tasks
+	- execute pre and post shell scripts by [utilizing John Sundell´s ShellOut](https://github.com/JohnSundell/ShellOut)
+	- in beta for test
+	- shell scripts may be used for mounting and unmounting volumes before and after rsync task
 
 ## Version 6.3.5
 
