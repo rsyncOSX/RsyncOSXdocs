@@ -5,7 +5,7 @@ date = "2020-04-23"
 description = "Changelog"
 tags = ["rsyncosx"]
 categories = ["changelog"]
-lastmod = "2020-06-25"
+lastmod = "2020-07-16"
 +++
 I am using the application on a daily basis and it evolves during my own use. Suggestions for new *features*, *enhancements* and *bug reports* are more than welcome. [Please add an issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding requests or bugs.
 
@@ -58,8 +58,6 @@ Pre and post shell scripts is **only executed** by selecting the task and by `‚å
 - added user set SSH keypath and identityfile, global and local settings
 - refactor of RsyncOSX support SSH keypair creation
 - enabled monitoring if drop in network connection during execution of tasks (only valid in macOS 10.14 and higher)
-
-There is some more info [about this release](/post/nextrelease/).
 
 ## Version 6.3.0
 

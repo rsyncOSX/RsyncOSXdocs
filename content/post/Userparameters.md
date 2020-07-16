@@ -5,23 +5,27 @@ title =  "User selected rsync parameters"
 tags = ["user rsync parameters"]
 categories = ["rsyncparameters"]
 description = "RsyncOSX allows the user to set parameters to rsync."
+lastmod = "2020-07-16"
 +++
-Rsync utilizes a ton of parameters. RsyncOSX has only presented a few. Parameters are normally constructed as:
+See also [default parameters](/post/rsyncparameters) for info about default parameters and the ssh parameters (local). Rsync utilizes a ton of parameters. Parameters are normally constructed as:
 
 - --parameter=value `--exclude-from=/Volumes/home/user/exclude-list.txt`
 - --parameter `--stats`, `--dry-run`
 
 For a full list of parameters to rsync please see the [rsync docs](https://download.samba.org/pub/rsync/rsync.html).
 
-## Backup catalog by parameter to rsync
+## Add parameters
 
 You can instruct rsync to save changed and deleted files in a separate backup catalog ahead of the change. This feature is utilized by setting the following parameters:
 
 - `--backup` parameter instructs rsync to save changed files
 - `--backup-dir` parameter where to save changed or deleted files before rsync synchronize source and destination
 	- RsyncOSX does suggest a value for the `--backup-dir` but you might set it to whatever you want
+- **rsync daemon**: `::` enabling rsync daemon puts a double colon `::` in address parameter to rsync. It forces rsync to use the rsync daemon remote.
 
-![](/images/RsyncOSX/master/rsync/rsync.png)
+There are [two possible setup for using the rsync daemon](/post/rsyncdaemon/). Utilizing a rsync daemon setup does **not** encrypt the transfer between client and server. To encrypt the transfer require tunneling traffic in a ssh protocol, [see how to setup ssh passwordless logins](/post/remotelogins/).
+
+![](/images/RsyncOSX/master/userparameters/userparameters.png)
 
 ## Suffix on changed and deleted files
 
@@ -49,7 +53,5 @@ The user can set own parameters by using user in dropdown menu. Preset parameter
 RsyncOSX passes whatever set by user to rsync, parameters must be either:
 - `--parameter=value` or
 - `--parameter`
-
-![](/images/RsyncOSX/master/rsync/parameters.png)
 
 `delete` - delete the parameterdeletes the parameter when OK button is selected

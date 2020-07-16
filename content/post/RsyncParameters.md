@@ -5,6 +5,7 @@ title =  "RsyncOSX default parameters"
 tags = ["default rsync parameters"]
 categories = ["rsyncparameters"]
 description = "There are som default parameters to rsync."
+lastmod = "2020-07-16"
 +++
 RsyncOSX implements default parameters which are working fine for simple synchronize and restore tasks. The actual parameters used in tasks is depended upon executing rsync over **network connection** or not. Which standard parameters to use is computed during startup of application by reading the configuration file.
 
@@ -27,8 +28,9 @@ The following parameters are for networked tasks only. A networked task is a tas
 - `-e ssh` to ensure rsync tunnels traffic through a ssh-tunnel, applies only if there is a remote server
 - `-e "ssh -p nn"` choose another port nn if standard port 22 is not used, enable by setting port number in parameters, applies only if remote server
 
-## Ssh parameters
+## Ssh parameters (local)
 
-There are two parameters to set for ssh.
+There are two parameters to set for ssh. The local ssh parameters overrides global ssh parameters set in the [user config](/post/userconfiguration/).
+
 - ssh port, set if ssh uses other port than standard port 22
-- the ssh identity file, normally this is either `id_dsa` or `id_rsa`, set name only if other identity file to be used by ssh
+- the ssh keypath and identity file, normally this is `.ssh/id_rsa`, set name only if other keypath and identity file to be used by ssh

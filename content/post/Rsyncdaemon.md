@@ -5,6 +5,7 @@ title =  "Rsync daemon setup"
 tags = ["passwordless","rsync daemon"]
 categories = ["remotelogins"]
 description = "How to setup remote logins by rsync daemon. There are also two methods for setting up."
+lastmod = "2020-07-16"
 +++
 It is advised to utilize ssh keys for setup of passwordless logins for rsync. But it is possible to setup rsync and passwordless login by utilize a rsync daemon setup.
 
@@ -35,12 +36,7 @@ The files in [files] is used in the setup.
 ## Prefix username in RsyncOSX
 
 - prefix username `rsync://username`
-
-![rsyncdaemon](/images/RsyncOSX/master/rsyncdaemon/rsyncdaemon1.png)
-
 - add a full path to the file with password. Rsync will complain if it is not chmod 600. Also remove the `-e ssh` parameter.
-
-![rsyncdaemon](/images/RsyncOSX/master/rsyncdaemon/rsyncdaemon2.png)
 
 With the above setup I was able to push and pull data utilizing RsyncOSX and a rsync daemon setup. The following commands for push and pull files are:
 
@@ -60,8 +56,7 @@ Pull files (restore)
 
 By utilizing the double colon `::` is a slightly different syntax which does the same.  
 
-![rsyncdaemon](/images/RsyncOSX/master/rsyncdaemon/rsyncdaemon3.png)
-![rsyncdaemon](/images/RsyncOSX/master/rsyncdaemon/rsyncdaemon4.png)
+![](/images/RsyncOSX/master/userparameters/userparameters.png)
 
 Push files (synchronize or backup)
 ```
