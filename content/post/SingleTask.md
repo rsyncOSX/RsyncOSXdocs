@@ -18,6 +18,8 @@ There are three options for editing after selecting a task in row:
 
 After selecting a row choosing one of the above pops up a new view according to selection. Select Edit task to editing basic information about task. Select Delete task to delete the selected row (task).
 
+The `Shell` column is on, it indicates there is attached pre and post shell scripts to the task, also see more info about shell command in the [add configuration](/post/addconfigurations/).
+
 ## Execute single task
 
 Execute single tasks is a two step operation, one for estimation (dry-run) and one for the real task. A drop down view is automatically presented after both tasks. A single task is executed by  a double click on the selected task/row. There are five numbers in bottom page. Only version 3.x counts the number of remote directories. The numbers are files to be transferred and remote numbers. Another double click executes the real run and a progress bar is presented.
@@ -28,7 +30,7 @@ If Abort is pressed any executing task is aborted.
 
 ## Edit and params
 
-The edit enables changing the basic info about the task.
+The edit enables changing the basic info about the task. The user can add, edit, enable and disable executing shell commands to the synchronize task.
 
 ![](/images/RsyncOSX/master/singletask/edit.png)
 
