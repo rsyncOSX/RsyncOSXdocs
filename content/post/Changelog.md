@@ -35,18 +35,20 @@ If your plan is to use RsyncOSX as your main tool for backup of files, please in
 
 See info about [the latest version of rsync in install](/post/rsync/).
 
-## What is going on?
+## Version 6.3.9 release candidate
 
-Version 6.3.5 was released in June. MacOS Big Sur and Xcode 12 is here in beta. I have installed both on a 2016 MacBook Pro, compiled and executed all apps. When macOS Big Sur is released in some months, RsyncOSX will be released for macOS Big Sur as well.
+[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.3.5) 16 July 2020
 
-During summer 2020 I am focusing on:
+There is one major enhancement in this release candidate, execute shell scripts before and after rsync command, thanks to [Dante Barba](https://github.com/dantebarba) for requesting:
 
+- adding execute post and pre scripts on tasks
+	- by [utilizing John Sundell´s ShellOut](https://github.com/JohnSundell/ShellOut)
+	- shell scripts may be used for mounting and unmounting volumes before and after rsync task or any other housekeeping tasks
+	- add and enable, disable pre and post shelle commands in Add or Edit view
 - QA and updates of old code, some of the old code needs update
 - prepare release on macOS Big Sur
-- adding [execute post and pre scripts](https://github.com/rsyncOSX/RsyncOSX/issues/1813) on tasks
-	- execute pre and post shell scripts by [utilizing John Sundell´s ShellOut](https://github.com/JohnSundell/ShellOut)
-	- in beta for test
-	- shell scripts may be used for mounting and unmounting volumes before and after rsync task
+
+Pre and post shell scripts is **only executed** by selecting the task and by `⌘B` (Execute Now).
 
 ## Version 6.3.5
 
