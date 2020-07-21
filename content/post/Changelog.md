@@ -37,7 +37,7 @@ See info about [the latest version of rsync in install](/post/rsync/).
 
 ## Version 6.3.9 release candidate
 
-[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.3.5) 16 July 2020
+[Updated](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.3.5) 21 July 2020
 
 There is one major enhancement in this release candidate, execute shell scripts before and after rsync command, thanks to [Dante Barba](https://github.com/dantebarba) for requesting:
 
@@ -47,8 +47,9 @@ There is one major enhancement in this release candidate, execute shell scripts 
 	- add and enable, disable pre and post shelle commands in Add or Edit view
 - QA and updates of old code, some of the old code needs update
 - prepare release on macOS Big Sur
+- the menu app (RsyncOSXsched) now executes pre and post scripts
 
-Pre and post shell scripts is **only executed** by selecting the task and by `⌘B` (Execute Now).
+Pre and post shell scripts is **only executed** by selecting the task and by `⌘B` (Execute now, RsyncOSX) or by schedule in the menu app (RsyncOSXsched).
 
 ## Version 6.3.5
 
