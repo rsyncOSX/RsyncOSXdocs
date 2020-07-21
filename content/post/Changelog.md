@@ -51,6 +51,8 @@ There is one major enhancement in this release candidate, execute shell scripts 
 
 Pre and post shell scripts is **only executed** by selecting the task and by `⌘B` (Execute now, RsyncOSX) or by schedule in the menu app (RsyncOSXsched).
 
+**There is one minor issue with the menu app**: if only active schedules in `default profile`, the menu app does not show schedules before choosing default profile. The schedule is active. A fix will come..
+
 ## Version 6.3.5
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.3.5) 30 June 2020
