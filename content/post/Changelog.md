@@ -39,7 +39,7 @@ See info about [the latest version of rsync in install](/post/rsync/).
 
 [Updated](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.3.5) 22 July 2020
 
-**Caution:** there was one issue with latest release candidate, please update to last.
+**Caution:** There are some issues with dates in last release candidate, the scheduler is temporarly removed.
 
 There is one major enhancement in this release candidate, execute shell scripts before and after rsync command, thanks to [Dante Barba](https://github.com/dantebarba) for requesting:
 
