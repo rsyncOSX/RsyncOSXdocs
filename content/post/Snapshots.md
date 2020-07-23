@@ -5,7 +5,7 @@ title =  "Snapshots"
 tags = ["snapshot"]
 categories = ["synchronize"]
 description = "Snapshot is a very effective method for saving changes to file."
-lastmod = "2020-06-18"
+lastmod = "2020-07-23"
 +++
 Utilizing snapshot is an effective method for restore of previous versions of data and deleted files. Snapshot utilize [hardlinks](https://en.wikipedia.org/wiki/Hard_link) and only changed and deleted files are saved as separate files in a snapshot. Files which are not changed are hardlinks to the original file.
 
@@ -49,7 +49,7 @@ and is picked up from the configuration.
 
 ## Snapshots on local attached volumes
 
-It seems like you have to disable `Ignore ownership on this volume` on local attached volumes the make snapshots work with hardlinks. Right click on the attached volume and disable it (in bottom of view).
+It seems like you have to disable `Ignore ownership on this volume` on local attached volumes to make snapshots work with hardlinks. Right click on the attached volume and disable it (in bottom of view).
 
 ## Snapshot administration
 
