@@ -37,9 +37,9 @@ See info about [the latest version of rsync in install](/post/rsync/).
 
 ## Version 6.3.9 release candidate
 
-[Updated](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.3.5) 22 July 2020
+[Updated](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.3.5) 23 July 2020
 
-**Caution:** There are some issues with dates in last release candidate, the scheduler is temporarly removed.
+There were some issues with dates in previous release candidates, please update. There is also fixed a bug in deleting and stopping schedules.
 
 There is one major enhancement in this release candidate, execute shell scripts before and after rsync command, thanks to [Dante Barba](https://github.com/dantebarba) for requesting:
 
@@ -48,8 +48,8 @@ There is one major enhancement in this release candidate, execute shell scripts 
 	- shell scripts may be used for mounting and unmounting volumes before and after rsync task or any other housekeeping tasks
 	- add and enable, disable pre and post shelle commands in Add or Edit view
 - QA and updates of old code, some of the old code needs update
-- prepare release on macOS Big Sur
 - the menu app (RsyncOSXsched) now executes pre and post scripts
+- fixed bug in stoping and deleting schedules
 
 Pre and post shell scripts is **only executed** by selecting the task and by `⌘B` (Execute now, RsyncOSX) or by schedule in the menu app (RsyncOSXsched).
 
