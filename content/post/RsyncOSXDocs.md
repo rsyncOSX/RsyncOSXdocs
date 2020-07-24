@@ -20,10 +20,6 @@ It is easy to download and install RsyncOSX. Download the .dmg file and drag the
  - [getting and installing RsyncOSX](/post/rsyncosx/)
  - [signing and notarizing of RsyncOSX](/post/notarized/)
 
-## Intro
-
-- a short [intro to RsyncOSX](/post/intro/)
-
 ## Remote servers
 
 Using RsyncOSX for synchronize files to remote servers require some setup.
@@ -59,6 +55,10 @@ Using RsyncOSX for synchronize files to remote servers require some setup.
 - some info about [user configuration](/post/userconfiguration/)
 - where does RsyncOSX [stores the config files](/post/configfiles/)
 - [the verify function](/post/verify/)
+
+## Intro
+
+- a short [intro to RsyncOSX](/post/intro/)
 
 ## Source code and compile
 
