@@ -39,20 +39,22 @@ See info about [the latest version of rsync in install](/post/rsync/).
 
 [Updated](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.3.5) 23 July 2020
 
-There were some issues with dates in previous release candidates, please update. There is also fixed a bug in deleting and stopping schedules.
+There were some issues with dates in previous release candidates, please update.
 
-There is one major enhancement in this release candidate, execute shell scripts before and after rsync command, thanks to [Dante Barba](https://github.com/dantebarba) for requesting. And also thank you to [CaspervdGeer](https://github.com/CaspervdGeer) for reporting a bug in dates and the menu app, the bug is fixed in the release candidate.
+There is one major enhancement in this release candidate, execute shell scripts before and after rsync command. Also a serious bug in dates and the menu app is fixed in the release candidate. There is also fixed a bug in deleting and stopping schedules.
 
-- adding execute post and pre scripts on tasks
+Pre and post shell scripts is **only executed** by selecting the task and by `⌘B` (Execute now, RsyncOSX) or by schedule in the menu app (RsyncOSXsched).
+
+- adding execute post and pre scripts on tasks (requested by [@Dante Barba](https://github.com/dantebarba))
 	- by [utilizing John Sundell´s ShellOut](https://github.com/JohnSundell/ShellOut)
 	- shell scripts may be used for mounting and unmounting volumes before and after rsync task or any other housekeeping tasks
-	- add and enable, disable pre and post shelle commands in Add or Edit view
+	- add and enable, disable pre and post shell commands in Add or Edit view
 - QA and updates of old code, some of the old code needs update
 - the menu app (RsyncOSXsched) now executes pre and post scripts
 - fixed bug in canceling (stop) and deleting schedules
-- fixed a serious bug how dates are calculated in both RsyncOSX and the menu app
+- fixed a serious bug how dates are calculated in both RsyncOSX and the menu app (reported by [@CaspervdGeer](https://github.com/CaspervdGeer))
 
-Pre and post shell scripts is **only executed** by selecting the task and by `⌘B` (Execute now, RsyncOSX) or by schedule in the menu app (RsyncOSXsched).
+
 
 ## Version 6.3.5
 
