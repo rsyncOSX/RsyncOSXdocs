@@ -41,20 +41,18 @@ See info about [the latest version of rsync in install](/post/rsync/).
 
 There were some issues with dates in previous release candidates, please update.
 
-There is one major enhancement in this release candidate, execute shell scripts before and after rsync command. Also a serious bug in dates and the menu app is fixed in the release candidate. There is also fixed a bug in deleting and stopping schedules.
+There is one major enhancement in the release candidate, execute shell scripts before and after the rsync command. A serious bug in dates and the menu app is also fixed. And lastly there is also fixed a bug in deleting and canceling schedules.
 
-Pre and post shell scripts is **only executed** by selecting the task and by `⌘B` (Execute now, RsyncOSX) or by schedule in the menu app (RsyncOSXsched).
+Pre and post shell scripts are **only executed** by selecting the task and by `⌘B` (Execute now, RsyncOSX) or by a schedule in the menu app (RsyncOSXsched).
 
 - adding execute post and pre scripts on tasks (requested by [@Dante Barba](https://github.com/dantebarba))
 	- by [utilizing John Sundell´s ShellOut](https://github.com/JohnSundell/ShellOut)
 	- shell scripts may be used for mounting and unmounting volumes before and after rsync task or any other housekeeping tasks
 	- add and enable, disable pre and post shell commands in Add or Edit view
-- QA and updates of old code, some of the old code needs update
 - the menu app (RsyncOSXsched) now executes pre and post scripts
 - fixed bug in canceling (stop) and deleting schedules
 - fixed a serious bug how dates are calculated in both RsyncOSX and the menu app (reported by [@CaspervdGeer](https://github.com/CaspervdGeer))
-
-
+- QA and updates of old code, some of the old code needs update
 
 ## Version 6.3.5
 
