@@ -15,7 +15,7 @@ There is [a changelog](/post/changelog/).
 
 ## Installing RsyncOSX
 
-It is easy to download and install RsyncOSX. Download the .dmg file and drag the application to the folder you want to install in, defaul is `/Applications`. The application is signed and notarized by Apple.
+It is easy to download and install RsyncOSX. Download the .dmg file and drag the application to the folder you want to install in, default is `/Applications`. The application is signed and notarized by Apple.
 
  - [getting and installing RsyncOSX](/post/rsyncosx/)
  - [signing and notarizing of RsyncOSX](/post/notarized/)
