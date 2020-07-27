@@ -34,11 +34,10 @@ The Capacity button query remote storage in all configurations about available s
 - **Remote username**: `thomas` username for login to remote server
 - **Remote server**: `10.0.0.57` either server name or IP-address for remote server
 - **ID**: `My docs catalog` informal tag for the configuration
-- **ssh port**: if ssh communicates through other than standard port it must be set here, port `22` is default port for ssh and not require to set
 ### Task
 - **Type**: there are four types of tasks, `synchronize` which is default, `snapshots`, `syncremote` and `single file`.
 ### Optional pre and post task
-- **pretask**: attach optional pre shell script to the synchronize command. The `pre.sh`is executed ahead of the synchronize command, the `post.sh` after the synchronize command. The scripts are normal shell scripts as if executed from command line.
+- **pretask**: attach optional pre shell script to the synchronize command. The `pre.sh`is executed ahead of the synchronize command, the `post.sh` after the synchronize command. The scripts are normal shell scripts as if executed from the command line.
   - switch execute shell script on/off
 - **posttask**: attach optional post shell script to the synchronize command. The `post.sh` is executed after the synchronize command.
   - switch execute shell script on/off
