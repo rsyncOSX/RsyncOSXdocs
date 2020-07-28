@@ -39,7 +39,7 @@ See info about [the latest version of rsync in install](/post/rsync/).
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.3.5) 26 July 2020
 
-There is one major enhancement in the release candidate, execute shell scripts before and after the rsync command. A serious bug in dates and the menu app is also fixed. And lastly there is also fixed a bug in deleting and canceling schedules.
+There is one major enhancement in the release, execute shell scripts before and after the rsync command. A serious bug in dates and the menu app is also fixed. And lastly there is also fixed a bug in deleting and canceling schedules.
 
 Pre and post shell scripts are **only executed** by selecting the task and by `⌘B` (Execute now, RsyncOSX) or by a schedule in the menu app (RsyncOSXsched).
 
