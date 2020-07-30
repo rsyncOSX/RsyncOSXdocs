@@ -18,6 +18,12 @@ If you are installing on macOS Catalina, execute the rclone utility in a termina
 
 For the moment there is no active development of RcloneOSX. I will continue to compile, notarize and sign RcloneOSX for new versions of macOS and fix serious bugs. I will also refactor and enhance the code when required. But there will not be any new functions. My main effort in the future is to continue development of RsyncOSX and RsyncGUI.
 
+## Version 2.2.1
+
+[Released](https://github.com/rsyncOSX/rcloneosx/releases/tag/v2.2.1) 30 July 2020.
+
+- maintenance release and a few bugfixes
+
 ## Version 2.2.0
 
 [Released](https://github.com/rsyncOSX/rcloneosx/releases/tag/v2.2.0) 17 May 2020.
@@ -25,11 +31,6 @@ For the moment there is no active development of RcloneOSX. I will continue to c
 - added counting numbers in quick backup
 - added clean logfile in view output from rsync
 - some minor fixes and cleanups
-
-Shasum:
-```
-rcloneosx 2.2.0.dmg: 88a587d89085b741af4cf5f8e366cf31749aebda
-```
 
 ## Version 2.1.9
 
@@ -40,21 +41,12 @@ rcloneosx 2.2.0.dmg: 88a587d89085b741af4cf5f8e366cf31749aebda
 - logging rclone errors to logfile
 - view logfile in view for rclone output
 
-Shasum:
-```
-rcloneosx.2.1.9.dmg: 8f2f8281c6bf08d6a6387679c759d35411c02c73
-```
 
 ## Version 2.1.5
 
 [Released](https://github.com/rsyncOSX/rcloneosx/releases/tag/v2.1.5) 27 March 2020.
 
 This is a "maintenance release". Batch is removed and replaced with multiple selection of tasks to execute.
-
-Shasum:
-```
-RcloneOSX-2.1.5.dmg: c3c70473d2db49e5f1e59b1b243a7cef6faa3408
-```
 
 ## Version 2.1.1
 
