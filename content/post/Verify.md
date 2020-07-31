@@ -27,6 +27,6 @@ The Changed button kicks of a `--dry-run` restore task. Changed and deleted file
 
 If the **verify** finds files not synchronized a touch command on file will update timestamp on file and next synchronize task will copy missing files.
 
-Below is sample of a verify task. 66 files are verified as not equal. These files are also identified by the normal backup task.
+Below is sample of a verify task. 66 files are verified as not equal.
 
 ![](/images/RsyncOSX/master/verify/verify.png)
