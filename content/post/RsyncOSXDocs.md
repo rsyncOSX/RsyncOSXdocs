@@ -5,7 +5,7 @@ date = "2020-04-24"
 description = "If you want some more info about RsyncOSX there are some resources here."
 tags = ["summary"]
 categories = ["general information"]
-lastmod = "2020-07-11"
+lastmod = "2020-08-02"
 +++
 RsyncOSX is a GUI ontop of the command line utility rsync, no more no less. Rsync is a file-based synchronization and backup tool. RsyncOSX supports both synchronize and snapshot tasks. There is no custom solution for the synchronized archive. And you can quit utilizing RsyncOSX (and rsync) at any time and still have access to all synchronized files.
 
@@ -24,9 +24,9 @@ It is easy to download and install RsyncOSX. Download the .dmg file and drag the
 
 Using RsyncOSX for synchronize files to remote servers require some setup.
 
-- [there are two options to setup passwordless logins](/post/remotelogins/)
+- there are [two options to setup passwordless logins](/post/remotelogins/)
   - the preferred [setup by ssh keys](/post/ssh/)
-  - a [rsync daemon setup](/post/rsyncdaemon/)
+  - a rsync [daemon setup](/post/rsyncdaemon/)
 
 ## Add and execute single tasks
 
@@ -54,7 +54,7 @@ Using RsyncOSX for synchronize files to remote servers require some setup.
 - some info about [logging execution of tasks](/post/logging/)
 - some info about [user configuration](/post/userconfiguration/)
 - where does RsyncOSX [stores the config files](/post/configfiles/)
-- [the verify function](/post/verify/)
+- the [verify function](/post/verify/)
 
 ## Intro
 
@@ -62,4 +62,4 @@ Using RsyncOSX for synchronize files to remote servers require some setup.
 
 ## Source code and compile
 
-- some info [about the source code and how to compile RsyncOSX](/post/source)
+- some info about the [source code and how to compile RsyncOSX](/post/source)
