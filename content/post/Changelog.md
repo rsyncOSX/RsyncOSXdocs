@@ -27,7 +27,7 @@ The UI can for users who dont know rsync, be difficult or complex to understand.
 
 RsyncOSX supports synchronize and snapshots of files.
 
-RsyncOSX as your main backuptool
+RsyncOSX as your main tool for backup
 |---|
 If your plan is to use RsyncOSX as your main tool for backup of files, please investigate and understand the limits of it. RsyncOSX is quite powerful, but it is might not the primary backup tool for the average user of macOS.
 
@@ -149,7 +149,7 @@ The following are changes in the release:
 - a few GUI adjustments
 - fixed a bug in search logs, the search was not localized
 - fixed a bug in delete logs and save logs to permanent store
-- fixed a bug in removal of --delete parameter
+- fixed a bug in removal of the --delete parameter
 - some adjustments in search and sort (in logs and all profiles)
 - some localization fixes Norwegian
 - some localization fixes Chinese (Simplified)
