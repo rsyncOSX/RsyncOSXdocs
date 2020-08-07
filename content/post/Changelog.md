@@ -7,29 +7,13 @@ tags = ["rsyncosx"]
 categories = ["changelog"]
 lastmod = "2020-07-16"
 +++
-I am using the application on a daily basis and it evolves during my own use. Suggestions for new *features*, *enhancements* and *bug reports* are more than welcome. [Please add an issue](https://github.com/rsyncOSX/RsyncOSX/issues) regarding requests or bugs.
+If you are installing on macOS Catalina or macOS Big Sur and utilize a local version of rsync, execute the rsync utility in a terminal window before using RsyncOSX. There is a process of granting access for the rsync utility before using it by RsyncOSX. MacOS Catalina or macOS Big Sur will also ask permission for accessing your home catalog first time you start RsyncOSX.
+
+If you also utilize the menu-app (RsyncOSXsched), be aware of you might have to force quit RsyncOSX the first time you start the menu-app. This is because the macOS Catalina and macOS Big Sur ask for permissions when starting the menu-app for the first time and RsyncOSX is not closed automatically when starting the menu-app. This might happen only once first time start.
 
 ## Signing and notarizing
 
 All releases of RsyncOSX are [signed and notarized](/post/notarized/).
-
-## RsyncOSX on macOS Catalina
-
-If you are installing on macOS Catalina and utilize a local version of rsync, execute the rsync utility in a terminal window before using RsyncOSX. There is a process of granting access for the rsync utility before using it by RsyncOSX. MacOS Catalina will also ask permission for accessing your home catalog first time you start RsyncOSX.
-
-If you also utilize the menu-app (RsyncOSXsched), be aware of you might have to force quit RsyncOSX the first time you start the menu-app. This is because the macOS Catalina ask for permissions when starting the menu-app for the first time and RsyncOSX is not closed automatically when starting the menu-app. This might happen only once first time start on the macOS Catalina.
-
-## Some words about RsyncOSX
-
-RsyncOSX is not developed to be an easy to use synchronize and backup tool. The main purpose is to assist and ease the use of rsync to synchronize files on your Mac to remote FreeBSD and Linux servers. And of course restore files from those remote servers.
-
-The UI can for users who dont know rsync, be difficult or complex to understand. It is not required to know rsync but it will ease the use and understanding of RsyncOSX. But it is though, possible to use RsyncOSX by just adding a source and remote backup catalog using default parameters.
-
-RsyncOSX supports synchronize and snapshots of files.
-
-RsyncOSX as your main tool for backup
-|---|
-If your plan is to use RsyncOSX as your main tool for backup of files, please investigate and understand the limits of it. RsyncOSX is quite powerful, but it is might not the primary backup tool for the average user of macOS.
 
 ## Rsync version 3.2.2
 
