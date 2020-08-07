@@ -5,11 +5,9 @@ lastmod: 2020-06-09
 menu: "main"
 weight: 50
 ---
-My name is Thomas and I am the developer of RsyncOSX. The development of RsyncOSX commenced in January 2016 as a project to learn Swift. The first version was released in March 2016 and I have learned a lot since then. The codebase for RsyncOSX today is very different from the very start. There has been a few refactor of code and the status of codebase today is quite stable. I have a university degree in computing science, but I am **not** a professional developer.
+My name is Thomas and I am the developer of RsyncOSX. The development of RsyncOSX commenced in January 2016 as a personal project to learn Swift. The first version was released in March 2016 and I have learned a lot since then. The codebase for RsyncOSX today is also very different from the very start.
 
-A professional Swift developer would probably written the code somewhat different. To be a professional developer require, in my opinion, to be a full time developer. There are a few design patterns around but there is no such thing as a **silver bullet**. To be really good at adapting a pattern require, again in my opinion, a role as professional developer. In such a context I am only an amateur.
-
-I will continue to improve, enhance and add new functions in RsyncOSX. It is fun to code and I would like all users of RsyncOSX to ask for new functions and enhancements. Testing is also a challenge and I am not able to test all parts in RsyncOSX ahead of new releases. Xcode supports automatic testing and there implemented a few testcases for RsyncOSX.
+I do hold a degree in computing science, but I am not a professional developer nor do I want to be one either. I am a senior employee, grand dad to three and has commenced the planning of early retirement. My development of RsyncOSX will still be one of my fun hobbies and I will continue to work on it as long as there are users out there using it. I am a passionate mac user and I will continue to read and keep med updated on IT-technology.
 
 If you like using RsyncOSX please consider giving me a star on the GitHub repository. Every single star is a motivation for me to continue developing and keep the apps updated for the latest version of macOS.
 
