@@ -7,15 +7,11 @@ categories = ["remotelogins"]
 description = "How to setup remote logins by rsync daemon. There are also two methods for setting up."
 lastmod = "2020-07-16"
 +++
-It is advised to utilize ssh keys for setup of passwordless logins for rsync. But it is possible to setup rsync and passwordless login by utilize a rsync daemon setup.
+With a few tweaks it is possible to get RsyncOSX working with rsync daemon. Be aware of not utilizing ssh, transfer of data is not encrypted. This is might not a problem on a local network, but I would not advise it on a public network. Also be aware of snapshot is not possible with a rsync daemon setup.
 
-With a few tweaks it is possible to get RsyncOSX working with rsync daemon. Be aware of not utilizing ssh, transfer of data is **not** encrypted. This is might not a problem on a local network, but I would not advise it on a public network (depends on what data is synchronized).
+Setting up a rsync daemon setup require a server side setup and some tweaks in RsyncOSX.
 
-Snapshot and rsync daemon setup
-|---|
-Snapshot is not possible with rsync daemon setup.
-
-## Server side setup
+## Server setup
 
 The sample setup below is based upon a Ubuntu 19.04 server. How to get the rsync daemon up and running on the Ubuntu server is not part of this document. The rsync daemon on the server is setup to listen on port 873. It is also advised that the versions of rsync are equal on both client and server. There are two solutions for enabling a rsync daemon connection. For both setup of `/etc/rsyncd.conf` serverside is required.
 
@@ -44,34 +40,27 @@ user2:password_for_user2
 ```
 The rsync daemon has to be started on the server. There are several methods to automatically start the rsync daemon. For a test you can execute `sudo rsync --daemon` to start rsync as a daemon on the server.
 
+## RsyncOSX setup
+
+There are two methods in RsyncOSX to enable rsync daemon setup. One is to prefix the username and the second is to use a double colon. Both are demonstrated below.
+
 ## Prefix username in RsyncOSX
 
-Client side setup number one:
+Within the edit view:
 
 - prefix username `rsync://username`, remember the double `//`
-- add a full path to the file with password, `--password-file=/Users/thomas/passord.txt`, set `chmod 600` on the password file
-- delete the `-e ssh` parameter
 
-With the above setup I was able to push and pull data utilizing RsyncOSX and a rsync daemon setup. The following commands for push and pull files are:
+Within the parameter view:
 
-Push files (synchronize or backup)
-```
-/Users/thomas/bin/rsync --archive --verbose --compress --delete
---password-file=/Users/thomas/passord.txt --exclude=.git --dry-run
---stats /Users/thomas/GitHub/ rsync://thomas@10.0.0.41:/files/
-```
-Pull files (restore)
-```
-/Users/thomas/bin/rsync --archive --verbose --compress --delete
---password-file=/Users/thomas/passord.txt --exclude=.git --dry-run
---stats rsync://thomas@10.0.0.41:/files/ /Users/thomas/GitHub/
-```
-## Rsync daemon
+- in the parameter view, add a full path to the file with password, `--password-file=/Users/thomas/passord.txt`, remember to set `chmod 600` on the password file
+- in the parameter view, delete the `-e ssh` parameter
 
-Client side setup number two:
+## Enable the rsync daemon
+
+All actions is within the parameter view:
 
 - enable the `rsync daemon`, it adds a double colon `::` to the rsync command string
-- add a full path to the file with password, `--password-file=/Users/thomas/passord.txt`, set `chmod 600` on the password file
+- add a full path to the file with password, `--password-file=/Users/thomas/passord.txt`, remember to set `chmod 600` on the password file
 - delete the `-e ssh` parameter
 
 ![](/images/RsyncOSX/master/userparameters/userparameters.png)
