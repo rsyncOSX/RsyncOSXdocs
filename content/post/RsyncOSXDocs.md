@@ -54,26 +54,36 @@ Snapshot is not possible with rsync [daemon setup](/post/rsyncdaemon/).
 
 ## Add and execute single tasks
 
+Add and execute simple tasks:
+
 - [add configurations](/post/addconfigurations/)
 - [executing single tasks](/post/singletask/)
 
 ## Parameters to rsync
 
-- [default parameters](/post/rsyncparameters)
+Add extra parameters to rsync and what is default rsync parameters:
+
 - [user selected parameters](/post/userparameters/)
+- [default parameters](/post/rsyncparameters)
 
 ## Snapshots, quick backup and scheduling
 
+Snapshots are effective method for saving changes and deleted files.
+
 - utilizing the [snapshot feature](/post/snapshots/)
-- utilizing the [quick backup feature](/post/quickbackup/)
+- utilizing the [quick synchronize feature](/post/quickbackup/)
 - [automatic backups](/post/automatic/)
 - [scheduling of tasks](/post/scheduletasks/)
 
 ## Restore
 
+Restore of synchronized files:
+
 - [restore of files](/post/restore/)
 
 ## Logging, configuration, config files, verify
+
+Some info about logging and where RsyncOSX store files:
 
 - some info about [logging execution of tasks](/post/logging/)
 - some info about [user configuration](/post/userconfiguration/)
@@ -82,8 +92,8 @@ Snapshot is not possible with rsync [daemon setup](/post/rsyncdaemon/).
 
 ## Intro
 
-- a short [intro to RsyncOSX](/post/intro/)
+There is a [short intro to RsyncOSX](/post/intro/).
 
 ## Source code and compile
 
-- some info about the [source code and how to compile RsyncOSX](/post/source)
+And there is some info about the [source code and how to compile RsyncOSX](/post/source).
