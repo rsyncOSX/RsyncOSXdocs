@@ -11,7 +11,7 @@ RsyncOSX is a GUI ontop of the command line utility `rsync`, no more no less. Rs
 
 ## Bugs, enhancements or not happy
 
-The only way RsyncOSX can become better is by feedback from users. I do spend many hours in developing RsyncOSX as an opensource application. My main motivation for developing RsyncOSX is happy users. If you find bugs, have ideas for enhancements or if you are not happy about how RsyncOSX works - please let me know by [creating an issue](https://github.com/rsyncOSX/RsyncOSX/issues).
+The only way RsyncOSX can become better is by feedback from users. I do spend several hours a week in developing RsyncOSX. One of the major motivation for developing RsyncOSX are happy users. If you find bugs, have ideas for enhancements or if you are not happy about how RsyncOSX works, please let me know by [creating an issue](https://github.com/rsyncOSX/RsyncOSX/issues).
 
 ## Some words about RsyncOSX
 
@@ -54,21 +54,21 @@ Snapshot is not possible with rsync [daemon setup](/post/rsyncdaemon/).
 
 ## Add and execute single tasks
 
-Add and execute simple tasks:
+It is easy to add a first configuration and execute your first synchronize task.
 
 - [add configurations](/post/addconfigurations/)
 - [executing single tasks](/post/singletask/)
 
 ## Parameters to rsync
 
-Add extra parameters to rsync and what is default rsync parameters:
+Rsync has a ton of parameters. In user selected parameters you can add your own additional parameters to rsync. There is also a set of default rsync parameters.
 
 - [user selected parameters](/post/userparameters/)
 - [default parameters](/post/rsyncparameters)
 
 ## Snapshots, quick backup and scheduling
 
-Snapshots are effective method for saving changes and deleted files.
+Snapshot is an effective method for saving changes and deleted files. You can also execute a group of tasks. If you want to schedule daily or weekly synchronize or snapshot tasks, add a schedule in RsyncOSX and execute by the menu app.
 
 - utilizing the [snapshot feature](/post/snapshots/)
 - utilizing the [quick synchronize feature](/post/quickbackup/)
@@ -77,13 +77,13 @@ Snapshots are effective method for saving changes and deleted files.
 
 ## Restore
 
-Restore of synchronized files:
+Sometimes you need to restore files. Either execute a full restore or file by file.
 
 - [restore of files](/post/restore/)
 
 ## Logging, configuration, config files, verify
 
-Some info about logging and where RsyncOSX store files:
+There are some info about logging and where RsyncOSX store files. There are a few user selected options. And sometimes you should execute a verify of synchronized files.
 
 - some info about [logging execution of tasks](/post/logging/)
 - some info about [user configuration](/post/userconfiguration/)
