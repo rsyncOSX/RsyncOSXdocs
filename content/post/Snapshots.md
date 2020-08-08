@@ -9,7 +9,11 @@ lastmod = "2020-07-23"
 +++
 Utilizing snapshot is an effective method for restore of previous versions of data and deleted files. Snapshot utilize [hardlinks](https://en.wikipedia.org/wiki/Hard_link) and only changed and deleted files are saved as separate files in a snapshot. Files which are not changed are hardlinks to the original file.
 
-If a `file.txt` is saved in snapshot number one and never changed or deleted, the file `file.txt` in the latest snapshot is just a hardlink to the original file. If the `file.txt` is deleted from the first snapshot, the filesystem takes care of updating and where to save the original file as part of the delete operation.  
+If a `file.txt` is saved in snapshot number one and never changed or deleted, the file `file.txt` in the latest snapshot is just a hardlink to the original file. If the `file.txt` is deleted from the first snapshot, the filesystem takes care of updating and where to save the original file as part of the delete operation.
+
+## Snapshot and rsync daemon setup
+
+Snapshot is not possible in a rsync daemon setup. For info about what a rsync daemon setup see info [about passwordless logins](/post/remotelogins/) and rsync daemon setup.
 
 ## What is a snapshots?
 
