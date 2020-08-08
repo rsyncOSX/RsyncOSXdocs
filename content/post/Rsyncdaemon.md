@@ -7,7 +7,7 @@ categories = ["remotelogins"]
 description = "How to setup remote logins by rsync daemon. There are also two methods for setting up."
 lastmod = "2020-07-16"
 +++
-With a few tweaks it is possible to get RsyncOSX working with rsync daemon. Be aware of not utilizing ssh, transfer of data is not encrypted. This is might not a problem on a local network, but I would not advise it on a public network. Also be aware of snapshot is not possible with a rsync daemon setup.
+With a few tweaks it is possible to get RsyncOSX working with rsync daemon. Be aware of not utilizing ssh, transfer of data is not encrypted. This is might not a problem on a local network, but I would not advise it on a public network. Also be aware of **snapshot is not possible** with a rsync daemon setup.
 
 Setting up a rsync daemon setup require a server side setup and some tweaks in RsyncOSX.
 
@@ -50,6 +50,9 @@ Within the edit view:
 
 - prefix username `rsync://username`, remember the double `//`
 
+![](/images/RsyncOSX/master/rsyncdaemon/edit.png)
+
+
 Within the parameter view:
 
 - in the parameter view, add a full path to the file with password, `--password-file=/Users/thomas/passord.txt`, remember to set `chmod 600` on the password file
@@ -63,11 +66,4 @@ All actions is within the parameter view:
 - add a full path to the file with password, `--password-file=/Users/thomas/passord.txt`, remember to set `chmod 600` on the password file
 - delete the `-e ssh` parameter
 
-![](/images/RsyncOSX/master/userparameters/userparameters.png)
-
-Push files (synchronize or backup)
-```
-/Users/thomas/bin/rsync --archive --verbose --compress --delete
---password-file=/Users/thomas/passord.txt --exclude=.git --dry-run
---stats /Users/thomas/GitHub/ thomas@10.0.0.41::files/
-```
+![](/images/RsyncOSX/master/rsyncdaemon/rsyncdaemon.png)
