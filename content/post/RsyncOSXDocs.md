@@ -11,7 +11,7 @@ RsyncOSX is a GUI ontop of the command line utility `rsync`, no more no less. Rs
 
 ## Quality control and the old code - August 2020
 
-The development of RsyncOSX commenced about four years ago. It was then and also is now, a project for learning Swift. From time to time I discover old parts of the code which is not robust enough and can potencially cause RsyncOSX, in some cases, to crash. The execution part part of RsyncOSX is updated and robust, but some parts in edit and adding tasks does require updates.
+The development of RsyncOSX commenced about four years ago. It was then and also is now, a project for learning Swift. From time to time I discover old parts of the code which is not robust enough and can potencially cause RsyncOSX, in some cases, to crash. The execution part of RsyncOSX is updated and robust, but some parts in edit and adding tasks does require QA and updates.
 
 I am also deleting some functions which should not be part of RsyncOSX. This is also a part of making RsyncOSX robust and with a clean and intuitive GUI as possible.
 
