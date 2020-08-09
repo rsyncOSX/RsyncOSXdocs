@@ -11,6 +11,14 @@ If you are installing on macOS Catalina or macOS Big Sur and utilize a local ver
 
 If you also utilize the menu-app (RsyncOSXsched), be aware of you might have to force quit RsyncOSX the first time you start the menu-app. This is because the macOS Catalina and macOS Big Sur ask for permissions when starting the menu-app for the first time and RsyncOSX is not closed automatically when starting the menu-app. This might happen only once first time start.
 
+## Quality control and the old code - August 2020
+
+The development of RsyncOSX commenced about four years ago. It was then and also is now, a project for learning Swift. From time to time I discover old parts of the code which is not robust enough and can potencially cause RsyncOSX, in some cases, to crash. The execution part part of RsyncOSX is updated and robust, but some parts in edit and adding tasks does require updates.
+
+I am also deleting some functions which should not be part of RsyncOSX. This is also a part of making RsyncOSX robust and with a clean and intuitive GUI as possible.
+
+Next release of RsyncOSX is a maintenance release. I will also release a release candidate witihn a feew weeks.
+
 ## Signing and notarizing
 
 All releases of RsyncOSX are [signed and notarized](/post/notarized/).
