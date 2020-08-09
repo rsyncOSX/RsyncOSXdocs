@@ -17,7 +17,7 @@ The development of RsyncOSX commenced about four years ago. It was then and also
 
 I am also deleting some functions which should not be part of RsyncOSX. This is also a part of making RsyncOSX robust and with a clean and intuitive GUI as possible.
 
-Next release of RsyncOSX is a maintenance release. I will also release a release candidate witihn a feew weeks.
+Next release of RsyncOSX is a maintenance release. There will also be a release candidate within a feew weeks.
 
 ## Signing and notarizing
 
