@@ -42,7 +42,7 @@ func onemethod() {
 
 All releases of RsyncOSX are [signed and notarized](/post/notarized/).
 
-## Rsync version 3.2.2
+## Latest version of rsync
 
 See info about [the latest version of rsync in install](/post/rsync/).
 
