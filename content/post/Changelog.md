@@ -17,6 +17,25 @@ The development of RsyncOSX commenced about four years ago. It was then and also
 
 Next release of RsyncOSX is a maintenance release. There will also be a release candidate within a feew weeks.
 
+## Known issue - august 2020
+
+There is one annyoing issue when adding a new `snapshot` task. The **issue is fixed, but not yeat released**. The issue causes RsyncOSX to abnormally stop (or crash) a few secs after adding the `snapshot` task. The task is added and is there when restarting RsyncOSX again.
+
+Utilizing `snapshot` tasks causes RsyncOSX to remote create the remote base for synchronized tasks. First of all adding a remote `snapshot` task require to be online with remote server. The updated, not yet released valdidate function within RsyncOSX now checks for it. The issue occurs when the creation process returns to RsyncOSX and it is simply a nil pointer error due to a force unwrap error.
+
+One objective of the QA of old code is removing those kind of force unwrapping. Force unwrapping should generally be avoided, but if used check for nil ponter values ahead of the force unwrapping. A much better and robust method is using `??` and default value if variable is nil.
+```
+var array: [Int]?
+...
+func onemethod() {
+	...
+	for i in 0 ..< (array.count ?? 0) {
+		// dosomething
+	...
+	}
+}
+```
+
 ## Signing and notarizing
 
 All releases of RsyncOSX are [signed and notarized](/post/notarized/).
