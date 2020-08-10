@@ -9,11 +9,9 @@ lastmod = "2020-08-07"
 +++
 RsyncOSX is a GUI ontop of the command line utility `rsync`, no more no less. Rsync is a file-based tool for transferring and synchronization of files. RsyncOSX supports both synchronize and snapshot tasks. There is no custom solution for the synchronized archive. And you can quit utilizing RsyncOSX (and rsync) at any time and still have access to all synchronized files. And there [is a short about me](/about).
 
-## Quality control and the old code - August 2020
+## Quality control and the old code - august 2020
 
-The development of RsyncOSX commenced about four years ago. It was then and also is now, a project for learning Swift. From time to time I discover old parts of the code which is not robust enough and can potencially cause RsyncOSX, in some cases, to crash. The execution part of RsyncOSX is updated and robust, but some parts in edit and adding tasks does require QA and updates.
-
-I am also deleting some functions which should not be part of RsyncOSX. This is also a part of making RsyncOSX robust and with a clean and intuitive GUI as possible.
+The development of RsyncOSX commenced about four years ago. It was then and also is now, a personal project for learning Swift. From time to time I discover old parts of the code which must be revised and updated. The various functions for execution of configurations is updated and robust. I am also deleting some functions which should not be part of RsyncOSX. This is also a part of making RsyncOSX more robust and with a clean and intuitive GUI as possible.
 
 Next release of RsyncOSX is a maintenance release. There will also be a release candidate within a feew weeks.
 
