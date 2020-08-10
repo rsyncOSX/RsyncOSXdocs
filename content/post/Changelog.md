@@ -19,7 +19,7 @@ Next release of RsyncOSX is a maintenance release. There will also be a release 
 
 ## Known issue - august 2020
 
-There is one annyoing issue when adding a new `snapshot` task. The **issue is fixed, but not yeat released**. The issue causes RsyncOSX to abnormally stop (or crash) a few secs after adding the `snapshot` task. The task is added and is there when restarting RsyncOSX again.
+There is one annyoing issue when adding a new `snapshot` task. The **issue is fixed, but not yet released**. The issue causes RsyncOSX to abnormally stop (crash) a few secs after adding the `snapshot` task. The task is added and is there when restarting RsyncOSX again.
 
 Utilizing `snapshot` tasks causes RsyncOSX to remote create the remote base for synchronized tasks. First of all adding a remote `snapshot` task require to be online with remote server. The updated, not yet released valdidate function within RsyncOSX now checks for it. The issue occurs when the creation process returns to RsyncOSX and it is simply a nil pointer error due to a force unwrap error.
 
