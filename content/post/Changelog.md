@@ -11,12 +11,6 @@ If you are installing on macOS Catalina or macOS Big Sur and utilize a local ver
 
 If you also utilize the menu-app (RsyncOSXsched), be aware of you might have to force quit RsyncOSX the first time you start the menu-app. This is because the macOS Catalina and macOS Big Sur ask for permissions when starting the menu-app for the first time and RsyncOSX is not closed automatically when starting the menu-app. This might happen only once first time start.
 
-## Quality control and the old code - august 2020
-
-The development of RsyncOSX commenced about four years ago. It was then and also is now, a personal project for learning Swift. From time to time I discover old parts of the code which must be revised and updated. The various functions for execution of configurations is updated and robust. I am also deleting some functions which should not be part of RsyncOSX. This is also a part of making RsyncOSX more robust and with a clean and intuitive GUI as possible.
-
-Next release of RsyncOSX is a maintenance release. There will also be a release candidate within a feew weeks.
-
 ## Known issue - august 2020
 
 There is one annyoing issue when adding a new `snapshot` task. The **issue is fixed, but not yet released**. The issue causes RsyncOSX to abnormally stop (crash) a few secs after adding the `snapshot` task. The task is added, workaround is just restart RsyncOSX.
