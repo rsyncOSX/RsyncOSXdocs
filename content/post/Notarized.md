@@ -14,12 +14,10 @@ From macOS 10.15 Catalina, [notarizing is required for all software](https://dev
 The following apps are signed and notarized:
 
  - RsyncOSX
- - RsyncOSXsched
+ - RsyncOSXsched (the menu app for RsyncOSX)
  - RcloneOSX
 
-Important: from macOS 10.15 Catalina, notarization is required by default for all software. RsyncOSX is signed and notarized and a new signed and notarized release will be available shortly after release of macOS 10.15.
-
-## Message first time
+## Message when executing first time
 
 This is the message when opening a downloaded version.
 
@@ -27,25 +25,21 @@ This is the message when opening a downloaded version.
 
 The message is in Norwegian: "Apple har sjekket programmet uten å finne ondsinnet programvare."  The english version of it is: "Apple checked it for malicious software and none was detected." You can also verify the signing by utilizing xcode developer tools.
 
-## RsyncOSX
+If you have Xcode developer tools installed, by executing the following command you can verify the following apps:
 
-If you have Xcode developer tools installed executing the following command to verify RsyncOSX.
+### RsyncOSX
 ```
 xcrun stapler validate no.blogspot.RsyncOSX RsyncOSX.app
 Processing: /Volumes/Home/thomas/GitHub/RsyncOSX/Build/Products/Release/RsyncOSX.app
 The validate action worked!
 ```
-## RsyncOSXsched (the menu app)
-
-If you have Xcode developer tools installed executing the following command to verify the RsyncOSXsched.app.
+### RsyncOSXsched (the menu app)
 ```
 xcrun stapler validate no.blogspot.RsyncOSXsched RsyncOSXsched.app
 Processing: /Volumes/Home/thomas/GitHub/RsyncOSXsched/Build/Products/Release/RsyncOSXsched.app
 The validate action worked!
 ```
-## RcloneOSX
-
-If you have Xcode developer tools installed executing the following command to verify the the rcloneosx.app.
+### RcloneOSX
 ```
 xcrun stapler validate no.blogspot.rcloneosx rcloneosx.app
 Processing: /Volumes/Home/thomas/GitHub/RcloneOSX/Build/Products/Release/rcloneosx.app
