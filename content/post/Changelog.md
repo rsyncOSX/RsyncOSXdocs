@@ -21,7 +21,7 @@ Adding a `snapshot` tasks causes RsyncOSX to create the remote base for synchron
 
 One objective of the QA of old code is removing those kind of force unwrapping. Force unwrapping should generally be avoided, but if used check for nil pointer ahead of the force unwrapping. A much better and robust method is using `??` and default value if variable is nil.
 ```
-var array: [Int]?
+var array: [Sometype]?
 ...
 func onemethod() {
 	...
