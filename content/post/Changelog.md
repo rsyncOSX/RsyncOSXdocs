@@ -403,7 +403,7 @@ to execute scheduled backups, the menu appis a minimal version of RsyncOSX only 
 
 ## Changelog prior version 5.0.0
 
-Changelog prior to version 3.0.0 is deleted. The initial release was 14 March 2016 and code is rewritten since the initial release.
+Changelog prior to version 5.0.0 is deleted. The initial release was 14 March 2016 and code is rewritten since the initial release.
 
 
 ## Version 0.5 beta
