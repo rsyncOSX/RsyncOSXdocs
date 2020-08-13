@@ -13,6 +13,8 @@ If you also utilize the menu-app (RsyncOSXsched), be aware of you might have to 
 
 ## Known issue - august 2020
 
+The issue is fixed in the 6.4.1 release candidate.
+
 There is one annyoing issue when adding a new `snapshot` task. The **issue is fixed, but not yet released**. The issue causes RsyncOSX to abnormally stop (crash) a few secs after adding the `snapshot` task. The task is added, workaround is just restart RsyncOSX.
 
 The issue only affects when **adding a snapshot** task with remote servers. Using snapshots tasks is not an issue.
@@ -39,6 +41,13 @@ All releases of RsyncOSX are [signed and notarized](/post/notarized/).
 ## Latest version of rsync
 
 See info about [the latest version of rsync in install](/post/rsync/).
+
+## Version 6.4.1 release candidate
+
+- fixed issue when creating a snapshot task
+- adding a snapshot task with remote server require to be online with server, the validate function check if online or not
+- a lot of internal fixes and cleanup of old code
+- the Add view is cleaned
 
 ## Version 6.4.0
 
