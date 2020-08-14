@@ -15,24 +15,9 @@ If you also utilize the menu-app (RsyncOSXsched), be aware of you might have to 
 
 The issue is fixed in the 6.4.1 release candidate.
 
-There is one annyoing issue when adding a new `snapshot` task. The **issue is fixed, but not yet released**. The issue causes RsyncOSX to abnormally stop (crash) a few secs after adding the `snapshot` task. The task is added, workaround is just restart RsyncOSX.
+There is one annyoing issue when adding a new `snapshot` task. The issue causes RsyncOSX to abnormally stop (crash) a few secs after adding the `snapshot` task. The task **is added**, workaround is just restart RsyncOSX. The issue only affects when **adding a snapshot** task with remote servers. Using snapshots tasks is not an issue.
 
-The issue only affects when **adding a snapshot** task with remote servers. Using snapshots tasks is not an issue.
-
-Adding a `snapshot` tasks causes RsyncOSX to create the remote base for synchronized tasks. First of all adding a remote `snapshot` task require to be online with remote server. The updated, not yet released valdidate function within RsyncOSX now checks for it. The issue occurs when the creation process returns to RsyncOSX and it is simply a nil pointer failure due to a force unwrapping.
-
-One objective of the QA of old code is removing those kind of force unwrapping. Force unwrapping should generally be avoided, but if used check for nil pointer ahead of the force unwrapping. A much better and robust method is using `??` and default value if variable is nil.
-```
-var array: [Sometype]?
-...
-func onemethod() {
-	...
-	for i in 0 ..< (array.count ?? 0) {
-		// dosomething
-	...
-	}
-}
-```
+Adding a `snapshot` tasks causes RsyncOSX to create the remote base for synchronized tasks. First of all adding a remote `snapshot` task require to be online with remote server. The valdidate function within RsyncOSX now checks for it. The issue occurs when the creation process returns to RsyncOSX and it is simply a nil pointer failure due to a force unwrapping.
 
 ## Signing and notarizing
 
