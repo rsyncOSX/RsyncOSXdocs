@@ -12,9 +12,9 @@ The menu app is reloading the schedules after each scheduled task is completed. 
 
 There are three choices for schedules:
 
-- `once` is executed _once_ at date and time given
-- `daily` is executed _every 24-hour_ from a selected date
-- `weekly` as for daily, but _every 7 day_ from a selected date
+- `once` is executed once at date and time given
+- `daily` is executed every 24-hour from a selected date
+- `weekly` as for daily, but every 7 day from a selected date
 
 The user can set multiple schedules on one task.
 
