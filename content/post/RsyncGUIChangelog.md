@@ -6,7 +6,7 @@ tags = ["rsyncgui"]
 categories = ["changelog"]
 description = "Changelog"
 +++
-RsyncGUI is a sandboxed macOS app compiled with support for **macOS El Capitan version 10.11 - macOS Mojave version 10.15**. The application is implemented in Swift 5 by using Xcode 11.
+RsyncGUI is a sandboxed macOS app compiled with support for **macOS El Capitan version 10.14 - latest version**. The application is implemented in Swift 5 by using Xcode 11.
 
 Rsync is a file-based synchronization and backup tool. There is no custom solution for the backup archive. You can quit utilizing RsyncGUI (and rsync) at any time and still have access to all synchronized files.
 
