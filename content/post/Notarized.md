@@ -21,11 +21,9 @@ The following apps are signed and notarized:
 
 This is the message when opening a downloaded version.
 
-![](/images/RsyncOSX/master/notarize/verifyRsyncOSX.png)
+![](/images/RsyncOSX/master/notarize/verify.png)
 
-The message is in Norwegian: "Apple har sjekket programmet uten å finne ondsinnet programvare."  The english version of it is: "Apple checked it for malicious software and none was detected." You can also verify the signing by utilizing xcode developer tools.
-
-If you have Xcode developer tools installed, by executing the following command you can verify the following apps:
+The message is "Apple checked it for malicious software and none was detected." You can also verify the signing by utilizing xcode developer tools. If you have Xcode developer tools installed, by executing the following command you can verify the following apps:
 
 ### RsyncOSX
 ```

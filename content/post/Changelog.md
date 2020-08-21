@@ -17,10 +17,6 @@ The issue is fixed in the 6.4.1 release candidate.
 
 There is one annyoing issue when adding a new `snapshot` task. The issue causes RsyncOSX to abnormally stop (crash) a few secs after adding the `snapshot` task. The task **is added**, workaround is just restart RsyncOSX. The issue only affects when **adding a snapshot** task with remote servers. Using snapshots tasks is not an issue.
 
-## Version of macOS
-
-RsyncOSX is compiled with support from macOS 10.11 to latest. There seems to be some issues on macOS High Sierra (10.13) which I am not able to solve. Next versions of RsyncOSX will be released with support for macOS 10.14 - latest.
-
 ## Signing and notarizing
 
 All releases of RsyncOSX are [signed and notarized](/post/notarized/).
