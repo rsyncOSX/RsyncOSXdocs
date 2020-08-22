@@ -71,5 +71,5 @@ Tasks can be aborted at any time by selecting the stop button.
 
 There are a couple of short YouTube videos of RsyncOSX (it is an older version of RsyncOSX):
 
-- [getting](https://youtu.be/MrT8NzdF9dE) RsyncOSX and installing it
+- [getting](https://youtu.be/MzKueXEH1Pk) RsyncOSX and installing it
 - adding and executing the [first backup](https://youtu.be/8oe1lKgiDx8)
