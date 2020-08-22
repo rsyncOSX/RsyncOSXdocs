@@ -25,9 +25,9 @@ All releases of RsyncOSX are [signed and notarized](/post/notarized/).
 
 See info about [the latest version of rsync in install](/post/rsync/).
 
-## Version 6.4.1 release candidate
+## Version 6.4.2
 
-[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.3.5) 20 August 2020
+[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.3.5) 22 August 2020
 
 **Caution**: from now RsyncOSX is built for macOS 10.14 and newer versions. There is fixed a bug in logging and scheduling in both RsyncOSX and RsyncOSXsched (the menu app). The bug was introduced in the cleanup process.
 
