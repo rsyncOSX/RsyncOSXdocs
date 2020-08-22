@@ -23,7 +23,7 @@ See info about [the latest version of rsync in install](/post/rsync/).
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.3.5) 22 August 2020
 
-**Caution**: from now RsyncOSX is built for macOS 10.14 and newer versions. There is fixed a bug in logging and scheduling in both RsyncOSX and RsyncOSXsched (the menu app). The bug was introduced in the cleanup process.
+**Caution**: from now RsyncOSX is built for macOS 10.14 and newer versions.
 
 - fixed some bugs in logs and schedule part
 - fixed issue when creating a snapshot task
