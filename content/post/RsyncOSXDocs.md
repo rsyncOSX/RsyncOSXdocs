@@ -92,9 +92,8 @@ There are some info about logging and where RsyncOSX store files. There are a fe
 
 There is a [short intro to RsyncOSX](/post/intro/) and there are two short YouTube videos of RsyncOSX:
 
-- [how to get and install RsyncOSX](https://www.youtube.com/watch?v=d-srHjL2F-0)
-- adding and executing the first backup (old video - to be replaced)
-
+- [how to get and install RsyncOSX](https://youtu.be/d-srHjL2F-0)
+- [adding and executing the first backup](https://youtu.be/vS5_rXdTtZ8)
 ## Source code and compile
 
 And there is some info about the [source code and how to compile RsyncOSX](/post/source).
