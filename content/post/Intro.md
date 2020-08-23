@@ -69,7 +69,8 @@ Tasks can be aborted at any time by selecting the stop button.
 
 ## YouTube videos
 
-There are a couple of short YouTube videos of RsyncOSX (it is an older version of RsyncOSX):
+There are two short YouTube videos of RsyncOSX:
 
-- [getting](https://youtu.be/MzKueXEH1Pk) RsyncOSX and installing it
-- adding and executing the [first backup](https://youtu.be/8oe1lKgiDx8)
+- [getting RsyncOSX](https://www.youtube.com/watch?v=d-srHjL2F-0) and installing it
+  - the video also shows how to create the two local ssh certificates for password less logins to remote server
+- adding and executing the first backup (old video - to be replaced)

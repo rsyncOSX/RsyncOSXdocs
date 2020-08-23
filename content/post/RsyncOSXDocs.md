@@ -88,9 +88,13 @@ There are some info about logging and where RsyncOSX store files. There are a fe
 - where does RsyncOSX [stores the config files](/post/configfiles/)
 - the [verify function](/post/verify/)
 
-## Intro
+## Intro and video
 
-There is a [short intro to RsyncOSX](/post/intro/).
+There is a [short intro to RsyncOSX](/post/intro/) and there are two short YouTube videos of RsyncOSX:
+
+- [getting RsyncOSX](https://www.youtube.com/watch?v=d-srHjL2F-0) and installing it
+  - the video also shows how to create the two local ssh certificates for password less logins to remote server
+- adding and executing the first backup (old video - to be replaced)
 
 ## Source code and compile
 
