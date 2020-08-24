@@ -4,7 +4,7 @@ date = "2020-04-16"
 title =  "User configuration"
 tags = ["userconfig"]
 categories = ["general information"]
-astmod = "2020-06-25"
+astmod = "2020-08-24"
 +++
 There are a few parameters to choose in user configuration. Parameters are saved to permanent store.
 
@@ -12,30 +12,30 @@ There are a few parameters to choose in user configuration. Parameters are saved
 
 ## Rsync
 
- - 3.1.2, 3.1.3, 3.2.x rsync - set optional path if **not** in /usr/local/bin
-   	- any version of rsync should work, but only rsync  version 3.1.2, version 3.1.3 protocol version 31 and rsync  version 2.6.9  protocol version 29 are tested and verified
-    - [utilizing the snapshot feature](/post/snapshots/) require either version 3.1.2, 3.1.3, 3.2.x of rsync
+ - v 3.1.2, 3.1.3, 3.2.x rsync - set optional path if **NOT** in /usr/local/bin
+   	- any version of rsync should work, but only version 2.6.9, 3.1.3 and 3.2.x are tested and verified
+    - [utilizing the snapshot feature](/post/snapshots/) require either version 3.1.3 or 3.2.x of rsync
 - optional path for rsync:
     - if other version of rsync is installed in other path than /usr/local/bin it must be set here
 - temporary path restore:
     - preset temporary path for restoring single files and catalogs
     - preset temporary path for a full restore
 
-If there is a not valid rsync path is set an error is presented in bottom of user configuration. If there still is missing rsync in optional path no execution of tasks is allowed.
+If there is a not valid rsync path is set an error is presented.
 
 ## Paths for RsyncOSX and RsyncOSXsched
+
+If both apps are installed in `/Applications` there is no need for setting paths.
 
 - Automatic execution of local configurations
 - path RsyncOSX
 - path RsyncOSXsched
 
-If both apps are installed in `/Applications` there is no need for setting paths.
-
 Automatic execution of local configurations enables the menu app to automatically execute synchronize operations when local volumes are mounted.
 
 ## Logging
 
-Detailed logging on or off
+Detailed logging on or off:
 
 - if detailed logging is on all backup tasks are logged, if off only last date for task is updated in Synchronize view
 
@@ -45,7 +45,7 @@ If RsyncOSX discover error in output from rsync, operation will terminate if che
 
 ## Logging to file
 
-Logging is saved to permanent store.
+Logging is saved to permanent store:
 
 - either minimum (last 10 lines) or full logging of output from rsync, be carful not logging everything, the log file might be big
 - log file is Documents/rsynclog.txt
@@ -78,13 +78,13 @@ If global ssh parameters are set, it applies to **all configurations**. It is po
 
 ## Number of days
 
-Number of days
+Number of days:
 
 - in Synchronize view tasks older than number of days are marked red
 
 ## Environment
 
-Enable environment
+Enable environment:
 
 It is possible to enter an environment variable to the process which executes the synchronize task. An example of such is :
 
