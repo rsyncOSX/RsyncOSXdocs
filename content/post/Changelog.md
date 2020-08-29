@@ -11,13 +11,19 @@ If you are installing on macOS Catalina or macOS Big Sur and utilize a local ver
 
 If you also utilize the menu-app (RsyncOSXsched), be aware of you might have to force quit RsyncOSX the first time you start the menu-app. This is because the macOS Catalina and macOS Big Sur ask for permissions when starting the menu-app for the first time and RsyncOSX is not closed automatically when starting the menu-app. This might happen only once first time start.
 
-## Signing and notarizing
+All releases of RsyncOSX are [signed and notarized](/post/notarized/). See info about [the latest version of rsync in install](/post/rsync/).
 
-All releases of RsyncOSX are [signed and notarized](/post/notarized/).
+## Next version
 
-## Latest version of rsync
+I am working on next version. It will probably be released short after macOS Big Sur and Xcode 12 release. There might be a release candidate ahead of macOS Big Sur release. The following changes are in code:
 
-See info about [the latest version of rsync in install](/post/rsync/).
+-  default path for RsyncOSX config files in next release is `$HOME/.rsyncosx/macserialnumber`, existing users can choose to migrate or keep config files in previous default path which is `$HOME/Documents/Rsync/macserialnumber`
+
+The reason for above is there might be some issues for users utilizing primary store for `$HOME/Documents` catalog in iCloud. Storing config files at new path is more reliable.
+
+- still cleaning old
+
+I am not to happy about the restore part. I believe it require some more work on the GUI. 
 
 ## Version 6.4.2
 
