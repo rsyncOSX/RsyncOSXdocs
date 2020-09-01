@@ -5,7 +5,7 @@ date = "2020-04-23"
 description = "Changelog"
 tags = ["rsyncosx"]
 categories = ["changelog"]
-lastmod = "2020-07-16"
+lastmod = "2020-09-01"
 +++
 If you are installing on macOS Catalina or macOS Big Sur and utilize a local version of rsync, execute the rsync utility in a terminal window before using RsyncOSX. There is a process of granting access for the rsync utility before using it by RsyncOSX. MacOS Catalina or macOS Big Sur will also ask permission for accessing your home catalog first time you start RsyncOSX.
 
@@ -21,9 +21,9 @@ I am working on next version. It will probably be released short after macOS Big
 
 The reason for above is there might be some issues for users utilizing primary store for `$HOME/Documents` catalog in iCloud. Storing config files at new path is more reliable.
 
-- still cleaning old
+- keep cleaning old code
 
-I am not to happy about the restore part. I believe it require some more work on the GUI. 
+I am not to happy about the restore part. I believe it require some more work on the GUI part.
 
 ## Version 6.4.2
 
