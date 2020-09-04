@@ -18,6 +18,28 @@ If you are installing on macOS Catalina, execute the rclone utility in a termina
 
 For the moment there is no active development of RcloneOSX. I will continue to compile, notarize and sign RcloneOSX for new versions of macOS and fix serious bugs. I will also refactor and enhance the code when required. But there will not be any new functions. My main effort in the future is to continue development of RsyncOSX and RsyncGUI.
 
+## Version 2.2.5
+
+[Released](https://github.com/rsyncOSX/rcloneosx/releases/tag/v2.2.5) 4 September 2020.
+
+- the config files for RcloneOSX is moved to `$HOME/.rcloneosx/macserialnumber`, previous path for config files is `$HOME/Documents/Rclone/macserialnumber`
+	- RcloneOSX supports both paths, existing users can move config files to new path
+	- in About the used path for config files is presented
+- this is also a maintenance release
+
+RcloneOSX can move config files for you, in File menu choose `Move config` and follow the instructions. The old config files are saved within the Documents catalog.
+
+![](/images/RsyncOSX/master/rclone/change.png)
+
+Old path before move (`$HOME/Documents/Rclone/macserialnumber`):
+
+![](/images/RsyncOSX/master/rclone/oldpath.png)
+
+New path after move (`$HOME/.rcloneosx/macserialnumber`):
+
+![](/images/RsyncOSX/master/rclone/newpath.png)
+
+
 ## Version 2.2.1
 
 [Released](https://github.com/rsyncOSX/rcloneosx/releases/tag/v2.2.1) 30 July 2020.
