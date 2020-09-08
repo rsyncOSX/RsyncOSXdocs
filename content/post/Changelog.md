@@ -26,12 +26,13 @@ The following are changes in the release candidate:
 The reason for above is there might be some issues for users utilizing primary store for `$HOME/Documents` catalog in iCloud. Storing config files at new path is more reliable.
 
 - the Restore part is adjusted
+- and a few minor fixes
 
 RsyncOSX can move config files for you, in File menu choose `Move config` and follow the instructions. The old config files are saved within the Documents catalog.
 
 ![](/images/RsyncOSX/master/rclone/menu.png)
 
-The used path can be viewed in About. New path after move is `$HOME/.rsyncosx/macserialnumber`. 
+The used path can be viewed in About. New path after move is `$HOME/.rsyncosx/macserialnumber`.
 
 ![](/images/RsyncOSX/master/rclone/about.png)
 
