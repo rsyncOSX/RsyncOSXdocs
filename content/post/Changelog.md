@@ -13,21 +13,33 @@ If you also utilize the menu-app (RsyncOSXsched), be aware of you might have to 
 
 All releases of RsyncOSX are [signed and notarized](/post/notarized/). See info about [the latest version of rsync in install](/post/rsync/).
 
-## Next version
+## Version 6.4.5 release candidate
 
-I am working on next version. It will probably be released short after macOS Big Sur and Xcode 12 release. There might be a release candidate ahead of macOS Big Sur release. The following changes are in code:
+[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.4.2) 8 September 2020
+
+The following are changes in the release candidate:
 
 -  default path for RsyncOSX config files in next release is `$HOME/.rsyncosx/macserialnumber`, existing users can choose to migrate or keep config files in previous default path which is `$HOME/Documents/Rsync/macserialnumber`
+	- RsyncOSX supports both paths, existing users can move config files to new path
+	- in About the used path for config files is presented
 
 The reason for above is there might be some issues for users utilizing primary store for `$HOME/Documents` catalog in iCloud. Storing config files at new path is more reliable.
 
-- keep cleaning old code
+- the Restore part is adjusted
 
-I am not to happy about the restore part. I believe it require some more work on the GUI part.
+RsyncOSX can move config files for you, in File menu choose `Move config` and follow the instructions. The old config files are saved within the Documents catalog.
+
+![](/images/RsyncOSX/master/rclone/menu.png)
+
+The used path can be viewed in About. New path after move is `$HOME/.rsyncosx/macserialnumber`. 
+
+![](/images/RsyncOSX/master/rclone/about.png)
+
+
 
 ## Version 6.4.2
 
-[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.3.5) 22 August 2020
+[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.4.2) 22 August 2020
 
 **Caution**: from now RsyncOSX is built for macOS 10.14 and newer versions.
 
@@ -39,7 +51,7 @@ I am not to happy about the restore part. I believe it require some more work on
 
 ## Version 6.4.0
 
-[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.3.5) 26 July 2020
+[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.4.0) 26 July 2020
 
 There is one major enhancement in the release, execute shell scripts before and after the rsync command. A serious bug in dates and the menu app is also fixed. And lastly there is also fixed a bug in deleting and canceling schedules.
 
