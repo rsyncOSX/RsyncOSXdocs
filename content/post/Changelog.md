@@ -15,7 +15,7 @@ All releases of RsyncOSX are [signed and notarized](/post/notarized/). See info 
 
 ## Version 6.4.5 release candidate
 
-Next release when Big Sur is released, compiled with Xcode 12 and support for macOS 10.14 - macOS 11.00 (Big Sur).
+Next version of RsyncOSX will be available shortly after Big Sur is released. Next version will be compiled with Xcode 12 with support for macOS 10.14 - macOS 11.00 (Big Sur). There are several internal changes, both cleanup and delete not used code.
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.4.2) 8 September 2020
 
