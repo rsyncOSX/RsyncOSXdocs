@@ -2,8 +2,8 @@
 author = "RsyncOSX"
 date = "2020-04-16"
 title =  "RsyncOSX config files"
-tags = ["RsyncOSX files"]
-categories = ["config files"]
+tags = ["config file"]
+categories = ["general information"]
 description = "Where does RsyncOSX stores the various configuration files."
 +++
 RsyncOSX stores its configurations, schedules, log records and user configuration as [property list files](https://en.wikipedia.org/wiki/Property_list). There are three kinds of configuration files.
