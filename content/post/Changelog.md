@@ -13,19 +13,13 @@ If you also utilize the menu-app (RsyncOSXsched), be aware of you might have to 
 
 All releases of RsyncOSX are [signed and notarized](/post/notarized/). See info about [the latest version of rsync in install](/post/rsync/).
 
-## Major Issue
+## Version 6.4.6
 
-23 September 2020
+[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.4.6) 23 September 2020
 
-**Caution: version 6.4.2 and later versions are only working on macOS 10.15 Catalina and 11.00 Big Sur**, [please see this issue](https://github.com/rsyncOSX/RsyncOSX/issues/1949).
+**Caution: version 6.4.2, 6.4.6 and later versions are only working on macOS 10.15 Catalina and 11.00 Big Sur**, [please see this issue](https://github.com/rsyncOSX/RsyncOSX/issues/1949).
 
-## Version 6.4.5 release candidate
-
-Next version of RsyncOSX will be available shortly after Big Sur is released. Next version will be compiled with Xcode 12 with support for macOS 10.14 - macOS 11.00 (Big Sur). There are several internal changes, both cleanup and delete not used code.
-
-[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.4.2) 8 September 2020
-
-The following are changes in the release candidate:
+The following are changes in the release:
 
 -  default path for RsyncOSX config files in next release is `$HOME/.rsyncosx/macserialnumber`, existing users can choose to migrate or keep config files in previous default path which is `$HOME/Documents/Rsync/macserialnumber`
 	- RsyncOSX supports both paths, existing users can move config files to new path
@@ -35,6 +29,7 @@ The reason for above is there might be some issues for users utilizing primary s
 
 - the Restore part is adjusted
 - and a few minor fixes
+- due to the above issue, RsyncOSX version 6.4.6 and later is for macOS 10.15 and later
 
 RsyncOSX can move config files for you, in File menu choose `Move config` and follow the instructions. The old config files are saved within the Documents catalog.
 
@@ -50,7 +45,7 @@ The used path can be viewed in About. New path after move is `$HOME/.rsyncosx/ma
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.4.2) 22 August 2020
 
-**Caution**: from now RsyncOSX is built for macOS 10.14 and newer versions.
+**Caution: version 6.4.2, 6.4.6 and later versions are only working on macOS 10.15 Catalina and 11.00 Big Sur**, [please see this issue](https://github.com/rsyncOSX/RsyncOSX/issues/1949).
 
 - fixed some bugs in logs and schedule part
 - fixed issue when creating a snapshot task
