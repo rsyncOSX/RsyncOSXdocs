@@ -13,6 +13,12 @@ If you also utilize the menu-app (RsyncOSXsched), be aware of you might have to 
 
 All releases of RsyncOSX are [signed and notarized](/post/notarized/). See info about [the latest version of rsync in install](/post/rsync/).
 
+## Major Issue
+
+23 September 2020
+
+**Caution: version 6.4.2 and later versions are only working on macOS 10.15 Catalina and 11.00 Big Sur**, [please see this issue](https://github.com/rsyncOSX/RsyncOSX/issues/1949).
+
 ## Version 6.4.5 release candidate
 
 Next version of RsyncOSX will be available shortly after Big Sur is released. Next version will be compiled with Xcode 12 with support for macOS 10.14 - macOS 11.00 (Big Sur). There are several internal changes, both cleanup and delete not used code.
