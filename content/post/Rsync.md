@@ -7,7 +7,7 @@ categories = ["general information"]
 description = "How to install RsyncOSX."
 lastmod = "2020-07-05"
 +++
-The default version of rsync in macOS is old. [Version 2.6.9, protocol version 29](https://download.samba.org/pub/rsync/NEWS#2.6.9) was released in nov 2006. The current release of rsync is [version 3.2.3 protocol 31](https://download.samba.org/pub/rsync/NEWS). Only [version 3.1.3 of rsync](https://download.samba.org/pub/rsync/NEWS#3.1.3) is bundled together with RsyncOSX. Due to new features in the latest versions and dependency to shared libraries it is not possible for me to bundle the latest version of rsync together with RsyncOSX. But if you want to compile your own version of rsync, please see [last on this page](/post/rsync/#compile-latest-version).
+The default version of rsync in macOS is old. [Version 2.6.9, protocol version 29](https://download.samba.org/pub/rsync/NEWS#2.6.9) was released in nov 2006. The current release of rsync is [version 3.2.3 protocol 31](https://download.samba.org/pub/rsync/NEWS). Due to new features in new versions of rsync and dependency to shared libraries it is not possible to bundle the latest version of rsync together with RsyncOSX. But if you want to compile your own version of rsync, please see [last on this page](/post/rsync/#compile-latest-version).
 
 It is strongly recommended to install rsync as part of Homebrew if other version than default version in macOS. In RsyncOSX select [user configuration](/post/userconfiguration/) and set path for optional version of rsync.
 
@@ -18,7 +18,7 @@ Install [homebrew](https://brew.sh/) and install the latest version of rsync as 
 ## Version 3.1.3
 
 Version 3.1.3 of rsync is compiled by me. This version is only depended upon default libraries in macOS.
-- get rsync-3.1.3.dmg from [releases](https://github.com/rsyncOSX/RsyncOSX/releases) to install version 3.1.3 of rsync
+- get rsync-3.1.3.dmg from [previous releases](https://github.com/rsyncOSX/RsyncOSX/releases) to install version 3.1.3 of rsync
 
 ## Snapshots
 

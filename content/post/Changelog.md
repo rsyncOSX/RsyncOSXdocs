@@ -21,25 +21,20 @@ All releases of RsyncOSX are [signed and notarized](/post/notarized/). See info 
 
 The following are changes in the release:
 
--  default path for RsyncOSX config files in next release is `$HOME/.rsyncosx/macserialnumber`, existing users can choose to migrate or keep config files in previous default path which is `$HOME/Documents/Rsync/macserialnumber`
-	- RsyncOSX supports both paths, existing users can move config files to new path
+-  default path for RsyncOSX config files is changed to `$HOME/.rsyncosx/macserialnumber`
+	- existing users can choose to migrate or keep config files in previous default path which is `$HOME/Documents/Rsync/macserialnumber`
 	- in About the used path for config files is presented
-
-The reason for above is there might be some issues for users utilizing primary store for `$HOME/Documents` catalog in iCloud. Storing config files at new path is more reliable.
-
 - the Restore part is adjusted
 - and a few minor fixes
 - due to the above issue, RsyncOSX version 6.4.6 and later is for macOS 10.15 and later
 
-RsyncOSX can move config files for you, in File menu choose `Move config` and follow the instructions. The old config files are saved within the Documents catalog.
+The reason for changing path for config file is there might be some issues for users utilizing primary store for `$HOME/Documents` catalog in iCloud. Storing config files at new path is more reliable. RsyncOSX can move config files for you, in File menu choose `Move config` and follow the instructions. The old config files are saved within the Documents catalog.
 
 ![](/images/RsyncOSX/master/rclone/menu.png)
 
 The used path can be viewed in About. New path after move is `$HOME/.rsyncosx/macserialnumber`.
 
 ![](/images/RsyncOSX/master/rclone/about.png)
-
-
 
 ## Version 6.4.2
 
