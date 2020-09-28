@@ -49,11 +49,11 @@ You can also setup the new ssh keypath and identityfile in a terminal window and
 
 If you want RsyncOSX to assist in setting up please select the ssh tab, open Userconfig and add new ssh keypath and identityfile and ssh port number if other than 22.
 
-![ssh](/images/RsyncOSX/master/ssh/ssh5.png)
+![ssh](/images/RsyncOSX/master/ssh/ssh2.png)
 
 Setting ssh keypath and identityfile and ssh port number in Userconfig.
 
-![ssh](/images/RsyncOSX/master/ssh/ssh4.png)
+![ssh](/images/RsyncOSX/master/ssh/ssh.png)
 
 After closing the Userconfig select `Create keys` and RsyncOSX will do the magic. Select `Remote server`and RsyncOSX will add commands for copy and test the public key to remote server. Copy the commands and paste it into a terminal window for execution.
 
