@@ -17,7 +17,7 @@ All releases of RsyncOSX are [signed and notarized](/post/notarized/). See info 
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.4.6) 23 September 2020
 
-**Caution: version 6.4.2, 6.4.6 and later versions are only working on macOS 10.15 Catalina and 11.00 Big Sur**, [please see this issue](https://github.com/rsyncOSX/RsyncOSX/issues/1949).
+**Caution: version 6.4.6 and later versions are only working on macOS 10.15 Catalina and 11.00 Big Sur**, [please see this issue](https://github.com/rsyncOSX/RsyncOSX/issues/1949).
 
 The following are changes in the release:
 
@@ -40,7 +40,7 @@ The used path can be viewed in About. New path after move is `$HOME/.rsyncosx/ma
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.4.2) 22 August 2020
 
-**Caution: version 6.4.2, 6.4.6 and later versions are only working on macOS 10.15 Catalina and 11.00 Big Sur**, [please see this issue](https://github.com/rsyncOSX/RsyncOSX/issues/1949).
+**Caution: version 6.4.2 is the last version compiled for macOS 10.14**.
 
 - fixed some bugs in logs and schedule part
 - fixed issue when creating a snapshot task
