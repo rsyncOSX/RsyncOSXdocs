@@ -5,7 +5,7 @@ date = "2020-04-23"
 description = "Changelog"
 tags = ["rsyncosx"]
 categories = ["changelog"]
-lastmod = "2020-09-01"
+lastmod = "2020-10-01"
 +++
 If you are installing on macOS Catalina or macOS Big Sur and utilize a local version of rsync, execute the rsync utility in a terminal window before using RsyncOSX. There is a process of granting access for the rsync utility before using it by RsyncOSX. MacOS Catalina or macOS Big Sur will also ask permission for accessing your home catalog first time you start RsyncOSX.
 
@@ -17,7 +17,7 @@ All releases of RsyncOSX are [signed and notarized](/post/notarized/). See info 
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.4.6) 23 September 2020
 
-**Caution: version 6.4.6 and later versions are only working on macOS 10.15 Catalina and 11.00 Big Sur**, [please see this issue](https://github.com/rsyncOSX/RsyncOSX/issues/1949).
+**Version 6.4.6 and later versions are only working on macOS 10.15 Catalina and 11.00 Big Sur**, [please see this issue](https://github.com/rsyncOSX/RsyncOSX/issues/1949). If you are on macOS 10.14 Mojave please use [version 6.4.2](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.4.2).
 
 The following are changes in the release:
 
@@ -40,7 +40,7 @@ The used path can be viewed in About. New path after move is `$HOME/.rsyncosx/ma
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.4.2) 22 August 2020
 
-**Caution: version 6.4.2 is the last version compiled for macOS 10.14**.
+**Version 6.4.2 is the last version compiled for macOS 10.14**.
 
 - fixed some bugs in logs and schedule part
 - fixed issue when creating a snapshot task
