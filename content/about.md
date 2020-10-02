@@ -20,7 +20,7 @@ There are four MacOS applications:
 - [RsyncGUI](https://github.com/rsyncOSX/RsyncGUI) an Apple Sandboxed version of RsyncOSX
 - [RcloneOSX](https://github.com/rsyncOSX/rcloneosx) a GUI for rclone
 
-All applications are compiled with support for macOS 10.14 - latest version of macOS.
+All applications are compiled with support for macOS 10.15 - latest version of macOS.
 
 ### Issues, missing features and enhancements
 
