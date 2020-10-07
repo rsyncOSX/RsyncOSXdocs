@@ -7,19 +7,18 @@ tags = ["add configurations"]
 categories = ["configurations"]
 lastmod = "2020-07-16"
 +++
-Adding a configuration is easy. A configuration require minimum a **local catalog** and a **remote catalog**. After entering information about a configuration select the Add button to add it to RsyncOSX. Continue adding new configurations until completed and configurations are saved to permanent storage after each entry.
+Adding a configuration is easy. A configuration require minimum a **local catalog** and a **remote catalog**. After entering information about a configuration select the Add button to add it to RsyncOSX. Continue adding new configurations until completed and configurations are saved to permanent storage after each entry. Select local catalog either by drag and drop or by enter text directly. For remote catalogs only drag and drop for local attached volumes. For remote server catalogs enter by text only.
 
-Select local catalog either by drag and drop or by enter text directly. For remote catalogs only drag and drop for local attached volumes. For remote server catalogs enter by text only.
+From version 6.4.7 (not yet released) there is an [Assist button](/post/addconfigurations/#assist).
 
-There are four types of tasks
+There are three types of tasks
 - synchronize, which is default and keeps source and destination in sync
-- snapshots, save changes and deletes ahead of a synchronize
+- [snapshots](/post/snapshots/), save changes and deletes ahead of a synchronize
 - syncremote, remote is source, synchronize a remote source to a local volume
-- single file
 
 ## Sample configuration
 
-Local catalog and Remote catalog are added either by using drag and drop from filemanager or by text only. If enter by text please remember to add the full path. Remote catalogs is entered either by full paths or use the ~ character to expand remote user home catalog.
+Local catalog and Remote catalog are added either by using drag and drop from filemanager or by text only. If enter by text please remember to add the full path. Remote catalogs is entered either by full paths or use the `~` character to expand remote user home catalog.
 
 The Capacity button query remote storage in all configurations about available storage space. Only valid for remote hosts.
 
@@ -43,4 +42,22 @@ The Capacity button query remote storage in all configurations about available s
   - switch execute shell script on/off
 - **Halt on error**: if the phrase "error" occurs in the output from the `pre.sh` command, if `on` the execution of synchronize command is aborted
 
+## Add configurations
+
 Select the Add button when completed and configuration is added to RsyncOSX. RsyncOSX adds a trailing / character to both local and remote volume. After selecting the Add button another configuration might be added. Any changes (edit or delete) to configurations are done from the Synchronize view. Additional parameters to rsync might be added utilizing the Parameter button.
+
+## Assist
+
+From version 6.4.7 (not yet released) there is an assist function for adding configurations. The main objective for the assist function is to ease adding configurations. Selecting the `Default` button adds your home catalog and scans the home for catalogs. You can add other values by enter text and select the `+` button. The new values is then added to the drop down menues.
+
+To delete a dropdown value, select the dropdown and then the `-` button.
+
+Selecting `Local` or `Remote` transfer the data to the add new configrations screen.
+
+![](/images/RsyncOSX/master/add/assist.png)
+
+- `Local home`: your home catalog
+- `Catalogs`: catalogs to synchronize, the catalog is added to `Local home` and `Remote home`.
+- `Remote home`: either the remote home on a remote server or path to a local attached volume.
+- `Remote users`: remote username if `Remote computers` are used.
+- `Remote computers`: name or IP-adress of remote computer
