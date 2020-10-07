@@ -13,11 +13,13 @@ If you also utilize the menu-app (RsyncOSXsched), be aware of you might have to 
 
 All releases of RsyncOSX are [signed and notarized](/post/notarized/). See info about [the latest version of rsync in install](/post/rsync/).
 
-## Next version
+## Version 6.4.7 release candidate
 
 In next version there will be a kind of Assist function for adding new configurations. If you, like me, synchronize e.g. your `Documents` catalog to several remote computers or local attached volumes, the Assist function let you save basic values about paths, catalogs and remote values. Within the Assist function you can then easy add configurations for synchronize your `Documents` catalog to several remote servers.
 
-Some more info about the [Assist button](/post/addconfigurations/#assist).
+- the [Assist function](/post/addconfigurations/#assist)
+- language updates (Chinese, German and Norwegian)
+- fixed a bug within the ssh function, thx to [Paul Dee](https://github.com/systemcrash) for [reporting the bug](https://github.com/rsyncOSX/RsyncOSX/issues/1956), the crash is caused by a bug if the ssh public key is not present in the ssh keypath catalog
 
 ## Version 6.4.6
 
