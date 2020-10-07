@@ -17,10 +17,7 @@ All releases of RsyncOSX are [signed and notarized](/post/notarized/). See info 
 
 In next version there will be a kind of Assist function for adding new configurations. If you, like me, synchronize e.g. your `Documents` catalog to several remote computers or local attached volumes, the Assist function let you save basic values about paths, catalogs and remote values. Within the Assist function you can then easy add configurations for synchronize your `Documents` catalog to several remote servers.
 
-The view is early in design, if you have ideas or comments please create an issue.
-
-![](/images/RsyncOSX/master/coming/assist.png)
-![](/images/RsyncOSX/master/coming/assist2.png)
+Some more info about the [Assist button](/post/addconfigurations/#assist).
 
 ## Version 6.4.6
 
