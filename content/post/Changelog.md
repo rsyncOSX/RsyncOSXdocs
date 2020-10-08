@@ -20,6 +20,7 @@ In next version there will be a kind of Assist function for adding new configura
 - the [Assist function](/post/addconfigurations/#assist)
 - language updates (Chinese, German and Norwegian)
 - fixed a bug within the ssh function, thx to [Paul Dee](https://github.com/systemcrash) for [reporting the bug](https://github.com/rsyncOSX/RsyncOSX/issues/1956), the crash is caused by a bug if the ssh public key is not present in the ssh keypath catalog
+- there is also fixed a minor glitch in the menu app, in default profile the schedules was not presented in the main view
 
 ## Version 6.4.6
 

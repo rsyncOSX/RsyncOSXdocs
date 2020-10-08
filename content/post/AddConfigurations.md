@@ -9,7 +9,7 @@ lastmod = "2020-07-16"
 +++
 Adding a configuration is easy. A configuration require minimum a **local catalog** and a **remote catalog**. After entering information about a configuration select the Add button to add it to RsyncOSX. Continue adding new configurations until completed and configurations are saved to permanent storage after each entry. Select local catalog either by drag and drop or by enter text directly. For remote catalogs only drag and drop for local attached volumes. For remote server catalogs enter by text only.
 
-From version 6.4.7 (not yet released) there is an [Assist button](/post/addconfigurations/#assist).
+From version 6.4.7 there is an [Assist button](/post/addconfigurations/#assist).
 
 There are three types of tasks
 - synchronize, which is default and keeps source and destination in sync
@@ -48,11 +48,16 @@ Select the Add button when completed and configuration is added to RsyncOSX. Rsy
 
 ## Assist
 
-From version 6.4.7 (not yet released) there is an assist function for adding configurations. The main objective for the assist function is to ease adding configurations. Selecting the `Default` button adds your home catalog and scans the home for catalogs. You can add other values by enter text and select the `+` button. The new values is then added to the drop down menues.
+From version 6.4.7 there is an assist function for adding configurations. The main objective for the assist function is to ease adding configurations. Selecting the `Default` button adds your home catalog and scans the home for catalogs. You can add other values by enter text and select the `+` button. The new values is then added to the drop down menues.
 
 To delete a dropdown value, select the dropdown and then the `-` button.
 
-Selecting `Local` or `Remote` transfer the data to the add new configrations screen.
+Selecting `Local` or `Remote` transfer the data to the add new configrations screen. The following is transferred from the selected dropdown values to the add view when selecting either `Local` or `Remote`:
+
+- Local catalog (in Add view): `Local home`  + `/` + `Catalogs`
+- Remote catalog (in Add view): `Remote home`  + `/` + `Catalogs`
+- Remote username (in Add view): `Remote users`
+- Remote server (in Add view): `Remote computers`
 
 ![](/images/RsyncOSX/master/add/assist.png)
 
