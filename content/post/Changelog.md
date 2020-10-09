@@ -11,7 +11,7 @@ If you are installing on macOS Catalina or macOS Big Sur and utilize a local ver
 
 If you also utilize the menu-app (RsyncOSXsched), be aware of you might have to force quit RsyncOSX the first time you start the menu-app. This is because the macOS Catalina and macOS Big Sur ask for permissions when starting the menu-app for the first time and RsyncOSX is not closed automatically when starting the menu-app. This might happen only once first time start.
 
-All releases of RsyncOSX are [signed and notarized](/post/notarized/). See info about [the latest version of rsync in install](/post/rsync/).
+All releases of RsyncOSX are [signed and notarized](/post/notarized/). Please see info about [the latest version of rsync in install](/post/rsync/).
 
 ## Version 6.4.7 release candidate
 
@@ -37,7 +37,7 @@ The following are changes in the release:
 - and a few minor fixes
 - due to the above issue, RsyncOSX version 6.4.6 and later is for macOS 10.15 and later
 
-The reason for changing path for config file is there might be some issues for users utilizing primary store for `$HOME/Documents` catalog in iCloud. Storing config files at new path is more reliable. RsyncOSX can move config files for you, in File menu choose `Move config` and follow the instructions. The old config files are saved within the Documents catalog.
+The reason for changing path for config file is there might be some issues for users utilizing primary store for `$HOME/Documents` catalog in iCloud. Storing config files at new path is more reliable. RsyncOSX can move config files for you. In File menu choose `Move config` and follow the instructions. The old config files are saved within the Documents catalog.
 
 ![](/images/RsyncOSX/master/rclone/menu.png)
 
@@ -49,7 +49,7 @@ The used path can be viewed in About. New path after move is `$HOME/.rsyncosx/ma
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.4.2) 22 August 2020
 
-**Version 6.4.2 is the last version compiled for macOS 10.14**.
+**Version 6.4.2 is the last version compiled for macOS 10.14 Mojave**.
 
 - fixed some bugs in logs and schedule part
 - fixed issue when creating a snapshot task
