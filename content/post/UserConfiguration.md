@@ -27,11 +27,8 @@ If there is a not valid rsync path is set an error is presented.
 
 If both apps are installed in `/Applications` there is no need for setting paths.
 
-- Automatic execution of local configurations
 - path RsyncOSX
 - path RsyncOSXsched
-
-Automatic execution of local configurations enables the menu app to automatically execute synchronize operations when local volumes are mounted.
 
 ## Logging
 
