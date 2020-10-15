@@ -42,10 +42,10 @@ The latest [version is released here](https://github.com/rsyncOSX/RsyncOSX/relea
 
 ## How to setup remote servers
 
-If you plan to use RsyncOSX for synchronize files to remote servers require some setup. There are [two options to setup passwordless logins](/post/remotelogins/). The preferred setups is by utilizing ssh-keys.
+If you plan to use RsyncOSX for synchronize files to remote servers require some setup. There are [two options to setup passwordless logins](/post/remotelogins/). The advised setup is by utilizing ssh-keys.
 
-- the preferred [setup by ssh keys](/post/ssh/)
-- a rsync [daemon setup](/post/rsyncdaemon/)
+- [setup by ssh keys](/post/ssh/)
+- [daemon setup](/post/rsyncdaemon/)
 
 Snapshot is not possible with rsync [daemon setup](/post/rsyncdaemon/).
 
