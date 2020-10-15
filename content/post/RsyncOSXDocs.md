@@ -31,31 +31,32 @@ Every time you add a new task to RsyncOSX, execute an estimation run (--dry-run)
 
 There is [a changelog](/post/changelog/).
 
-## Installing RsyncOSX
+## How to install RsyncOSX
 
 It is easy to download and install RsyncOSX. Download the .dmg file and drag the application to the folder you want to install in, default is `/Applications`. The application is signed and notarized by Apple.
 
  - [getting and installing RsyncOSX](/post/rsyncosx/)
  - [signing and notarizing of RsyncOSX](/post/notarized/)
 
-## Remote servers
+The latest [version is released here](https://github.com/rsyncOSX/RsyncOSX/releases).
 
-Using RsyncOSX for synchronize files to remote servers require some setup.
+## How to setup remote servers
 
-- there are [two options to setup passwordless logins](/post/remotelogins/)
-  - the preferred [setup by ssh keys](/post/ssh/)
-  - a rsync [daemon setup](/post/rsyncdaemon/)
+If you plan to use RsyncOSX for synchronize files to remote servers require some setup. There are [two options to setup passwordless logins](/post/remotelogins/). The preferred setups is by utilizing ssh-keys.
+
+- the preferred [setup by ssh keys](/post/ssh/)
+- a rsync [daemon setup](/post/rsyncdaemon/)
 
 Snapshot is not possible with rsync [daemon setup](/post/rsyncdaemon/).
 
-## Add and execute single tasks
+## How to add and execute single tasks
 
 It is easy to add a first configuration and execute your first synchronize task.
 
 - [add configurations](/post/addconfigurations/)
 - [executing single tasks](/post/singletask/)
 
-## Parameters to rsync
+## How to add parameters to rsync
 
 Rsync has a ton of parameters. In user selected parameters you can add your own additional parameters to rsync. There is also a set of default rsync parameters.
 
@@ -71,11 +72,9 @@ Snapshot is an effective method for saving changes and deleted files. You can al
 - [automatic backups](/post/automatic/)
 - [scheduling of tasks](/post/scheduletasks/)
 
-## Restore
+## How to restore
 
-Sometimes you need to restore files. Either execute a full restore or file by file.
-
-- [restore of files](/post/restore/)
+Sometimes you need to restore files. Either execute [a full restore or file by file](/post/restore/).
 
 ## Logging, configuration, config files, verify
 
