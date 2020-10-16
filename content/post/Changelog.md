@@ -13,10 +13,6 @@ If you also utilize the menu-app (RsyncOSXsched), be aware of you might have to 
 
 All releases of RsyncOSX are [signed and notarized](/post/notarized/). Please see info about [the latest version of rsync in install](/post/rsync/).
 
-## What about the future and RsyncOSX
-
-What about the [future of RsyncOSX](/post/typescript/)?
-
 ## Version 6.4.7 release candidate
 
 Version 6.4.7 will be released shortly after macOS 11.00 Big Sur is released, compiled on Big Sur with Xcode 12.
