@@ -29,7 +29,7 @@ In next version there will be a kind of Assist function for adding new configura
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.4.6) 23 September 2020
 
-**Version 6.4.6 and later versions are only working on macOS 10.15 Catalina and 11.00 Big Sur**, [please see this issue](https://github.com/rsyncOSX/RsyncOSX/issues/1949).
+**RsyncOSX is compiled with support for macOS 10.15 Catalina and 11.00 Big Sur.**
 
 The following are changes in the release:
 
@@ -41,12 +41,6 @@ The following are changes in the release:
 - due to the above issue, RsyncOSX version 6.4.6 and later is for macOS 10.15 and later
 
 The reason for changing path for config file is there might be some issues for users utilizing primary store for `$HOME/Documents` catalog in iCloud. Storing config files at new path is more reliable. RsyncOSX can move config files for you. In File menu choose `Move config` and follow the instructions. The old config files are saved within the Documents catalog.
-
-![](/images/RsyncOSX/master/rclone/menu.png)
-
-The used path can be viewed in About. New path after move is `$HOME/.rsyncosx/macserialnumber`.
-
-![](/images/RsyncOSX/master/rclone/about.png)
 
 ## Version 6.4.2
 
