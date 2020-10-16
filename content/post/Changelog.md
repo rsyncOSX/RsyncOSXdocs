@@ -29,7 +29,7 @@ In next version there will be a kind of Assist function for adding new configura
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.4.6) 23 September 2020
 
-**Version 6.4.6 and later versions are only working on macOS 10.15 Catalina and 11.00 Big Sur**, [please see this issue](https://github.com/rsyncOSX/RsyncOSX/issues/1949). If you are on macOS 10.14 Mojave please use [version 6.4.2](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.4.2).
+**Version 6.4.6 and later versions are only working on macOS 10.15 Catalina and 11.00 Big Sur**, [please see this issue](https://github.com/rsyncOSX/RsyncOSX/issues/1949).
 
 The following are changes in the release:
 
@@ -51,8 +51,6 @@ The used path can be viewed in About. New path after move is `$HOME/.rsyncosx/ma
 ## Version 6.4.2
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.4.2) 22 August 2020
-
-**Version 6.4.2 is the last version compiled for macOS 10.14 Mojave**.
 
 - fixed some bugs in logs and schedule part
 - fixed issue when creating a snapshot task
