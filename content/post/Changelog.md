@@ -23,7 +23,14 @@ In next version there will be a kind of Assist function for adding new configura
 - language updates (Chinese, German and Norwegian)
 - fixed a bug within the ssh function, thx to [Paul Dee](https://github.com/systemcrash) for [reporting the bug](https://github.com/rsyncOSX/RsyncOSX/issues/1956), the crash is caused by a bug if the ssh public key is not present in the ssh keypath catalog
 - there is also fixed a minor glitch in the menu app, in default profile the schedules was not presented in the main view
-- (in code but not in release candidate) backup of configurations and logs
+
+Added in code but not yet released
+
+- RsyncOSX now supports read and write configurations and logs as [JSON](https://en.wikipedia.org/wiki/JSON) files
+	- the user will have the option to convert existing configurations and logs from [plist](https://en.wikipedia.org/wiki/Property_list) to JSON
+	- this is part of work to make a cross-plattform version of RsyncOSX utilizing [TypeScript](https://en.wikipedia.org/wiki/TypeScript) (and other tools)
+	- this is a project for the future, I have to learn the basics about how to write cross-plattform apps
+- backup of configurations and logs
 
 ## Version 6.4.6
 
