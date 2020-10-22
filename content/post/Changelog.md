@@ -26,10 +26,8 @@ In next version there will be a kind of Assist function for adding new configura
 
 Added in code but not yet released
 
-- RsyncOSX now supports read and write configurations and logs as [JSON](https://en.wikipedia.org/wiki/JSON) files
-	- the user will have the option to convert existing configurations and logs from [plist](https://en.wikipedia.org/wiki/Property_list) to JSON
-	- this is part of work to make a cross-plattform version of RsyncOSX utilizing [TypeScript](https://en.wikipedia.org/wiki/TypeScript) (and other tools)
-	- this is a project for the future, I have to learn the basics about how to write cross-plattform apps
+- RsyncOSX now supports read and write configurations and logs as [JSON](https://en.wikipedia.org/wiki/JSON) files (not yet released)
+	- see more [info about json](/post/json/)
 - the JSON support is in its early stages and need more testing before it is released
 - backup of configurations and logs
 
