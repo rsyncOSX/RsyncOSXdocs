@@ -9,6 +9,8 @@ lastmod = "2020-08-07"
 +++
 RsyncOSX is a GUI ontop of the command line utility `rsync`, no more no less. Rsync is a file-based tool for transferring and synchronization of files. RsyncOSX supports both synchronize and snapshot tasks. There is no custom solution for the synchronized archive. And you can quit utilizing RsyncOSX (and rsync) at any time and still have access to all synchronized files. And there [is a short about me](/about). RsyncOSX is compiled with support for **macOS 10.15 Catalina and 11.00 Big Sur**
 
+The latest version is [released here](https://github.com/rsyncOSX/RsyncOSX/releases).
+
 ## Some words about RsyncOSX
 
 RsyncOSX is not developed to be an easy to use synchronize and backup tool. The main purpose is to assist and ease the use of `rsync` to synchronize files on your Mac to remote FreeBSD and Linux servers. And of course restore files from those remote servers.
@@ -35,8 +37,6 @@ It is easy to download and install RsyncOSX. Download the .dmg file and drag the
 
  - [getting and installing RsyncOSX](/post/rsyncosx/)
  - [signing and notarizing of RsyncOSX](/post/notarized/)
-
-The latest [version is released here](https://github.com/rsyncOSX/RsyncOSX/releases).
 
 ## How to setup remote servers
 
