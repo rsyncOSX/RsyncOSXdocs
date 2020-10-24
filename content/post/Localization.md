@@ -9,12 +9,14 @@ description = "RsyncOSX speaks several languages."
 RsyncOSX and the menu app RsyncOSXsched are prepared for localization. Default language for both is English.
 
 RsyncOSX is localized to:
-- Chinese (Simplified) -  by [StringKe](https://github.com/StringKe)
-- German - by [Andre](https://github.com/andre68723)
+- Chinese (Simplified) -  by [StringKe (Chen)](https://github.com/StringKe)
+- German - by [Andre Voigtmann](https://github.com/andre68723)
 - French - translated by [crowdin](https://crowdin.com/project/rsyncosx)
 - Norwegian - by me
-- Italian - by [Stefano Steve Cutelle'](https://github.com/stefanocutelle)
 - English - the base language of RsyncOSX
+- Italian - by [Stefano Steve Cutelle'](https://github.com/stefanocutelle)
+- Dutch - by [Marcellino Santoso](https://github.com/maebs), in progress
+- Indonesian - [Marcellino Santoso](https://github.com/maebs), in progress
 
 Localization is done by utilizing [Crowdin](https://crowdin.com/project/rsyncosx) to translate the xliff files which are imported into Xcode after translating. Xcode then creates the required language strings. [Crowdin is free for open source projects](https://crowdin.com/page/open-source-project-setup-request).
 
