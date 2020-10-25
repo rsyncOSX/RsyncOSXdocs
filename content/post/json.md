@@ -43,3 +43,7 @@ A yellow label indicates JSON support is enablet. The JSON files are stored in:
 Example of [what the JSON files looks like, see here](https://github.com/rsyncOSX/RsyncOSX/tree/master/XCTestconfiguration/). The JSON files are a transformation of the xml (plist) files. The files are used as test of RsyncOSX after code changes.
 
 ![](/images/RsyncOSX/master/json/json.png)
+
+## Returning to PLIST
+
+You can anytime go back to plist format. In userconfig select the button `Transform`, close view and select the `PLIST` button. It saves the current configurations and schedules as plist format. In userconfig disable the `JSON` support and after restart plist is enablet.
