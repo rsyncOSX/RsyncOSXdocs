@@ -13,12 +13,14 @@ The development of RsyncOSX will continue to be one of my prioritized hobbies. A
 
 ### Applications
 
-There are four MacOS applications:
+There are three MacOS applications:
 
 - [RsyncOSX](https://github.com/rsyncOSX/RsyncOSX) a GUI for rsync
-- [The menuapp](https://github.com/rsyncOSX/RsyncOSXsched) for executing scheduled RsyncOSX tasks
+- [The menuapp](https://github.com/rsyncOSX/RsyncOSXsched) for executing scheduled tasks in RsyncOSX
+
+And a Apple Sandboxed version of RsyncOSX:
+
 - [RsyncGUI](https://github.com/rsyncOSX/RsyncGUI) an Apple Sandboxed version of RsyncOSX
-- [RcloneOSX](https://github.com/rsyncOSX/rcloneosx) a GUI for rclone
 
 All applications are compiled with support for macOS 10.15 - latest version of macOS.
 
