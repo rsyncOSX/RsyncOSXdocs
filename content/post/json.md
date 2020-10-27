@@ -13,21 +13,22 @@ RsyncOSX supports read and write configurations and logs as [JSON](https://en.wi
 
 If there will be a cross-plattform version of RsyncOSX in 2021 remains to see. It depends on how much work there is and if I am able to learn how to make apps with TypeScript and other tools.
 
-For the moment only RsyncOSX support JSON, the menu-app does not. The menu-app will support JSON after next release again.
-
-Before converting to JSON, in userconfig make a backup of the current configuration files. The current configurations is backed up in the catalog `$HOME/Documents/RsyncOSXcopy-timestamp`.
+For the moment only RsyncOSX support JSON, the menu-app does not. The menu-app will support JSON after next release again. Before converting to JSON, in userconfig, make a backup of the current configuration files. The current configurations is backed up in the catalog `$HOME/Documents/RsyncOSXcopy-timestamp`.
 
 ## Enabling JSON
 
 To enable JSON support is a **two step** process. There are three parts in the File menu dedicated for JSON support:
 
-- Verfiy (JSON), `⌘V`verify either converted JSON or PLIST files
-- View output `⌘O`, after a verify open the output and select Logfile (select by a return in output view)
-- Transform `⌘J`, enables the transform button for either JSON or PLIST
+- Verfiy (JSON) (shortcut `⌘V`) - verify either converted JSON or PLIST files
+- View output (shortcut `⌘O`) -  after a verify open the output and select Logfile (select by a return in output view)
+- Transform (shortcut `⌘J`) - enables the transform button for either JSON or PLIST
 
 ![](/images/RsyncOSX/master/json/filemenu.png)
 
-Firs task is select the `Transform` (or just `⌘J`). The main view shows a `JSON` button (or a `PLIST` button). Selecting the button executes the transformation. The existing plist or JSON configurations are not changed.
+Firs task is select the `Transform` (or shortcut `⌘J`). The main view shows a `JSON` button (or a `PLIST` button). Selecting the button executes the transformation. The existing plist or JSON configurations are not changed.
+
+- `JSON` button if RsyncOSX is reading PLIST files
+- `PLIST` button if RsyncOSX is reading JSON files
 
 ![](/images/RsyncOSX/master/json/transform.png)
 
