@@ -24,11 +24,10 @@ In next version there will be a kind of Assist function for adding new configura
 - fixed a bug within the ssh function, thx to [Paul Dee](https://github.com/systemcrash) for [reporting the bug](https://github.com/rsyncOSX/RsyncOSX/issues/1956), the crash is caused by a bug if the ssh public key is not present in the ssh keypath catalog
 - there is also fixed a minor glitch in the menu app, in default profile the schedules was not presented in the main view
 
-Added in code but not yet released
+Added in code but **not yet released**
 
-- RsyncOSX now supports read and write configurations and logs as [JSON](https://en.wikipedia.org/wiki/JSON) files (not yet released)
+- RsyncOSX supports read and write configurations and logs as [JSON](https://en.wikipedia.org/wiki/JSON) files
 	- see more [info about json](/post/json/)
-- the JSON support is in its early stages and need more testing before it is released
 - backup of configurations and logs
 
 ## Version 6.4.6
