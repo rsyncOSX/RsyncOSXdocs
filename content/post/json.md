@@ -9,9 +9,18 @@ lastmod = "2020-10-22"
 +++
 **Not yet released**.
 
-RsyncOSX supports read and write configurations and logs as [JSON](https://en.wikipedia.org/wiki/JSON) files. The user will have the option to convert existing configurations and logs from [plist](https://en.wikipedia.org/wiki/Property_list) to JSON. The JSON support is part of work to make a cross-plattform version of RsyncOSX utilizing [TypeScript](https://en.wikipedia.org/wiki/TypeScript) (and other tools).
+RsyncOSX supports read and write configurations and logs as [JSON](https://en.wikipedia.org/wiki/JSON) files. The user will have the option to convert existing configurations and logs from [plist](https://en.wikipedia.org/wiki/Property_list) to JSON.
 
-If there will be a cross-plattform version of RsyncOSX in 2021 remains to see. It depends on how much work there is and if I am able to learn how to make apps with TypeScript and other tools.
+### Cross plattform
+
+The JSON support is part of work to make a cross-plattform version of RsyncOSX. Which tool to use for a cross-plattform is difficult to choose. It is important to commence the project with the correct tools. I have to invest a lot of time and effort to teach myself new languages and tools. Because of that I have spend some time study the alternatives.
+
+My new IDE (Integrated Development Tool) will be either [Visual Studio or Visual Studio Code](https://docs.microsoft.com/en-us/visualstudio/?view=vs-2019&viewFallbackFrom=vsmac-2019). For the moment the following might be the languages:
+
+ - utilizing [TypeScript](https://en.wikipedia.org/wiki/TypeScript), [React](https://reactjs.org/) and [Electron](https://www.electronjs.org/)
+ - utilizing [Blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor)
+
+If there will be a cross-plattform version of RsyncOSX in 2021 remains to see. It depends on how much work there is and if I am able to learn how to make apps with the new language.
 
 For the moment only RsyncOSX support JSON, the menu-app does not. The menu-app will support JSON after next release again. Before converting to JSON, in userconfig, make a backup of the current configuration files. The current configurations is backed up in the catalog `$HOME/Documents/RsyncOSXcopy-timestamp`.
 
