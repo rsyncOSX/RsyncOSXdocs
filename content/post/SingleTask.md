@@ -2,10 +2,10 @@
 author = "RsyncOSX"
 date = "2020-04-16"
 title =  "Executing single tasks"
-tags = ["single task","edit tasks"]
+tags = ["single task","edit tasks", "user rsync parameters"]
 categories = ["synchronize"]
 description = "Execute single task, first a verify run and then the real run."
-lastmod = "2020-07-16"
+lastmod = "2020-11-06"
 +++
 In Synchronize view (which is the opening view) tasks can be executed as singletasks. Execute single tasks requires a couple of double clicks: one for **estimation** run and the second for **executing** the real task. The output from rsync is presented after each run.
 
@@ -37,3 +37,10 @@ The edit enables changing the basic info about the task. The user can add, edit,
 The params enables access to add and change parameters to rsync. See more info about [default parameters](/post/rsyncparameters) and [user selected parameters](/post/userparameters/).
 
 ![](/images/RsyncOSX/master/userparameters/userparameters.png)
+
+## View output
+
+Selecting the output icon upper left corner in main view presents a view of either output from rsync or the logfile. You can switch the view by the toggle switch in left bottom. The `Copy` button copies to macOS clipboard and the `New` button creates a new logfile.
+
+![](/images/RsyncOSX/master/singletask/rsyncoutput.png)
+![](/images/RsyncOSX/master/singletask/logfile.png)
