@@ -27,7 +27,7 @@ Version 6.4.7 will be released shortly after macOS 11.00 Big Sur is released, co
 	- see more [info about json](/post/json/)
 - backup of configurations and logs (in userconfig)
 
-Before trying out JSON convert existing PLIST configurations to JSON format (⌘J). If you try out the JSON format and want to return to PLIST, do a backup, transform existing JSON format to PLIST and return to PLIST in userconfig. Also, in userconfig, do a backup of existing configurations. 
+Before trying out JSON convert existing PLIST configurations to JSON format (⌘J). If you try out the JSON format and want to return to PLIST, do a backup, transform existing JSON format to PLIST and return to PLIST in userconfig. Also, [in userconfig](/post/userparameters/), do a backup of existing configurations.
 
 ## Version 6.4.6
 

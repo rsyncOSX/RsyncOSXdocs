@@ -87,6 +87,10 @@ It is possible to enter an environment variable to the process which executes th
 
 `"SSH_AUTH_SOCK": "/Users/username/.gnupg/S.gpg-agent.ssh"`
 
+## Backup
+
+The `Backup` function copies all configurations and logs as a backup to your `$Home/Documents/RsyncOSXcopy-$date-suffix`. Viewing the catalog in Finder might show an empty catalog. The catalog is not empty, the configurations are saved in `$Home/Documents/RsyncOSXcopy-$date-suffix/.rsyncosx/macserialnumber` and Finder might not show `.` catalogs.
+
 ## JSON
 
 See [JSON support](/post/json/)
