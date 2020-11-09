@@ -15,22 +15,19 @@ If you also utilize the menu-app (RsyncOSXsched), be aware of you might have to 
 
 All releases of RsyncOSX are [signed and notarized](/post/notarized/). Please see info about [the latest version of rsync in install](/post/rsync/).
 
-## Version 6.4.7 release candidate
+## Version 6.4.7 release candidate (updated 9 Nov 2020)
 
 Version 6.4.7 will be released shortly after macOS 11.00 Big Sur is released, compiled on Big Sur with Xcode 12.
 
-In next version there will be a kind of Assist function for adding new configurations. If you, like me, synchronize e.g. your `Documents` catalog to several remote computers or local attached volumes, the Assist function let you save basic values about paths, catalogs and remote values. Within the Assist function you can then easy add configurations for synchronize your `Documents` catalog to several remote servers.
-
-- the [Assist function](/post/addconfigurations/#assist)
-- language updates (Chinese, German and Norwegian)
+- a new [Assist function](/post/addconfigurations/#assist)
+- language updates (Chinese, German, Norwegian and Dutch)
 - fixed a bug within the ssh function, thx to [Paul Dee](https://github.com/systemcrash) for [reporting the bug](https://github.com/rsyncOSX/RsyncOSX/issues/1956), the crash is caused by a bug if the ssh public key is not present in the ssh keypath catalog
 - there is also fixed a minor glitch in the menu app, in default profile the schedules was not presented in the main view
-
-Added in code but **not yet released**
-
 - RsyncOSX supports read and write configurations and logs as [JSON](https://en.wikipedia.org/wiki/JSON) files
 	- see more [info about json](/post/json/)
-- backup of configurations and logs
+- backup of configurations and logs (in userconfig)
+
+Before trying out JSON convert existing PLIST configurations to JSON format. Also, in userconfig, do a backup of existing configurations. 
 
 ## Version 6.4.6
 
