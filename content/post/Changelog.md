@@ -25,7 +25,8 @@ Version 6.4.7 will be released shortly after macOS 11.00 Big Sur is released, co
 - there is also fixed a minor glitch in the menu app, in default profile the schedules was not presented in the main view
 - RsyncOSX supports read and write configurations and logs as [JSON](https://en.wikipedia.org/wiki/JSON) files
 	- see more [info about json](/post/json/)
-- backup of configurations and logs (in userconfig)
+- backup of configurations and logs (in [userconfig](/post/userconfiguration/))
+- several internal changes (refactor) in code
 
 Before trying out JSON convert existing PLIST configurations to JSON format (⌘J). If you try out the JSON format and want to return to PLIST, do a backup, transform existing JSON format to PLIST and return to PLIST in userconfig. Also, [in userconfig](/post/userconfiguration/), do a backup of existing configurations.
 

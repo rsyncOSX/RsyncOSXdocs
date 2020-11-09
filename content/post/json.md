@@ -7,8 +7,6 @@ categories = ["general information"]
 description = "Some info about signing and notarizing."
 lastmod = "2020-10-22"
 +++
-**Not yet released**.
-
 RsyncOSX supports read and write configurations and logs as [JSON](https://en.wikipedia.org/wiki/JSON) files. The user will have the option to convert existing configurations and logs from [plist](https://en.wikipedia.org/wiki/Property_list) to JSON.
 
 ### Cross plattform
