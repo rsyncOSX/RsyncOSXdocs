@@ -20,7 +20,7 @@ My new IDE (Integrated Development Tool) will be either [Visual Studio or Visual
 
 If there will be a cross-plattform version of RsyncOSX in 2021 remains to see. It depends on how much work there is and if I am able to learn how to make apps with the new language.
 
-For the moment only RsyncOSX support JSON, the menu-app does not. The menu-app will support JSON after next release again. Before converting to JSON, in userconfig, make a backup of the current configuration files. The current configurations is backed up in the catalog `$HOME/Documents/RsyncOSXcopy-timestamp`.
+For the moment only RsyncOSX support JSON, the menu-app does not. The menu-app will support JSON after next release again. Before converting to JSON, in userconfig, make a backup of the current configuration files. The current configurations is backed up in the catalog `$Home/Documents/RsyncOSXcopy-$date-suffix`.
 
 ## Enabling JSON
 
