@@ -15,6 +15,10 @@ If you also utilize the menu-app (RsyncOSXsched), be aware of you might have to 
 
 All releases of RsyncOSX are [signed and notarized](/post/notarized/). Please see info about [the latest version of rsync in install](/post/rsync/).
 
+### Install by Homebrew
+
+RsyncOSX can also be installed by Homebrew: `brew cask install rsyncosx`
+
 ## Version 6.5.0
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.0) 12 November 2020

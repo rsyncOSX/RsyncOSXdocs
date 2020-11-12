@@ -11,6 +11,8 @@ RsyncOSX is released in [version 6.5.0 (12 November 2020)](https://github.com/rs
 
 ## Install
 
+RsyncOSX can also be installed by Homebrew: `brew cask install rsyncosx`
+
 The command
 
 `shasum ~/pathtodownload/RsyncOSX-version.dmg`
