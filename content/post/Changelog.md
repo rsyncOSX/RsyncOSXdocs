@@ -315,9 +315,9 @@ This is a maintenance release. The following changes are applied:
 
 Released 16 August 2018.
 
-The primary goal for this release is adding [verify](/post/verify/) of backups. There are also some other and minor fixes as well.
+The primary goal for this release is adding [verify](/post/check/) of backups. There are also some other and minor fixes as well.
 
-- new function [verify](/post/verify/)
+- new function [verify](/post/check/)
 - if task is selected in Synchronize view, only logs for selected task is presented in log view
 - fixed preserving sort direction and selection of logs
 - in [snapshots](/post/snapshots/) enter number of snapshots to delete directly

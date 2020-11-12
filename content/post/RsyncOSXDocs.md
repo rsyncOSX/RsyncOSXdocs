@@ -75,14 +75,14 @@ Snapshot is an effective method for saving changes and deleted files. You can al
 
 Sometimes you need to restore files. Either execute [a full restore or file by file](/post/restore/).
 
-## Logging, configuration, config files, verify
+## Logging, configuration, config files, check
 
 There are some info about logging and where RsyncOSX store files. There are a few user selected options. And sometimes you should execute a verify of synchronized files.
 
 - some info about [logging execution of tasks](/post/logging/)
 - some info about [user configuration](/post/userconfiguration/)
 - where does RsyncOSX [stores the config files](/post/configfiles/)
-- the [verify function](/post/verify/)
+- how to [check synchronized data](/post/check/)
 
 ## Intro and video
 
