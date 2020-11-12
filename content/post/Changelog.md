@@ -32,7 +32,7 @@ Version 6.5.0 and later versions are only working on macOS 10.15 Catalina and 11
 
 RsyncOSX (and RsyncOSXsched - the menu app) supports read and write configurations and logs as [JSON](https://en.wikipedia.org/wiki/JSON) files:
 
-	- see more [info about json](/post/json/)
+- see more [info about json](/post/json/)
 
 Before trying out JSON convert existing PLIST configurations to JSON format (⌘J). If you try out the JSON format and want to return to PLIST, do a backup, transform existing JSON format to PLIST and return to PLIST in userconfig. Also, [in userconfig](/post/userconfiguration/), do a backup of existing configurations.
 
