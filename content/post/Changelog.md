@@ -15,18 +15,24 @@ If you also utilize the menu-app (RsyncOSXsched), be aware of you might have to 
 
 All releases of RsyncOSX are [signed and notarized](/post/notarized/). Please see info about [the latest version of rsync in install](/post/rsync/).
 
-## Version 6.4.7 release candidate (updated 9 Nov 2020)
+## Version 6.5.0
 
-Version 6.4.7 will be released shortly after macOS 11.00 Big Sur is released, compiled on Big Sur with Xcode 12.
+[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.0) 12 November 2020
+
+Version 6.5.0 and later versions are only working on macOS 10.15 Catalina and 11.00 Big Sur. This version is built om macOS Big Sur with Xcode 12.2.
 
 - a new [Assist function](/post/addconfigurations/#assist)
 - language updates (Chinese, German, Norwegian and Dutch)
 - fixed a bug within the ssh function, thx to [Paul Dee](https://github.com/systemcrash) for [reporting the bug](https://github.com/rsyncOSX/RsyncOSX/issues/1956), the crash is caused by a bug if the ssh public key is not present in the ssh keypath catalog
 - there is also fixed a minor glitch in the menu app, in default profile the schedules was not presented in the main view
-- RsyncOSX supports read and write configurations and logs as [JSON](https://en.wikipedia.org/wiki/JSON) files
-	- see more [info about json](/post/json/)
 - backup of configurations and logs (in [userconfig](/post/userconfiguration/))
 - several internal changes (refactor) in code
+- the [check function](/post/check/) is moved to the File menu
+- and some minor fixes in the menu app
+
+RsyncOSX (and RsyncOSXsched - the menu app) supports read and write configurations and logs as [JSON](https://en.wikipedia.org/wiki/JSON) files:
+
+	- see more [info about json](/post/json/)
 
 Before trying out JSON convert existing PLIST configurations to JSON format (⌘J). If you try out the JSON format and want to return to PLIST, do a backup, transform existing JSON format to PLIST and return to PLIST in userconfig. Also, [in userconfig](/post/userconfiguration/), do a backup of existing configurations.
 
