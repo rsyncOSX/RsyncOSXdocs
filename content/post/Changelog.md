@@ -17,7 +17,7 @@ All releases of RsyncOSX are [signed and notarized](/post/notarized/). Please se
 
 ### Install by Homebrew
 
-RsyncOSX can also be installed by Homebrew: `brew cask install rsyncosx`
+RsyncOSX can also be installed by [Homebrew](https://brew.sh/index_nb): `brew cask install rsyncosx`.
 
 ## Version 6.5.0
 

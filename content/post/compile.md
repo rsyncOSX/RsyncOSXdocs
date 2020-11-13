@@ -26,7 +26,7 @@ To remove select "Team: none" and "Signing Certificates: Sign to Run Locally".
 
 ## Compile scripts
 
-There are two utilities used, [SwiftLint](https://github.com/realm/SwiftLint) and [SwiftFormat](https://github.com/nicklockwood/SwiftFormat). Both can be removed, select tab "Build Phases" and delete the lines. Or you can use [homebrew](https://brew.sh/index_nb) to install both utilities.
+There are two utilities used, [SwiftLint](https://github.com/realm/SwiftLint) and [SwiftFormat](https://github.com/nicklockwood/SwiftFormat). Both can be removed, select tab "Build Phases" and delete the lines. Or you can use [Homebrew](https://brew.sh/index_nb) to install both utilities.
 
 ![](/images/RsyncOSX/master/compile/scripts.png)
 
