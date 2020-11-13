@@ -17,13 +17,13 @@ All releases of RsyncOSX are [signed and notarized](/post/notarized/). Please se
 
 ### Install by Homebrew
 
-RsyncOSX can also be installed by [Homebrew](https://brew.sh/index_nb): `brew cask install rsyncosx`.
+RsyncOSX can also be installed by Homebrew: `brew cask install rsyncosx`.
 
 ## Version 6.5.0
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.0) 12 November 2020
 
-Version 6.5.0 and later versions are only working on macOS 10.15 Catalina and 11.00 Big Sur. This version is built om macOS Big Sur with Xcode 12.2.
+Version 6.5.0 and later versions are only working on macOS 10.15 Catalina and 11.01 Big Sur. This version is built om macOS Big Sur with Xcode 12.2.
 
 - a new [Assist function](/post/addconfigurations/#assist)
 - language updates (Chinese, German, Norwegian and Dutch)
@@ -34,7 +34,7 @@ Version 6.5.0 and later versions are only working on macOS 10.15 Catalina and 11
 - the [check function](/post/check/) is moved to the File menu
 - and some minor fixes in the menu app
 
-RsyncOSX (and RsyncOSXsched - the menu app) supports read and write configurations and logs as [JSON](https://en.wikipedia.org/wiki/JSON) files:
+RsyncOSX supports read and write configurations and logs as [JSON](https://en.wikipedia.org/wiki/JSON) files:
 
 - see more [info about json](/post/json/)
 
