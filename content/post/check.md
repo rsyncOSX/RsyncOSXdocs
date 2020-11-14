@@ -7,7 +7,7 @@ categories = ["rsync"]
 description = "Sometimes you want to check the synchronized data."
 lastmod = "2020-11-12"
 +++
-The check of synchronized data is triggered by the `File` menu or the `⌘K` shortcut.
+The check of synchronized data is triggered by the `File -> Check synchronized` menu or the `⌘K` shortcut.
 
 ### The archive parameter
 
