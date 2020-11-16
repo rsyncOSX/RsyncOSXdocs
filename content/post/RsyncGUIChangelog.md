@@ -6,9 +6,7 @@ tags = ["rsyncgui"]
 categories = ["changelog"]
 description = "Changelog"
 +++
-RsyncGUI is a sandboxed macOS app compiled with support for **macOS El Capitan version 10.14 - latest version**. The application is implemented in Swift 5 by using Xcode 11.
-
-Rsync is a file-based synchronization and backup tool. There is no custom solution for the backup archive. You can quit utilizing RsyncGUI (and rsync) at any time and still have access to all synchronized files.
+RsyncGUI is a sandboxed macOS app compiled with support for macOS 10.15 Catalina and 11.01 Big Sur. The application is implemented in Swift 5 by using Xcode 12. Rsync is a file-based synchronization and backup tool. There is no custom solution for the backup archive. You can quit utilizing RsyncGUI (and rsync) at any time and still have access to all synchronized files.
 
 The [App Sandboxing technology](https://developer.apple.com/app-sandboxing/) is a technology for protecting the user for malicious software. To release a macOS app on Apple Mac App Store require the app to execute inside a sandbox. RsyncGUI is an adapted version of [RsyncOSX](https://github.com/rsyncOSX/RsyncOSX) to execute inside a sandbox. There are a few limitations compared to RsyncOSX.
 
@@ -24,12 +22,16 @@ The default version of rsync in macOS is old (version 2.6.9, [protocol](https://
 
 If you need either of them, please use [RsyncOSX](https://github.com/rsyncOSX/RsyncOSX).
 
+## Version 2.3.0
+
+This version is approved for release on Apple Mac Store 13 November 2020.
+
 ## Version 2.2.9
 
 This version is approved for release on Apple Mac Store 10 November 2020.
 
 - maintenance release and some refactor of code
-- added backup of configurations 
+- added backup of configurations
 
 ## Version 2.2.5
 
