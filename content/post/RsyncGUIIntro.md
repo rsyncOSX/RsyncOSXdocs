@@ -45,7 +45,7 @@ Go back to the Execute tab, select the task and you are ready to go.
 
 ## Type of tasks
 
-There  are three types of how to synchronize source and destination (backup):
+There  are two types of how to synchronize source and destination (backup):
 
 (1)synchronize source and backup location, any changed and deleted files in backup location will either be overwritten or deleted
   - this is the default synchronize task in RsyncGUI, after execution source and destination (backup) is 100% in sync if there are no --exclude parameters to rsync
@@ -53,8 +53,6 @@ There  are three types of how to synchronize source and destination (backup):
 
 (2) syncremote which synchronize a remote source to your local Mac.
   - please pay attention before using this task, if you syncremote an empty source it will delete all local files
-
-(3) synchronize and save changed and deleted files in a separate backup catalog by adding a [parameters](/post/rsyncparameters) to rsync
 
 Snapshot tasks is not possible in RsyncGUI, see [the RsyncGUI Changelog](/post/rsyncguichangelog).
 
