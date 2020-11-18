@@ -19,11 +19,16 @@ All releases of RsyncOSX are [signed and notarized](/post/notarized/). Please se
 
 RsyncOSX can also be installed by Homebrew: `brew cask install rsyncosx`.
 
-## Version 6.5.1 Release candidate
+## 18 Nov 2020 - issue with creating new snapshot tasks
 
-18 Nov 2020.
+There is an issue with creating new `snapshot` tasks (not existing) in version 6.5.0. The bug is fixed in code but not yet released, but there is a workaround. The issue is with creating new snapshot tasks only.
 
-There is an issue with creating new `snapshot` tasks (not existing) in version 6.5.0. If you create new snapshot tasks please use the release candidate. See [releases for download](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.0).
+### workaround
+
+- create the snapshot task as usual
+- in main view, select the task and [choose edit](/post/singletask/#edit-and-params)
+- select `reset next snapshotnum` and set it to `1`, save the change that is it
+- in main view there should be a `0` in column `snap`
 
 ## Version 6.5.0
 
