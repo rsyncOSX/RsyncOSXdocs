@@ -19,6 +19,12 @@ All releases of RsyncOSX are [signed and notarized](/post/notarized/). Please se
 
 RsyncOSX can also be installed by Homebrew: `brew cask install rsyncosx`.
 
+## Version 6.5.1 Release candidate
+
+18 Nov 2020.
+
+There is an issue with creating new `snapshot` tasks (not existing) in version 6.5.0. If you create new snapshot tasks please use the release candidate. See [releases for download](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.0).
+
 ## Version 6.5.0
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.0) 12 November 2020
