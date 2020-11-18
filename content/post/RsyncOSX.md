@@ -35,4 +35,4 @@ Utilizing RsyncOSX for synchronize files and backup to remote servers require to
 
 ## Homebrew
 
-RsyncOSX can also be installed by [Homebrew](https://brew.sh/index_nb): `brew cask install rsyncosx`.
+RsyncOSX can also be installed by Homebrew: `brew cask install rsyncosx`.
