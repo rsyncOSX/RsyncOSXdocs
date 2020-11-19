@@ -32,6 +32,8 @@ There is an issue with creating new `snapshot` tasks (not existing) in version 6
 - select `reset next snapshotnum` and set it to `1`, save the change that is it
 - in main view there should be a `0` in column `snap`
 
+There are also some minor issues utilizing the shortcuts like copy (`⌘C`) and paste(`⌘V`) values from commandline into like the Add configurations. It is fixed now.  
+
 ## Version 6.5.0
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.0) 12 November 2020

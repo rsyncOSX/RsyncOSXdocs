@@ -43,3 +43,16 @@ Either execute RsyncOSX directly in Xcode or utilize make. Go to the catalog top
 After the compiling is completed the RsyncOSX.app is build and saved in:
 
 `RsyncOSX/Build/Products/Release/RsyncOSX.app`
+
+## Tools used
+
+The following tools are used in development:
+
+- Xcode (the main tool)
+- make to compile new versions in terminal
+- [create-dmg](https://github.com/sindresorhus/create-dmg) to create new releases
+- [periphery](https://github.com/peripheryapp/periphery) to identify unused code
+- [SwiftLint](https://github.com/realm/SwiftLint) to enforce Swift style and conventions
+- [SwiftFormat](https://github.com/nicklockwood/SwiftFormat) for reformatting Swift code
+
+All the above, except Xcode are installed by using [Homebrew](https://brew.sh/).
