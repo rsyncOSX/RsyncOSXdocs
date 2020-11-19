@@ -15,10 +15,6 @@ If you also utilize the menu-app (RsyncOSXsched), be aware of you might have to 
 
 All releases of RsyncOSX are [signed and notarized](/post/notarized/). Please see info about [the latest version of rsync in install](/post/rsync/).
 
-## Install by Homebrew
-
-RsyncOSX can also be installed by Homebrew: `brew cask install rsyncosx`.
-
 ## Issue with creating new snapshot tasks
 
 18 Nov 2020
