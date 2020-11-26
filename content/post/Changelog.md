@@ -15,20 +15,22 @@ If you also utilize the menu-app (RsyncOSXsched), be aware of you might have to 
 
 All releases of RsyncOSX are [signed and notarized](/post/notarized/). Please see info about [the latest version of rsync in install](/post/rsync/).
 
-## Issue with creating new snapshot tasks
+## Version 6.5.1 release candidate
 
-18 Nov 2020
+[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.0) 26 November 2020
 
-There is an issue with creating new `snapshot` tasks (not existing) in version 6.5.0. The bug is fixed in code but not yet released, but there is a workaround. The issue is with creating new snapshot tasks only.
+There are several internal changes in this release candidate (refactor of code) to make the maintenance of the code more easy. The rc is compiled as a [Universal macOS Binary](https://developer.apple.com/documentation/xcode/building_a_universal_macos_binary). The release candidate will most likely be the next release sometime in December 2020 if there are no bugs reported.
 
-### Workaround
+There is an issue with **creating new** `snapshot` tasks in version 6.5.0. The bug is fixed in the release candidate.
+
+### Workaround in version 6.5.0
 
 - create the snapshot task as usual
 - in main view, select the task and [choose edit](/post/singletask/#edit-and-params)
 - select `reset next snapshotnum` and set it to `1`, save the change that is it
 - in main view there should be a `0` in column `snap`
 
-There are also some minor issues utilizing the shortcuts like copy (`⌘C`) and paste(`⌘V`) values from commandline into like the Add configurations. It is fixed now.  
+There are also some minor issues utilizing the shortcuts like copy (`⌘C`) and paste(`⌘V`) values from commandline into like the Add configurations. It is fixed now. And there is a cleanup within the `Assist` function as well.
 
 ## Version 6.5.0
 
