@@ -21,6 +21,8 @@ All releases of RsyncOSX are [signed and notarized](/post/notarized/). Please se
 
 There are several internal changes in this release candidate (refactor of code) to make the maintenance of the code more easy. The rc is compiled as a [Universal macOS Binary](https://developer.apple.com/documentation/xcode/building_a_universal_macos_binary). The release candidate will most likely be the next release sometime in December 2020 if there are no bugs reported.
 
+Well - updated 28 November, there are a few changes to the [main view](/post/singletask/#changes-next-release) so there will be an new release in December. The master branch is updated with changes, but not yet in release candidate.
+
 There is an issue with **creating new** `snapshot` tasks in version 6.5.0. The bug is fixed in the release candidate.
 
 ### Workaround in version 6.5.0
