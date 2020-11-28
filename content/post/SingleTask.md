@@ -44,3 +44,12 @@ Selecting the output icon upper left corner in main view presents a view of eith
 
 ![](/images/RsyncOSX/master/singletask/rsyncoutput.png)
 ![](/images/RsyncOSX/master/singletask/logfile.png)
+
+## Changes next release
+
+There are a few changes to the main view of RsyncOSX in the December 2020 release of RsyncOSX.
+
+![](/images/RsyncOSX/master/singletask/schedules.png)
+![](/images/RsyncOSX/master/singletask/executeleft.png)
+![](/images/RsyncOSX/master/singletask/deleteright.png)
+![](/images/RsyncOSX/master/singletask/estimated.png)
