@@ -53,7 +53,7 @@ The main view is cleaned up a little bit. The status field is removed.
 
 ![](/images/RsyncOSX/master/singletask/schedules.png)
 
-Using either two fingers on the touchpad or a finger on the mouse, slide to the right will execute a single task. If the task is estimaed a progressbar will pop up.
+Using either two fingers on the touchpad or a finger on the mouse, slide to the right will execute a single task. If the task is estimated a progressbar will pop up.
 
 ![](/images/RsyncOSX/master/singletask/executeleft.png)
 
