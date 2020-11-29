@@ -22,6 +22,12 @@ The default version of rsync in macOS is old (version 2.6.9, [protocol](https://
 
 If you need either of them, please use [RsyncOSX](https://github.com/rsyncOSX/RsyncOSX).
 
+## Version 2.3.2
+
+There is fixed a minor issues utilizing the shortcuts like copy (`⌘C`) and paste(`⌘V`) values from commandline into like the Add configurations. And there is a cleanup within the `Assist` function as well.
+
+There are several internal changes in this release (refactor of code) to make the maintenance of the code more easy. The app is compiled as a [Universal macOS Binary](https://developer.apple.com/documentation/xcode/building_a_universal_macos_binary). There are a few changes to the [main view](/post/singletask/#changes-next-release).
+
 ## Version 2.3.0
 
 This version is approved for release on Apple Mac Store 13 November 2020.
