@@ -44,23 +44,3 @@ Selecting the output icon upper left corner in main view presents a view of eith
 
 ![](/images/RsyncOSX/master/singletask/rsyncoutput.png)
 ![](/images/RsyncOSX/master/singletask/logfile.png)
-
-## Changes next release
-
-There are a few changes to the main view of RsyncOSX in the December 2020 release of RsyncOSX.
-
-The main view is cleaned up a little bit. The status field is removed.
-
-![](/images/RsyncOSX/master/singletask/schedules.png)
-
-Using either two fingers on the touchpad or a finger on the mouse, slide to the left will execute a single task. If the task is estimated a progressbar will pop up.
-
-![](/images/RsyncOSX/master/singletask/executeleft.png)
-
-Sliding to the right will delete a record. Every delete must be confirmed before delete.
-
-![](/images/RsyncOSX/master/singletask/deleteright.png)
-
-If a task is estimated a green bullet is shown.
-
-![](/images/RsyncOSX/master/singletask/estimated.png)
