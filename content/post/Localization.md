@@ -11,7 +11,6 @@ RsyncOSX and the menu app RsyncOSXsched are prepared for localization. Default l
 RsyncOSX is localized to:
 - Chinese (Simplified) -  by [StringKe (Chen)](https://github.com/StringKe)
 - German - by [Andre Voigtmann](https://github.com/andre68723)
-- French - translated by [crowdin](https://crowdin.com/project/rsyncosx)
 - Norwegian - by me
 - English - the base language of RsyncOSX
 - Italian - by [Stefano Steve Cutelle'](https://github.com/stefanocutelle)
