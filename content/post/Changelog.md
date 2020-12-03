@@ -17,11 +17,13 @@ All releases of RsyncOSX are [signed and notarized](/post/notarized/). Please se
 
 ## Version 6.5.1 release candidate
 
-[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.0) 26 November 2020
+[Updated](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.0) 3 December 2020
 
 There are several internal changes in this release candidate (refactor of code) to make the maintenance of the code more easy. The rc is compiled as a [Universal macOS Binary](https://developer.apple.com/documentation/xcode/building_a_universal_macos_binary). The release candidate will most likely be the next release sometime in December 2020 if there are no bugs reported.
 
-**Updated 28 November**: there are a few changes to [the main view](/post/new), there will be a new release in December 2020. The master branch is updated with changes, but not yet in release candidate.
+There are a few changes to [the main view](/post/new) in the release candidate. The main view is cleaned up and there is a new menubar on left side with the main actions foe each view.
+
+The restore function is changed as well. There is now only possible to do restore, either full or file by file, to a temporary restore path.
 
 There is an issue with **creating new** `snapshot` tasks in version 6.5.0. The bug is fixed in the release candidate.
 
