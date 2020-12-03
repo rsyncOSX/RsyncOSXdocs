@@ -11,7 +11,7 @@ There are a few changes to the main view of RsyncOSX in the December 2020 releas
 
 There is also two new functions for executing and delete records, select a row and either slide left for execute or right for delete.
 
-Almost all of the labels with info are removed. The info is available by shortcuts. There is also a new sidebar with most relevant actions for each screen.
+If a task is estimated, by double click on task, a green bullet is shown.
 
 The new main view.
 
@@ -28,5 +28,3 @@ Using either two fingers on the touchpad or a finger on the mouse, slide to the 
 Sliding to the right will delete a record. Every delete must be confirmed before delete.
 
 ![](/images/RsyncOSX/master/new/deleteright.png)
-
-If a task is estimated a green bullet is shown.
