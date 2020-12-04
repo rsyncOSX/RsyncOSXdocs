@@ -15,19 +15,25 @@ If you also utilize the menu-app (RsyncOSXsched), be aware of you might have to 
 
 All releases of RsyncOSX are [signed and notarized](/post/notarized/). Please see info about [the latest version of rsync in install](/post/rsync/). All versions are built as [Universal macOS Binary](https://developer.apple.com/documentation/xcode/building_a_universal_macos_binary).
 
-## Version 6.5.1 release candidate
+## Version 6.5.2
 
-[Updated](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.0) 3 December 2020
+[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.0) 4 December 2020
 
-There are several internal changes in this release candidate (refactor of code) to make the maintenance of the code more easy. The rc is compiled as a [Universal macOS Binary](https://developer.apple.com/documentation/xcode/building_a_universal_macos_binary). The release candidate will most likely be the next release sometime in December 2020 if there are no bugs reported.
+This released is **not** announced. If there are no errors reported in the next few weeks this release will be the next release.
 
-There are a few changes to [the main view](/post/new) in the release candidate. The main view is cleaned up and there is a new menubar on left side with the main actions foe each view.
+There are several internal changes in this release (refactor of code) to make the maintenance of the code more easy. The app is compiled as a [Universal macOS Binary](https://developer.apple.com/documentation/xcode/building_a_universal_macos_binary).
+
+There are a few changes to [the main view](/post/new) in this release. The main view is cleaned up and there is a new menubar on left side with the main actions foe each view.
 
 The restore function is changed as well. There is now only possible to do restore, either full or file by file, to a temporary restore path.
 
-There is an issue with **creating new** `snapshot` tasks in version 6.5.0. The bug is fixed in the release candidate.
+And there are fixed some minor bugs in the abort functions.
 
-### Workaround in version 6.5.0
+And the bug in snapshot is fixed.
+
+## Workaround snapshot in version 6.5.0
+
+There is an issue with **creating new** `snapshot` tasks in version 6.5.0. The bug is fixed in the release 6.5.2.
 
 - create the snapshot task as usual
 - in main view, select the task and [choose edit](/post/singletask/#edit-and-params)
