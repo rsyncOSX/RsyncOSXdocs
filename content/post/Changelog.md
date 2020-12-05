@@ -19,7 +19,7 @@ All releases of RsyncOSX are [signed and notarized](/post/notarized/). Please se
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.0) 4 December 2020
 
-This released is **not announced**. If there are no errors reported in the next few weeks will be the next release.
+This released is **not announced**. If there are no errors reported in the next few weeks, this will be the next release.
 
 There are several internal changes in this version (refactor of code) to make the maintenance of the code more easy. The app is compiled as a [Universal macOS Binary](https://developer.apple.com/documentation/xcode/building_a_universal_macos_binary).
 
