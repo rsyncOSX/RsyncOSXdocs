@@ -19,17 +19,16 @@ All releases of RsyncOSX are [signed and notarized](/post/notarized/). Please se
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.0) 4 December 2020
 
-This released is **not** announced. If there are no errors reported in the next few weeks this release will be the next release.
+This released is **not announced**. If there are no errors reported in the next few weeks will be the next release.
 
-There are several internal changes in this release (refactor of code) to make the maintenance of the code more easy. The app is compiled as a [Universal macOS Binary](https://developer.apple.com/documentation/xcode/building_a_universal_macos_binary).
+There are several internal changes in this version (refactor of code) to make the maintenance of the code more easy. The app is compiled as a [Universal macOS Binary](https://developer.apple.com/documentation/xcode/building_a_universal_macos_binary).
 
-There are a few changes to [the main view](/post/new) in this release. The main view is cleaned up and there is a new menubar on left side with the main actions foe each view.
+There are a few changes to [the main view](/post/new). The main view is cleaned up and there is a new menubar on left side with the main actions foe each view.
 
-The restore function is changed as well. There is now only possible to do restore, either full or file by file, to a temporary restore path.
-
-And there are fixed some minor bugs in the abort functions.
-
-And the bug in snapshot is fixed.
+- the restore function is changed as well, there is now only possible to do restore, either full or file by file, to a temporary restore path
+- and there are fixed some minor bugs in the abort functions
+- the bug in snapshot is fixed
+- and there is some language updates as well
 
 ## Workaround snapshot in version 6.5.0
 
