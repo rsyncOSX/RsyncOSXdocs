@@ -1,15 +1,13 @@
 +++
 author = "RsyncOSX"
 date = "2020-04-23"
-title =  "Coming version of RsyncOSX"
+title =  "Version 6.5.2 of RsyncOSX"
 tags = ["new version"]
 categories = ["general information"]
 description = "Next versions of RsyncOSX"
 lastmod = "2020-11-30"
 +++
-There are a few changes to the main view of RsyncOSX in the December 2020 release of RsyncOSX. I am working on a more clean version as well as preparation for a SwiftUI based version of RsyncOSX (in 2021). The views in the new versions are cleaned up. And there is introduced a sidebar for most used actions.
-
-There is also two new functions for executing and delete records, select a row and either slide left for execute or right for delete.
+There are a few changes to the main view of RsyncOSX in the December 2020 release. I am working on a more clean version as well as preparation for a SwiftUI based version of RsyncOSX (in 2021). The views are cleaned up. And there is introduced a sidebar for most used actions. There is also two new functions for **executing** and **delete records**, select a row and either slide left for execute or right for delete.
 
 If a task is estimated, by double click on task, a green bullet is shown.
 
