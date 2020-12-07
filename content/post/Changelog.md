@@ -5,7 +5,7 @@ date = "2020-04-23"
 description = "Changelog"
 tags = ["rsyncosx"]
 categories = ["changelog"]
-lastmod = "2020-10-23"
+lastmod = "2020-12-07"
 +++
 [![GitHub license](https://img.shields.io/github/license/rsyncOSX/RsyncOSX)](https://github.com/rsyncOSX/RsyncOSX/blob/master/Licence.MD) ![GitHub Releases](https://img.shields.io/github/downloads/rsyncosx/RsyncOSX/v6.5.2/total)  ![GitHub Releases](https://img.shields.io/github/downloads/rsyncosx/RsyncOSX/v6.5.0/total) [![Crowdin](https://badges.crowdin.net/rsyncosx/localized.svg)](https://crowdin.com/project/rsyncosx) [![Netlify Status](https://api.netlify.com/api/v1/badges/d375f6d7-dc9f-4913-ab43-bfd46d172eb2/deploy-status)](https://app.netlify.com/sites/rsyncosx/deploys) [![GitHub issues](https://img.shields.io/github/issues/rsyncOSX/RsyncOSX)](https://github.com/rsyncOSX/RsyncOSX/issues)
 
@@ -21,7 +21,7 @@ All releases of RsyncOSX are [signed and notarized](/post/notarized/). Please se
 
 This release is **not announced**, if there are no errors reported in the next few weeks, this will be the next release.
 
-There are several internal changes in this version (refactor of code) to make the maintenance of the code more easy. The app is compiled as a [Universal macOS Binary](https://developer.apple.com/documentation/xcode/building_a_universal_macos_binary).
+There are several internal changes in this version (refactor of code) to make the maintenance of the code more easy.
 
 - there are a few changes to [the main view](/post/new), the main view is cleaned up and there is a new menubar on left side with the main actions for each view
 - there are two new actions in main view, select a task and slide to left to execute, slide to right for delete
