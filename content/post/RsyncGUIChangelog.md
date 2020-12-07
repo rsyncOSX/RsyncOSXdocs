@@ -22,13 +22,24 @@ The default version of rsync in macOS is old (version 2.6.9, [protocol](https://
 
 If you need either of them, please use [RsyncOSX](https://github.com/rsyncOSX/RsyncOSX).
 
+## Version 2.3.3
+
+This version is approved for release on Apple Mac Store 7 December 2020.
+
+There are several internal changes in this version (refactor of code) to make the maintenance of the code more easy.
+
+- the main view is cleaned up and there is a new menubar on left side with the main actions for each view
+- there are two new actions in main view, select a task and slide to left to execute, slide to right for delete
+- the restore function is changed as well, there is now only possible to do restore, either full or file by file, to a temporary restore path
+- there are fixed some minor bugs in the abort functions
+
 ## Version 2.3.2
 
 This version is approved for release on Apple Mac Store 29 November 2020.
 
 There is fixed a minor issues utilizing the shortcuts like copy (`⌘C`) and paste(`⌘V`) values from commandline into like the Add configurations. And there is a cleanup within the `Assist` function as well.
 
-There are several internal changes in this release (refactor of code) to make the maintenance of the code more easy. The app is compiled as a [Universal macOS Binary](https://developer.apple.com/documentation/xcode/building_a_universal_macos_binary). There are a few changes to the [main view](/post/singletask/#changes-next-release).
+There are several internal changes in this release (refactor of code) to make the maintenance of the code more easy.
 
 ## Version 2.3.0
 
