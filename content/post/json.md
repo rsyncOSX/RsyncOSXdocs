@@ -26,7 +26,7 @@ For the moment only RsyncOSX support JSON, the menu-app does not. The menu-app w
 
 To enable JSON support is a **two step** process. There are three parts in the File menu dedicated for JSON support:
 
-- Verfiy (JSON) (shortcut `⌘V`) - verify either converted JSON or PLIST files
+- Verfiy (JSON) (shortcut `⌃⌘V`) - verify either converted JSON or PLIST files
 - View output (shortcut `⌘O`) -  after a verify open the output and select Logfile
 - Transform (shortcut `⌘J`) - enables the transform button for either JSON or PLIST
 
