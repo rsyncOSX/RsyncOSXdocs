@@ -19,12 +19,10 @@ To enable JSON support is a **two step** process. There are three parts in the F
 
 ![](/images/RsyncOSX/master/json/filemenu.png)
 
-Firs task is select the `Transform` (or shortcut `⌘J`). The main view shows a `JSON` button (or a `PLIST` button). Selecting the button executes the transformation. The existing plist or JSON configurations are not changed.
+First task is select the `Transform` (or shortcut `⌘J`). The main view shows a `JSON` button (or a `PLIST` button). Selecting the button executes the transformation. The existing plist or JSON configurations are not changed.
 
-- `JSON` button if RsyncOSX is reading PLIST files
-- `PLIST` button if RsyncOSX is reading JSON files
-
-## Transforming to JSON
+- `JSON` button if RsyncOSX is reading PLIST files and converts to JSON files
+- `PLIST` button if RsyncOSX is reading JSON files and converts to PLIST files
 
 After transforming, the second task is to enable JSON support by selecting the `JSON` option [in user configuration](/post/userconfiguration/)
 
