@@ -9,17 +9,13 @@ lastmod = "2020-12-07"
 +++
 [![GitHub license](https://img.shields.io/github/license/rsyncOSX/RsyncOSX)](https://github.com/rsyncOSX/RsyncOSX/blob/master/Licence.MD) ![GitHub Releases](https://img.shields.io/github/downloads/rsyncosx/RsyncOSX/v6.5.2/total)  ![GitHub Releases](https://img.shields.io/github/downloads/rsyncosx/RsyncOSX/v6.5.0/total) [![Crowdin](https://badges.crowdin.net/rsyncosx/localized.svg)](https://crowdin.com/project/rsyncosx) [![Netlify Status](https://api.netlify.com/api/v1/badges/d375f6d7-dc9f-4913-ab43-bfd46d172eb2/deploy-status)](https://app.netlify.com/sites/rsyncosx/deploys) [![GitHub issues](https://img.shields.io/github/issues/rsyncOSX/RsyncOSX)](https://github.com/rsyncOSX/RsyncOSX/issues)
 
-If you are installing on macOS Catalina or macOS Big Sur and utilize a local version of rsync, execute the rsync utility in a terminal window before using RsyncOSX. There is a process of granting access for the rsync utility before using it by RsyncOSX. MacOS Catalina or macOS Big Sur will also ask permission for accessing your home catalog first time you start RsyncOSX.
-
-If you also utilize the menu-app (RsyncOSXsched), be aware of you might have to force quit RsyncOSX the first time you start the menu-app. This is because the macOS Catalina and macOS Big Sur ask for permissions when starting the menu-app for the first time and RsyncOSX is not closed automatically when starting the menu-app. This might happen only once first time start.
+If you are utilizing a local version of rsync, execute the rsync utility in a terminal window before using RsyncOSX. There is a process of granting access for the rsync utility before using it by RsyncOSX. MacOS will also ask permission for accessing your home catalog the first time you start RsyncOSX. If you also utilize the menu-app (RsyncOSXsched), be aware of you might have to force quit RsyncOSX the first time you start the menu-app. This is because the macOS asks for permissions when starting the menu-app for the first time and RsyncOSX is not closed automatically when starting the menu-app. This might happen only once first time start.
 
 All releases of RsyncOSX are [signed and notarized](/post/notarized/). Please see info about [the latest version of rsync in install](/post/rsync/). All versions are built as [Universal macOS Binary](https://developer.apple.com/documentation/xcode/building_a_universal_macos_binary).
 
 ## Version 6.5.2
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.0) 4 December 2020
-
-This release is **not announced**, if there are no errors reported in the next few weeks, this will be the next release.
 
 There are several internal changes in this version (refactor of code) to make the maintenance of the code more easy.
 
@@ -29,17 +25,6 @@ There are several internal changes in this version (refactor of code) to make th
 - there are fixed some minor bugs in the abort functions
 - the bug in snapshot is fixed
 - and there is some language updates as well
-
-## Workaround snapshot in version 6.5.0
-
-There is an issue with **creating new** `snapshot` tasks in version 6.5.0. The bug is fixed in the release 6.5.2.
-
-- create the snapshot task as usual
-- in main view, select the task and [choose edit](/post/singletask/#edit-and-params)
-- select `reset next snapshotnum` and set it to `1`, save the change that is it
-- in main view there should be a `0` in column `snap`
-
-There are also some minor issues utilizing the shortcuts like copy (`⌘C`) and paste(`⌘V`) values from commandline into like the Add configurations. It is fixed now. And there is a cleanup within the `Assist` function as well.
 
 ## Version 6.5.0
 
@@ -56,17 +41,20 @@ Version 6.5.0 and later versions are only working on macOS 10.15 Catalina and 11
 - the [check function](/post/check/) is moved to the File menu
 - and some minor fixes in the menu app
 
-RsyncOSX supports read and write configurations and logs as [JSON](https://en.wikipedia.org/wiki/JSON) files:
+RsyncOSX supports read and write configurations and logs as [JSON](https://en.wikipedia.org/wiki/JSON) files.
 
-- see more [info about json](/post/json/)
+### Workaround snapshot in version 6.5.0
 
-Before trying out JSON convert existing PLIST configurations to JSON format (⌘J). If you try out the JSON format and want to return to PLIST, do a backup, transform existing JSON format to PLIST and return to PLIST in userconfig. Also, [in userconfig](/post/userconfiguration/), do a backup of existing configurations.
+There is an issue with **creating new** `snapshot` tasks in version 6.5.0. The bug is fixed in the release 6.5.2.
+
+- create the snapshot task as usual
+- in main view, select the task and [choose edit](/post/singletask/#edit-and-params)
+- select `reset next snapshotnum` and set it to `1`, save the change that is it
+- in main view there should be a `0` in column `snap`
 
 ## Version 6.4.6
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.4.6) 23 September 2020
-
-**RsyncOSX is compiled with support for macOS 10.15 Catalina and 11.00 Big Sur.**
 
 The following are changes in the release:
 
