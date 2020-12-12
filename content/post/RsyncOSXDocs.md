@@ -72,7 +72,6 @@ Snapshot is an effective method for saving changes and deleted files. You can al
 
 - utilizing the [snapshot feature](/post/snapshots/)
 - utilizing the [quick synchronize feature](/post/quickbackup/)
-- [automatic backups](/post/automatic/)
 - [scheduling of tasks](/post/scheduletasks/)
 
 ## How to restore
@@ -90,10 +89,11 @@ There are some info about logging and where RsyncOSX store files. There are a fe
 
 ## Intro and video
 
-There is a [short intro to RsyncOSX](/post/intro/) and there are two short YouTube videos of RsyncOSX:
+There are two short YouTube videos of RsyncOSX:
 
 - [how to get and install RsyncOSX](https://youtu.be/d-srHjL2F-0)
 - [adding and executing the first backup](https://youtu.be/vS5_rXdTtZ8)
-## Source code and compile
 
-And there is some info about the [source code and how to compile RsyncOSX](/post/source).
+## Compile
+
+And there is some info about [how to compile RsyncOSX](/post/compile/).

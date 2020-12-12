@@ -6,11 +6,7 @@ tags = ["compile"]
 categories = ["source code"]
 description = "If you pull RsyncOSX from GitHub you can easy compile your own version."
 +++
-## Before compiling
-
-RsyncOSX is only depended upon Cocoa and  Foundation classes which are standard Swift libraries.
-
-There are two ways to compile, either in Xcode or utilize `make` from command line in RsyncOSX catalog. To use make require Xcode command line utilities to be installed. Execute the following command and follow the instructions.
+RsyncOSX is only depended upon Cocoa and  Foundation classes which are standard Swift libraries. There are two ways to compile, either in Xcode or utilize `make` from command line in RsyncOSX catalog. To use make require Xcode command line utilities to be installed. Execute the following command and follow the instructions.
 
 `xcode-select --install`
 

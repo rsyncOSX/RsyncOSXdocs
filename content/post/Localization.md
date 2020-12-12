@@ -9,6 +9,7 @@ description = "RsyncOSX speaks several languages."
 RsyncOSX and the menu app RsyncOSXsched are prepared for localization. Default language for both is English.
 
 RsyncOSX is localized to:
+
 - Chinese (Simplified) -  by [StringKe (Chen)](https://github.com/StringKe)
 - German - by [Andre Voigtmann](https://github.com/andre68723)
 - Norwegian - by me
