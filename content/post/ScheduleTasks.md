@@ -5,6 +5,7 @@ title =  "Scheduled task"
 tags = ["scheduling","menu app"]
 categories = ["synchronize"]
 description = "Tasks can be scheduled for executing."
+lastmod = "2020-12-13"
 +++
 The [menu app](/post/menuapp/) to RsyncOSX is responsible for executing scheduled tasks. Adding and deleting scheduled tasks are done within RsyncOSX. By selecting a row and choose schedule applies a scheduled. All schedules is set to start at selected date.
 
@@ -28,8 +29,4 @@ The yellow flag in column Sched indicates there are active scheduled tasks. The 
 
 Remember, only the menu app which executes scheduled tasks. Select the calendar icon to start the menu app and automaticall close RsyncOSX.
 
-![](/images/RsyncOSX/master/schedule/schedule1.png)
-
-In the schedule view start, stop and delete schedules.
-
-![](/images/RsyncOSX/master/schedule/schedule2.png)
+![](/images/RsyncOSX/master/schedule/schedule.png)

@@ -5,7 +5,7 @@ title =  "Snapshots"
 tags = ["snapshot"]
 categories = ["synchronize"]
 description = "Snapshot is a very effective method for saving changes to file."
-lastmod = "2020-07-23"
+lastmod = "2020-12-13"
 +++
 Utilizing snapshot is an effective method for restore of previous versions of data and deleted files. Snapshot utilize [hardlinks](https://en.wikipedia.org/wiki/Hard_link) and only changed and deleted files are saved as separate files in a snapshot. Files which are not changed are hardlinks to the original file.
 
@@ -46,7 +46,7 @@ RsyncOSX creates the snapshots within the remote catalog. The ~ is expanded to t
 
 To create a snapshot task select `snapshot` as type in Add tab.
 
-![](/images/RsyncOSX/master/snapshots/snapshot1.png)
+![](/images/RsyncOSX/master/snapshots/snapshot.png)
 
 Do **not** copy and paste command for execution within a terminal window. RsyncOSX saves the number n to the configuration. The number n is the next snapshot number. The number n is used when computing the parameter for rsync
 and is picked up from the configuration.

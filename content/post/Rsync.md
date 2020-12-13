@@ -5,11 +5,11 @@ title =  "Latest version of rsync"
 tags = ["install","rsync version"]
 categories = ["general information"]
 description = "How to install RsyncOSX."
-lastmod = "2020-07-05"
+lastmod = "2020-12-13"
 +++
-The default [version 2.6.9 of rsync in macOS was released in nov 2006](https://download.samba.org/pub/rsync/NEWS#2.6.9). And  there has been several fixes and releases since then. The news about [the current release of rsync is here](https://download.samba.org/pub/rsync/NEWS). Due to new features in rsync and dependency to shared libraries it is not possible to bundle the latest version together with RsyncOSX.
+The default [version 2.6.9 of rsync in macOS](https://download.samba.org/pub/rsync/NEWS#2.6.9) was released in nov 2006. And  there has been several fixes and releases since then. The news about [the current release of rsync is here](https://download.samba.org/pub/rsync/NEWS). Due to new features in rsync and dependency to shared libraries it is not possible to bundle the latest version together with RsyncOSX.
 
-It is adviced to install rsync as part of Homebrew. In RsyncOSX select [user configuration](/post/userconfiguration/) and set path for optional version of rsync. Install [homebrew](https://brew.sh/) and install the latest version of rsync as part of homebrew (`brew install rsync`).
+It is adviced to install rsync as part of Homebrew. In RsyncOSX select [user configuration](/post/userconfiguration/) and set path for optional version of rsync. Install [homebrew](https://brew.sh/) and install the latest version of rsync as part of homebrew. Execute the command `brew install rsync` to install the latest version of rsync.
 
 ## Snapshots
 
@@ -17,7 +17,7 @@ RsyncOSX supports [snapshots](/post/snapshots/) of files. Due to a bug in versio
 
 ## Compile the latest version
 
-The source code for the latest version of rsync [can be downloaded from rsync.samba.org](https://rsync.samba.org/). There are some new features within the latest version and it require some additional libraries. I recommend to install the latest version as part of Homebrew. If you have installed Xcode command line tools and the required libraries you can also compile your own version of rsync. The following dynamic libraries is required:
+The source code for the latest version of rsync can be downloaded from [rsync.samba.org](https://rsync.samba.org/). There are some new features within the latest version and it require some additional libraries. I recommend to install the latest version as part of Homebrew. If you have installed Xcode command line tools and the required libraries you can also compile your own version of rsync. The following dynamic libraries is required:
 
 ```
 otool -L rsync

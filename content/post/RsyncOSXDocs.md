@@ -5,7 +5,7 @@ date = "2020-04-24"
 description = "If you want some more info about RsyncOSX there are some resources here."
 tags = ["summary"]
 categories = ["general information"]
-lastmod = "2020-11-13"
+lastmod = "2020-12-13"
 +++
 RsyncOSX is a GUI ontop of the command line utility `rsync`, no more no less. Rsync is a file-based tool for transferring and synchronization of files. RsyncOSX supports both synchronize and snapshot tasks. There is no custom solution for the synchronized archive. And you can quit utilizing RsyncOSX (and rsync) at any time and still have access to all synchronized files.
 
@@ -26,8 +26,8 @@ RsyncOSX is not developed to be an easy to use synchronize and backup tool. The 
 
 The UI can for users who dont know rsync, be difficult or complex to understand. It is not required to know `rsync` but it will ease the use and understanding of RsyncOSX. But it is though, possible to use RsyncOSX by just adding a source and remote backup catalog using default parameters. RsyncOSX supports **synchronize** and **snapshots** of files.
 
-RsyncOSX as your main tool for backup
-|---|
+### RsyncOSX as your main tool for backup
+
 If your plan is to use RsyncOSX as your main tool for backup of files, please investigate and understand the limits of it. RsyncOSX is quite powerful, but it is might not the primary backup tool for the average user of macOS.
 
 ## The --delete parameter

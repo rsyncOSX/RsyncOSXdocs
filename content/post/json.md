@@ -5,7 +5,7 @@ title =  "JSON support"
 tags = ["json","config file"]
 categories = ["general information"]
 description = "Some info about signing and notarizing."
-lastmod = "2020-12-11"
+lastmod = "2020-12-13"
 +++
 RsyncOSX supports read and write configurations and logs as [JSON](https://en.wikipedia.org/wiki/JSON) files. The user will have the option to convert existing configurations and logs from [plist](https://en.wikipedia.org/wiki/Property_list) to JSON. Before converting to JSON, [in user configuration](/post/userconfiguration/), make a backup of the current configuration files. The current configurations is backed up in the catalog `$Home/Documents/RsyncOSXcopy-$date-suffix`.
 
@@ -36,8 +36,6 @@ A yellow label indicates JSON support is enablet. The JSON files are stored in, 
 
 - `./rsyncosx/macserial/configurations.json` for configurations
 - `./rsyncosx/macserial/schedules.json` for schedules
-
-Example of [what the JSON files looks like, see here](https://github.com/rsyncOSX/RsyncOSX/tree/master/XCTestconfiguration/). The JSON files are a transformation of the xml (plist) files. The files are used as test of RsyncOSX after code changes.
 
 ## Returning to PLIST
 

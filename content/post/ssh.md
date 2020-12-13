@@ -5,6 +5,7 @@ title =  "Passwordless logins by ssh-keys - assisted by RsyncOSX."
 tags = ["passwordless","ssh keypath and identity file"]
 categories = ["remotelogins"]
 description = "RsyncOSX can guide you in setting up passwordless login by ssh-keys."
+lastmod = "2020-12-13"
 +++
 RsyncOSX utilizes user set ssh keypath and identityfile. The ssh parameter within the rsync command is if set by the user:
 
@@ -49,11 +50,11 @@ You can also setup the new ssh keypath and identityfile in a terminal window and
 
 If you want RsyncOSX to assist in setting up please select the ssh tab, open Userconfig and add new ssh keypath and identityfile and ssh port number if other than 22.
 
-![ssh](/images/RsyncOSX/master/ssh/ssh2.png)
+![ssh](/images/RsyncOSX/master/ssh/ssh.png)
 
 Setting ssh keypath and identityfile and ssh port number in Userconfig.
 
-![ssh](/images/RsyncOSX/master/ssh/ssh.png)
+![ssh](/images/RsyncOSX/master/ssh/ssh1.png)
 
 After closing the Userconfig select `Create keys` and RsyncOSX will do the magic. Select `Remote server`and RsyncOSX will add commands for copy and test the public key to remote server. Copy the commands and paste it into a terminal window for execution.
 
