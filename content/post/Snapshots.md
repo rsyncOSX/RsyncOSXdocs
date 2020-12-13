@@ -44,11 +44,7 @@ RsyncOSX creates the snapshots within the remote catalog. The ~ is expanded to t
 
 ## Create a snapshot
 
-To create a snapshot task select `snapshot` as type in Add tab.
-
-![](/images/RsyncOSX/master/snapshots/snapshot.png)
-
-Do **not** copy and paste command for execution within a terminal window. RsyncOSX saves the number n to the configuration. The number n is the next snapshot number. The number n is used when computing the parameter for rsync
+To create a snapshot task select `snapshot` as type in [add configurations](/post/addconfigurations/). Do **not** copy and paste command for execution within a terminal window. RsyncOSX saves the number n to the configuration. The number n is the next snapshot number. The number n is used when computing the parameter for rsync
 and is picked up from the configuration.
 
 ## Snapshots on local attached volumes
@@ -59,7 +55,11 @@ It seems like you have to disable `Ignore ownership on this volume` on local att
 
 It is important to administrate snapshots. By administrate means deleting not relevant snapshots. If snapshots are never deleted the number of snapshots might become difficult to use. A snapshot is most likely used to restore old and deleted files. This is why a plan to administrate snapshots is important. RsyncOSX can assist you in this.
 
-To administrate snapshots select the snapshot tab. Deleting snapshots is a **destructive** operation and should be performed with care. It is important to have a plan about which snapshots to keep and which to delete. RsyncOSX utilizes a simple plan for delete and keep snapshots. The plan is based upon three parts:
+To administrate snapshots select the snapshot tab. Deleting snapshots is a **destructive** operation and should be performed with care. It is important to have a plan about which snapshots to keep and which to delete. RsyncOSX utilizes a simple plan for delete and keep snapshots.
+
+![](/images/RsyncOSX/master/snapshots/snapshot.png)
+
+The plan is based upon three parts:
 
 - the current week
   - keep all the snapshots within the current week

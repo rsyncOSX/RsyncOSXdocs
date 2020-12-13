@@ -11,35 +11,18 @@ RsyncOSX and RcloneOSX are signed with my Apple ID developer certificate and [no
 
 From macOS 10.15 Catalina, [notarizing is required for all software](https://developer.apple.com/documentation/security/notarizing_your_app_before_distribution).
 
-The following apps are signed and notarized:
-
- - RsyncOSX
- - RsyncOSXsched (the menu app for RsyncOSX)
- - RcloneOSX
-
-## Message when executing first time
-
 This is the message when opening a downloaded version.
 
 ![](/images/RsyncOSX/master/notarize/verify.png)
 
 The message is "Apple checked it for malicious software and none was detected." You can also verify the signing by utilizing xcode developer tools. If you have Xcode developer tools installed, by executing the following command you can verify the following apps:
 
-### RsyncOSX
 ```
 xcrun stapler validate no.blogspot.RsyncOSX RsyncOSX.app
 Processing: /Volumes/Home/thomas/GitHub/RsyncOSX/Build/Products/Release/RsyncOSX.app
 The validate action worked!
-```
-### RsyncOSXsched (the menu app)
-```
+
 xcrun stapler validate no.blogspot.RsyncOSXsched RsyncOSXsched.app
 Processing: /Volumes/Home/thomas/GitHub/RsyncOSXsched/Build/Products/Release/RsyncOSXsched.app
-The validate action worked!
-```
-### RcloneOSX
-```
-xcrun stapler validate no.blogspot.rcloneosx rcloneosx.app
-Processing: /Volumes/Home/thomas/GitHub/RcloneOSX/Build/Products/Release/rcloneosx.app
 The validate action worked!
 ```

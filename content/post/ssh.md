@@ -14,11 +14,7 @@ RsyncOSX utilizes user set ssh keypath and identityfile. The ssh parameter withi
 - `-i` is the ssh keypath and identityfile
 - `-p` is the port number ssh communicates through, default port 22
 
-If global ssh parameters are set, it applies to **all configurations**. It is possible to set other ssh values on each task.
-
-## ssh keypath and identityfile
-
-There is a check and QA of ssh keypath and identityfile. When enabling user selected ssh keypath and identityfile please make sure it is in compliance with:
+If global ssh parameters are set, it applies to **all configurations**. It is possible to set other ssh values on each task. There is a check and QA of ssh keypath and identityfile. When enabling user selected ssh keypath and identityfile please make sure it is in compliance with:
 
 `~/.mynewsshcatalog/mynewkey`
 
@@ -28,8 +24,8 @@ The following ssh tools are used: `ssh-keygen` and `ssh-copy-id`. RsyncOSX only 
 
 The ssh functions assist in two methods:
 
-1. private and public ssh key pair based upon default ssh values for RSA based key `~/.ssh/id_rsa`
-2. private and public ssh key pair based upon user selected values as `~/.ssh_rsyncosx/rsyncosx`
+- private and public ssh key pair based upon default ssh values for RSA based key `~/.ssh/id_rsa`
+- private and public ssh key pair based upon user selected values as `~/.ssh_rsyncosx/rsyncosx`
 
 If creating a new public ssh key pair based upon default ssh values for RSA based key (1), RsyncOSX does not add any parameters to the rsync command because this is default values. Ssh parameters to the rsync command is only added if the second method is choosed.
 
