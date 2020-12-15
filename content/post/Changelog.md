@@ -13,6 +13,10 @@ If you are utilizing a local version of rsync, execute the rsync utility in a te
 
 RsyncOSX is [signed and notarized](/post/notarized/). Please see info about [the latest version of rsync in install](/post/rsync/).
 
+## What is going on now?
+
+I am still working on refactoring parts of the code. This will be a major task as preparation to commence work on a SwiftUI based version. The refactor is to make the code more easy to read and maintain. And as a part of that reduce the complexity where required. 
+
 ## Version 6.5.2
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.0) 4 December 2020
