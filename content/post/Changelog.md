@@ -15,7 +15,15 @@ RsyncOSX is [signed and notarized](/post/notarized/). Please see info about [the
 
 ## What is going on now?
 
-I am still working on refactoring parts of the code. This will be a major task as preparation to commence work on a SwiftUI based version. The refactor is to make the code more easy to read and maintain. And as a part of that reduce the complexity where required. 
+I am still working on refactoring parts of the code. This will be a major task as preparation to commence work on a SwiftUI based version. The refactor is to make the code more easy to read and maintain. And as a part of that reduce the complexity where required.
+
+## Version 6.5.3 release candidate
+
+There are several internal changes in this release candidate. Functions for delete **snapshots** and clean logs for **deleted snapshots** is not available in this release candidate. Apart from that all other functions are working. The following are changes:
+
+- application icon updated for Big Sur, by [Zsolt Sándor](https://github.com/graphis)
+- Chinese (Simplified) localization updated, by [StringKe (Chen)](https://github.com/StringKe)
+- and several internal changes
 
 ## Version 6.5.2
 
