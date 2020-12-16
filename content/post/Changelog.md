@@ -19,6 +19,8 @@ I am still working on refactoring parts of the code. This will be a major task a
 
 ## Version 6.5.3 release candidate
 
+[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.0) 16 December 2020
+
 There are several internal changes in this release candidate. Functions for delete **snapshots** and clean logs for **deleted snapshots** is not available in this release candidate. Apart from that all other functions are working. The following are changes:
 
 - application icon updated for Big Sur, by [Zsolt Sándor](https://github.com/graphis)
