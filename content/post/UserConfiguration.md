@@ -38,24 +38,25 @@ Detailed logging on or off:
 
 ## Halt on error
 
-If RsyncOSX discover error in output from rsync, operation will terminate if checked. Normally this should not be checked.
+If RsyncOSX discover error in output from rsync, operation will terminate if checked. Normally this should **not be** checked.
 
 ## Logging to file
 
 Logging is saved to permanent store:
 
 - either minimum (last 10 lines) or full logging of output from rsync, be carful not logging everything, the log file might be big
-- log file is Documents/rsynclog.txt
+- the log file can be inspected by open the output
+- the log file is stored at `$HOME/.rsyncosx/macserial/rsynclog.txt`
 
 ## Monitor network connection
 
-On macOS 10.14 and later, RsyncOSX can monitor the network connection during execution of tasks. If a network connection is dropped during execution, RsyncOSX sends an interrupt signal to the task and it halts with an error.
+RsyncOSX can monitor the network connection during execution of tasks. If a network connection is dropped during execution, RsyncOSX sends an interrupt signal to the task and it halts with an error.
 
 ## Check data when loading
 
 - Check data
 
-The schedule part is refactored. Select a configuration and all schedules are listed. Schedules can be stopped and deleted. Logs can be deleted. Logs are stored by configuration and schedule. There has been a bug in storing logs which creates more records than necessary. By setting check data, RsyncOSX will clean up. The check data flag is **not** persistent and have to be set each time.
+By setting check data, RsyncOSX will check and if required clean logs. The check data flag is **not** persistent and have to be set each time.
 
 ## Ssh parameters (global)
 
@@ -89,7 +90,7 @@ It is possible to enter an environment variable to the process which executes th
 
 ## Backup
 
-The `Backup` function copies all configurations and logs as a backup to your `$Home/Documents/RsyncOSXcopy-$date-suffix`. Viewing the catalog in Finder might show an empty catalog. The catalog is not empty, the configurations are saved as `.rsyncosx/macserialnumber` and Finder might not show `.` catalogs.
+The `Backup` function copies all configurations and logs as a backup to your `$HOME/Documents/RsyncOSXcopy-$date-suffix`. Viewing the catalog in Finder might show an empty catalog. The catalog is not empty, the configurations are saved as `.rsyncosx/macserialnumber` and Finder might not show `.` catalogs.
 
 ## JSON
 
