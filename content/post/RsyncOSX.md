@@ -7,7 +7,7 @@ categories = ["general information"]
 description = "How to install RsyncOSX."
 lastmod = "2020-09-23"
 +++
-RsyncOSX is released in [version 6.5.2 (4 December 2020)](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.2). It is not required to install the menu app (RsyncOSXsched.app). The menu app is for executing [scheduled tasks](/post/scheduletasks) only. RsyncOSX is [signed and notarized](/post/notarized/).
+RsyncOSX is released in [version 6.5.3 (24 December 2020)](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.2). It is not required to install the menu app (RsyncOSXsched.app). The menu app is for executing [scheduled tasks](/post/scheduletasks) only. RsyncOSX is [signed and notarized](/post/notarized/).
 
 ## Install
 
@@ -17,8 +17,8 @@ The command
 
 will print the shasum for the .dmg file. For your own safety verify the shasums.
 
-`RsyncOSX 6.5.2.dmg: 995b21a2835a7cb4256b776ac842de12ecfc4694c70b8e3b8b4e164d91837681`  
-`RsyncOSXsched 6.5.1.dmg: f622e5dbf56c45b48d9dc4dbd46e7d4ae4594fd6a77c090c204f9c676df7c3c6`
+`RsyncOSX 6.5.3.dmg: 4805b24871829bc4d9702a7f3140e26a2695bf9e9fc2858d0ad587c2bfb45de8`  
+`RsyncOSXsched 6.5.3.dmg: 5d2c51e4ac1933aab8a6ca493720aa73ecb822a9c380db2d1397664e3205450b`
 
 To install RsyncOSX open the downloaded RsyncOSX-version.dmg file. Drag the RsyncOSX icon to the default `/Applications` catalog or any other preferred catalog for install. And likewise for the RsyncOSXsched-version.dmg.
 ![](/images/RsyncOSX/master/install/install.png)

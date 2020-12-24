@@ -7,7 +7,7 @@ tags = ["rsyncosx"]
 categories = ["changelog"]
 lastmod = "2020-12-07"
 +++
-[![GitHub license](https://img.shields.io/github/license/rsyncOSX/RsyncOSX)](https://github.com/rsyncOSX/RsyncOSX/blob/master/Licence.MD) ![GitHub Releases](https://img.shields.io/github/downloads/rsyncosx/RsyncOSX/v6.5.2/total)  ![GitHub Releases](https://img.shields.io/github/downloads/rsyncosx/RsyncOSX/v6.5.0/total) [![Crowdin](https://badges.crowdin.net/rsyncosx/localized.svg)](https://crowdin.com/project/rsyncosx) [![Netlify Status](https://api.netlify.com/api/v1/badges/d375f6d7-dc9f-4913-ab43-bfd46d172eb2/deploy-status)](https://app.netlify.com/sites/rsyncosx/deploys) [![GitHub issues](https://img.shields.io/github/issues/rsyncOSX/RsyncOSX)](https://github.com/rsyncOSX/RsyncOSX/issues)
+[![GitHub license](https://img.shields.io/github/license/rsyncOSX/RsyncOSX)](https://github.com/rsyncOSX/RsyncOSX/blob/master/Licence.MD) ![GitHub Releases](https://img.shields.io/github/downloads/rsyncosx/RsyncOSX/v6.5.3/total) ![GitHub Releases](https://img.shields.io/github/downloads/rsyncosx/RsyncOSX/v6.5.2/total)   [![Crowdin](https://badges.crowdin.net/rsyncosx/localized.svg)](https://crowdin.com/project/rsyncosx) [![Netlify Status](https://api.netlify.com/api/v1/badges/d375f6d7-dc9f-4913-ab43-bfd46d172eb2/deploy-status)](https://app.netlify.com/sites/rsyncosx/deploys) [![GitHub issues](https://img.shields.io/github/issues/rsyncOSX/RsyncOSX)](https://github.com/rsyncOSX/RsyncOSX/issues)
 
 If you are utilizing a local version of rsync, execute the rsync utility in a terminal window before using RsyncOSX. There is a process of granting access for the rsync utility before using it by RsyncOSX. MacOS will also ask permission for accessing your home catalog the first time you start RsyncOSX. If you also utilize the menu-app (RsyncOSXsched), be aware of you might have to force quit RsyncOSX the first time you start the menu-app. This is because the macOS asks for permissions when starting the menu-app for the first time and RsyncOSX is not closed automatically when starting the menu-app. This might happen only once first time start.
 
@@ -17,11 +17,11 @@ RsyncOSX is [signed and notarized](/post/notarized/). Please see info about [the
 
 I am still working on refactoring parts of the code. This will be a major task as preparation to commence work on a SwiftUI based version. The refactor is to make the code more easy to read and maintain. And as a part of that reduce the complexity where required.
 
-## Version 6.5.3 release candidate
+## Version 6.5.3
 
-[Updated](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.0) 21 December 2020
+[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.3) 24 December 2020
 
-There are several internal changes in this release candidate. This will most likely be the next release early in January 2021.
+There are several internal changes in this release.
 
 The following are changes:
 
@@ -31,7 +31,7 @@ The following are changes:
 
 ## Version 6.5.2
 
-[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.0) 4 December 2020
+[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.2) 4 December 2020
 
 There are several internal changes in this version (refactor of code) to make the maintenance of the code more easy.
 
