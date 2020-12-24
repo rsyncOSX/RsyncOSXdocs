@@ -5,11 +5,11 @@ date = "2020-04-24"
 description = "If you want some more info about RsyncOSX there are some resources here."
 tags = ["summary"]
 categories = ["general information"]
-lastmod = "2020-12-13"
+lastmod = "2020-12-24"
 +++
 RsyncOSX is a GUI ontop of the command line utility `rsync`, no more no less. Rsync is a file-based tool for transferring and synchronization of files. RsyncOSX supports both synchronize and snapshot tasks. There is no custom solution for the synchronized archive. And you can quit utilizing RsyncOSX (and rsync) at any time and still have access to all synchronized files.
 
-- RsyncOSX is compiled with support for **macOS 10.15 Catalina** and **macOS 11.01 Big Sur** only
+- RsyncOSX is compiled with support for **macOS Catalina** and **macOS Big Sur** only
   - the latest version is [released here](https://github.com/rsyncOSX/RsyncOSX/releases)
   - RsyncOSX can also be installed by Homebrew `brew cask install rsyncosx`
 - RsyncOSX is built as [Universal macOS Binary](https://developer.apple.com/documentation/xcode/building_a_universal_macos_binary).
