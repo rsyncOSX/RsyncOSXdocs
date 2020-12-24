@@ -21,10 +21,10 @@ The following are changes:
 
 - application icon updated for Big Sur, by [Zsolt Sándor](https://github.com/graphis)
 - Chinese (Simplified) localization updated, by [StringKe (Chen)](https://github.com/StringKe)
-- a few minor fixex
+- a few minor bugfixes
 - and several internal changes
 
-In 2021 the main focus will be to develop a SwiftUI based version of RsyncOSX. And fix bugs when found. The internal updates in code is for the moment completed and any further updates wil be as part of developing the SwiftUI based version.
+In 2021 the main focus will be to develop a SwiftUI based version of RsyncOSX. And fix bugs when found. The internal updates in code is for the moment completed and any further updates will be as part of developing the SwiftUI based version.
 
 I have no idea when a SwiftUI version wil be ready. I have a lot to learn about SwiftUI.
 
