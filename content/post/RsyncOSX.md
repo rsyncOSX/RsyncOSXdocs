@@ -7,7 +7,7 @@ categories = ["general information"]
 description = "How to install RsyncOSX."
 lastmod = "2020-09-23"
 +++
-RsyncOSX is released in [version 6.5.3 (24 December 2020)](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.2). It is not required to install the menu app (RsyncOSXsched.app). The menu app is for executing [scheduled tasks](/post/scheduletasks) only. RsyncOSX is [signed and notarized](/post/notarized/).
+RsyncOSX is released in [version 6.5.3 (24 December 2020)](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.3). It is not required to install the menu app (RsyncOSXsched.app). The menu app is for executing [scheduled tasks](/post/scheduletasks) only. RsyncOSX is [signed and notarized](/post/notarized/).
 
 ## Install
 
