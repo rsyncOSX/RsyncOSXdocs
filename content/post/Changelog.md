@@ -13,21 +13,20 @@ If you are utilizing a local version of rsync, execute the rsync utility in a te
 
 RsyncOSX is [signed and notarized](/post/notarized/). Please see info about [the latest version of rsync in install](/post/rsync/).
 
-## What is going on now?
-
-I am still working on refactoring parts of the code. This will be a major task as preparation to commence work on a SwiftUI based version. The refactor is to make the code more easy to read and maintain. And as a part of that reduce the complexity where required.
-
 ## Version 6.5.3
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.3) 24 December 2020
-
-There are several internal changes in this release.
 
 The following are changes:
 
 - application icon updated for Big Sur, by [Zsolt Sándor](https://github.com/graphis)
 - Chinese (Simplified) localization updated, by [StringKe (Chen)](https://github.com/StringKe)
+- a few minor fixex
 - and several internal changes
+
+In 2021 the main focus will be to develop a SwiftUI based version of RsyncOSX. And fix bugs when found. The internal updates in code is for the moment completed and any further updates wil be as part of developing the SwiftUI based version.
+
+I have no idea when a SwiftUI version wil be ready. I have a lot to learn about SwiftUI.
 
 ## Version 6.5.2
 
