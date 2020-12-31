@@ -57,6 +57,8 @@ It is important to administrate snapshots. By administrate means deleting not re
 
 To administrate snapshots select the snapshot tab. Deleting snapshots is a **destructive** operation and should be performed with care. It is important to have a plan about which snapshots to keep and which to delete. RsyncOSX utilizes a simple plan for delete and keep snapshots.
 
+Selecting the `Tag` button evaluates all snapshots based on the date withing the log record. Based and the selected plan and date snapshots are either tagged with keep or delete. Snapshots which are tagged with delete are also preselected for delete. To actually delete the marked snapshots require to select the Delete button.
+
 ![](/images/RsyncOSX/master/snapshots/snapshot.png)
 
 The plan is based upon three parts:
@@ -67,5 +69,3 @@ The plan is based upon three parts:
   - keep all snapshots for the selected Day of week, e.g all snapshots every Sunday this month
 - previous months (and years)
   - keep the snapshot in the last week of month for selected Day of week, e.g the last Sunday in the month
-
-Snapshots which does not follow plan are automatically marked for deleting. To actually delete the marked snapshots require to select the Delete button.
