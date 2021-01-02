@@ -7,7 +7,7 @@ tags = ["add configurations"]
 categories = ["configurations"]
 lastmod = "2020-12-13"
 +++
-Adding a configuration is easy. A configuration require minimum a **local catalog** and a **remote catalog**. After entering information about a configuration select the Add button to add it to RsyncOSX. Continue adding new configurations until completed and configurations are saved to permanent storage after each entry. Select local catalog either by drag and drop or by enter text directly. For remote catalogs only drag and drop for local attached volumes. For remote server catalogs enter by text only.
+A configuration require minimum a **local catalog** and a **remote catalog**. After entering information about a configuration select the `Add` button to add it to RsyncOSX. Continue adding new configurations until completed and configurations are saved to permanent storage after each entry. Select local catalog either by drag and drop or by enter text directly. For remote catalogs only drag and drop for local attached volumes. For remote server catalogs enter by text only.
 
 There is also an [Assist function](/post/addconfigurations/#assist) which picks up your local catalogs. You can also add your remote info for easy to add new tasks.
 
@@ -25,15 +25,21 @@ The Capacity button query remote storage in all configurations about available s
 
 ![](/images/RsyncOSX/master/add/add.png)
 ### Catalog parameters
-- **Local catalog**: required field `/Users/thomas/Documents/` my Documents catalog in my home catalog
+- **Local catalog**: required field `/Users/thomas/Documents/`
+  - my Documents catalog in my home catalog
 - **Remote catalog**: required field `~/Documents/`
-  - the backup catalog for user thomas. The ~ is expanded as the home catalog with full path by the remote operating system. The remote catalog might also be added by full path, depends where the backup catalog is placed on remote server
+  - the `~` is expanded as the home catalog with full path by the remote operating system
+  - the remote catalog might also be added by full path, depends where the backup catalog is placed on remote server
   - the backup catalog might also be a local catalog on a local attached disk
-- **Dont´t add trailing**: `/`, by default a trailing `/` is added to both source and destination
+- **Dont´t add trailing**: `/`
+  - by default a trailing `/` is added to both source and destination
 ### Remote server parameters
-- **Remote username**: `thomas` username for login to remote server
-- **Remote server**: `10.0.0.57` either server name or IP-address for remote server
-- **ID**: `My docs catalog` informal tag for the configuration
+- **Remote username**: `thomas`
+  - username for login to remote server
+- **Remote server**: `10.0.0.57`
+  - either server name or IP-address for remote server
+- **ID**: `My docs catalog`
+  - informal tag for the configuration
 ### Task
 - **Type**: there are four types of tasks, `synchronize` which is default, `snapshots`, `syncremote` and `single file`.
 ### Optional pre and post task
@@ -45,11 +51,11 @@ The Capacity button query remote storage in all configurations about available s
 
 ## Add configurations
 
-Select the Add button when completed and configuration is added to RsyncOSX. RsyncOSX adds a trailing / character to both local and remote volume. After selecting the Add button another configuration might be added. Any changes (edit or delete) to configurations are done from the Synchronize view. Additional parameters to rsync might be added utilizing the Parameter button.
+Select the `Add` button when completed and configuration is added to RsyncOSX. RsyncOSX adds a trailing / character to both local and remote volume. After selecting the Add button another configuration might be added. Any changes (edit or delete) to configurations are done from the Synchronize view. Additional parameters to rsync might be added utilizing the Parameter button.
 
 ## Assist
 
-From version 6.4.7 there is an assist function for adding configurations. The main objective for the assist function is to ease adding configurations. Selecting the `Default` button adds your home catalog and scans the home for catalogs. You can add other values by enter text and select the `+` button. The new values is then added to the drop down menues.
+The main objective for the assist function is to ease adding configurations. Selecting the `Default` button adds your home catalog and scans the home for catalogs. You can add other values by enter text and select the `+` button. The new values is then added to the drop down menues.
 
 To delete a dropdown value, select the dropdown and then the `-` button.
 
