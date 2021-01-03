@@ -26,12 +26,12 @@ Before commencing use of RsyncOSX [there are a few important words to read](/pos
 
 ## How to setup remote servers
 
-If you plan to use RsyncOSX for synchronize files to remote servers require some setup. There are [two options to setup passwordless logins](/post/remotelogins/). The advised setup is by utilizing ssh-keys.
+Utilizing RsyncOSX to synchronize files to remote servers requires some setup. There are two options to setup [passwordless logins](/post/remotelogins/). The advised setup is by utilizing ssh-keys.
 
-- [setup by ssh keys](/post/ssh/)
-- [daemon setup](/post/rsyncdaemon/)
+- [setup by ssh-keys](/post/ssh/)
+- [rsync daemon setup](/post/rsyncdaemon/)
 
-Snapshot is not possible with rsync [daemon setup](/post/rsyncdaemon/).
+Snapshot is not possible with [rsync daemon setup](/post/rsyncdaemon/).
 
 ## How to add and execute single tasks
 
