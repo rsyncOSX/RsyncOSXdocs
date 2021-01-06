@@ -28,6 +28,17 @@ The actual rsync command to be executed is shown below right corner in view. It 
 
 If Abort is pressed any executing task is aborted.
 
+## Slide left and right
+
+Using either two fingers on the touchpad or a finger on the mouse, slide to the left will execute a single task. If the task is estimated a progressbar will pop up.
+
+![](/images/RsyncOSX/master/singletask/executeleft.png)
+
+Sliding to the right will delete a record. Every delete must be confirmed before delete.
+
+![](/images/RsyncOSX/master/singletask/deleteright.png)
+
+
 ## Edit and params
 
 The edit enables changing the basic info about the task. The user can add, edit, enable and disable executing shell commands to the synchronize task.

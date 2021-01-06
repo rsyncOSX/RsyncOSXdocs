@@ -17,6 +17,8 @@ RsyncOSX is [signed and notarized](/post/notarized/). Please see info about [the
 
 The work on a SwiftUI based version has commenced. And the short story is - there is a lot to learn. The design of a SwiftUI based macOS application is very different compared to Swift and Storyboard based application. I am in no position to tell what is different, but after a few days of developing some minor tests I know there is a lot to learn. I will during the next months posts updates about progress. I will also continue to do some minor fixes on the current version of RsyncOSX.
 
+The work on a SwiftUI based version is progressing (January 6 2021). But there is much work to do and probably sometime before this summer a SwiftUI based version will be released as a beta version. The current version of RsyncOSX is stable and there is no hurry to release next version. 
+
 ## Version 6.5.4
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.4) 31 December 2020
@@ -47,7 +49,7 @@ I have no idea when a SwiftUI version wil be ready. I have a lot to learn about 
 
 There are several internal changes in this version (refactor of code) to make the maintenance of the code more easy.
 
-- there are a few changes to [the main view](/post/new), the main view is cleaned up and there is a new menubar on left side with the main actions for each view
+- there are a few changes to the main view, the main view is cleaned up and there is a new menubar on left side with the main actions for each view
 - there are two new actions in main view, select a task and slide to left to execute, slide to right for delete
 - the restore function is changed as well, there is now only possible to do restore, either full or file by file, to a temporary restore path
 - there are fixed some minor bugs in the abort functions
