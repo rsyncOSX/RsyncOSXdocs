@@ -17,7 +17,7 @@ RsyncOSX is [signed and notarized](/post/notarized/). Please see info about [the
 
 The work on a SwiftUI based version has commenced. And the short story is - there is a lot to learn. The design of a SwiftUI based macOS application is very different compared to Swift and Storyboard based application. I am in no position to tell what is different, but after a few days of developing some minor tests I know there is a lot to learn. I will during the next months posts updates about progress. I will also continue to do some minor fixes on the current version of RsyncOSX.
 
-The work on a SwiftUI based version is progressing (January 6 2021). But there is much work to do and probably sometime before this summer a SwiftUI based version will be released as a beta version. The current version of RsyncOSX is stable and there is no hurry to release next version.
+The work on a SwiftUI based version is progressing (**January 9 2021**). First task is executed in the SwiftUI based version. But there is still a lot of work to do and a lot to learn. Probably in February or March 2021 the source of the SwiftUI based version will be published on GitHub.
 
 ## Version 6.5.4
 
