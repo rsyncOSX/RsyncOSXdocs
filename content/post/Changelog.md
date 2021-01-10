@@ -19,6 +19,12 @@ The work on a SwiftUI based version has commenced. And the short story is - ther
 
 The work on a SwiftUI based version is progressing (**January 9 2021**). First task is executed in the SwiftUI based version. But there is still a lot of work to do and a lot to learn. Probably in February or March 2021 the source of the SwiftUI based version will be published on GitHub.
 
+## Version 6.5.5 - bugfix
+
+[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.4) 10 January 2021
+
+There is a annoying bug in creating snapshots in version 6.5.4. It is one of the issues related to develop Swift and Storyboard applications. A button was removed in the Storyboard but not in code. And that one line of code causes a nil pointer exception and a crash. 
+
 ## Version 6.5.4
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.4) 31 December 2020
