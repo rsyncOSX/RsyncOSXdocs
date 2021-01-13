@@ -15,9 +15,9 @@ RsyncOSX is [signed and notarized](/post/notarized/). Please see info about [the
 
 ## Status mid January 2021
 
-There will be a maintenance release version 6.5.6 of RsyncOSX in a couple of weeks. I am still cleaning up, as e.g removing some minor functionality, and the objective is to make the current version as stable as possible. I am doing this because I want to focus on developing the SwiftUI based version.
+There will be a maintenance release version 6.5.6 of RsyncOSX in a few of weeks. I am still cleaning up, deleting some minor functions not supporting the main functions of RsyncOSX. The objective is to make the current version as stable as possible. I am doing this because I want to focus on developing the SwiftUI based version.
 
-Using RsyncOSX requires some knowledge of `rsync`. The main objective for RsyncOSX is to ease the use of `rsync`, not teach macOS users how to use `rsync`. That is beyond scope of RsyncOSX. Setting the wrong parameters to rsync can result deleted data. And RsyncOSX will not stop you for doing so. That is why it is very important to execute a simulated run (`--dry-run`) and inspect what happens before a real run.   
+Using RsyncOSX requires some knowledge of `rsync`. The main objective for RsyncOSX is to ease the use of `rsync`, not teach macOS users how to use `rsync`. That is beyond the scope of RsyncOSX. Setting the wrong parameters to rsync can result deleted data. And RsyncOSX will not stop you for doing so. That is why it is very important to execute a simulated run (`--dry-run`) and inspect what happens before a real run.   
 
 ## A SwiftUI based version of RsyncOSX
 
