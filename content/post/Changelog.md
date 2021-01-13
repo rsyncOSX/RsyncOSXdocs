@@ -13,6 +13,10 @@ If you are utilizing a local version of rsync, execute the rsync utility in a te
 
 RsyncOSX is [signed and notarized](/post/notarized/). Please see info about [the latest version of rsync in install](/post/rsync/).
 
+## Status mid January 2021
+
+There will be released a maintenance release version 6.5.6 of RsyncOSX in a couple of weeks. I am still cleaning up and the objective is to make the current version as stable as possible. I am doing this because I want to focus on developing the SwiftUI based version. Using RsyncOSX requires knowledge of `rsync` and the main objective for RsyncOSX is to ease the use of `rsync`. Setting the wrong parameters to rsync can result deleted data. And RsyncOSX will not stop you for doing so. That is why it is very important to execute a simulated run (`--dry-run`) and inspect what happens before a real run.  
+
 ## A SwiftUI based version of RsyncOSX
 
 The work on a SwiftUI based version has commenced. And the short story is - there is a lot to learn. The design of a SwiftUI based macOS application is very different compared to Swift and Storyboard based application. I am in no position to tell what is different, but after a few days of developing some minor tests I know there is a lot to learn. I will during the next months posts updates about progress. I will also continue to do some minor fixes on the current version of RsyncOSX.
@@ -23,7 +27,7 @@ The work on a SwiftUI based version is progressing (**January 9 2021**). First t
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.4) 10 January 2021
 
-There is a annoying bug in creating snapshots in version 6.5.4. It is one of the issues related to develop Swift and Storyboard applications. A button was removed in the Storyboard but not in code. And that one line of code causes a nil pointer exception and a crash. 
+There is a annoying bug in creating snapshots in version 6.5.4. It is one of the issues related to develop Swift and Storyboard applications. A button was removed in the Storyboard but not in code. And that one line of code causes a nil pointer exception and a crash.
 
 ## Version 6.5.4
 
