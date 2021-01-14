@@ -5,11 +5,13 @@ date = "2020-04-23"
 description = "Important info about using RsyncOSX"
 tags = ["important"]
 categories = ["general information"]
-lastmod = "2020-12-25"
+lastmod = "2021-01-14"
 +++
 RsyncOSX is not developed to be an easy to use synchronize and backup tool. The main purpose is to assist and ease the use of `rsync` to synchronize files on your Mac to remote FreeBSD and Linux servers. And of course restore files from those remote servers.
 
-The UI can for users who dont know rsync, be difficult or complex to understand. It is not required to know `rsync` but it will ease the use and understanding of RsyncOSX. But it is though, possible to use RsyncOSX by just adding a source and remote backup catalog using default parameters. RsyncOSX supports **synchronize** and **snapshots** of files.
+The UI of RsyncOSX can for users who dont know rsync, be difficult or complex to understand. Using RsyncOSX requires some knowledge of `rsync`. The main objective for RsyncOSX is to ease the use of `rsync`, not teach macOS users how to use `rsync`. That is beyond the scope of RsyncOSX. Setting the wrong parameters to rsync can result in deleted data. And RsyncOSX will not stop you for doing so. That is why it is very important to execute a simulated run (`--dry-run`) and inspect what happens before a real run.
+
+RsyncOSX supports **synchronize** and **snapshots** of files.
 
 ## RsyncOSX as your main tool for backup
 
