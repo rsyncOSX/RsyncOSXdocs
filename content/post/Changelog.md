@@ -25,11 +25,17 @@ The work on a SwiftUI based version has commenced. And the short story is - ther
 
 The work on a SwiftUI based version is progressing (**January 9 2021**). First task is executed in the SwiftUI based version. But there is still a lot of work to do and a lot to learn. Probably in February or March 2021 the source of the SwiftUI based version will be published on GitHub.
 
-## Version 6.5.5 - bugfix
+## Version 6.5.6 release candidate
 
-[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.4) 10 January 2021
+[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.4) 14 January 2021
 
 There is a annoying bug in creating snapshots in version 6.5.4. It is one of the issues related to develop Swift and Storyboard applications. A button was removed in the Storyboard but not in code. And that one line of code causes a nil pointer exception and a crash.
+
+- fixed a bug in creating new snapshot tasks
+- some cleanup in Assist (in Add tasks) and some other parts
+- this rc will most likely become the next maintenance release in next week
+
+I am focusing on developing a SwiftUI based version of RsyncOSX and version 6.5.6 will probably be the last release for some time. Reported issues will be fixed (if bugs). There will most likely not be any further enhancements before the SwiftUI based version is released sometime in 2021. 
 
 ## Version 6.5.4
 
