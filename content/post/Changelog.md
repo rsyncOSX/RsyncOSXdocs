@@ -21,9 +21,9 @@ Using RsyncOSX requires some knowledge of `rsync`. The main objective for RsyncO
 
 ## A SwiftUI based version of RsyncOSX
 
-[The work on a SwiftUI based version](/post/swiftui/) has commenced. And the short story is - there is a lot to learn. The design of a SwiftUI based macOS application is very different compared to Swift and Storyboard based application. I am in no position to tell what is different, but after a few days of developing some minor tests I know there is a lot to learn. I will during the next months posts updates about progress. I will also continue to do some minor fixes on the current version of RsyncOSX.
+[The work on a SwiftUI based version](/post/swiftui/) has commenced. And the short story is - there is a lot to learn. The design of a SwiftUI based macOS application is very different compared to Swift and Storyboard based application. I am in no position to tell what is different, but after a few weeks of developing some minor tests I know there is a lot to learn.
 
-The work on a SwiftUI based version is progressing (**January 9 2021**). First task is executed in the SwiftUI based version. But there is still a lot of work to do and a lot to learn. Probably in February or March 2021 the source of the SwiftUI based version will be published on GitHub.
+The current version of RsyncOSX will be maintenaned until the SwiftUI based version is released.
 
 ## Version 6.5.6 release candidate
 
