@@ -22,6 +22,14 @@ The default version of rsync in macOS is old (version 2.6.9, [protocol](https://
 
 If you need either of them, please use [RsyncOSX](https://github.com/rsyncOSX/RsyncOSX).
 
+## Version 2.3.6
+
+This version is approved for release on Apple Mac Store 17 January 2021.
+
+The following is changed:
+
+- this is a maintenance release
+
 ## Version 2.3.5
 
 There are several internal changes in this release. The following are changes:
