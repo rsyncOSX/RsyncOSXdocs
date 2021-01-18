@@ -33,7 +33,6 @@ There is a annoying bug in creating snapshots in version 6.5.4. It is one of the
 
 - fixed a bug in creating new snapshot tasks
 - some cleanup in Assist (in Add tasks) and some other parts
-- this rc will most likely become the next maintenance release in next week
 
 I am focusing on developing a SwiftUI based version of RsyncOSX and version 6.5.6 will probably be the last release for some time. Reported issues will be fixed (if bugs). There will most likely not be any further enhancements before the SwiftUI based version is released sometime in 2021.
 
