@@ -55,14 +55,18 @@ Select the `Add` button when completed and configuration is added to RsyncOSX. R
 
 ## Assist
 
-The main objective for the assist function is to ease adding configurations. Selecting the `Default` button adds your home catalog and scans the home for catalogs. You can add other values by enter text and select the `+` button. The new values is then added to the drop down menues.
+The main objective for the assist function is to ease adding configurations. Assist picks up the following:
 
-To delete a dropdown value, select the dropdown and then the `-` button.
+- the name of all catalogs within your home directory
+- the path of your home directory
+- and if there is added tasks, remote server and remote user from the current profile
+
+There is not possible to save, change or delete values in assist.
 
 Selecting `Local` or `Remote` transfer the data to the add new configrations screen. The following is transferred from the selected dropdown values to the add view when selecting either `Local` or `Remote`:
 
 - Local catalog (in Add view): `Local home`  + `/` + `Catalogs`
-- Remote catalog (in Add view): `Remote home`  + `/` + `Catalogs`
+- Remote catalog (in Add view): `~`  + `/` + `Catalogs`
 - Remote username (in Add view): `Remote users`
 - Remote server (in Add view): `Remote computers`
 
@@ -70,6 +74,5 @@ Selecting `Local` or `Remote` transfer the data to the add new configrations scr
 
 - `Local home`: your home catalog
 - `Catalogs`: catalogs to synchronize, the catalog is added to `Local home` and `Remote home`.
-- `Remote home`: either the remote home on a remote server or path to a local attached volume.
 - `Remote users`: remote username if `Remote computers` are used.
 - `Remote computers`: name or IP-adress of remote computer
