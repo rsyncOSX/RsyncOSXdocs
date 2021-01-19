@@ -16,11 +16,11 @@ There is some adaption of the model classes used from RsyncOSX. And I am also us
 - updating configurations and logging after executing works
 - next to work on is execution of all estimated tasks
 
-The plan is to make the source open sometime in February 2021. I do hope other developers can assist me on the code on the UI part. For the moment the main focus is the MVC architecture and organizing of the code. The arrangement and work on the UI part will come later. And that is one of the advantages of SwiftUI. The UI part is a few lines of code and as long as the overall design applies to the MVC pattern it is easy to rearrange the UI part.
+The plan is to make the source open sometime in February 2021. I do hope other developers can assist me on the code on the UI part. For the moment the main focus is the MVC architecture and organizing of the code. The arrangement and work on the UI part will come later. And that is one of the advantages of SwiftUI. SwiftUI is a framework for UI and compared to the Swift/Storyboard version the numbers of codeline to create the screens of the SwiftUI based version is very minimal. And it is very fun to code the UI in SwiftUI. As long as the overall design applies to the MVC pattern it is easy to rearrange the UI part.
 
 **The views are only a test and the final UI will not look like this.**
 
-Below is a few screendumps of the alpha version of the SwiftUI based version of RsyncOSX. Only execution of singetasks and estimation of all tasks are implemented. SwiftUI is a framework for UI and compared to the Swift/Storyboard version the numbers of codeline to create the screens of the SwiftUI based version is very minimal. And it is very fun to code the UI in SwiftUI.
+Below is a few screendumps of the alpha version of the SwiftUI based version of RsyncOSX.If you have any comments or ideas please use [the discussion part for RsyncOSX](https://github.com/rsyncOSX/RsyncOSX/discussions).
 
 ## A few screenshots
 
