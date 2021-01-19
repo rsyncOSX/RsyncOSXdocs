@@ -9,7 +9,7 @@ lastmod = "2021-01-19"
 +++
 The views below are **without formatting** and the main objective is to test SwiftUI and establish a working MVC architecture. The formatting part will come later. Probably is more than 90% of the code in the SwiftUI version reused code from RsyncOSX. The SwiftUI part, primarly the UI and navigation is new.
 
-There is some adaption of the model classes used from RsyncOSX. And I am also using the oportunity to fix some of the more convoluted and old parts of code.
+There are some adaptions of the model classes used from RsyncOSX. And I am also using the oportunity to fix some of the more convoluted and old parts of code.
 
 - estimation and executing single tasks works
 - estimating of all tasks works
@@ -20,7 +20,7 @@ The plan is to make the source open sometime in February 2021. I do hope other d
 
 **The views are only a test and the final UI will not look like this.**
 
-Below is a few screendumps of the alpha version of the SwiftUI based version of RsyncOSX.If you have any comments or ideas please use [the discussion part for RsyncOSX](https://github.com/rsyncOSX/RsyncOSX/discussions).
+Below are a few screendumps of the alpha version of the SwiftUI based version of RsyncOSX.If you have any comments or ideas please use [the discussion part for RsyncOSX](https://github.com/rsyncOSX/RsyncOSX/discussions).
 
 ## A few screenshots
 
