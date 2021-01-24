@@ -5,6 +5,7 @@ title =  "The RsyncGUI changelog"
 tags = ["rsyncgui"]
 categories = ["changelog"]
 description = "Changelog"
+lastmod = "2021-01-24"
 +++
 RsyncGUI is a sandboxed macOS app compiled with support for macOS 10.15 Catalina and 11.01 Big Sur. The application is implemented in Swift 5 by using Xcode 12. Rsync is a file-based synchronization and backup tool. There is no custom solution for the backup archive. You can quit utilizing RsyncGUI (and rsync) at any time and still have access to all synchronized files.
 
@@ -12,9 +13,18 @@ The [App Sandboxing technology](https://developer.apple.com/app-sandboxing/) is 
 
 ## Some words about RsyncGUI
 
-RsyncGUI is not developed to be an easy synchronize and backup tool. The main purpose is to ease the use of rsync and synchronize files on your Mac to remote FreeBSD and Linux servers. And of course restore files from remote servers. The UI might also be difficult to understand or complex if you don't know what rsync is. It is not required to know rsync but it will ease the use and understanding of RsyncGUI. But it is though, possible to use RsyncGUI by just adding a source and remote backup catalog using default parameters.
+The UI of RsyncGUI can for users who dont know rsync, be difficult or complex to understand. Using RsyncGUI requires some knowledge of `rsync`. The main objective for RsyncGUI is to ease the use of `rsync`, not teach macOS users how to use `rsync`. That is beyond the scope of RsyncGUI. Setting the wrong parameters to rsync can result in deleted data. And RsyncGUI will not stop you for doing so. That is why it is very important to execute a simulated run (`--dry-run`) and inspect what happens before a real run.
+
+
+### RsyncGUI as your main tool for backup
 
 If your plan is to use RsyncGUI as your main tool for backup of files, please investigate and understand the limits of it. RsyncGUI is quite powerful, but it is might not the primary backup tool for the average user of macOS.
+
+### The --delete parameter
+
+Caution about RsyncGUI and the `--delete` parameter. The parameter is a default parameter. The parameter instructs rsync to keep the source and destination synchronized (in sync). The parameter instructs rsync to delete all files in the destination which are not present in the source.
+
+Every time you add a new task to RsyncGUI, execute an estimation run (`--dry-run`) and inspect the result before executing a real run. If you by accident set an empty catalog as source RsyncGUI (rsync) will delete all files in the destination.
 
 ## Old version of rsync
 
