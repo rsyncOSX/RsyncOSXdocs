@@ -34,7 +34,9 @@ You can get up and running in just a few clicks. Open RsyncGUI and select the **
 
 ![](/images/RsyncOSX/master/intro/main1.png)
 
-In the Add tab, as an example, add the `/Users/thomas/Documents` catalog as source and the `/mounted_Volume/Documents` catalog as remote. This will setup a task to synchronize (backup) all content of the Documents to the attached backup volume in catalog Documents. Use drag and drop from Finder to add data. Select Add button to add task.
+In the Add tab, as an example, add the `/Users/thomas/Documents` catalog as source and the `/mounted_Volume/Documents` catalog as remote. This will setup a task to synchronize (backup) all content of the Documents to the attached backup volume in catalog Documents. You can also use drag and drop from Finder to add data.
+
+Select `Add` button to add task.
 
 Return back to the **Synchronize tab**, select the task and you are ready to go.
 
