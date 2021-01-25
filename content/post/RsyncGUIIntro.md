@@ -38,7 +38,7 @@ In the Add tab, as an example, add the `/Users/thomas/Documents` catalog as sour
 
 Select `Add` button to add task.
 
-Return back to the **Synchronize tab**, select the task and you are ready to go.
+Return back to the **Synchronize tab**, select the task and you are ready to go. A **double click** on the selected will execute a estimation (`--dry-run`) and present the result. The next double click will execute the real synchronizing of data.
 
 ![](/images/RsyncOSX/master/intro/main2.png)
 
@@ -56,12 +56,14 @@ Snapshot tasks is not possible in RsyncGUI, see [the RsyncGUI Changelog](/post/r
 
 ## How to execute tasks
 
+There are several ways to execute the tasks. And it is **always** advised to execute an estimation run after adding a new task to verify it does what you expect it to do.
+
 ![](/images/RsyncOSX/master/intro/main3.png)
 
-Tasks can be aborted at any time by selecting the stop button.
+Tasks can be aborted at any time by selecting the stop button. For more info about the various tasks, [please see RsyncOSX docs](/post/rsyncosxdocs/). 
 
-1. a `double click` on a task executes first a test run, the next double click executes the real run
-2. `⌘R`shortcut for immediate execute the selected task (no test run)
+1. a `double click` on a task executes first an estimation run, the next double click executes the real run
+2. `⌘R`shortcut for immediate execute the selected task (no estimation run)
 3. `⌘B` shortcut for automatic synchronizing
 4. `⌘T` shortcut for quick synchronizing
 5. execute the selected tasks (one or more)

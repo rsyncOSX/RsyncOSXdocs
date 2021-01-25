@@ -13,8 +13,7 @@ There are some adaptions of the model classes used from RsyncOSX. And I am also 
 
 - estimation and executing single tasks works
 - estimating of all tasks works
-- updating configurations and logging after executing works
-- next to work on is execution of all estimated tasks
+- select, estimate and execute several tasks works
 
 The plan is to make the source open sometime in February 2021. For the moment it is a private repo on my [GitHub account](https://github.com/rsyncOSX/). I do hope other developers can assist me on the code on the UI part.
 
