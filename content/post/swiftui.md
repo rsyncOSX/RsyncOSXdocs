@@ -38,14 +38,6 @@ Select and excute multiple tasks, either select or by estimating.
 
 ![](/images/RsyncOSX/master/swiftui/3.png)
 
-View some details about the configurations.
-
-![](/images/RsyncOSX/master/swiftui/5.png)
-
 View the logs.
 
-![](/images/RsyncOSX/master/swiftui/6.png)
-
-Show what the actual rsync command looks like.
-
-![](/images/RsyncOSX/master/swiftui/7.png)
+![](/images/RsyncOSX/master/swiftui/4.png)
