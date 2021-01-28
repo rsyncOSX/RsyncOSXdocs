@@ -27,13 +27,13 @@ There are some adaptions of the model classes used from RsyncOSX. And I am also 
 
 The plan is to make the source open sometime in February 2021. For the moment it is a private repo on my [GitHub account](https://github.com/rsyncOSX/).
 
-**The views are only a test and the final UI will not look like this.**
+**The UI will change, but the overall structure of the new version will be like the views below.**
 
 Below are a few screendumps of the alpha version of the SwiftUI based version of RsyncOSX.If you have any comments or ideas please use [the discussion part for RsyncOSX](https://github.com/rsyncOSX/RsyncOSX/discussions).
 
 ## A few screenshots
 
-The default view when starting the app. Select a new profile any time and the app reloads the data. **There is little UI formatting, e.g that is why the profile dropdown takes the full width.** The UI and navigation is written 100% in SwiftUI. The actual Swift code for execution is from the RsyncOSX repo (with some minor adjustments).
+The default view when starting the app. Select a new profile any time and the app reloads the data.
 
 ![](/images/RsyncOSX/master/swiftui/1.png)
 
