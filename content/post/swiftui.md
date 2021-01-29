@@ -36,15 +36,16 @@ Below are a few screendumps of the alpha version of the SwiftUI based version of
 The default view when starting the app. Select a new profile any time and the app reloads the data.
 
 ![](/images/RsyncOSX/master/swiftui/1.png)
+![](/images/RsyncOSX/master/swiftui/2.png)
 
 Selecting the `Single tasks`, either estimate and execute or execute without estimating. After execution the output from rsync is presented. And again, the layout of the buttons and status labels will change, this is an alpha version with focus on the MVC architecture.
 
-![](/images/RsyncOSX/master/swiftui/2.png)
+![](/images/RsyncOSX/master/swiftui/3.png)
 
 Select and excute multiple tasks, either select or by estimating.
 
-![](/images/RsyncOSX/master/swiftui/3.png)
-
-View the logs.
-
 ![](/images/RsyncOSX/master/swiftui/4.png)
+
+View the schedules.
+
+![](/images/RsyncOSX/master/swiftui/5.png)
