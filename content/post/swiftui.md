@@ -42,7 +42,7 @@ Selecting the `Single tasks`, either estimate and execute or execute without est
 
 ![](/images/RsyncOSX/master/swiftui/3.png)
 
-Select and excute multiple tasks, either select or by estimating.
+Select and excute multiple tasks, select and execute.
 
 ![](/images/RsyncOSX/master/swiftui/4.png)
 
