@@ -46,6 +46,12 @@ Select and excute multiple tasks, select and execute.
 
 ![](/images/RsyncOSX/master/swiftui/4.png)
 
-View the schedules.
+View the logs and schedules.
 
 ![](/images/RsyncOSX/master/swiftui/5.png)
+
+![](/images/RsyncOSX/master/swiftui/6.png)
+
+The about.
+
+![](/images/RsyncOSX/master/swiftui/7.png)
