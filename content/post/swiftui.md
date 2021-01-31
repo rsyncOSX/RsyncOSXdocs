@@ -8,7 +8,7 @@ description = "Some info about SwiftUI version of RsyncOSX"
 lastmod = "2021-01-28"
 +++
 
-SwiftUI is **a framework for UI**. Compared to a Swift/Storyboard application, the numbers of codeline to create the UI is minimal. There are also several other advantages utilizing SwiftUI, but that is not part of this info.
+SwiftUI is **a framework for UI**. Compared to a Swift (viewcontrollers) and Storyboard application, the numbers of codeline to create the UI is minimal. Programming the UI in SwiftUI is declarative programming and not imperativ, which normally programming  viewcontrollers and Swift is. And for me that is a huge difference and it takes some time for me to adapt the declarative programming paradigm.
 
 The views are with **some UI formatting** and the main objective for the moment is to establish a working MVC architecture for the SwiftUI based version of RsyncOSX. Probably is between 80% - 90% of the code in the SwiftUI version reused code from RsyncOSX. The reused code is classes like reading and saving data to permanent store, executing tasks, logging, scheduling and so on. All UI is and will be implemented in SwiftUI.
 
@@ -21,8 +21,8 @@ Another important aspect of SwiftUI is the [single source of truth](https://deve
 There are some adaptions of the model classes used from RsyncOSX. And I am also using the oportunity to fix some of the more convoluted and old parts of code.
 
 - estimation and executing single tasks works
-- estimating of all tasks works
-- select, estimate and execute several tasks works
+- estimating of all and selcetd tasks works
+- select and execute several tasks works
 - progressviews works
 
 The plan is to make the source open sometime in February 2021. For the moment it is a private repo on my [GitHub account](https://github.com/rsyncOSX/).
