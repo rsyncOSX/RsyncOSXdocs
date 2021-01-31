@@ -29,18 +29,20 @@ Another important aspect of SwiftUI is the [single source of truth](https://deve
 
 There are some adaptions of the model classes used from RsyncOSX. And I am also using the oportunity to fix some of the more convoluted and old parts of code.
 
-- estimation and executing single tasks works
-- estimating of all and selcetd tasks works
+- estimation and executing single tasks works, all three types of tasks
+- estimating of all and selected tasks works
 - select and execute several tasks works
 - progressviews works
 
-The plan is to make the source open sometime in February 2021. For the moment it is a private repo on my [GitHub account](https://github.com/rsyncOSX/).
+## The source code
+
+The source is available on my [GitHub account](https://github.com/rsyncOSX/RsyncSwiftUI). If you have any comments or ideas please use [the discussion part for RsyncSwiftUI](https://github.com/rsyncOSX/RsyncSwiftUI/discussions).
+
+## A few screenshots
 
 **The UI will change, but the overall structure of the new version will be like the views below.**
 
-Below are a few screendumps of the alpha version of the SwiftUI based version of RsyncOSX.If you have any comments or ideas please use [the discussion part for RsyncOSX](https://github.com/rsyncOSX/RsyncOSX/discussions).
-
-## A few screenshots
+Below are a few screendumps of the alpha version of the SwiftUI based version of RsyncOSX.
 
 The default view when starting the app. Select a new profile any time and the app reloads the data.
 
