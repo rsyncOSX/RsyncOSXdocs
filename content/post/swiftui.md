@@ -5,14 +5,23 @@ title =  "SwiftUI"
 tags = ["swiftui"]
 categories = ["swiftui"]
 description = "Some info about SwiftUI version of RsyncOSX"
-lastmod = "2021-01-28"
+lastmod = "2021-01-31"
 +++
-
 SwiftUI is **a framework for UI**. Compared to a Swift (viewcontrollers) and Storyboard application, the numbers of codeline to create the UI is minimal. Programming the UI in SwiftUI is declarative programming and not imperativ, which normally programming  viewcontrollers and Swift is. And for me that is a huge difference and it takes some time for me to adapt the declarative programming paradigm.
 
-The views are with **some UI formatting** and the main objective for the moment is to establish a working MVC architecture for the SwiftUI based version of RsyncOSX. Probably is between 80% - 90% of the code in the SwiftUI version reused code from RsyncOSX. The reused code is classes like reading and saving data to permanent store, executing tasks, logging, scheduling and so on. All UI is and will be implemented in SwiftUI.
+## Resources to learn SwiftUI
 
-And I have also just commenced learning SwiftUI and that will also take some time.
+And I have also just commenced learning SwiftUI and that will also take some time. There are lot of resources to learn SwiftUI. Google, Stack Overflow, YouTube and GitHub are amongst the most used resources. I am also following a few blogs like:
+
+- Paul Hudson´s, [Hacking With Swift](https://www.hackingwithswift.com/)
+- John Sundell´s, [Swift by Sundell](https://swiftbysundell.com/)
+- [Apple tutorials about developing in SwiftUI](https://developer.apple.com/tutorials/app-dev-training)
+- Sean Allen´s [swift news](https://github.com/SAllen0400/swift-news)
+- Dave Werver, [iOS Dev Weekly](https://iosdevweekly.com/)
+
+## The RsyncSwiftUI
+
+The views are with **some UI formatting** and the main objective for the moment is to establish a working MVC architecture for the SwiftUI based version of RsyncOSX. Probably is between 80% - 90% of the code in the SwiftUI version reused code from RsyncOSX. The reused code is classes like reading and saving data to permanent store, executing tasks, logging, scheduling and so on. All UI is and will be implemented in SwiftUI.
 
 **And to be honest, the future of RsyncOSX is SwiftUI**. Coding in SwiftUI is fun. The code for UI might be very minimal and separated from the Model. And by hiding application logic and actions in properties and functions, will  simplify and make the code for UI minimal and more easy to read.
 
