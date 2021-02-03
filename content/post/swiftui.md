@@ -42,26 +42,21 @@ The source is available on my [GitHub account](https://github.com/rsyncOSX/Rsync
 
 **The UI will change, but the overall structure of the new version will be like the views below.**
 
-Below are a few screendumps of the alpha version of the SwiftUI based version of RsyncOSX.
-
-The default view when starting the app. Select a new profile any time and the app reloads the data.
+Below are a couple of screendumps of the alpha version of the SwiftUI based version of RsyncOSX. The default view when starting the app. Select a new profile any time and the app reloads the data.
 
 ![](/images/RsyncOSX/master/swiftui/1.png)
-![](/images/RsyncOSX/master/swiftui/2.png)
 
 Selecting the `Single tasks`, either estimate and execute or execute without estimating. After execution the output from rsync is presented. And again, the layout of the buttons and status labels will change, this is an alpha version with focus on the MVC architecture.
 
+![](/images/RsyncOSX/master/swiftui/2.png)
+
+Either all or selected tasks and excute.
+
 ![](/images/RsyncOSX/master/swiftui/3.png)
 
-Select and excute multiple tasks, select and execute.
+Show me the actual rsync command.
 
 ![](/images/RsyncOSX/master/swiftui/4.png)
-
-View the logs and schedules.
-
-![](/images/RsyncOSX/master/swiftui/5.png)
-
-![](/images/RsyncOSX/master/swiftui/6.png)
 
 The about.
 
