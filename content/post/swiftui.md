@@ -35,12 +35,17 @@ There are some adaptions of the model classes used from RsyncOSX. And I am also 
 - progressviews works
 - view output from rsync, either from singletasks or aggregated data from multiple tasks
 
-The following is **not yet** part of the alpha version:
+The following is **not yet** part of the alpha version, **there is no**:
 
-- there is no automatic execution of tasks
-- there is no administration (create, edit and delete) of **configurations**, **schedules** and **logs**
-- there is no restore of data
-- there is no execution of shellout tasks, configurations with pre and post shell scripts
+- automatic execution of tasks
+- administration (create, edit and delete) of **configurations**, **schedules** and **logs**
+- restore of data
+- execution of shellout tasks, configurations with pre and post shell scripts
+- administration of parameters to rsync
+- administration of snapshot tasks
+- shortcut codes for various tasks
+
+All the above will gradually be implemented in the new version.
 
 ## The source code
 
