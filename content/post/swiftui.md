@@ -9,6 +9,10 @@ lastmod = "2021-01-31"
 +++
 SwiftUI is **a framework for UI**. Compared to a Swift (View Controllers) and Storyboard application, the numbers of codeline to create the UI is minimal. Programming the UI in SwiftUI is **declarative programming** and not imperativ. And for me that is a huge difference and it will take some time for me to adapt to the new programming paradigm. Only the UI is developed in SwiftUI and that means the SwiftUI version for RsyncOSX utilizing traditional Swift development for the model classes.
 
+## Alpha version
+
+I am using the alpha version on daily basis. It stable and it does what it is expected to do. The UI in the SwiftUI based version is changed, to the better, in my opinion. But it is an alpha version and there might be a bug or two. There will be released an alpha test version before end of February.
+
 ## Resources to learn SwiftUI
 
 There are a lot of resources to learn SwiftUI. Google, Stack Overflow, YouTube and GitHub are amongst the most used resources. I am also following a few blogs like:
