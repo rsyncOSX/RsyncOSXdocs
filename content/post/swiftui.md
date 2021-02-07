@@ -31,17 +31,22 @@ The views are with **some UI formatting** and the main objective for the moment 
 
 Another important aspect of SwiftUI is the [single source of truth](https://developer.apple.com/documentation/swiftui/managing-user-interface-state). Single source of truth is also an important part of the MVC architecture.
 
-There are some adaptions of the model classes used from RsyncOSX. And I am also using the oportunity to fix some of the more convoluted and old parts of code.
+## What is in the alpha versions
+
+I am using the alpha version on daily basis. The UI in the SwiftUI based version is changed to the better. But it is still an alpha version and there might be a bug or two. The following is in the alpha version. 
 
 - estimation and executing single tasks works, all three types of tasks
-- estimating of all and selected tasks works
-- executing several or all tasks works
+- estimating and execution of all and selected tasks works
+- executing of selected or all tasks works
 - progressviews works
 - view output from rsync, either from singletasks or aggregated data from multiple tasks
 
+To summarize most of the executing part is in code. There will still be some QA before the alpha is released before end of February 2021.
+
+## What is not the alpha version
+
 The following is **not yet** part of the alpha version, **there is no**:
 
-- automatic execution of tasks
 - administration (create, edit and delete) of **configurations**, **schedules** and **logs**
 - restore of data
 - execution of shellout tasks, configurations with pre and post shell scripts
