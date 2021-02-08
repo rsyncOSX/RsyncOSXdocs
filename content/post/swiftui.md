@@ -33,8 +33,13 @@ Another important aspect of SwiftUI is the [single source of truth](https://deve
 
 ## What is in the alpha versions
 
-I am using the alpha version on daily basis. The UI in the SwiftUI based version is changed to the better. But it is still an alpha version and there might be a bug or two. The following is in the alpha version. 
+Probably is between 70% - 80% of the code in the SwiftUI version reused code from RsyncOSX. The reused code is classes like reading and saving data to permanent store, execution of tasks, logging of execution of tasks, scheduling and so on. All the UI is implemented in SwiftUI. There is **no administration** (create, edit and delete) of configurations, schedules and logs in the alpha version yet. The alpha version reads the current default profile and other profiles created in RsyncOSX. And it reads all settings in user profile. If you want to test the alpha version, please use RsyncOSX to **administrate** (create, edit and delete) configurations.
 
+I am using the alpha version on daily basis. The UI in the SwiftUI based version is changed to the better. But it is still an alpha version and there might be a bug or two. The following is in the alpha version.
+
+**The alpha version can be used alongside the existing version of RsyncOSX.**
+
+- reading existing user setting and configurations, either as JSON or PLIST files (set in user config)
 - estimation and executing single tasks works, all three types of tasks
 - estimating and execution of all and selected tasks works
 - executing of selected or all tasks works
@@ -47,6 +52,7 @@ To summarize most of the executing part is in code. There will still be some QA 
 
 The following is **not yet** part of the alpha version, **there is no**:
 
+- setting user selected values, the alpha version reads all settings
 - administration (create, edit and delete) of **configurations**, **schedules** and **logs**
 - restore of data
 - execution of shellout tasks, configurations with pre and post shell scripts
