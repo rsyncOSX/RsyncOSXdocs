@@ -13,17 +13,11 @@ If you are utilizing a local version of rsync, execute the rsync utility in a te
 
 RsyncOSX is [signed and notarized](/post/notarized/). Please see info about [the latest version of rsync in install](/post/rsync/).
 
-## Status mid January 2021
-
-There will be a maintenance release version 6.5.6 of RsyncOSX in a few of weeks. I am still cleaning up, deleting some minor functions not supporting the main functions of RsyncOSX. The objective is to make the current version as stable as possible. I am doing this because I want to focus on developing the SwiftUI based version.
-
 Using RsyncOSX requires some knowledge of `rsync`. The main objective for RsyncOSX is to ease the use of `rsync`, not teach macOS users how to use `rsync`. That is beyond the scope of RsyncOSX. Setting the wrong parameters to rsync can result in deleted data. And RsyncOSX will not stop you for doing so. That is why it is very important to execute a simulated run (`--dry-run`) and inspect what happens before a real run.   
 
 ## A SwiftUI based version of RsyncOSX
 
-[The work on a SwiftUI based version](/post/swiftui/) has commenced. The current version of RsyncOSX is a Swift and Storyboard developed macOS application. SwiftUI is a framework for UI and in many or most cases it replaces the Storyboards. The development of a SwiftUI based version of RSyncOSX commenced in December 2020. All code for Viewcontrollers and the Storyboard will be replaced, either by SwiftUI or Swift code.
-
-The current version of RsyncOSX will be maintenaned until the SwiftUI based version is released.
+[The work on a SwiftUI based version](/post/swiftui/) has commenced. The current version of RsyncOSX will be maintenaned until the SwiftUI based version is released.
 
 ## Version 6.5.6
 
