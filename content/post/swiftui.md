@@ -5,7 +5,7 @@ title =  "SwiftUI"
 tags = ["swiftui"]
 categories = ["swiftui"]
 description = "Some info about SwiftUI version of RsyncOSX"
-lastmod = "2021-01-31"
+lastmod = "2021-02-09"
 +++
 SwiftUI is **a framework for UI**. Compared to a Swift, Storyboard and View Controllers application, the numbers of codelines to create the UI with SwiftUI is minimal. Programming the UI in SwiftUI is **declarative programming** and not imperativ. Only the UI is coded in SwiftUI. The code for the model part is traditional Swift development.
 
@@ -23,11 +23,11 @@ And to be honest, **the future of RsyncOSX is SwiftUI**. Coding in **SwiftUI is 
 
 ## What is in the alpha versions
 
-I am using the alpha version on daily basis. It is quite stable and it does what it is expected to do.
+There is released an alpha version 0.1 February 9 2021. I am using the alpha version on daily basis. The UI in the SwiftUI based version is changed to the better. But it is still an alpha version and there might be a bug or two.
 
 Probably is between 60% - 70% of the code in the SwiftUI version reused code from RsyncOSX. The reused code is classes like reading and saving data to permanent store, execution of tasks, logging of execution of tasks, scheduling and so on. All the UI is implemented in SwiftUI. There is **no administration** (create, edit and delete) of configurations, schedules and logs in the alpha version yet. The alpha version reads the current default profile and other profiles created in RsyncOSX. And it reads all settings in user profile. If you want to test the alpha version, please use RsyncOSX to **administrate** (create, edit and delete) configurations.
 
-I am using the alpha version on daily basis. The UI in the SwiftUI based version is changed to the better. But it is still an alpha version and there might be a bug or two. The following is in the alpha version.
+The following is in the alpha version:
 
 **The alpha version can be used alongside the existing version of RsyncOSX.**
 
@@ -51,6 +51,7 @@ The following is **not yet** part of the alpha version, **there is no**:
 - administration of parameters to rsync
 - administration of snapshot tasks
 - shortcut codes for various tasks
+- no start or stop of the menu app for scheduling of tasks
 
 All the above will gradually be implemented in the new version.
 
@@ -58,26 +59,26 @@ All the above will gradually be implemented in the new version.
 
 The source is available on my [GitHub account](https://github.com/rsyncOSX/RsyncSwiftUI). If you have any comments or ideas please use [the discussion part for RsyncSwiftUI](https://github.com/rsyncOSX/RsyncSwiftUI/discussions).
 
-## A few screenshots
+## The Alpa version 0.1
 
-**The UI will change, but the overall structure of the new version will be like the views below.**
+**The UI will change, but the overall structure of the new version will be like the views below. The applications is developed every day and there will be changes.**
 
 Below are a couple of screendumps of the alpha version of the SwiftUI based version of RsyncOSX. The default view when starting the app. Select a new profile any time and the app reloads the data.
 
-![](/images/RsyncOSX/master/swiftui/1.png)
+![](/images/RsyncOSX/master/swiftui/start.png)
 
-Selecting the `Single tasks`, either estimate and execute or execute without estimating. After execution the output from rsync is presented. And again, the layout of the buttons and status labels will change, this is an alpha version with focus on the MVC architecture.
+The start might be `Estimate & execute`. Choose `Estimate` and then `Execute` after estimation is completed. The estimation marks tasks with data for syncronizing.
 
-![](/images/RsyncOSX/master/swiftui/2.png)
+![](/images/RsyncOSX/master/swiftui/estimate.png)
 
-Either all or selected tasks and excute.
+The multiple tasks has two options: either `Select` and `Execute` or `All`. The first executes selected, the second executes all tasks.
 
-![](/images/RsyncOSX/master/swiftui/3.png)
+![](/images/RsyncOSX/master/swiftui/multiple.png)
 
-Show me the actual rsync command.
+Single task. Either `Estimate` and `Execute` or `Now`, which executes without estimation.
 
-![](/images/RsyncOSX/master/swiftui/4.png)
+![](/images/RsyncOSX/master/swiftui/single.png)
 
-The about.
+Viewing parameters to rsync.
 
-![](/images/RsyncOSX/master/swiftui/7.png)
+![](/images/RsyncOSX/master/swiftui/rsync.png)
