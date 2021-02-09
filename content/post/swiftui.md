@@ -7,7 +7,7 @@ categories = ["swiftui"]
 description = "Some info about SwiftUI version of RsyncOSX"
 lastmod = "2021-01-31"
 +++
-SwiftUI is **a framework for UI**. Compared to a Swift (View Controllers) and Storyboard application, the numbers of codelines to create the UI is minimal. Programming the UI in SwiftUI is **declarative programming** and not imperativ. Only the UI is coded in SwiftUI. The code for the model part is traditional Swift development.
+SwiftUI is **a framework for UI**. Compared to a Swift, Storyboard and View Controllers application, the numbers of codelines to create the UI with SwiftUI is minimal. Programming the UI in SwiftUI is **declarative programming** and not imperativ. Only the UI is coded in SwiftUI. The code for the model part is traditional Swift development.
 
 ## Resources to learn SwiftUI
 
@@ -19,7 +19,7 @@ There are a lot of resources to learn SwiftUI. Google, Stack Overflow, YouTube a
 - Dave Werver´s [iOS Dev Weekly](https://iosdevweekly.com/)
 - [Apple tutorials about developing in SwiftUI](https://developer.apple.com/tutorials/app-dev-training)
 
-**And to be honest, the future of RsyncOSX is SwiftUI**. Coding in SwiftUI is fun. The code for UI might be very minimal and separated from the Model. And by hiding application logic and actions in properties and functions, will  simplify and make the code for UI minimal and more easy to read. Another important aspect of SwiftUI is the [single source of truth](https://developer.apple.com/documentation/swiftui/managing-user-interface-state). Single source of truth is also an important part of the MVC architecture.
+And to be honest, **the future of RsyncOSX is SwiftUI**. Coding in **SwiftUI is very fun**. The code for UI might be minimal and separated from the Model (MVC). And by hiding application logic and actions in properties, functions and closures will simplify the code and make more easy to read. Another important aspect of SwiftUI is the [single source of truth](https://developer.apple.com/documentation/swiftui/managing-user-interface-state). Single source of truth is also an important part of the MVC architecture.
 
 ## What is in the alpha versions
 
