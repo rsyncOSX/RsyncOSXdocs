@@ -31,7 +31,7 @@ Probably is between 60% - 70% of the code in the SwiftUI version reused code fro
 
 The following is in the alpha version:
 
-**This release can be used alongside the existing version of RsyncOSX.**
+**The alpha version can be used alongside the existing version of RsyncOSX.**
 
 - reading existing user setting and configurations, either as JSON or PLIST files (set in user config)
 - estimation and executing single tasks works, all three types of tasks
@@ -40,7 +40,7 @@ The following is in the alpha version:
 - progressviews works
 - view output from rsync, either from singletasks or aggregated data from multiple tasks
 
-To summarize most of the executing part is in code. There will still be some QA before the alpha is released before end of February 2021.
+To summarize most of the executing part is in code.
 
 ## What is not the alpha version
 
@@ -54,6 +54,7 @@ The following is **not yet** part of the alpha version, **there is no**:
 - administration of snapshot tasks
 - shortcut codes for various tasks
 - no start or stop of the menu app for scheduling of tasks
+- not yet localized, but prepared for it
 
 All the above will gradually be implemented in the new version.
 
