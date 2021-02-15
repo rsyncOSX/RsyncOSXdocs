@@ -80,4 +80,4 @@ If you want more controle, select `Single tasks`. Either `Estimate` and `Execute
 
 Viewing parameters to rsync.
 
-![](/images/RsyncOSX/master/swiftui/rsync.png)
+![](/images/RsyncOSX/master/swiftui/4.png)
