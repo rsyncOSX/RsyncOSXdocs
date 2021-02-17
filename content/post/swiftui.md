@@ -39,6 +39,7 @@ The following is in the alpha version:
 - executing (no estimation) of selected or all tasks
 - view output from rsync, either from singletasks or aggregated data from multiple tasks
 - view logfile
+- the error handling is refactored and enhanced compared to the current version
 
 To summarize most of the executing part is in code and it work.
 
