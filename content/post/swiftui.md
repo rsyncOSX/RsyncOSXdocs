@@ -82,3 +82,11 @@ If you want more controle, select `Single tasks`. Either `Estimate` and `Execute
 Viewing parameters to rsync.
 
 ![](/images/RsyncOSX/master/swiftui/4.png)
+
+Some user settings.
+
+![](/images/RsyncOSX/master/swiftui/5.png)
+
+SSH settings.
+
+![](/images/RsyncOSX/master/swiftui/6.png)
