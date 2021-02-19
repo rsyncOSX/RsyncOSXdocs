@@ -53,7 +53,7 @@ All the above will gradually be implemented in the new version.
 
 The source is available on my [GitHub account](https://github.com/rsyncOSX/RsyncSwiftUI). If you have any comments or ideas please use [the discussion part for RsyncSwiftUI](https://github.com/rsyncOSX/RsyncSwiftUI/discussions).
 
-## The Alpa version 0.1
+## The alpha version
 
 **The UI will change, but the overall structure of the new version will be like the views below. The applications is developed every day and there will be changes.**
 
