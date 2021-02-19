@@ -5,27 +5,17 @@ title =  "SwiftUI"
 tags = ["swiftui"]
 categories = ["swiftui"]
 description = "Some info about SwiftUI version of RsyncOSX"
-lastmod = "2021-02-10"
+lastmod = "2021-02-19"
 +++
 The development commenced in December 2020 and the next release of RsyncOSX will be sometime before summer 2021. The next version is build for **macOS Big Sur** only.
 
-SwiftUI is **a framework for UI**. Compared to a Swift, Storyboard and View Controllers application, the numbers of codelines to create the UI with SwiftUI is minimal. Programming the UI in SwiftUI is **declarative programming** and not imperativ. Only the UI is coded in SwiftUI. The code for the model part is traditional Swift development.
+SwiftUI is **a framework for UI**. Compared to a Swift, Storyboard and View Controllers application, the numbers of codelines to create the UI with SwiftUI is minimal. Programming the UI in SwiftUI is **declarative programming** and not imperativ. The code for the model part is traditional Swift code.
 
-## Resources to learn SwiftUI
-
-There are a lot of resources to learn SwiftUI. Google, Stack Overflow, YouTube and GitHub are amongst the most used resources. I am also following a few blogs like:
-
-- Paul Hudson´s, [Hacking With Swift](https://www.hackingwithswift.com/)
-- John Sundell´s, [Swift by Sundell](https://swiftbysundell.com/)
-- Sean Allen´s [swift news](https://github.com/SAllen0400/swift-news)
-- Dave Werver´s [iOS Dev Weekly](https://iosdevweekly.com/)
-- [Apple tutorials about developing in SwiftUI](https://developer.apple.com/tutorials/app-dev-training)
-
-And to be honest, **the future of RsyncOSX is SwiftUI**. Coding in **SwiftUI is very fun**. The code for UI might be minimal and separated from the Model (MVC). And by hiding application logic and actions in properties, functions and closures will simplify the code and make more easy to read. Another important aspect of SwiftUI is the [single source of truth](https://developer.apple.com/documentation/swiftui/managing-user-interface-state). Single source of truth is also an important part of the MVC architecture.
-
-## What is in the alpha versions
+And to be honest **the future of RsyncOSX is SwiftUI**. Coding in **SwiftUI is very fun**. The code for UI is minimal and separated from the Model (MVC). And by hiding application logic and actions in properties, functions and closures will simplify the code and make more easy to read. The declarative paradigm also makes the code for the UI clean and easy to follow.
 
 UI = [user interface](https://en.wikipedia.org/wiki/User_interface)
+
+## What is in the alpha versions
 
 There is lot of reused code in the next version, but all of the code for UI is new. That means the UI is also changed, to the better in my opinion. The reused code is classes like reading and saving data to permanent store, execution of tasks, logging of execution of tasks, scheduling and so on. All the UI is new and implemented in SwiftUI. There is **no administration** (create, edit and delete) of configurations, schedules and logs in the alpha version yet. The alpha version reads the current default profile and other profiles created in RsyncOSX. And it reads all settings in user profile. If you want to test the alpha version, please use RsyncOSX to **administrate** (create, edit and delete) configurations.
 
@@ -71,22 +61,46 @@ Below are a couple of screendumps of the alpha version of the SwiftUI based vers
 
 ![](/images/RsyncOSX/master/swiftui/1.png)
 
-The start might be `Multiple tasks`. Choose `Estimate` and then `Execute` after estimation is completed. The estimation marks tasks with data for syncronizing. Or go for all tasks.
+The start might be `Multiple tasks`. Choose `Estimate` and then `Execute` after estimation is completed. The estimation marks tasks with data for syncronizing. Or just go for all tasks, no estimation and execute direct.
 
 ![](/images/RsyncOSX/master/swiftui/2.png)
 
-If you want more controle, select `Single tasks`. Either `Estimate` and `Execute` or `Now`, which executes without estimation.
+If you want more controle, select `Single tasks`. Choose either `Estimate` and `Execute` or `Now`, which executes without estimation.
 
 ![](/images/RsyncOSX/master/swiftui/3.png)
 
-Viewing parameters to rsync.
+Viewing the parameters to rsync for one task. The user can (when the app is released) set any setting to rsync.
 
 ![](/images/RsyncOSX/master/swiftui/4.png)
 
+Within the `Multiple tasks` menu selecting `Estimate` kicks off estimating of all tasks. Any task with data for syncronizing, transfer and delete, are marked.
+
+![](/images/RsyncOSX/master/swiftui/estimating.png)
+
+Selecting the `Execute` kicks off the actual syncronizing tasks. For each task there is presented the progress. There is also presented the overall progress of number of tasks executed.
+
+![](/images/RsyncOSX/master/swiftui/execute.png)
+
+Showing logs for one task.
+
+![](/images/RsyncOSX/master/swiftui/logs.png)
+
 Some user settings.
 
-![](/images/RsyncOSX/master/swiftui/5.png)
+![](/images/RsyncOSX/master/swiftui/rsync.png)
 
 SSH settings.
 
-![](/images/RsyncOSX/master/swiftui/6.png)
+![](/images/RsyncOSX/master/swiftui/ssh.png)
+
+## Resources to learn SwiftUI
+
+There are a lot of resources to learn SwiftUI. Google, Stack Overflow, YouTube and GitHub are amongst the most used resources. I am also following a few blogs like:
+
+- Paul Hudson´s, [Hacking With Swift](https://www.hackingwithswift.com/)
+- John Sundell´s, [Swift by Sundell](https://swiftbysundell.com/)
+- Sean Allen´s [swift news](https://github.com/SAllen0400/swift-news)
+- Dave Werver´s [iOS Dev Weekly](https://iosdevweekly.com/)
+- [Apple tutorials about developing in SwiftUI](https://developer.apple.com/tutorials/app-dev-training)
+
+Another important aspect of SwiftUI is the [single source of truth](https://developer.apple.com/documentation/swiftui/managing-user-interface-state). Single source of truth is also an important part of the MVC architecture.
