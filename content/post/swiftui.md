@@ -11,13 +11,15 @@ The development commenced in December 2020 and the next release of RsyncOSX will
 
 SwiftUI is **a framework for UI**. Compared to a Swift, Storyboard and View Controllers application, the numbers of codelines to create the UI with SwiftUI is minimal. Programming the UI in SwiftUI is **declarative programming** and not imperativ. The code for the model part is traditional Swift code.
 
-And to be honest **the future of RsyncOSX is SwiftUI**. Coding in **SwiftUI is very fun**. The code for UI is minimal and separated from the Model (MVC). And by hiding application logic and actions in properties, functions and closures will simplify the code and make more easy to read. The declarative paradigm also makes the code for the UI clean and easy to follow.
+And to be honest, **the future of RsyncOSX is SwiftUI**. Coding in **SwiftUI is very fun**. The code for UI is minimal and separated from the Model (MVC). And by hiding application logic and actions in properties, functions and closures will simplify the code and make more easy to read.
+
+The declarative paradigm also makes the code for the UI clean and easy to follow.
 
 UI = [user interface](https://en.wikipedia.org/wiki/User_interface)
 
 ## What is in the alpha versions
 
-There is lot of reused code in the next version, but all of the code for UI is new. That means the UI is also changed, to the better in my opinion. The reused code is classes like reading and saving data to permanent store, execution of tasks, logging of execution of tasks, scheduling and so on. All the UI is new and implemented in SwiftUI. There is **no administration** (create, edit and delete) of configurations, schedules and logs in the alpha version yet. The alpha version reads the current default profile and other profiles created in RsyncOSX. And it reads all settings in user profile. If you want to test the alpha version, please use RsyncOSX to **administrate** (create, edit and delete) configurations.
+There are lot of reused code within the Model part of next version, but all of the code for UI is new. That means the UI is also changed, to the better in my opinion. The reused code is classes like reading and saving data to permanent store, execution of tasks, logging of execution of tasks, scheduling and so on. There is **no administration** (create, edit and delete) of configurations, schedules and logs in the alpha version yet. The alpha version reads the current default profile and other profiles created in RsyncOSX. And it reads all settings in user profile. If you want to test the alpha version, please use RsyncOSX to **administrate** (create, edit and delete) configurations.
 
 The following is in the alpha version (updated as new features are implemented):
 
@@ -31,7 +33,7 @@ The following is in the alpha version (updated as new features are implemented):
 - view logfile
 - the error handling is refactored and enhanced compared to the current version
 
-To summarize most of the executing part is in code and it work.
+To summarize most of the executing part is in code and it works.
 
 ## What is not the alpha version
 
@@ -55,7 +57,7 @@ The source is available on my [GitHub account](https://github.com/rsyncOSX/Rsync
 
 ## The alpha version
 
-**The UI will change, but the overall structure of the new version will be like the views below. The applications is developed every day and there will be changes.**
+**The UI will change as the development continues, but the overall structure of the new version will be like the views below.**
 
 Below are a couple of screendumps of the alpha version of the SwiftUI based version of RsyncOSX. The default view when starting the app. Select a new profile any time and the app reloads the data.
 
