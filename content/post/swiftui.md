@@ -89,7 +89,7 @@ Showing logs for one task.
 
 Some user settings.
 
-![](/images/RsyncOSX/master/swiftui/rsync.png)
+![](/images/RsyncOSX/master/swiftui/settings.png)
 
 SSH settings.
 
