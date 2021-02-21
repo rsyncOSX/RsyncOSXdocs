@@ -5,17 +5,13 @@ title =  "SwiftUI"
 tags = ["swiftui"]
 categories = ["swiftui"]
 description = "Some info about SwiftUI version of RsyncOSX"
-lastmod = "2021-02-19"
+lastmod = "2021-02-21"
 +++
 The development commenced in December 2020 and the next release of RsyncOSX will be sometime before summer 2021. The next version is build for **macOS Big Sur** only.
 
 SwiftUI is **a framework for UI**. Compared to a Swift, Storyboard and View Controllers application, the numbers of codelines to create the UI with SwiftUI is minimal. Programming the UI in SwiftUI is **declarative programming** and not imperativ. The code for the model part is traditional Swift code.
 
-And to be honest, **the future of RsyncOSX is SwiftUI**. Coding in **SwiftUI is very fun**. The code for UI is minimal and separated from the Model (MVC). And by hiding application logic and actions in properties, functions and closures will simplify the code and make more easy to read.
-
-The declarative paradigm also makes the code for the UI clean and easy to follow.
-
-UI = [user interface](https://en.wikipedia.org/wiki/User_interface)
+And to be honest, **the future of RsyncOSX is SwiftUI**. And it is **really fun to code in SwiftUI**. The code for UI is minimal and separated from the Model (MVC). By hiding application logic and actions in properties, functions and closures will simplify the code and make more easy to read. The declarative paradigm makes the code for the UI clean and easy to follow.
 
 ## What is in the alpha versions
 
@@ -32,6 +28,8 @@ The following is in the alpha version (updated as new features are implemented):
 - view output from rsync, either from singletasks or aggregated data from multiple tasks
 - view logfile
 - the error handling is refactored and enhanced compared to the current version
+- setting user selected values
+- setting ssh global values
 
 To summarize most of the executing part is in code and it works.
 
@@ -39,7 +37,7 @@ To summarize most of the executing part is in code and it works.
 
 The following is **not yet** part of the alpha version, **there is no**:
 
-- setting user selected values, but the alpha version reads all user settings
+
 - administration (create, edit and delete) of **configurations**, **schedules** and **logs**
 - restore of data
 - execution of shellout tasks, configurations with pre and post shell scripts
@@ -59,15 +57,15 @@ The source is available on my [GitHub account](https://github.com/rsyncOSX/Rsync
 
 **The UI will change as the development continues, but the overall structure of the new version will be like the views below.**
 
-Below are a couple of screendumps of the alpha version of the SwiftUI based version of RsyncOSX. The default view when starting the app. Select a new profile any time and the app reloads the data.
+Below are a few screendumps of the new version. The default view when starting the app. Select a new profile any time and the app reloads the data.
 
 ![](/images/RsyncOSX/master/swiftui/1.png)
 
-The start might be `Multiple tasks`. Choose `Estimate` and then `Execute` after estimation is completed. The estimation marks tasks with data for syncronizing. Or just go for all tasks, no estimation and execute direct.
+The start might be `Multiple tasks`. Choose `Estimate` and then `Execute` after estimation is completed. The estimation marks tasks with data for syncronizing. Or just go for all tasks, no estimation and execute direct. An example of how easy it is too create the UI is the [Estimation View](https://github.com/rsyncOSX/RsyncSwiftUI/blob/main/RsyncSwiftUI/Views/Multitask/EstimationView.swift). There are approx only 60 lines of code for the layout of the estimation view (below).
 
 ![](/images/RsyncOSX/master/swiftui/2.png)
 
-If you want more controle, select `Single tasks`. Choose either `Estimate` and `Execute` or `Now`, which executes without estimation.
+If you want more control, select `Single tasks`. Choose either `Estimate` and `Execute` or `Now`, which executes without estimation.
 
 ![](/images/RsyncOSX/master/swiftui/3.png)
 
@@ -91,7 +89,7 @@ Some user settings.
 
 ![](/images/RsyncOSX/master/swiftui/settings.png)
 
-SSH settings.
+SSH settings and a few others.
 
 ![](/images/RsyncOSX/master/swiftui/ssh.png)
 

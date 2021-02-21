@@ -24,6 +24,10 @@ There is a [changelog](/post/changelog/). Also please see info about [the latest
 
 Before commencing use of RsyncOSX [there are a few important words to read](/post/important/).
 
+## A SwiftUI based version of RsyncOSX
+
+[The work on a SwiftUI based version](/post/swiftui/) has commenced. The current version of RsyncOSX will be maintenaned until the SwiftUI based version is released.
+
 ## How to setup remote servers
 
 Utilizing RsyncOSX to synchronize files to remote servers requires some setup. There are two options to setup [passwordless logins](/post/remotelogins/). The advised setup is by utilizing ssh-keys.
