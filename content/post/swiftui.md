@@ -9,20 +9,30 @@ lastmod = "2021-02-21"
 +++
 The development commenced in December 2020 and the next release of RsyncOSX will be sometime before summer 2021. The next version is build for **macOS Big Sur** only.
 
+The name of the new version is a working name. The code will be merged into the RsyncOSX repository when the new version is released.
+
 SwiftUI is **a framework for UI**. Compared to a Swift, Storyboard and View Controllers application, the numbers of codelines to create the UI with SwiftUI is minimal. Programming the UI in SwiftUI is **declarative** and not imperativ. The code for the model part is traditional Swift code.
 
 And to be honest, **the future of RsyncOSX is SwiftUI**. And it is **really fun to code in SwiftUI**. The code for UI is minimal and separated from the Model (MVC). By hiding application logic and actions in properties, functions and closures will simplify the code and make more easy to read. The declarative paradigm makes the code for the UI clean and easy to follow.
 
-## What is in the alpha versions
+## Prerelease (test) of new version
 
-There are lot of reused code within the Model part of next version, but all of the code for UI is new. That means the UI is also changed, to the better in my opinion. The reused code is classes like reading and saving data to permanent store, execution of tasks, logging of execution of tasks, scheduling and so on. There is for the moment **no administration** (create, edit and delete) of configurations, schedules and logs in this version yet. The alpha version reads the current default profile and other profiles created in RsyncOSX. If you want to test the alpha version, please use RsyncOSX to **administrate** (create, edit and delete) configurations.
+The final version is not to be released before closer to summer 2021. Most of the core basic functions like executing tasks, compute the parameters to rsync are reused code from the current version. And most of the executing part within the prerelase is stable and working.
 
-The following is in the alpha version (updated as new features are implemented):
+There is [released](https://github.com/rsyncOSX/RsyncOSX/releases) a version to test out **24 February 2021**. Be aware of the prerelease is compiled for release on **macOS Big Sur** only. To install, open the DMG file, check the shausum and copy the app to any catalog on your Mac.
 
-**The alpha version can be used alongside the existing version of RsyncOSX.**
+The prerelase is signed and notarized. The command `shasum -a 265` print the following shasum.
 
-- reading configurations, either as JSON or PLIST files (set in RsyncOSX userconfig)
-- estimation and executing single tasks works, all three types of tasks
+`RsyncSwiftUI 0.2.dmg: 6e39341790f35eb5802ce7655be61658e15550513fefedba47e912271d578d07`
+
+## What is working
+
+There are lot of reused code within the Model part, but all of the code for UI is new. That means the UI is also changed, to the better in my opinion. The reused code is classes like reading and saving data to permanent store, execution of tasks, logging of execution of tasks, scheduling and so on. There is, for the moment, **no administration** (create, edit and delete) of configurations, schedules and logs. The prerelease reads the current default profile and other profiles created by RsyncOSX. If you want to test the prerelease version, please use RsyncOSX to **administrate** (create, edit and delete) configurations. **The prerelease can be used alongside the existing version of RsyncOSX.**
+
+The following is in the prerelease (updated as new features are implemented):
+
+- reading configurations, either as JSON or PLIST files
+- estimation and executing single tasks
 - estimating and execution of all and selected tasks
 - executing (no estimation) of selected or all tasks
 - view output from rsync, either from singletasks or aggregated data from multiple tasks
@@ -33,14 +43,13 @@ The following is in the alpha version (updated as new features are implemented):
 
 To summarize most of the executing part is in code and it works.
 
-## What is not the alpha version
+## What is not yet implemented
 
-The following is **not yet** part of the alpha version, **there is no**:
-
+The following is **not yet** implemented:
 
 - administration (create, edit and delete) of **configurations**, **schedules** and **logs**
 - restore of data
-- execution of shellout tasks, configurations with pre and post shell scripts
+- execution of **shellout tasks**, configurations with pre and post shell scripts
 - administration of parameters to rsync
 - administration of snapshot tasks
 - shortcut codes for various tasks
@@ -53,11 +62,9 @@ All the above will gradually be implemented in the new version.
 
 The source is available on my [GitHub account](https://github.com/rsyncOSX/RsyncSwiftUI). If you have any comments or ideas please use [the discussion part for RsyncSwiftUI](https://github.com/rsyncOSX/RsyncSwiftUI/discussions).
 
-## The alpha version
+## A few screenshots
 
-**The UI will change as the development continues, but the overall structure of the new version will be like the views below.**
-
-Below are a few screendumps of the new version. The default view when starting the app. Select a new profile any time and the app reloads the data.
+**The UI will change as the development continues, but the overall structure of the new version will be like the views below.** The default view when starting the app. Select a new profile any time and the app reloads the data.
 
 ![](/images/RsyncOSX/master/swiftui/1.png)
 
