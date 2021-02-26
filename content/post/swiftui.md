@@ -41,6 +41,11 @@ The following is in the prerelease (updated as new features are implemented):
 - setting user selected values
 - setting ssh global values
 
+Not in prerelase but in development:
+
+- validate and add new configurations
+- delete configurations
+
 To summarize most of the executing part is in code and it works.
 
 ## What is not yet implemented
