@@ -5,7 +5,7 @@ title =  "SwiftUI"
 tags = ["swiftui"]
 categories = ["swiftui"]
 description = "Some info about SwiftUI version of RsyncOSX"
-lastmod = "2021-02-21"
+lastmod = "2021-03-02"
 +++
 The development commenced in December 2020 and the next release of RsyncOSX will be sometime before summer 2021. The next version is build for **macOS Big Sur** only.
 
@@ -19,17 +19,13 @@ And to be honest, **the future of RsyncOSX is SwiftUI**. And it is **really fun 
 
 The final version is not to be released before closer to summer 2021. Most of the core basic functions like executing tasks, compute the parameters to rsync are reused code from the current version. And most of the executing part within the prerelase is stable and working.
 
-There is [released](https://github.com/rsyncOSX/RsyncOSX/releases) a version to test out **24 February 2021**. Be aware of the prerelease is compiled for release on **macOS Big Sur** only. To install, open the DMG file, check the shausum and copy the app to any catalog on your Mac.
-
-The prerelase is signed and notarized. The command `shasum -a 265` print the following shasum.
-
-`RsyncSwiftUI 0.2.dmg: 6e39341790f35eb5802ce7655be61658e15550513fefedba47e912271d578d07`
+The prerelase is temporary removed. A new and enhanced version will be released later in March 2021.
 
 ## What is working
 
-There are lot of reused code within the Model part, but all of the code for UI is new. That means the UI is also changed, to the better in my opinion. The reused code is classes like reading and saving data to permanent store, execution of tasks, logging of execution of tasks, scheduling and so on. There is, for the moment, **no administration** (create, edit and delete) of configurations, schedules and logs. The prerelease reads the current default profile and other profiles created by RsyncOSX. If you want to test the prerelease version, please use RsyncOSX to **administrate** (create, edit and delete) configurations. **The prerelease can be used alongside the existing version of RsyncOSX.**
+There are lot of reused code within the Model part, but all of the code for UI is new. That means the UI is also changed, to the better in my opinion. The reused code is classes like reading and saving data to permanent store, execution of tasks, logging of execution of tasks, scheduling and so on. The prerelease reads the current default profile and other profiles created by RsyncOSX. **The prerelease can be used alongside the existing version of RsyncOSX.**
 
-The following is in the prerelease (updated as new features are implemented):
+The following is implemented (updated as new features are implemented):
 
 - reading configurations, either as JSON or PLIST files
 - estimation and executing single tasks
@@ -38,13 +34,12 @@ The following is in the prerelease (updated as new features are implemented):
 - view output from rsync, either from singletasks or aggregated data from multiple tasks
 - view logfile
 - the error handling is refactored and enhanced compared to the current version
-- setting user selected values
+- setting user selected values (user settings)
 - setting ssh global values
-
-Not in prerelase but in development:
-
-- validate and add new configurations
+- add nd valdidate new configurations
 - delete configurations
+- update configurations
+- view logs, view snapshots, tag snapshots
 
 To summarize most of the executing part is in code and it works.
 
@@ -52,7 +47,7 @@ To summarize most of the executing part is in code and it works.
 
 The following is **not yet** implemented:
 
-- administration (create, edit and delete) of **configurations**, **schedules** and **logs**
+- administration (create, edit and delete) of **schedules** and **logs**
 - restore of data
 - execution of **shellout tasks**, configurations with pre and post shell scripts
 - administration of parameters to rsync
