@@ -7,7 +7,7 @@ categories = ["swiftui"]
 description = "Some info about SwiftUI version of RsyncOSX"
 lastmod = "2021-03-02"
 +++
-The UI will change as the development continues, but the overall structure of the new version will be like the views below The default view when starting the app. Select a profile any time and the app reloads the data.
+The UI will change as the development continues. But the overall structure and navigation will be like the views below.
 
 The screenshots and info are updated **2 March 2021**.
 
@@ -17,7 +17,7 @@ The error handling is better in this version. If e.g rsync produces the word `er
 
 ## Start
 
-The start might be `Multiple tasks`. The main view informs about which version of rsync is utilized and if JSON or PLIST is used for storing configurations.
+The default view when starting the app. Select a profile at any time and the app reloads the data. The start might be `Multiple tasks`. The main view informs about which version of rsync is utilized and if JSON or PLIST is used for storing configurations and schedules.
 
 ![](/images/RsyncOSX/master/swiftui/start.png)
 
@@ -29,13 +29,14 @@ The start might be `Multiple tasks`. The main view informs about which version o
 
 Choose `Estimate` and then `Execute` after estimation is completed. The estimation marks tasks with data for synchronizing. Or just go for all tasks, no estimation and execute direct. An example of how easy it is too create the UI is the [Estimation View](https://github.com/rsyncOSX/RsyncSwiftUI/blob/main/RsyncSwiftUI/Views/Multitask/EstimationView.swift). There are approx only 60 lines of code for the layout of the estimation view (below).
 
-The view also includes a delete function for configurations, schedules and logs.
+The view also includes a delete function for configurations.
 
 ![](/images/RsyncOSX/master/swiftui/multiple.png)
 
 ### What is missing
 
 - nothing special
+- the code is stable and fully working
 
 ## Single task
 
@@ -46,10 +47,11 @@ If you want more control, select `Single task`. Choose either `Estimate` and `Ex
 ### What is missing
 
 - nothing special
+- the code is stable and fully working
 
 ## Parameters to rsync and the command
 
-Viewing the actual rsync command and parameters to rsync for one task. The user can (when the app is released) set any setting to rsync. The `Copy` button copy the command to memory for possible paste it into a terminal view.
+Viewing the actual rsync command and parameters to rsync for one task. The user can (when the app is released) set any parameter to rsync. The `Copy` button copy the actual rsync command (--dry-run) to memory for possible paste it into a terminal view.
 
 ![](/images/RsyncOSX/master/swiftui/rsynccommand.png)
 
@@ -68,6 +70,7 @@ Within the `Add or edit` menu, either update data about an existing task or add 
 ### What is missing
 
 - nothing special
+- the code is stable and fully working
 
 ## Administrate snapshots
 
@@ -89,6 +92,7 @@ Some user settings.
 ### What is missing
 
 - nothing special
+- the code is stable and fully working
 
 ## SSH settings
 
@@ -99,6 +103,7 @@ Some SSH settings.
 ### What is missing
 
 - nothing special
+- the code is stable and fully working
 
 ## Missing main functions
 
