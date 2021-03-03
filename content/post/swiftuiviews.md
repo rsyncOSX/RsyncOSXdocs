@@ -1,15 +1,15 @@
 +++
 author = "RsyncOSX"
 date = "2020-04-23"
-title =  "screenshots next version"
+title =  "Some screenshots of next version"
 tags = ["swiftui"]
 categories = ["swiftui"]
 description = "Some info about SwiftUI version of RsyncOSX"
 lastmod = "2021-03-02"
 +++
-The UI will change as the development continues, but the overall structure of the new version will be like the views below The default view when starting the app. Select a new profile any time and the app reloads the data.
+The UI will change as the development continues, but the overall structure of the new version will be like the views below The default view when starting the app. Select a profile any time and the app reloads the data.
 
-The screenshots are updated 2 March 2021.
+The screenshots are updated **2 March 2021**.
 
 ![](/images/RsyncOSX/master/swiftui/start.png)
 
@@ -29,7 +29,7 @@ Within the `Add or edit` menu, either update an existing task or add new tasks.
 
 ![](/images/RsyncOSX/master/swiftui/addedit.png)
 
-RsyncOSX supports snapshot tasks. It us important to administrate, delete, older snapshots not needed. RsyncOSX support a couple of plans to assist in which to keep and delete.
+RsyncOSX supports snapshot tasks. It is important to administrate (delete) older snapshots not needed. RsyncOSX supports a couple of plans to assist in which snapshoots to keep and which to delete.
 
 ![](/images/RsyncOSX/master/swiftui/snapshot.png)
 ![](/images/RsyncOSX/master/swiftui/snapshottag.png)
@@ -38,6 +38,6 @@ Some user settings.
 
 ![](/images/RsyncOSX/master/swiftui/settings.png)
 
-SSH settings and a few others.
+Some SSH settings.
 
 ![](/images/RsyncOSX/master/swiftui/ssh.png)
