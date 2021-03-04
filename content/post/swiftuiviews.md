@@ -2,18 +2,18 @@
 author = "RsyncOSX"
 date = "2020-04-23"
 title =  "Some screenshots of next version"
-tags = ["swiftui"]
+tags = ["swiftui, nextversion"]
 categories = ["swiftui"]
 description = "Some info about SwiftUI version of RsyncOSX"
 lastmod = "2021-03-02"
 +++
-The UI will change as the development continues. But the overall structure and navigation will be like the views below.
-
-The screenshots and info are updated **2 March 2021**.
+The UI will change as the development continues. But the overall structure and navigation will be like the views below. The screenshots and info are updated **2 March 2021**.
 
 ## Error handling
 
-The error handling is better in this version. If e.g rsync produces the word `error` in the output,  an alert will inform about it. If a validate of input, when adding new configurations fails , an alert will inform about the error.
+The error handling is better in this version. If e.g rsync produces the word `error` in the output,  an alert will inform about it. If a validate of input, when adding new configurations, fails an alert will inform about the error. And so on...
+
+![](/images/RsyncOSX/master/swiftui/error.png)
 
 ## Start
 
@@ -21,7 +21,7 @@ The default view when starting the app. Select a profile at any time and the app
 
 ![](/images/RsyncOSX/master/swiftui/start.png)
 
-### What is missing
+### What is not yet implemented
 
 - nothing special
 
@@ -33,7 +33,7 @@ The view also includes a delete function for configurations.
 
 ![](/images/RsyncOSX/master/swiftui/multiple.png)
 
-### What is missing
+### What is not yet implemented
 
 - nothing special
 - the code is stable and fully working
@@ -44,7 +44,7 @@ If you want more control, select `Single task`. Choose either `Estimate` and `Ex
 
 ![](/images/RsyncOSX/master/swiftui/single.png)
 
-### What is missing
+### What is not yet implemented
 
 - nothing special
 - the code is stable and fully working
@@ -55,7 +55,7 @@ Viewing the actual rsync command and parameters to rsync for one task. The user 
 
 ![](/images/RsyncOSX/master/swiftui/rsynccommand.png)
 
-### What is missing
+### What is not yet implemented
 
 - administrating parameters to rsync
 - setting parameters for backup and backup catalog of changed data before synchronizing
@@ -67,7 +67,7 @@ Within the `Add or edit` menu, either update data about an existing task or add 
 
 ![](/images/RsyncOSX/master/swiftui/addedit.png)
 
-### What is missing
+### What is not yet implemented
 
 - nothing special
 - the code is stable and fully working
@@ -79,9 +79,9 @@ RsyncOSX supports snapshot tasks. It is important to administrate (delete) older
 ![](/images/RsyncOSX/master/swiftui/snapshot.png)
 ![](/images/RsyncOSX/master/swiftui/snapshottag.png)
 
-### What is missing
+### What is not yet implemented
 
-- delete snapshots is missing
+- delete snapshots
 
 ## User settings
 
@@ -89,7 +89,7 @@ Some user settings.
 
 ![](/images/RsyncOSX/master/swiftui/settings.png)
 
-### What is missing
+### What is not yet implemented
 
 - nothing special
 - the code is stable and fully working
@@ -100,7 +100,7 @@ Some SSH settings.
 
 ![](/images/RsyncOSX/master/swiftui/ssh.png)
 
-### What is missing
+### What is not yet implemented
 
 - nothing special
 - the code is stable and fully working
