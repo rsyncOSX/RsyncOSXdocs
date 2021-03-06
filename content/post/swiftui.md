@@ -7,7 +7,7 @@ categories = ["swiftui"]
 description = "Some info about SwiftUI version of RsyncOSX"
 lastmod = "2021-03-02"
 +++
-The development commenced in December 2020 and the next release of RsyncOSX will be sometime before summer 2021. The next version is build for **macOS Big Sur** only. The name of the next version is **RsyncUI**. It is built for macOS Big Sur and later, that is why it will be released as a new appliction and not replace the current version of RsyncOSX. 
+The development commenced in December 2020 and the next release of RsyncOSX will be sometime before summer 2021. The next version is build for **macOS Big Sur** only. The name of the next version is **RsyncUI**. It is built for macOS Big Sur and later, that is why it will be released as a new appliction and not replace the current version of RsyncOSX.
 
 SwiftUI is **a framework for UI**. Compared to a Swift, Storyboard and View Controllers application, the numbers of codelines to create the UI with SwiftUI is minimal. Programming the UI in SwiftUI is **declarative** and not imperativ. The code for the model part is traditional Swift code.
 
@@ -21,7 +21,7 @@ The final version will be released sometime closer to summer 2021. Most of the c
 
 ## The source code
 
-The source is available on my [GitHub account](https://github.com/rsyncOSX/RsyncUI). If you have any comments or ideas please use [the discussion part for RsyncSwiftUI](https://github.com/rsyncOSX/RsyncUI/discussions).
+The source is available on my [GitHub account](https://github.com/rsyncOSX/RsyncUI). If you have any comments or ideas please use [the discussion part for RsyncUI](https://github.com/rsyncOSX/RsyncUI/discussions).
 
 ## Resources to learn SwiftUI
 
