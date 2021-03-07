@@ -49,6 +49,16 @@ If you want more control, select `Single task`. Choose either `Estimate` and `Ex
 - nothing special
 - the code is stable and fully working
 
+## Schedules
+
+Adding schedules and deleting tasks and logs.
+
+![](/images/RsyncOSX/master/swiftui/schedule.png)
+
+### What is not yet implemented
+
+- some more QA and work is required
+
 ## Parameters to rsync and the command
 
 Viewing the actual rsync command and parameters to rsync for one task. The user can (when the app is released) set any parameter to rsync. The `Copy` button copy the actual rsync command (--dry-run) to memory for possible paste it into a terminal view.
@@ -109,7 +119,6 @@ Some SSH settings.
 
 The following is **not yet** implemented:
 
-- administration (create, edit and delete) of **schedules** and **logs**
 - **restore** of data
 - execution of **shellout tasks**, configurations with pre and post shell scripts
 - administration of parameters to rsync
