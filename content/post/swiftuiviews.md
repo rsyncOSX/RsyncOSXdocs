@@ -21,10 +21,6 @@ The default view when starting the app. Select a profile at any time and the app
 
 ![](/images/RsyncOSX/master/swiftui/start.png)
 
-### What is not yet implemented
-
-- nothing special
-
 ## Multiple tasks
 
 Choose `Estimate` and then `Execute` after estimation is completed. The estimation marks tasks with data for synchronizing. Or just go for all tasks, no estimation and execute direct. An example of how easy it is too create the UI is the [Estimation View](https://github.com/rsyncOSX/RsyncSwiftUI/blob/main/RsyncUI/Views/Multitask/EstimationView.swift). There are approx only 60 lines of code for the layout of the estimation view (below).
@@ -33,43 +29,33 @@ The view also includes a delete function for configurations.
 
 ![](/images/RsyncOSX/master/swiftui/multiple.png)
 
-### What is not yet implemented
-
-- nothing special
-- the code is stable and fully working
-
 ## Single task
 
 If you want more control, select `Single task`. Choose either `Estimate` and `Execute` or `Now`, which executes without estimation.
 
 ![](/images/RsyncOSX/master/swiftui/single.png)
 
-### What is not yet implemented
-
-- nothing special
-- the code is stable and fully working
-
 ## Schedules
 
 Adding schedules and deleting tasks and logs.
 
-![](/images/RsyncOSX/master/swiftui/schedule.png)
-
-### What is not yet implemented
+The following is work todo:
 
 - some more QA and work is required
+
+![](/images/RsyncOSX/master/swiftui/schedule.png)
 
 ## Parameters to rsync and the command
 
 Viewing the actual rsync command and parameters to rsync for one task. The user can (when the app is released) set any parameter to rsync. The `Copy` button copy the actual rsync command (--dry-run) to memory for possible paste it into a terminal view.
 
-![](/images/RsyncOSX/master/swiftui/rsynccommand.png)
-
-### What is not yet implemented
+The following is work todo:
 
 - administrating parameters to rsync
 - setting parameters for backup and backup catalog of changed data before synchronizing
 - disable and enable default parameters to rsync
+
+![](/images/RsyncOSX/master/swiftui/rsynccommand.png)
 
 ## Add and edit configurations
 
@@ -77,21 +63,17 @@ Within the `Add or edit` menu, either update data about an existing task or add 
 
 ![](/images/RsyncOSX/master/swiftui/addedit.png)
 
-### What is not yet implemented
-
-- nothing special
-- the code is stable and fully working
 
 ## Administrate snapshots
 
 RsyncOSX supports snapshot tasks. It is important to administrate (delete) older snapshots not needed. RsyncOSX supports a couple of plans to assist in which snapshoots to keep and which to delete.
 
-![](/images/RsyncOSX/master/swiftui/snapshot.png)
-![](/images/RsyncOSX/master/swiftui/snapshottag.png)
-
-### What is not yet implemented
+The following is work todo:
 
 - delete snapshots
+
+![](/images/RsyncOSX/master/swiftui/snapshot.png)
+![](/images/RsyncOSX/master/swiftui/snapshottag.png)
 
 ## User settings
 
@@ -99,21 +81,11 @@ Some user settings.
 
 ![](/images/RsyncOSX/master/swiftui/settings.png)
 
-### What is not yet implemented
-
-- nothing special
-- the code is stable and fully working
-
 ## SSH settings
 
 Some SSH settings.
 
 ![](/images/RsyncOSX/master/swiftui/ssh.png)
-
-### What is not yet implemented
-
-- nothing special
-- the code is stable and fully working
 
 ## Missing main functions
 
