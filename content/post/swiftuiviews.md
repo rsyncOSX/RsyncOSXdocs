@@ -5,9 +5,9 @@ title =  "Some screenshots of next version"
 tags = ["swiftui, nextversion"]
 categories = ["swiftui"]
 description = "Some info about SwiftUI version of RsyncOSX"
-lastmod = "2021-03-02"
+lastmod = "2021-03-10"
 +++
-The UI will change as the development continues. But the overall structure and navigation will be like the views below. The screenshots and info are updated **2 March 2021**.
+The UI will change as the development continues. But the overall structure and navigation will be like the views below. The screenshots and info are updated **10 March 2021**. There will probably be a testversion within a week or two.
 
 ## Error handling
 
@@ -25,7 +25,7 @@ The default view when starting the app. Select a profile at any time and the app
 
 Choose `Estimate` and then `Execute` after estimation is completed. The estimation marks tasks with data for synchronizing. Or just go for all tasks, no estimation and execute direct. An example of how easy it is too create the UI is the [Estimation View](https://github.com/rsyncOSX/RsyncSwiftUI/blob/main/RsyncUI/Views/Multitask/EstimationView.swift). There are approx only 60 lines of code for the layout of the estimation view (below).
 
-The view also includes a delete function for configurations.
+The view also includes a **delete function** for configurations.
 
 ![](/images/RsyncOSX/master/swiftui/multiple.png)
 
@@ -59,7 +59,9 @@ The following is work todo:
 
 ## Add and edit configurations
 
-Within the `Add or edit` menu, either update data about an existing task or add new tasks. The user can change all basic data about a task. The user **cannot** change the above for snapshot tasks. There is also function for adding profiles.
+Within the `Add or edit` menu, either update data about an existing task or add new tasks. The user can change all basic data about a task. The user **cannot** change the above for snapshot tasks.
+
+There is also function for adding profiles.
 
 ![](/images/RsyncOSX/master/swiftui/addedit.png)
 
@@ -75,19 +77,7 @@ The following is work todo:
 ![](/images/RsyncOSX/master/swiftui/snapshot.png)
 ![](/images/RsyncOSX/master/swiftui/snapshottag.png)
 
-## User settings
-
-Some user settings.
-
-![](/images/RsyncOSX/master/swiftui/settings.png)
-
-## SSH settings
-
-Some SSH settings.
-
-![](/images/RsyncOSX/master/swiftui/ssh.png)
-
-## Missing main functions
+## Not yet implemented
 
 The following is **not yet** implemented:
 
