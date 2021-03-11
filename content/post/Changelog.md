@@ -15,9 +15,9 @@ RsyncOSX is [signed and notarized](/post/notarized/). Please see info about [the
 
 Using RsyncOSX requires some knowledge of `rsync`. The main objective for RsyncOSX is to ease the use of `rsync`, not teach macOS users how to use `rsync`. That is beyond the scope of RsyncOSX. Setting the wrong parameters to rsync can result in deleted data. And RsyncOSX will not stop you for doing so. That is why it is very important to execute a simulated run (`--dry-run`) and inspect what happens before a real run.   
 
-## A SwiftUI based version of RsyncOSX
+## Next version of RsyncOSX
 
-[The work on a SwiftUI based version](/post/swiftui/) has commenced. The current version of RsyncOSX will be maintenaned until the SwiftUI based version is released.
+[The work on a SwiftUI based version of RsyncOSX](https://rsyncui.netlify.app/) has commenced. The new app is called RsyncUI and will be released as a **new application** and not as an upgrade.
 
 ## Version 6.5.6
 
