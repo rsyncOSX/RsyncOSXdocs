@@ -24,9 +24,9 @@ There is a [changelog](/post/changelog/). Also please see info about [the latest
 
 Before commencing use of RsyncOSX [there are a few important words to read](/post/important/).
 
-## A SwiftUI based version of RsyncOSX
+## Next version of RsyncOSX
 
-[The work on a SwiftUI based version](/post/swiftui/) has commenced. The current version of RsyncOSX will be maintenaned until the SwiftUI based version is released.
+[The work on a SwiftUI based version of RsyncOSX](https://rsyncui.netlify.app/) has commenced. The new app is called RsyncUI and will be released as a **new application** and not as an upgrade.
 
 ## How to setup remote servers
 
