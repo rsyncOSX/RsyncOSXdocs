@@ -19,6 +19,13 @@ Using RsyncOSX requires some knowledge of `rsync`. The main objective for RsyncO
 
 [The work on a SwiftUI based version of RsyncOSX](https://rsyncui.netlify.app/) has commenced. The new app is called RsyncUI and will be released as a **new application** and not as an upgrade.
 
+## Version 6.5.7 prerelease
+
+[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.6) 19 March 2021
+
+There is fixed a couple of layout issues in this prerelase. If no bugs are reported it will be released as release 6.5.7 after easter 2021.
+
+
 ## Version 6.5.6
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.6) 18 January 2021
