@@ -19,11 +19,11 @@ Using RsyncOSX requires some knowledge of `rsync`. The main objective for RsyncO
 
 [The work on a SwiftUI based version of RsyncOSX](https://rsyncui.netlify.app/) has commenced. The new app is called RsyncUI and will be released as a **new application** and not as an upgrade.
 
-## Version 6.5.7 prerelease
+## Version 6.5.7
 
-[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.6) 19 March 2021
+[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.7) 19 March 2021
 
-There is fixed a couple of layout issues in this prerelase. If no bugs are reported it will be released as release 6.5.7 after easter 2021.
+There are fixed a few of layout (UI) issues in this release. This will be the last release of RsyncOSX. In a few months [RsyncUI](https://rsyncui.netlify.app/post/swiftui/) will be released as next version of RsyncOSX. RsyncUI is compiled for macOS Big Sur and later only. RsyncOSX and RsyncUI can be used in paralell if you want to try out the next version.
 
 
 ## Version 6.5.6
