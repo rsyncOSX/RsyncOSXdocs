@@ -23,7 +23,9 @@ Using RsyncOSX requires some knowledge of `rsync`. The main objective for RsyncO
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.7) 19 March 2021
 
-There are fixed a few of layout (UI) issues in this release. This will be the last release of RsyncOSX. In a few months [RsyncUI](https://rsyncui.netlify.app/post/swiftui/) will be released as next version of RsyncOSX. RsyncUI is compiled for macOS Big Sur and later only. RsyncOSX and RsyncUI can be used in paralell if you want to try out the next version.
+- there are fixed a few layout (UI) issues in this release 
+
+This will be the last release of RsyncOSX. In a few months [RsyncUI](https://rsyncui.netlify.app/post/swiftui/) will be released as next version of RsyncOSX. RsyncUI is compiled for macOS Big Sur and later only. RsyncOSX and RsyncUI can be used in paralell if you want to try out the next version.
 
 
 ## Version 6.5.6
