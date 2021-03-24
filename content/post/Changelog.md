@@ -5,7 +5,7 @@ date = "2020-04-23"
 description = "Changelog"
 tags = ["rsyncosx"]
 categories = ["changelog"]
-lastmod = "2021-01-14"
+lastmod = "2021-03-24"
 +++
 [![GitHub license](https://img.shields.io/github/license/rsyncOSX/RsyncOSX)](https://github.com/rsyncOSX/RsyncOSX/blob/master/Licence.MD) ![GitHub Releases](https://img.shields.io/github/downloads/rsyncosx/RsyncOSX/v6.5.6/total)  [![Crowdin](https://badges.crowdin.net/rsyncosx/localized.svg)](https://crowdin.com/project/rsyncosx) [![Netlify Status](https://api.netlify.com/api/v1/badges/d375f6d7-dc9f-4913-ab43-bfd46d172eb2/deploy-status)](https://app.netlify.com/sites/rsyncosx/deploys) [![GitHub issues](https://img.shields.io/github/issues/rsyncOSX/RsyncOSX)](https://github.com/rsyncOSX/RsyncOSX/issues)
 
@@ -19,11 +19,18 @@ Using RsyncOSX requires some knowledge of `rsync`. The main objective for RsyncO
 
 [The work on a SwiftUI based version of RsyncOSX](https://rsyncui.netlify.app/) has commenced. The new app is called RsyncUI and will be released as a **new application** and not as an upgrade.
 
+## Version 6.5.8
+
+[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.8) 24 March 2021
+
+- there is fixed a bug in parameters to rsync, `-e ssh` is missing if there is **not** set an explicit ssh keypath and identityfile
+- the above is only valid for remote servers, the parameter `-e ssh` causes the data to be encrypted throuch a ssh tunell
+
 ## Version 6.5.7
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.7) 19 March 2021
 
-- there are fixed a few layout (UI) issues in this release 
+- there are fixed a few layout (UI) issues in this release
 
 This will be the last release of RsyncOSX. In a few months [RsyncUI](https://rsyncui.netlify.app/post/swiftui/) will be released as next version of RsyncOSX. RsyncUI is compiled for macOS Big Sur and later only. RsyncOSX and RsyncUI can be used in paralell if you want to try out the next version.
 
