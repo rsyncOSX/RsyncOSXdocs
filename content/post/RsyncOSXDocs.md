@@ -7,6 +7,8 @@ tags = ["summary"]
 categories = ["general information"]
 lastmod = "2020-12-24"
 +++
+[The work on a SwiftUI based version of RsyncOSX](https://rsyncui.netlify.app/) has commenced and the release is close. The new app is called RsyncUI and will be released as a **new application** and not as an upgrade. RsyncUI will be released as version 1.0.0 in May 2021. RsyncOSX will still be maintaned and available, probably to end of 2022.
+
 RsyncOSX is a GUI ontop of the command line utility `rsync`, no more no less. Rsync is a file-based tool for transferring and synchronization of files. RsyncOSX supports both synchronize and snapshot tasks. There is no custom solution for the synchronized archive. And you can quit utilizing RsyncOSX (and rsync) at any time and still have access to all synchronized files.
 
 - RsyncOSX is compiled with support for **macOS Catalina** and **macOS Big Sur** only
@@ -23,10 +25,6 @@ There is a [changelog](/post/changelog/). Also please see info about [the latest
 ## A few important words about RsyncOSX
 
 Before commencing use of RsyncOSX [there are a few important words to read](/post/important/).
-
-## Next version of RsyncOSX
-
-[The work on a SwiftUI based version of RsyncOSX](https://rsyncui.netlify.app/) has commenced. The new app is called RsyncUI and will be released as a **new application** and not as an upgrade.
 
 ## How to setup remote servers
 
