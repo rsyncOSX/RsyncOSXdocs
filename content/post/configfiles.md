@@ -9,7 +9,7 @@ lastmod = "2020-10-23"
 +++
 RsyncOSX stores its configurations, schedules and log records either as [property list files](https://en.wikipedia.org/wiki/Property_list) or [JSON](https://en.wikipedia.org/wiki/JSON) files. Default format is property list files, the user can change [the format to JSON](/post/json/).
 
-The storage of config files is default in `$HOME/.rsyncosx/macserialnumber`. Existing users of previous versions of RsyncOSX can move configfiles from old localization (`Documents/Rsync/macserialnumber`) to new by selecting `Move` from the `File` menu of RsyncOSX.  In the `About` the used path for configuration files is shown. 
+The storage of config files is default in `$HOME/.rsyncosx/macserialnumber`. Existing users of previous versions of RsyncOSX can move configfiles from old localization (`Documents/Rsync/macserialnumber`) to new by selecting `Move` from the `File` menu of RsyncOSX.  In the `About` the used path for configuration files is shown.
 
 Configuration files are store in `$HOME/.rsyncosx/macserialnumber`. RsyncOSX evaluates the computer mac serial number at startup.
 
@@ -63,9 +63,8 @@ $HOME/.rsyncosx/macserialnumber/profile/schedules.json
 
 ## User configurations and Assist
 
-The [user configurations](/post/userconfiguration/) and [Assist](/post/addconfigurations/#assist) data are stored as plist in:
+The [user configurations](/post/userconfiguration/) is stored as plist in:
 ```
 $HOME/.rsyncosx/macserialnumber/config.plist
-$HOME/.rsyncosx/macserialnumber/assist.plist
 ```
 The user settings applies to all profiles.
