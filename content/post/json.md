@@ -9,6 +9,13 @@ lastmod = "2020-12-13"
 +++
 RsyncOSX supports read and write configurations and logs as [JSON](https://en.wikipedia.org/wiki/JSON) files. The user will have the option to convert existing configurations and logs from [plist](https://en.wikipedia.org/wiki/Property_list) to JSON. Before converting to JSON, [in user configuration](/post/userconfiguration/), make a backup of the current configuration files. The current configurations is backed up in the catalog `$Home/Documents/RsyncOSXcopy-$date-suffix`.
 
+## Important info if using RsyncOSX and RsyncUI in parallel
+
+RsyncOSX and RsyncUI can share datafiles for configurations, schedules and logs. But they do **not** share user settings. If utilizing version 3.x of rsync, it must be enabled in both apps. The following is required for setup of RsyncOSX if used in parallel with RsyncUI:
+
+- files must be stored in same catalog, see info about [RsyncOSX files](/post/configfiles/)
+- JSON must be enabled in RsyncOSX (see below)
+
 ## Enabling JSON
 
 To enable JSON support is a **two step** process. There are three parts in the File menu dedicated for JSON support:
