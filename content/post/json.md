@@ -13,8 +13,10 @@ RsyncOSX supports read and write configurations and logs as [JSON](https://en.wi
 
 RsyncOSX and RsyncUI can share datafiles for configurations, schedules and logs. But they do **not** share user settings. If utilizing version 3.x of rsync, it must be enabled in both apps. The following is required for setup of RsyncOSX if used in parallel with RsyncUI:
 
-- files must be stored in same catalog, see info about [RsyncOSX files](/post/configfiles/)
-- JSON must be enabled in RsyncOSX (see below)
+- files **must** be stored in same location, see info about [RsyncOSX files](/post/configfiles/)
+- JSON **must** be enabled in RsyncOSX (see below)
+
+Files are store in the catalog `$HOME/.rsyncosx/macserialnumber/`. Check the `About` where your version of RsyncOSX stores the files. RsyncOSX can assist, if required, to move files to new default location. More info in [RsyncOSX files](/post/configfiles/).
 
 ## Enabling JSON
 
