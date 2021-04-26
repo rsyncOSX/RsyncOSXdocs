@@ -61,7 +61,7 @@ If profile is utilized:
 $HOME/.rsyncosx/macserialnumber/profile/schedules.json
 ```
 
-## User configurations and Assist
+## User configurations
 
 The [user configurations](/post/userconfiguration/) is stored as plist in:
 ```
