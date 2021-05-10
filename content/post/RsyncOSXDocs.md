@@ -7,8 +7,6 @@ tags = ["summary"]
 categories = ["general information"]
 lastmod = "2020-12-24"
 +++
-[The work on a SwiftUI based version of RsyncOSX](https://rsyncui.netlify.app/) has commenced and the release is close. The new app is called RsyncUI and will be released as a **new application** and not as an upgrade. RsyncUI will be released as version 1.0.0 in May 2021. RsyncOSX will still be maintaned and available, probably to end of 2022.
-
 RsyncOSX is a GUI ontop of the command line utility `rsync`, no more no less. Rsync is a file-based tool for transferring and synchronization of files. RsyncOSX supports both synchronize and snapshot tasks. There is no custom solution for the synchronized archive. And you can quit utilizing RsyncOSX (and rsync) at any time and still have access to all synchronized files.
 
 - RsyncOSX is compiled with support for **macOS Catalina** and **macOS Big Sur** only
@@ -18,13 +16,13 @@ RsyncOSX is a GUI ontop of the command line utility `rsync`, no more no less. Rs
 
 All releases of RsyncOSX are [signed and notarized](/post/notarized/). And there [is a short about me](/about).
 
-## The changelog
+## The changelog and a few important words about RsyncOSX
 
 There is a [changelog](/post/changelog/). Also please see info about [the latest version of rsync to install.](/post/rsync/)
 
-## A few important words about RsyncOSX
-
 Before commencing use of RsyncOSX [there are a few important words to read](/post/important/).
+
+[RsyncUI - the SwiftUI based version of RsyncOSX](https://rsyncui.netlify.app/) is released. The new app is called RsyncUI it is released as a **new application** and not as an upgrade. RsyncOSX will still be maintaned and available, probably to end of 2022.
 
 ## How to setup remote servers
 
@@ -69,13 +67,6 @@ There are some info about logging and where RsyncOSX store files. There are a fe
 - some info about [user configuration](/post/userconfiguration/)
 - where does RsyncOSX [stores the config files](/post/configfiles/)
 - how to [check synchronized data](/post/check/)
-
-## Intro and video
-
-There are two short YouTube videos of RsyncOSX:
-
-- [how to get and install RsyncOSX](https://youtu.be/d-srHjL2F-0)
-- [adding and executing the first backup](https://youtu.be/vS5_rXdTtZ8)
 
 ## Compile
 
