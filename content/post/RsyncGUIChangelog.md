@@ -1,5 +1,5 @@
 +++
-author = "RsyncOSX"
+author = "Thomas Evensen"
 date = "2020-04-02"
 title =  "The RsyncGUI changelog"
 tags = ["rsyncgui"]

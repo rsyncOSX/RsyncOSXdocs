@@ -1,5 +1,5 @@
 +++
-author = "RsyncOSX"
+author = "Thomas Evensen"
 date = "2020-04-16"
 title =  "Add configurations"
 description = "How to enter synchronize tasks into RsyncOSX."

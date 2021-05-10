@@ -1,5 +1,5 @@
 +++
-author = "RsyncOSX"
+author = "Thomas Evensen"
 date = "2020-04-16"
 title =  "RsyncOSX config files"
 tags = ["config file"]

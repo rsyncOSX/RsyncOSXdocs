@@ -1,5 +1,5 @@
 +++
-author = "RsyncOSX"
+author = "Thomas Evensen"
 title = "How to use RsyncOSX"
 date = "2020-04-24"
 description = "If you want some more info about RsyncOSX there are some resources here."
@@ -11,9 +11,12 @@ RsyncOSX is a GUI ontop of the command line utility `rsync`, no more no less. Rs
 
 - RsyncOSX is compiled with support for **macOS Catalina** and **macOS Big Sur** only
   - the latest version is [released here](https://github.com/rsyncOSX/RsyncOSX/releases)
-  - RsyncOSX can also be installed by homebrew - `brew install --cask rsyncosx`
 - RsyncOSX is built as [Universal macOS Binary](https://developer.apple.com/documentation/xcode/building_a_universal_macos_binary).
 
+RsyncOSX can also be installed by homebrew
+```
+brew install --cask rsyncosx
+```
 All releases of RsyncOSX are [signed and notarized](/post/notarized/). And there [is a short about me](/about).
 
 ## The changelog and a few important words about RsyncOSX

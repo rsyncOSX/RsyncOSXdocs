@@ -1,5 +1,5 @@
 +++
-author = "RsyncOSX"
+author = "Thomas Evensen"
 date = "2020-04-17"
 title =  "Remote servers and passwordless logins"
 tags = ["passwordless"]

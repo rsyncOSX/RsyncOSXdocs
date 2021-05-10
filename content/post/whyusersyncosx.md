@@ -1,5 +1,5 @@
 +++
-author = "RsyncOSX"
+author = "Thomas Evensen"
 title = "Why use RsyncOSX?"
 date = "2020-04-23"
 description = "Why should you use rsync and RsyncOSX."

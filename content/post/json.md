@@ -1,5 +1,5 @@
 +++
-author = "RsyncOSX"
+author = "Thomas Evensen"
 date = "2020-04-23"
 title =  "JSON support"
 tags = ["json","config file"]

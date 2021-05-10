@@ -1,5 +1,5 @@
 +++
-author = "RsyncOSX"
+author = "Thomas Evensen"
 date = "2020-04-16"
 title =  "Execute single tasks"
 tags = ["single task","edit tasks", "user rsync parameters"]
