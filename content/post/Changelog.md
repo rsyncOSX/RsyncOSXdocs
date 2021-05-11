@@ -13,9 +13,9 @@ RsyncOSX is [signed and notarized](/post/notarized/). Please see info about [the
 
 Using RsyncOSX requires some knowledge of `rsync`. The main objective for RsyncOSX is to ease the use of `rsync`, not teach macOS users how to use `rsync`. That is beyond the scope of RsyncOSX. Setting the wrong parameters to rsync can result in deleted data. And RsyncOSX will not stop you for doing so. That is why it is very important to execute a simulated run (`--dry-run`) and inspect what happens before a real run.   
 
-## Next version of RsyncOSX
+## RsyncUI - next version of RsyncOSX
 
-[The work on a SwiftUI based version of RsyncOSX](https://rsyncui.netlify.app/) has commenced. The new app is called RsyncUI and will be released as a **new application** and not as an upgrade.
+[The work on a SwiftUI based version of RsyncOSX](https://rsyncui.netlify.app/) has commenced. The new app is called RsyncUI and it is released as a **new application** and not as an upgrade.
 
 ## Version 6.5.8
 
@@ -97,8 +97,6 @@ Version 6.5.0 and later versions are only working on macOS 10.15 Catalina and 11
 - and some minor fixes in the menu app
 
 RsyncOSX supports read and write configurations and logs as [JSON](https://en.wikipedia.org/wiki/JSON) files.
-
-### Workaround snapshot in version 6.5.0
 
 There is an issue with **creating new** `snapshot` tasks in version 6.5.0. The bug is fixed in the release 6.5.2.
 
@@ -205,4 +203,4 @@ There are a few minor changes and enhancements in this release. The most noticea
 
 ## Version 6.1.0 - initial release
 
-Version 6.1.0 was released 24 December 2019. The initial relase was 14 March 2016.
+Version 6.1.0 was released 24 December 2019. The initial relase was **14 March 2016**.
