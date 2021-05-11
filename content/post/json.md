@@ -7,8 +7,10 @@ categories = ["general information"]
 description = "Some info about signing and notarizing."
 lastmod = "2020-12-13"
 +++
-RsyncOSX supports read and write configurations and logs as [JSON](https://en.wikipedia.org/wiki/JSON) files. The user will have the option to convert existing configurations and logs from [plist](https://en.wikipedia.org/wiki/Property_list) to JSON. Before converting to JSON, [in user configuration](/post/userconfiguration/), make a backup of the current configuration files. The current configurations is backed up in the catalog `$Home/Documents/RsyncOSXcopy-$date-suffix`.
-
+RsyncOSX supports read and write configurations and logs as [JSON](https://en.wikipedia.org/wiki/JSON) files. The user will have the option to convert existing configurations and logs from [plist](https://en.wikipedia.org/wiki/Property_list) to JSON. Before converting to JSON, [in user configuration](/post/userconfiguration/), make a backup of the current configuration files. The current configurations is backed up in the catalog
+```
+$Home/Documents/RsyncOSXcopy-$date-suffix
+```
 ## Important info if using RsyncOSX and RsyncUI in parallel
 
 RsyncOSX and RsyncUI can share datafiles for configurations, schedules and logs. But they do **not** share user settings. If utilizing version 3.x of rsync, it must be enabled in both apps. The following is required for setup of RsyncOSX if used in parallel with RsyncUI:
@@ -16,7 +18,11 @@ RsyncOSX and RsyncUI can share datafiles for configurations, schedules and logs.
 - files **must** be stored in same location, see info about [RsyncOSX files](/post/configfiles/)
 - JSON **must** be enabled in RsyncOSX (see below)
 
-Files are store in the catalog `$HOME/.rsyncosx/macserialnumber/`. Check the `About` where your version of RsyncOSX stores the files. RsyncOSX can assist, if required, to move files to new default location. More info in [RsyncOSX files](/post/configfiles/).
+Files are store in the catalog
+```
+$HOME/.rsyncosx/macserialnumber/
+```
+Check the `About` where your version of RsyncOSX stores the files. RsyncOSX can assist, if required, to move files to new default location. More info in [RsyncOSX files](/post/configfiles/).
 
 ## Enabling JSON
 
@@ -43,9 +49,14 @@ RsyncOSX will automatically quit and after a restart JSON support is enablet. Fo
 
 A yellow label indicates JSON support is enablet. The JSON files are stored in, add profilename if profile is used:
 
-- `./rsyncosx/macserial/configurations.json` for configurations
-- `./rsyncosx/macserial/schedules.json` for schedules
-
+for configurations
+```
+./rsyncosx/macserial/configurations.json
+```
+for schedules
+```
+./rsyncosx/macserial/schedules.json
+```
 ## Returning to PLIST
 
 You can anytime go back to plist format. Select Transform or `⌘J` and select the `PLIST` button in main view. It saves the current configurations and schedules as plist format. In userconfig disable the `JSON` support and after restart plist is enablet.

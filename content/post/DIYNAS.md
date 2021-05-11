@@ -17,7 +17,7 @@ To choose the correct HW as NAS is not an easy task. I have spend some time goog
 
 ## My NAS setup since 2017
 
-**FreeBSD** 12.1 (regularly updated) is installed and zpools created on my previous FreeNAS installation are imported in FreeBSD. My NAS is build by the following components. The server components in my NAS are a bit more expensive than desktop components.
+**FreeBSD** 13.0 (regularly updated) is installed and zpools created on my previous FreeNAS installation are imported in FreeBSD. My NAS is build by the following components. The server components in my NAS are a bit more expensive than desktop components.
 
 - [Fractal Design Node 304 Mini-ITX Black](http://www.fractal-design.com/home/product/cases/node-series/node-304-black) - compact chassis which max 6 3.5 inch HD drives
 - Fractal Design [Integra M 450W PSU](http://www.fractal-design.com/home/product/power-supplies/integra-m/integra-m-450w)
