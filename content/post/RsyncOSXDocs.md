@@ -74,3 +74,11 @@ There are some info about logging and where RsyncOSX store files. There are a fe
 ## Compile
 
 And there is some info about [how to compile RsyncOSX](/post/compile/).
+
+# Why backup?
+
+The simple answer is recovery of lost data. There might be several reasons to loosing data, and I will not elaborate why you might risk loosing data. Computer crashes or restore deleted files is one obvious reason. But, there is another reason as well; a recovery from a ransomware attack. I have setup RsyncUI to synchronize, both normal synchronize and snapshots. One server is in house, the second is a remote server somewhere on the Internet. Data synchronized to the remote server is encrypyted before data is synchronized.
+
+Once my configurations are setup, I do backups utilizing RsyncUI every day. So, if I by some reason, has to execute a recovery I know where to find the most updated synchronized data for restore.
+
+I will never pay someone money to decrypt any data of mine. So, for your own protection, do regularly backups. There are tons of utilities for backups, RsyncUI is one. It is free and it is based on the rock solid utility `rsync`.
