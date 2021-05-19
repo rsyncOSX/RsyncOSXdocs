@@ -11,7 +11,7 @@ So, after some carefull thinking I decided stay on on the Apple development plat
 
 Learning new stuff is very important for me. Learning is important to keep your mind sharp. I have a masters degree in computing science, but I am **not a professional developer**. I did my master degree in the days when Linux was released in 1991 and Internet became a public service. And a few years ahead of that, in 1989, the Web was invented at Cern.   
 
-For the moment I am a senior advicer at a university. I will, early in 2022 at the age of 62, retire from work. I am also granddad to several young ones. I am of the opinion to have a hobby which require learning is important after retirement. Another, for me, important activity is [outdoor life in the Norwegian mountains](https://translate.google.com/translate?sl=no&tl=en&u=https://toppturer.netlify.app/), summer and winter.
+For the moment I am a senior advicer at a university. I will, early in 2022 at the age of 62, retire from work. I am also so lucky to be a granddad. I am also of the opinion of to have a hobby which require learning new stuff is very important after retirement.
 
 RsyncUI is not a professional software. There is only one developer, me, and I am doing what I can to keep RsyncUI as stable and userfriendly as possible. I am not a UI designer and some user might find the UI of RsyncUI complicated and less userfriendly.
 
@@ -28,3 +28,9 @@ This app is compiled for **macOS Big Sur** and later.
 - [RsyncOSX](https://github.com/rsyncOSX/RsyncOSX) a GUI for rsync
 
 This app is compiled with support for macOS 10.15 - latest version of macOS.
+
+## Me
+
+This is me on a cross country ski trip in the Norwegian mountains in April 2021. Another, for me, important activity is [outdoor life in the Norwegian mountains](https://toppturer.netlify.app/), summer and winter.
+
+ ![](/images/me.png)
