@@ -36,11 +36,11 @@ If you dont see any configurations after start?
 
 ![](/images/RsyncOSX/master/combine/empty.png)
 
-In the file menu choose Transform.
+In the file menu choose Convert.
 
 ![](/images/RsyncOSX/master/combine/files.png)
 
-Then choose Convert and the magic happens.
+Then choose Convert again and the magic happens.
 
 ![](/images/RsyncOSX/master/combine/convert.png)
 
