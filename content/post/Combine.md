@@ -5,9 +5,11 @@ title =  "Combine and RsyncOSX"
 tags = ["combine"]
 categories = ["synchronize"]
 description = "Combine and RsyncOSX."
-lastmod = "2020-12-13"
+lastmod = "2021-05-30"
 +++
 This version is **not yet released**. RsyncOSX version 6.6.0 will be released as an update for users on **macOS Big Sur**. Some features of Combine in RsyncOSX require macOS Big Sur. The Combine code is from developing the SwiftUI based version RsyncUI.
+
+The application with menu app is working, but there will be some more cleanup and refactor before release in a couple of weeks.
 
 Combine is used in the following parts:
 
