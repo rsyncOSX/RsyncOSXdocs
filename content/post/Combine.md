@@ -7,16 +7,20 @@ categories = ["synchronize"]
 description = "Combine and RsyncOSX."
 lastmod = "2021-05-30"
 +++
-This version is **not yet released**. RsyncOSX version 6.6.0 will be released as an update for users on **macOS Big Sur**. Some features of Combine in RsyncOSX require macOS Big Sur. The Combine code is from developing the SwiftUI based version RsyncUI.
+This version is **not yet released**. RsyncOSX version 6.6.0 will be released as an update for users on **macOS Big Sur**. What is the purpose of this release? In development of [RsyncUI](https://github.com/rsyncOSX/RsyncUI), I "discovered" the new declarative framework Combine. Combine is also a great framework and makes the code easy to write and easy to read. It is most likely that RsyncOSX will avaliable for some years and why not upgrade RsyncOSX to utilize Combine.
+
+There are though some restrictions. In the Combine code for encode and write data to JSON file, the publiser requiere macOS BigSur or later. This release will only be avaliable for macOS BigSur and later.
+
+Much of the code where Combine is used is shared with RsyncUI. There is still some minor parts of code which needs to be added or changed before a release. The work to delete old code and replace with Combine was done in a couple of hours an evening.
 
 The application with menu app is working, but there will be some more cleanup and refactor before release in a couple of weeks.
 
-Combine is used in the following parts:
+Combine is used in the following code:
 
-- [read](https://github.com/rsyncOSX/RsyncOSXCombine/blob/main/RsyncOSX/ReadUserConfigurationPLIST.swift) user configurtaions to permanent store
+- [read](https://github.com/rsyncOSX/RsyncOSXCombine/blob/main/RsyncOSX/ReadUserConfigurationPLIST.swift) user configurations to permanent store
 - [read](https://github.com/rsyncOSX/RsyncOSXCombine/blob/main/RsyncOSX/ReadConfigurationJSON.swift) and [write](https://github.com/rsyncOSX/RsyncOSXCombine/blob/main/RsyncOSX/WriteConfigurationJSON.swift) configurations
 - [read](https://github.com/rsyncOSX/RsyncOSXCombine/blob/main/RsyncOSX/ReadScheduleJSON.swift) and [write](https://github.com/rsyncOSX/RsyncOSXCombine/blob/main/RsyncOSX/WriteScheduleJSON.swift) schedules and logs
-- read and convert [configurations](https://github.com/rsyncOSX/RsyncOSXCombine/blob/main/RsyncOSX/ReadConfigurationsPLIST.swift) and [schedules](https://github.com/rsyncOSX/RsyncOSXCombine/blob/main/RsyncOSX/ReadSchedulesPLIST.swift) PLIST to JSON
+- read and convert [configurations](https://github.com/rsyncOSX/RsyncOSXCombine/blob/main/RsyncOSX/ReadConfigurationsPLIST.swift) and [schedules](https://github.com/rsyncOSX/RsyncOSXCombine/blob/main/RsyncOSX/ReadSchedulesPLIST.swift) from PLIST format to JSON format
 - [the process object](https://github.com/rsyncOSX/RsyncOSXCombine/blob/main/RsyncOSX/ProcessCmd.swift), executing tasks
 - preparing [the output](https://github.com/rsyncOSX/RsyncOSXCombine/blob/main/RsyncOSX/TrimTwo.swift) from rsync process
 
