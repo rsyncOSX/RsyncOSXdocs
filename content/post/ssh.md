@@ -10,7 +10,7 @@ lastmod = "2020-04-16"
 RsyncUI utilizes user set ssh keypath and identityfile. Default values for ssh are `~/.ssh/id_rsa` and portnumber `22`. It is **not required** to set your own values for key path and identityfile if default values are used.
 
 The ssh parameter within the rsync command is if set by the user:
-```
+```bash
 -e  "ssh -i ~/.ssh_keypath/identityfile -p NN"
 ```
 - `-i ~/.ssh_keypath/identityfile` is the ssh keypath and identityfile
@@ -21,7 +21,7 @@ The ssh parameter within the rsync command is if set by the user:
 How to set ssh keypath and identityfile in [the user configuration](/post/sshsettings/).
 
 If global ssh parameters are set, it applies to **all configurations**. It is possible to set other ssh values on each task. There is a check and QA of ssh keypath and identityfile. When enabling user selected ssh keypath and identityfile please make sure it is in compliance with:
-```
+```bash
 `~/.mynewsshcatalog/mynewkey`
 ```
 The prefix has to be `~` followed by a `/`. RsyncUI will verify that the ssh keypath has the prefix `~` and at least two `/` before saving the new keypath.
@@ -38,7 +38,7 @@ The ssh functions assist in two methods:
 If creating a new public ssh key pair based upon default ssh values for RSA based key, RsyncOSX does not add any parameters to the rsync command because this is default values. Ssh parameters to the rsync command is only added if the second method is choosed.
 
 The following is the command for creating a new, alternative private and public ssh key pair:
-```
+```bash
 ssh-keygen -t rsa -N "" -f ~/.ssh_rsyncosx/rsyncosx
 ```
 - `-t rsa ""` generates a RSA based key-pair
@@ -47,7 +47,7 @@ ssh-keygen -t rsa -N "" -f ~/.ssh_rsyncosx/rsyncosx
 
 
 The following command copy the newly created public key to the server:
-```
+```bash
 ssh-copy-id -i /Users/thomas/.ssh_rsyncosx/rsyncosx -p NN user@server
 ```
 You can also setup the new ssh keypath and identityfile in a terminal window and after setup add the new ssh keypath and identityfile in Userconfig. RsyncUI will automatically enable it when added in user config.
@@ -57,6 +57,6 @@ If you want RsyncUI to assist in setting up please select the ssh tab, open [the
 The user can also apply local ssh keypath and identityfile and ssh port, which rules the global settings, on each task.
 
 Make sure that the new ssh catalog has the correct permissions. Open a terminal window and execute the following command.
-```
+```bash
 chmod 700 ~/.ssh_rsyncosx
 ```

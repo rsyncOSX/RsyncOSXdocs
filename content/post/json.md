@@ -8,7 +8,7 @@ description = "Some info about signing and notarizing."
 lastmod = "2020-12-13"
 +++
 RsyncOSX supports read and write configurations and logs as [JSON](https://en.wikipedia.org/wiki/JSON) files. The user will have the option to convert existing configurations and logs from [plist](https://en.wikipedia.org/wiki/Property_list) to JSON. Before converting to JSON, [in user configuration](/post/userconfiguration/), make a backup of the current configuration files. The current configurations is backed up in the catalog
-```
+```bash
 $Home/Documents/RsyncOSXcopy-$date-suffix
 ```
 ## Important info if using RsyncOSX and RsyncUI in parallel
@@ -19,7 +19,7 @@ RsyncOSX and RsyncUI can share datafiles for configurations, schedules and logs.
 - JSON **must** be enabled in RsyncOSX (see below)
 
 Files are store in the catalog
-```
+```bash
 $HOME/.rsyncosx/macserialnumber/
 ```
 Check the `About` where your version of RsyncOSX stores the files. RsyncOSX can assist, if required, to move files to new default location. More info in [RsyncOSX files](/post/configfiles/).
@@ -50,11 +50,11 @@ RsyncOSX will automatically quit and after a restart JSON support is enablet. Fo
 A yellow label indicates JSON support is enablet. The JSON files are stored in, add profilename if profile is used:
 
 for configurations
-```
+```bash
 ./rsyncosx/macserial/configurations.json
 ```
 for schedules
-```
+```bash
 ./rsyncosx/macserial/schedules.json
 ```
 ## Returning to PLIST

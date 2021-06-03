@@ -34,11 +34,11 @@ There are [two possible setup for using the rsync daemon](/post/rsyncdaemon/). U
 Rsync can also set a time stamp as suffix on files. This might be useful if there are several revisions of files. The --suffix parameter set suffix on files, suffix can be set on files together with the --backup parameter. One suffix might rename files which are either deleted or replaced newer files with a trailing date and time stamp.
 
 - sample suffix FreeBSD
-```
+```bash
 --suffix=`date +'%Y-%m-%d.%H.%M'`
 ```
 - sample suffix Linux
-```
+```bash
 --suffix=_$(date +%Y-%m-%d.%H.%M)
 ```
 

@@ -14,7 +14,7 @@ RsyncOSX is a GUI ontop of the command line utility `rsync`, no more no less. Rs
 - RsyncOSX is built as [Universal macOS Binary](https://developer.apple.com/documentation/xcode/building_a_universal_macos_binary).
 
 RsyncOSX can also be installed by homebrew
-```
+```bash
 brew install --cask rsyncosx
 ```
 All releases of RsyncOSX are [signed and notarized](/post/notarized/). And there [is a short about me](/about).

@@ -10,7 +10,7 @@ lastmod = "2020-12-13"
 The default [version 2.6.9 of rsync in macOS](https://download.samba.org/pub/rsync/NEWS#2.6.9) was released in nov 2006. And  there has been several fixes and releases since then. The news about [the current release of rsync is here](https://download.samba.org/pub/rsync/NEWS). Due to new features in rsync and dependency to shared libraries it is not possible to bundle the latest version together with RsyncOSX.
 
 It is adviced to install rsync as part of Homebrew. In RsyncOSX select [user configuration](/post/userconfiguration/) and set path for optional version of rsync. Install [homebrew](https://brew.sh/) and install the latest version of rsync as part of homebrew. Execute the command
-```
+```bash
 brew install rsync
 ```
 to install the latest version of rsync.
@@ -23,7 +23,7 @@ RsyncOSX supports [snapshots](/post/snapshots/) of files. Due to a bug in versio
 
 The source code for the latest version of rsync can be downloaded from [rsync.samba.org](https://rsync.samba.org/). There are some new features within the latest version and it require some additional libraries. I recommend to install the latest version as part of Homebrew. If you have installed Xcode command line tools and the required libraries you can also compile your own version of rsync. The following dynamic libraries is required:
 
-```
+```bash
 otool -L rsync
 rsync:
 	/usr/local/opt/popt/lib/libpopt.0.dylib (compatibility version 1.0.0, current version 1.1.0)
@@ -34,11 +34,11 @@ rsync:
 	/usr/local/opt/openssl@1.1/lib/libcrypto.1.1.dylib (compatibility version 1.1.0, current version 1.1.0)
 	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1281.100.1)
 	/usr/lib/libcharset.1.dylib (compatibility version 2.0.0, current version 2.0.0)
-  ```
+```
 
 Before a compile set the environment variables to let the `configure` script to find the libraries. The libraries is also installed as part of Homebrev.
 
-```
+```bash
 export LDFLAGS="-L/usr/local/opt/openssl/lib -L/usr/local/lib"
 export CFLAGS="-I/usr/local/opt/openssl/include/ -I/usr/local/include"
 export CPPFLAGS="-I/usr/local/opt/openssl/include/ -I/usr/local/include"
@@ -46,7 +46,7 @@ export CPPFLAGS="-I/usr/local/opt/openssl/include/ -I/usr/local/include"
 
 Then execute the `configure` script to produce the makefile. I also instructs configure to install rsync in `$HOME/rsync`.
 
-```
+```bash
 ./configure --prefix=/Users/thomas/rsync
 make
 make install

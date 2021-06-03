@@ -20,11 +20,11 @@ The default format is plist:
 ### Configuration files
 
 Default profile stores all configurations in:
-```
+```bash
 $HOME/.rsyncosx/macserialnumber/configRsync.plist
 ```
 If profile is utilized:
-```
+```bash
 $HOME/.rsyncosx/macserialnumber/profile/configRsync.plist
 ```
 where `profile` is a sub catalog.
@@ -32,11 +32,11 @@ where `profile` is a sub catalog.
 ### Schedules and log records
 
 Default profile stores all Schedules and log records in:
-```
+```bash
 $HOME/.rsyncosx/macserialnumber/macserialnumber/scheduleRsync.plist
 ```
 If profile is utilized:
-```
+```bash
 $HOME/.rsyncosx/macserialnumber/profile/scheduleRsync.plist
 ```
 
@@ -45,26 +45,26 @@ $HOME/.rsyncosx/macserialnumber/profile/scheduleRsync.plist
 The user can [change format to JSON](/post/json/):
 
 ### Configuration files
-```
+```bash
 $HOME/.rsyncosx/macserialnumber/configurations.json
 ```
 If profile is utilized:
-```
+```bash
 $HOME/.rsyncosx/macserialnumber/profile/configurations.json
 ```
 ### Schedules and log records
-```
+```bash
 $HOME/.rsyncosx/macserialnumber/macserialnumber/schedules.json
 ```
 If profile is utilized:
-```
+```bash
 $HOME/.rsyncosx/macserialnumber/profile/schedules.json
 ```
 
 ## User configurations
 
 The [user configurations](/post/userconfiguration/) is stored as plist in:
-```
+```bash
 $HOME/.rsyncosx/macserialnumber/config.plist
 ```
 The user settings applies to all profiles.

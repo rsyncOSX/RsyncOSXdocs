@@ -17,7 +17,7 @@ Access to remote servers from RsyncGUI is normally by utilizing ssh and ssh keys
 Not allowed to create ssh keys du to no access to the `.ssh` catalog. You have to create a .ssh catalog and restart RsyncGUI to grant access to the newly created .ssh catalog. Ececute the following commands from a terminal window:
 
 ![](/images/RsyncOSX/master/RsyncGUIfirststart/norsakey.png)
-```
+```bash
 cd
 mdkir .ssh
 chmod 700 .ssh
@@ -45,7 +45,7 @@ The ssh keypath and identityfile has to be prefixed one `~` and must include at 
 ## Logging
 
 The user can set logging on of in userconfig. If there is an error, RsyncGUI logs the error from rsync. All logging to file is found in the following catalog:
-
-`~/Library/Containers/no.blogspot.rsyncgui/Data/Documents/rsynclog.txt`
-
+```bash
+~/Library/Containers/no.blogspot.rsyncgui/Data/Documents/rsynclog.txt`
+```
 Logfiles can also be viewed in view for rsync output.

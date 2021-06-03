@@ -11,17 +11,26 @@ RsyncOSX is released in [version 6.5.8 (24 March 2021)](https://github.com/rsync
 
 ## Install by Homebrew
 
-RsyncOSX can be installed by homebrew - `brew install --cask rsyncosx`.
-
+RsyncOSX can be installed by homebrew
+```bash
+brew install --cask rsyncosx
+```
 ## Install by download
 
-Download [the latest version form GitHub](https://github.com/rsyncOSX/RsyncOSX/releases). The command `shasum -a 256 ~/pathtodownload/RsyncOSX-version.dmg` will print the shasum for the .dmg file. For your own safety verify the shasums.
+Download [the latest version form GitHub](https://github.com/rsyncOSX/RsyncOSX/releases). The command:
+```bash
+shasum -a 256 ~/pathtodownload/RsyncOSX-version.dmg
+```
 
-`RsyncOSX 6.5.8.dmg: 4f23be29b260a93e05a2b9abf2ac42419b918b455e664d12ed92663ee008ad4e`  
-`RsyncOSXsched 6.5.8.dmg: 14703772cb5d115b5b4c68dc37e7432211c73462641765eb9be9afc33ecfd2b1`
+will print the shasum for the .dmg file. For your own safety verify the shasums.
+
+```bash
+RsyncOSX 6.5.8.dmg: 4f23be29b260a93e05a2b9abf2ac42419b918b455e664d12ed92663ee008ad4e  
+RsyncOSXsched 6.5.8.dmg: 14703772cb5d115b5b4c68dc37e7432211c73462641765eb9be9afc33ecfd2b1
+```
 
 To install RsyncOSX open the downloaded RsyncOSX-version.dmg file. Drag the RsyncOSX icon to the default `/Applications` catalog or any other preferred catalog for install. And likewise for the RsyncOSXsched-version.dmg.
-![](/images/RsyncOSX/master/install/install.png)
+
 RsyncOSX is installed and used at your own risk. The developer accepts no responsibility for any errors, omissions or loss of data by using the application.
 
 ## Latest version of rsync

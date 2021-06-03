@@ -16,7 +16,7 @@ Setting up a rsync daemon setup require a server side setup and some tweaks in R
 The sample setup below is based upon a Ubuntu 19.04 server. How to get the rsync daemon up and running on the Ubuntu server is not part of this document. The rsync daemon on the server is setup to listen on port 873. It is also advised that the versions of rsync are equal on both client and server. There are two solutions for enabling a rsync daemon connection. For both setup of `/etc/rsyncd.conf` serverside is required.
 
 The following lines are created on the server side in file: `/etc/rsyncd.conf`
-```
+```bash
 pid file = /var/run/rsyncd.pid
 lock file = /var/run/rsync.lock
 log file = /var/log/rsync.log
@@ -34,7 +34,7 @@ secrets file = /etc/rsyncd.secrets
 
 The file `/etc/rsyncd.secrets` stores the passwords for each user on the server side. Set `chmod 600` on the `/etc/rsyncd.secrets` file.
 
-```
+```bash
 user1:password_for_user1
 user2:password_for_user2
 ```
