@@ -17,15 +17,15 @@ To choose the correct HW as NAS is not an easy task. I have spend some time goog
 
 ## My NAS setup since 2017
 
-**FreeBSD** 13.0 (regularly updated) is installed and zpools created on my previous FreeNAS installation are imported in FreeBSD. My NAS is build by the following components. The server components in my NAS are a bit more expensive than desktop components.
+My NAS was installed in 2017 and it has run flawless since it was installed. Even the harddrives has run since they was installed in 2017. The NAS is running FreeBSD 13.0 and it is regularly updated. Monitoring of NAS is by Netdata, which is pulled form GitHub and compiled on my NAS. The componts are no longer available except for the chassis.
 
 - [Fractal Design Node 304 Mini-ITX Black](http://www.fractal-design.com/home/product/cases/node-series/node-304-black) - compact chassis which max 6 3.5 inch HD drives
-- Fractal Design [Integra M 450W PSU](http://www.fractal-design.com/home/product/power-supplies/integra-m/integra-m-450w)
-- [ASRock E3C226D2I MB](http://www.asrockrack.com/general/productdetail.asp?Model=E3C226D2I#Specifications) - server motherboard
+- Fractal Design Integra M 450W PSU
+- ASRock E3C226D2I MB server motherboard
 - [Intel® Pentium® Processor G3258](https://ark.intel.com/products/82723/Intel-Pentium-Processor-G3258-3M-Cache-3_20-GHz)
-- [KVR16E11/8 ValueRAM for ASRock Server Board E3C226D2I](http://www.kingston.com/us/memory/search?devicetype=7&mfr=ASR&line=Server%20Board&model=86498) - ECC server memory
+- KVR16E11/8 ValueRAM for ASRock Server Board E3C226D2I ECC server memory
 - Two WD Red 1TB NAS Hard drives
-- Two [WD Red 2TB](https://www.amazon.com/Red-2TB-Hard-Disk-Drive/dp/B008JJLZ7G) NAS Hard drives
+- Two WD Red 2TB NAS Hard drives
 
 NAS is setup by using [ECC memory](https://en.wikipedia.org/wiki/ECC_memory). Total disk in NAS is 6 [Terabyte](https://en.wikipedia.org/wiki/Terabyte) setup as mirror, sharing out 3 TB. I am using [Netdata](https://my-netdata.io/) to monitor the status of my NAS. It is easy to install on FreeBSD.
 

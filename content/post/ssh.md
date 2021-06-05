@@ -22,7 +22,7 @@ How to set ssh keypath and identityfile in [the user configuration](/post/sshset
 
 If global ssh parameters are set, it applies to **all configurations**. It is possible to set other ssh values on each task. There is a check and QA of ssh keypath and identityfile. When enabling user selected ssh keypath and identityfile please make sure it is in compliance with:
 ```bash
-`~/.mynewsshcatalog/mynewkey`
+~/.mynewsshcatalog/mynewkey
 ```
 The prefix has to be `~` followed by a `/`. RsyncUI will verify that the ssh keypath has the prefix `~` and at least two `/` before saving the new keypath.
 
