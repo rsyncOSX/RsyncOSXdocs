@@ -13,6 +13,17 @@ RsyncOSX is [signed and notarized](/post/notarized/). Please see info about [the
 
 Using RsyncOSX requires some knowledge of `rsync`. The main objective for RsyncOSX is to ease the use of `rsync`, not teach macOS users how to use `rsync`. That is beyond the scope of RsyncOSX. Setting the wrong parameters to rsync can result in deleted data. And RsyncOSX will not stop you for doing so. That is why it is very important to execute a simulated run (`--dry-run`) and inspect what happens before a real run.
 
+## Version 6.6.0
+
+This build is for **macOS Big Sur only**.
+
+[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.8) 6 June 2021
+
+- the major work in this release is utilizing [Combine](/post/combine/)
+- this release does only support macOS Big Sur and later versions of macOS (due to some features in Combine)
+
+This release will be maintained in the future together with RsyncUI. Version 6.5.8 will still be available, but not maintaned.
+
 ## Version 6.5.8
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.8) 24 March 2021

@@ -7,17 +7,15 @@ categories = ["synchronize"]
 description = "Combine and RsyncOSX."
 lastmod = "2021-05-30"
 +++
-This version is **not yet released**. RsyncOSX version 6.6.0 will be released as an update for users on **macOS Big Sur**.
+RsyncOSX **version 6.6.0** is released as an update for users on **macOS Big Sur**.
 
-This is a project of introducing Combine into RsyncOSX. It will be released sometime in either June or July 2021, a release candidate will be annouced within a few weeks. The app is working, only some QA before a release candidate.
+The major work in this release are utilizing Combine and only supporting JSON files. In development of [RsyncUI](https://github.com/rsyncOSX/RsyncUI), I "discovered" the new declarative framework Combine. Combine is also a great framework and makes the code easy to write and easy to read. It is most likely that RsyncOSX will avaliable for some years and why not upgrade RsyncOSX to utilize Combine.
 
-What is the purpose of this project? In development of [RsyncUI](https://github.com/rsyncOSX/RsyncUI), I "discovered" the new declarative framework Combine. Combine is also a great framework and makes the code easy to write and easy to read. It is most likely that RsyncOSX will avaliable for some years and why not upgrade RsyncOSX to utilize Combine.
-
-There are though some restrictions. In the Combine code for encode and write data to JSON file, the publiser requiere macOS BigSur or later. This release will only be avaliable for macOS BigSur and later.
+There are though some restrictions. In the Combine code for encode and write data to JSON file, the publiser requiere macOS BigSur or later. This release will only be avaliable for **macOS BigSur** and later.
 
 Much of the code where Combine is used is shared with RsyncUI. There is still some minor parts of code which needs to be added or changed before a release. The work to delete old code and replace with Combine was done in a couple of hours an evening.
 
-I will also refactor and clean up other parts of the code as well as part of this project.
+There is also some refactor and clean up other parts of the code in this release.
 
 Combine is used in the following code:
 
