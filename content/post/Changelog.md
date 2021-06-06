@@ -22,7 +22,7 @@ This build is for **macOS Big Sur only**.
 - the major work in this release is utilizing [Combine](/post/combine/)
 - this release does only support macOS Big Sur and later versions of macOS (due to some features in Combine)
 
-This release will be maintained in the future together with RsyncUI. Version 6.5.8 will still be available, but not maintaned.
+This release will be maintained in the future together with RsyncUI. Version 6.5.8 will still be available, but not maintaned. Integrating Combine in code and only supporting JSON does cleanup the code base for RsyncOSX and makes the code more easy to maintane. Less code is better code.
 
 ## Version 6.5.8
 
