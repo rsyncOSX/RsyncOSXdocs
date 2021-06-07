@@ -32,7 +32,7 @@ The instructions below if for users who start version 6.6.0 and dont see any con
 
 **Caution**: always do a backup of the configuration files before following the steps below. See [the settings](/post/userconfiguration/) for backup.
 
-Check the about where RsyncOSX stores the configfiles:
+Check the About (in RsyncOSX) where RsyncOSX stores the configfiles:
 ```bash
 /Users/thomas/.rsyncosx/macserialnumber
 ```

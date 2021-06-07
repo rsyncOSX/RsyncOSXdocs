@@ -20,11 +20,9 @@ RsyncOSX can also be installed by homebrew
 brew install --cask rsyncosx
 ```
 
-## The changelog and a few important words about RsyncOSX
+## The changelog
 
-There is a [changelog](/post/changelog/). Also please see info about [the latest version of rsync to install.](/post/rsync/)
-
-Before commencing use of RsyncOSX [there are a few important words to read](/post/important/).
+There is a [changelog](/post/changelog/). Also please see info about [the latest version of rsync to install.](/post/rsync/) Before commencing use of RsyncOSX [there are a few important words to read](/post/important/).
 
 ## RsyncUI
 
