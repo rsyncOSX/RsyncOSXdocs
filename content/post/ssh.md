@@ -4,10 +4,10 @@ date = "2020-04-16"
 title =  "Passwordless logins by ssh-keys."
 tags = ["passwordless","ssh keypath and identity file"]
 # categories = ["remotelogins"]
-description = "RsyncUI can guide you in setting up passwordless login by ssh-keys"
+description = "RsyncOSX can guide you in setting up passwordless login by ssh-keys"
 lastmod = "2020-04-16"
 +++
-RsyncUI utilizes user set ssh keypath and identityfile. Default values for ssh are `~/.ssh/id_rsa` and portnumber `22`. It is **not required** to set your own values for key path and identityfile if default values are used.
+RsyncOSX utilizes user set ssh keypath and identityfile. Default values for ssh are `~/.ssh/id_rsa` and portnumber `22`. It is **not required** to set your own values for key path and identityfile if default values are used.
 
 The ssh parameter within the rsync command is if set by the user:
 ```bash
@@ -24,11 +24,11 @@ If global ssh parameters are set, it applies to **all configurations**. It is po
 ```bash
 ~/.mynewsshcatalog/mynewkey
 ```
-The prefix has to be `~` followed by a `/`. RsyncUI will verify that the ssh keypath has the prefix `~` and at least two `/` before saving the new keypath.
+The prefix has to be `~` followed by a `/`. RsyncOSX will verify that the ssh keypath has the prefix `~` and at least two `/` before saving the new keypath.
 
 ## Tools used
 
-The following ssh tools are used: `ssh-keygen` and `ssh-copy-id`. RsyncUI only assist in setting up RSA based key.
+The following ssh tools are used: `ssh-keygen` and `ssh-copy-id`. RsyncOSX only assist in setting up RSA based key.
 
 The ssh functions assist in two methods:
 
@@ -50,9 +50,9 @@ The following command copy the newly created public key to the server:
 ```bash
 ssh-copy-id -i /Users/thomas/.ssh_rsyncosx/rsyncosx -p NN user@server
 ```
-You can also setup the new ssh keypath and identityfile in a terminal window and after setup add the new ssh keypath and identityfile in Userconfig. RsyncUI will automatically enable it when added in user config.
+You can also setup the new ssh keypath and identityfile in a terminal window and after setup add the new ssh keypath and identityfile in Userconfig. RsyncOSX will automatically enable it when added in user config.
 
-If you want RsyncUI to assist in setting up please select the ssh tab, open [the user configuration](/post/sshsettings/) and add new ssh keypath and identityfile and ssh port number if other than 22.
+If you want RsyncOSX to assist in setting up please select the ssh tab, open [the user configuration](/post/sshsettings/) and add new ssh keypath and identityfile and ssh port number if other than 22.
 
 The user can also apply local ssh keypath and identityfile and ssh port, which rules the global settings, on each task.
 

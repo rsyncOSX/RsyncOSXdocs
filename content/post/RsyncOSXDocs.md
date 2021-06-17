@@ -24,10 +24,6 @@ brew install --cask rsyncosx
 
 There is a [changelog](/post/changelog/). Also please see info about [the latest version of rsync to install.](/post/rsync/) Before commencing use of RsyncOSX [there are a few important words to read](/post/important/).
 
-## RsyncUI
-
-[RsyncUI - the SwiftUI based version of RsyncOSX](https://rsyncui.netlify.app/) is released. The new app is called RsyncUI it is released as a **new application** and not as an upgrade. RsyncOSX will still be maintaned and available for years to come.
-
 ## How to setup remote servers
 
 Utilizing RsyncOSX to synchronize files to remote servers requires some setup. There are two options to setup [passwordless logins](/post/remotelogins/). The advised setup is by utilizing ssh-keys.
