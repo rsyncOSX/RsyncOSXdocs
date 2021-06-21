@@ -13,6 +13,14 @@ RsyncOSX is [signed and notarized](/post/notarized/). Please see info about [the
 
 Using RsyncOSX requires some knowledge of `rsync`. The main objective for RsyncOSX is to ease the use of `rsync`, not teach macOS users how to use `rsync`. That is beyond the scope of RsyncOSX. Setting the wrong parameters to rsync can result in deleted data. And RsyncOSX will not stop you for doing so. That is why it is very important to execute a simulated run (`--dry-run`) and inspect what happens before a real run.
 
+## Version 6.6.1
+
+This build is for **macOS Big Sur only**.
+
+[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.6.1) 21 June 2021.
+
+This is primarly a maintenance release, some cleanup in code and fixing one "bug" when adding configurations. Default now when adding a configuration is adding trailing `/`. This was by mistake not in the 6.6.0 release. Adding a trailing `/` to rsync or not makes two very different tasks.
+
 ## Version 6.6.0
 
 This build is for **macOS Big Sur only**.
