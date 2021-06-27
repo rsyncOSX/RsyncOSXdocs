@@ -9,7 +9,7 @@ lastmod = "2020-12-24"
 +++
 RsyncOSX is a GUI ontop of the command line utility `rsync`, no more no less. Rsync is a file-based tool for transferring and synchronization of files. RsyncOSX supports both synchronize and snapshot tasks. There is no custom solution for the synchronized archive. And you can quit utilizing RsyncOSX (and rsync) at any time and still have access to all synchronized files.
 
-All releases of RsyncOSX are [signed and notarized](/post/notarized/).
+All releases are [signed and notarized](/post/notarized/).
 
 - RsyncOSX is compiled with support for **macOS Catalina** and **macOS Big Sur** only
   - the latest version is [released here](https://github.com/rsyncOSX/RsyncOSX/releases)
@@ -70,11 +70,3 @@ Where does RsyncOSX [stores the config files](/post/configfiles/)?
 ## Compile
 
 And there is some info about [how to compile RsyncOSX](/post/compile/).
-
-# Why backup?
-
-The simple answer is recovery of lost data. There might be several reasons to loosing data, and I will not elaborate why you might risk loosing data. Computer crashes or restore deleted files is one obvious reason. But, there is another reason as well; a recovery from a ransomware attack. I have setup RsyncUI to synchronize, both normal synchronize and snapshots. One server is in house, the second is a remote server somewhere on the Internet. Data synchronized to the remote server is encrypyted before data is synchronized.
-
-Once my configurations are setup, I do backups utilizing RsyncUI every day. So, if I by some reason, has to execute a recovery I know where to find the most updated synchronized data for restore.
-
-I will never pay someone money to decrypt any data of mine. So, for your own protection, do regularly backups. There are tons of utilities for backups, RsyncUI is one. It is free and it is based on the rock solid utility `rsync`.

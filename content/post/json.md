@@ -57,6 +57,3 @@ for schedules
 ```bash
 ./rsyncosx/macserial/schedules.json
 ```
-## Returning to PLIST
-
-You can anytime go back to plist format. Select Transform or `⌘J` and select the `PLIST` button in main view. It saves the current configurations and schedules as plist format. In userconfig disable the `JSON` support and after restart plist is enablet.
