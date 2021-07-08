@@ -17,7 +17,7 @@ Using RsyncOSX requires some knowledge of `rsync`. The main objective for RsyncO
 
 This build is for **macOS Big Sur only**.
 
-[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.6.1) 24 June 2021.
+[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.6.2) 24 June 2021.
 
 - fixed a bug in adding new configurations on a new install of RsyncOSX or creating a new profile
 
