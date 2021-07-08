@@ -11,28 +11,14 @@ RsyncOSX supports read and write configurations and logs as [JSON](https://en.wi
 ```bash
 $Home/Documents/RsyncOSXcopy-$date-suffix
 ```
-## Important info if using RsyncOSX and RsyncUI in parallel
-
-RsyncOSX and RsyncUI can share datafiles for configurations, schedules and logs. But they do **not** share user settings. If utilizing version 3.x of rsync, it must be enabled in both apps. The following is required for setup of RsyncOSX if used in parallel with RsyncUI:
-
-- files **must** be stored in same location, see info about [RsyncOSX files](/post/configfiles/)
-- JSON **must** be enabled in RsyncOSX (see below)
-
-Files are store in the catalog
-```bash
-$HOME/.rsyncosx/macserialnumber/
-```
-Check the `About` where your version of RsyncOSX stores the files. RsyncOSX can assist, if required, to move files to new default location. More info in [RsyncOSX files](/post/configfiles/).
 
 ## Enabling JSON
 
-To enable JSON support is a **two step** process. There are three parts in the File menu dedicated for JSON support:
+To enable JSON support is a **two step** process. There are three parts in the **File menu** dedicated for JSON support:
 
 - Verfiy (JSON) (shortcut `⌃⌘V`) - verify either converted JSON or PLIST files
 - View output (shortcut `⌘O`) -  after a verify open the output and select Logfile
 - Transform (shortcut `⌘J`) - enables the transform button for either JSON or PLIST
-
-![](/images/RsyncOSX/master/json/filemenu.png)
 
 First task is select the `Transform` (or shortcut `⌘J`). The main view shows a `JSON` button (or a `PLIST` button). Selecting the button executes the transformation. The existing plist or JSON configurations are not changed.
 

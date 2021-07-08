@@ -18,9 +18,9 @@ Snapshot is not possible in a rsync daemon setup. For info about what a rsync da
 ## What is a snapshots?
 
 A snapshot is a saved state or backup of data at a specific point of time. Every snapshot is in sync with local catalog at the time of creating the snapshot. Previous versions of files can be restored from snapshots. The snapshot is by utilizing the `--link-dest` parameter to rsync. The rsync parameter for next snapshot to save is:
-
-`--link-dest=~/snapshots/n-1 /Volumes/user/data/ user@remote.server:~/snapshots/n`
-
+```bash
+--link-dest=~/snapshots/n-1 /Volumes/user/data/ user@remote.server:~/snapshots/n
+```
 where
 
 - `n` is the number of next snapshot to be saved
@@ -30,17 +30,28 @@ where
 
 If remote catalog is a local volume full path must be added. The source catalog is **never** touched, only read by rsync.
 
-RsyncOSX creates the snapshots within the remote catalog. The ~ is expanded to the user home catalog on remote server. Utilizing snapshot on local attached disks require full path for remote catalog.
+RsyncUI creates the snapshots within the remote catalog. The ~ is expanded to the user home catalog on remote server. Utilizing snapshot on local attached disks require full path for remote catalog.
 
-- `~/snapshots/1` - snapshot one
-  - a full sync when snapshot is created
-- `~/snapshots/2` - snapshot two
-  - the next snapshots saves the changed files and makes hard links for files not changed
-- ...
-- `~/snapshots/n-1` - snapshot n
-  - n-1 is the latest snapshot saved to disk
-- `~/snapshots/n` - snapshot n
-  - n is the latest snapshot to be saved
+- snapshot one
+- a full sync when snapshot is created
+```bash
+~/snapshots/1
+```  
+- snapshot two
+- the next snapshots saves the changed files and makes hard links for files not changed
+```bash
+~/snapshots/2
+```
+- snapshot n
+- n-1 is the latest snapshot saved to disk
+```bash
+~/snapshots/n-1
+```
+- snapshot n
+- n is the latest snapshot to be saved
+```bash
+`~/snapshots/n
+```  
 
 ## Create a snapshot
 
@@ -53,19 +64,29 @@ It seems like you have to disable `Ignore ownership on this volume` on local att
 
 ## Snapshot administration
 
-It is important to administrate snapshots. By administrate means deleting not relevant snapshots. If snapshots are never deleted the number of snapshots might become difficult to use. A snapshot is most likely used to restore old and deleted files. This is why a plan to administrate snapshots is important. RsyncOSX can assist you in this.
+## Snapshot administration
 
-To administrate snapshots select the snapshot tab. Deleting snapshots is a **destructive** operation and should be performed with care. It is important to have a plan about which snapshots to keep and which to delete. RsyncOSX utilizes a simple plan for delete and keep snapshots.
+It is important to administrate snapshots. By administrate means deleting not relevant snapshots. If snapshots are never deleted the number of snapshots might become difficult to use. A snapshot is most likely used to restore old and deleted files. This is why a plan to administrate snapshots is important. RsyncUI can assist you in this.
+
+Deleting snapshots is a **destructive** operation and should be performed with care. It is important to have a plan about which snapshots to keep and which to delete. RsyncUI utilizes a simple plan for delete and keep snapshots.
+
+## The plan for keep and delete
 
 Selecting the `Tag` button evaluates all snapshots based on the date withing the log record. Based and the selected plan and date, snapshots are either tagged with keep or delete. Snapshots which are tagged with delete are also preselected for delete. To actually delete the marked snapshots require to select the Delete button.
 
-![](/images/RsyncOSX/master/snapshots/snapshot.png)
+The plan is based upon three parts where the parameter `plan` has an effect on **previous months (and years)**:
 
-The plan is based upon three parts:
-
-- the current week
+- **the current week**
   - keep all the snapshots within the current week
-- the current month minus the current week
-  - keep all snapshots for the selected Day of week, e.g all snapshots every Sunday this month
-- previous months (and years)
+  - value of `plan` has no effect on the current week
+- **the current month** minus the current week
+  - keep **all snapshots** for the selected Day of week, e.g all snapshots every Sunday this month
+  - value of `plan` has no effect on the current month
+- **previous months (and years)**
   - keep the snapshot in the last week of month for selected Day of week, e.g the last Sunday in the month
+  - if `plan == Every`, keep for the selected Day of week, e.g all snapshots every Sunday, every week in previous period
+  - if `plan == Last`, keep for the selected Day of week, e.g all snapshots every last Sunday every month in previous period
+
+## Tagging and delete snapshots
+
+It is advised to cleanup the number of snapshots. Select a plan, tagg the snapshots and delete the snapshots which are marked for delete.

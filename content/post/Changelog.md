@@ -19,7 +19,7 @@ This build is for **macOS Big Sur only**.
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.6.1) 24 June 2021.
 
-- fix a bug in adding new configurations on a new install of RsyncOSX or creating a new profile
+- fixed a bug in adding new configurations on a new install of RsyncOSX or creating a new profile
 
 ## Version 6.6.1
 

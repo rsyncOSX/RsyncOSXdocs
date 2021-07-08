@@ -31,7 +31,7 @@ Utilizing RsyncOSX to synchronize files to remote servers requires some setup. T
 - [setup by ssh-keys](/post/ssh/)
 - [rsync daemon setup](/post/rsyncdaemon/)
 
-Snapshot is not possible with [rsync daemon setup](/post/rsyncdaemon/).
+Snapshots is **not** possible with rsync daemon setup.
 
 ## How to add and execute single tasks
 
