@@ -13,6 +13,10 @@ RsyncOSX is [signed and notarized](/post/notarized/). Please see info about [the
 
 Using RsyncOSX requires some knowledge of `rsync`. The main objective for RsyncOSX is to ease the use of `rsync`, not teach macOS users how to use `rsync`. That is beyond the scope of RsyncOSX. Setting the wrong parameters to rsync can result in deleted data. And RsyncOSX will not stop you for doing so. That is why it is very important to execute a simulated run (`--dry-run`) and inspect what happens before a real run.
 
+## Version 6.6.3 (24 July 2021)
+
+Is about to be released in **a few days**. It is a maintenance release with one bugfix and a few cleanups within the UI. The add view is cleaned up a little bit, profile info is moved to the sidebar. There are a few more things to fix before an update is released.
+
 ## Version 6.6.2
 
 This build is for **macOS Big Sur only**.
