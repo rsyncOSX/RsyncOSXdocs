@@ -15,13 +15,15 @@ Using RsyncOSX requires some knowledge of `rsync`. The main objective for RsyncO
 
 ## Version 6.6.3
 
+This build is for **macOS Big Sur and later**.
+
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.6.2) 25 July 2021.
 
-This is a maintenance release with **one** bugfix and a **few** cleanups within the UI. The add view is cleaned up a little bit, profile info is moved to the sidebar. There are a few more things to fix before an update is released.
+This is a maintenance release with **one** bugfix and a **few** cleanups within the UI. The add view is cleaned up a little bit, profile info is moved to the sidebar.
 
 ## Version 6.6.2
 
-This build is for **macOS Big Sur only**.
+This build is for **macOS Big Sur and later**.
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.6.2) 24 June 2021.
 
@@ -29,7 +31,7 @@ This build is for **macOS Big Sur only**.
 
 ## Version 6.6.1
 
-This build is for **macOS Big Sur only**.
+This build is for **macOS Big Sur and later**.
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.6.1) 21 June 2021.
 
@@ -37,7 +39,7 @@ This is primarly a maintenance release, some cleanup in code and fixing one "bug
 
 ## Version 6.6.0
 
-This build is for **macOS Big Sur only**.
+This build is for **macOS Big Sur and later**.
 
 [Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.8) 6 June 2021
 
