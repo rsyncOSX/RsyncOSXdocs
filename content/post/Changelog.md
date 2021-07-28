@@ -13,6 +13,14 @@ RsyncOSX is [signed and notarized](/post/notarized/). Please see info about [the
 
 Using RsyncOSX requires some knowledge of `rsync`. The main objective for RsyncOSX is to ease the use of `rsync`, not teach macOS users how to use `rsync`. That is beyond the scope of RsyncOSX. Setting the wrong parameters to rsync can result in deleted data. And RsyncOSX will not stop you for doing so. That is why it is very important to execute a simulated run (`--dry-run`) and inspect what happens before a real run.
 
+## Issue sync remote task
+
+Date: 28 July 2021
+
+There is an issue with adding `syncremote` tasks in version 6.6.3. A syncremote task is pulling data from a remote server to local Mac.
+
+Will be fixed in some days.
+
 ## Version 6.6.3
 
 This build is for **macOS Big Sur and later**.
