@@ -13,19 +13,21 @@ RsyncOSX is [signed and notarized](/post/notarized/). Please see info about [the
 
 Using RsyncOSX requires some knowledge of `rsync`. The main objective for RsyncOSX is to ease the use of `rsync`, not teach macOS users how to use `rsync`. That is beyond the scope of RsyncOSX. Setting the wrong parameters to rsync can result in deleted data. And RsyncOSX will not stop you for doing so. That is why it is very important to execute a simulated run (`--dry-run`) and inspect what happens before a real run.
 
-## Issue sync remote task
+## Issue sync remote task - fixed
 
-Date: 28 July 2021
+Date: 29 July 2021
 
 There is an issue with adding `syncremote` tasks in version 6.6.3. A syncremote task is pulling data from a remote server to local Mac.
 
 The issue was caused only by a missing connection between a `@IBOutlet` variable and a `@IBAction` function. This is one of the drawbacks with storyboards. The connection must be established and somewhere during the cleanup of the UI the connection was dropped. And nothing was informing me about it was missing.
 
+There is [released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.6.3) a version 6.6.4 which fixes the issue. The issue is **only** when creating **new** `syncremote` and `snapshot` task.
+
 ## Version 6.6.3
 
 This build is for **macOS Big Sur and later**.
 
-[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.6.2) 25 July 2021.
+[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.6.3) 25 July 2021.
 
 This is a maintenance release with **one** bugfix and a **few** cleanups within the UI. The add view is cleaned up a little bit, profile info is moved to the sidebar.
 
