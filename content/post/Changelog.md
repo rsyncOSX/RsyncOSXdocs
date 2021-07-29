@@ -19,7 +19,7 @@ Date: 28 July 2021
 
 There is an issue with adding `syncremote` tasks in version 6.6.3. A syncremote task is pulling data from a remote server to local Mac.
 
-Will be fixed in some days.
+The issue was caused only by a missing connection between a `@IBOutlet` variable and a `@IBAction` function. This is one of the drawbacks with storyboards. The connection must be established and somewhere during the cleanup of the UI the connection was dropped. And nothing was informing me about it was missing.
 
 ## Version 6.6.3
 
