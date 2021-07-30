@@ -23,13 +23,13 @@ The development of RsyncOSX and RsyncUI will continue to be one of my prioritize
 
 - [RsyncUI](https://github.com/rsyncOSX/RsyncUI) a GUI for rsync
 
-This app is compiled for **macOS Big Sur** and later.
+This app is compiled for **macOS Monterey**.
 
-## Swift and Storyboards
+## Swift and Storyboard
 
 - [RsyncOSX](https://github.com/rsyncOSX/RsyncOSX) a GUI for rsync
 
-This app is compiled with support for macOS 10.15 - latest version of macOS.
+This app is compiled with support for **macOS Big Sur** and later.
 
 ## Me
 
