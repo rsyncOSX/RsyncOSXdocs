@@ -17,7 +17,7 @@ For the moment I am a senior advicer at a university. I will, early in 2022 at t
 
 RsyncOSX and RsyncUI is **not** professional software. There is only one developer, me, and I am doing what I can to keep the applications as stable and userfriendly as possible. I am not a UI designer and some user might find the UI complicated and less userfriendly.
 
-The development of RsyncOSX and RsyncUI will continue to be one of my prioritized hobbies. A long as there are users of it I will continue developing.  If you like using RsyncOSX or RsyncUI please consider giving me a star on the GitHub repository. Every single star is a motivation for me to continue developing and keep the apps updated for the latest version of macOS.
+The development of RsyncOSX and RsyncUI will continue to be one of my prioritized hobbies. As long as there are users of the apps I will continue developing.  If you like using RsyncOSX or RsyncUI please consider giving me a star on the GitHub repository. Every single star is a motivation for me to continue developing and keep the apps updated for the latest version of macOS.
 
 ## SwiftUI based
 

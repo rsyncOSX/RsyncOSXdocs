@@ -11,8 +11,7 @@ RsyncOSX is a GUI ontop of the command line utility `rsync`, no more no less. Rs
 
 All releases are [signed and notarized](/post/notarized/).
 
-- the latest version of RsyncOSX is compiled with support for **macOS Big Sur** only
-  - it is [released here](https://github.com/rsyncOSX/RsyncOSX/releases)
+- the [latest version](https://github.com/rsyncOSX/RsyncOSX/releases) of RsyncOSX is compiled with support for **macOS Big Sur** only
 - RsyncOSX is built as [Universal macOS Binary](https://developer.apple.com/documentation/xcode/building_a_universal_macos_binary).
 
 RsyncOSX can also be installed by homebrew
@@ -22,14 +21,14 @@ brew install --cask rsyncosx
 
 ## The changelog
 
-There is a [changelog](/post/changelog/). Also please see info about [the latest version of rsync to install.](/post/rsync/) Before commencing use of RsyncOSX [there are a few important words to read](/post/important/).
+There is a [changelog](/post/changelog/). Also please see info about [the latest version of rsync](/post/rsync/) to install. Before commencing use of RsyncOSX there are a few [important words to read](/post/important/).
 
 ## How to setup remote servers
 
 Utilizing RsyncOSX to synchronize files to remote servers requires some setup. There are two options to setup [passwordless logins](/post/remotelogins/). The advised setup is by utilizing ssh-keys.
 
-- [setup by ssh-keys](/post/ssh/)
-- [rsync daemon setup](/post/rsyncdaemon/)
+- by [ssh-keys](/post/ssh/)
+- by [rsync daemon setup](/post/rsyncdaemon/)
 
 Snapshots is **not** possible with rsync daemon setup.
 
@@ -37,23 +36,23 @@ Snapshots is **not** possible with rsync daemon setup.
 
 It is easy to add a first configuration and execute your first synchronize task.
 
-- [add configurations](/post/addconfigurations/)
-- [executing single tasks](/post/singletask/)
+- add [configurations](/post/addconfigurations/)
+- executing [single tasks](/post/singletask/)
 
 ## How to add parameters to rsync
 
 Rsync has a ton of parameters. In user selected parameters you can add your own additional parameters to rsync. There is also a set of default rsync parameters.
 
-- [user selected parameters](/post/userparameters/)
-- [default parameters](/post/rsyncparameters)
+- user selected [parameters](/post/userparameters/)
+- default [parameters](/post/rsyncparameters)
 
 ## Snapshots, quick backup and scheduling
 
 Snapshot is an effective method for saving changes and deleted files. You can also execute a group of tasks. If you want to schedule daily or weekly synchronize or snapshot tasks, add a schedule in RsyncOSX and execute by the menu app.
 
-- utilizing the [snapshot feature](/post/snapshots/)
-- utilizing the [quick synchronize feature](/post/quickbackup/)
-- [scheduling of tasks](/post/scheduletasks/)
+- utilizing [the snapshot](/post/snapshots/) feature
+- utilizing [the quick synchronize](/post/quickbackup/) feature
+- scheduling of [tasks](/post/scheduletasks/)
 
 ## How to restore
 
