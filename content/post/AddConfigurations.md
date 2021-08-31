@@ -55,7 +55,7 @@ The main objective for the assist function is to ease adding configurations. Ass
 
 - the name of all catalogs within your home directory
 - the path of your home directory
-- and if there is added tasks, remote server and remote user from the current profile
+- and if there are added tasks, remote server and remote user from the current profile
 
 There is not possible to save, change or delete values in assist.
 
@@ -67,8 +67,3 @@ Selecting `Local` or `Remote` transfer the data to the add new configrations scr
 - Remote server (in Add view): `Remote computers`
 
 ![](/images/RsyncOSX/master/add/assist.png)
-
-- `Local home`: your home catalog
-- `Catalogs`: catalogs to synchronize, the catalog is added to `Local home` and `Remote home`.
-- `Remote users`: remote username if `Remote computers` are used.
-- `Remote computers`: name or IP-adress of remote computer

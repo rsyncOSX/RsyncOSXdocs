@@ -64,8 +64,6 @@ It seems like you have to disable `Ignore ownership on this volume` on local att
 
 ## Snapshot administration
 
-## Snapshot administration
-
 It is important to administrate snapshots. By administrate means deleting not relevant snapshots. If snapshots are never deleted the number of snapshots might become difficult to use. A snapshot is most likely used to restore old and deleted files. This is why a plan to administrate snapshots is important. RsyncUI can assist you in this.
 
 Deleting snapshots is a **destructive** operation and should be performed with care. It is important to have a plan about which snapshots to keep and which to delete. RsyncUI utilizes a simple plan for delete and keep snapshots.
