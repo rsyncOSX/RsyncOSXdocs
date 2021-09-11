@@ -15,13 +15,11 @@ Using RsyncOSX requires some knowledge of `rsync`. The main objective for RsyncO
 
 ## Version 6.6.4 - issue sync remote task - fixed
 
-Date: 29 July 2021
+Date: 11 September 2021
 
 There is an issue with adding `syncremote` tasks in version 6.6.3. A syncremote task is pulling data from a remote server to local Mac.
 
 The issue was caused only by a missing connection between a `@IBOutlet` variable and a `@IBAction` function. This is one of the drawbacks with storyboards. The connection must be established and somewhere during the cleanup of the UI the connection was dropped. And nothing was informing me about it was missing.
-
-There is [released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.6.3) a version 6.6.4 which fixes the issue. The issue is **only** when creating **new** `syncremote` and `snapshot` task.
 
 ## Version 6.6.3
 
