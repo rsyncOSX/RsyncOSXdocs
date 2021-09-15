@@ -40,10 +40,12 @@ The ssh functions assist in two methods:
 ```bash
 ~/.ssh_rsyncosx/rsyncosx
 ```
-If creating a new public ssh key pair based upon default ssh values for RSA based key, RsyncOSX does not add any parameters to the rsync command because this is default values. Ssh parameters to the rsync command is only added if the second method is choosed.
+If creating a new public ssh key pair based upon default ssh values for RSA based key, RsyncOSX does not add any parameters to the rsync command because this is default values. Ssh parameters to the rsync command is only added if the second method is chosen.
 
-The following is the command for creating a new, alternative private and public ssh key pair:
+The following commands for creating a new, alternative private and public ssh key pair:
 ```bash
+cd
+mkdir .ssh_rsyncosx
 ssh-keygen -t rsa -N "" -f ~/.ssh_rsyncosx/rsyncosx
 ```
 - `-t rsa ""` generates a RSA based key-pair
