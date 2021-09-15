@@ -52,7 +52,6 @@ ssh-keygen -t rsa -N "" -f ~/.ssh_rsyncosx/rsyncosx
 - `-N ""` sets no password
 - where `~/.ssh_rsyncosx/rsyncosx` is set by the user
 
-
 The following command copy the newly created public key to the server:
 ```bash
 ssh-copy-id -i /Users/thomas/.ssh_rsyncosx/rsyncosx -p NN user@server
