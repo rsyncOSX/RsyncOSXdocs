@@ -7,7 +7,7 @@ categories = ["general information"]
 description = "Where does RsyncOSX stores the various configuration files."
 lastmod = "2020-10-23"
 +++
-RsyncOSX stores its configurations, schedules and log records as [JSON](https://en.wikipedia.org/wiki/JSON) files. The storage of config files is default in.
+RsyncOSX stores its configurations, schedules and log records as [JSON](https://en.wikipedia.org/wiki/JSON) files. The storage of those files is:
 ```bash
 $HOME/.rsyncosx/macserialnumber
 ```
