@@ -4,10 +4,10 @@ date = "2020-04-16"
 title =  "Execute several tasks"
 tags = ["quickbackup"]
 categories = ["synchronize"]
-description = "How to execute severeal synchronize tasks."
+description = "How to execute several synchronize tasks."
 lastmod = "2020-12-13"
 +++
-There are three options for executing several synchroniz tasks. The three toolbar buttons are:
+There are three options for executing several synchronize tasks. The three toolbar buttons are:
 
 Search for all tasks with files to synchronize and execute.
 
