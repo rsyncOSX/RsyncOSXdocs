@@ -17,6 +17,8 @@ Using RsyncOSX requires some knowledge of `rsync`. The main objective for RsyncO
 
 In the last release, the spacing between rows within the status view quick tasks (estimating and executing all tasks in one go), are somewhat odd. The last release was build and notarized by **Xode 13b5** and it seems like this version of Xcode does something which is not expected with the spacing. This will be fixed in next release. Build by **Xcode 12.5.1** everything looks like it should.
 
+There is uploaded an updated dmg, RsyncOSX_fixed_6.6.5, which fixed the UI glitch.
+
 ## Version 6.6.5
 
 Date: 18 September 2021
