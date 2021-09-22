@@ -13,11 +13,11 @@ RsyncOSX is [signed and notarized](/post/notarized/). Please see info about [the
 
 Using RsyncOSX requires some knowledge of `rsync`. The main objective for RsyncOSX is to ease the use of `rsync`, not teach macOS users how to use `rsync`. That is beyond the scope of RsyncOSX. Setting the wrong parameters to rsync can result in deleted data. And RsyncOSX will not stop you for doing so. That is why it is very important to execute a simulated run (`--dry-run`) and inspect what happens before a real run.
 
-## Info about last release
+## Version 6.6.7
 
-In the last release, the spacing between rows within the status view quick tasks (estimating and executing all tasks in one go), are somewhat odd. The last release was build and notarized by **Xode 13b5**. It seems like this version of Xcode does something which is not expected with the spacing. It does only happens within this view.
+Date: 22 September 2021
 
-There is uploaded an updated dmg, RsyncOSX_fixed_6.6.5, which fixes the glitch for users who want to update. The only changes in this dmg is fixing the spacing beteen lines.
+There are a couple of UI-fixes within this release. The release is also build by the Xcode 13 which was released yesterday.
 
 ## Version 6.6.5
 
