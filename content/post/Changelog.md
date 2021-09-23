@@ -1,7 +1,7 @@
 +++
 author = "Thomas Evensen"
 title = "The RsyncOSX changelog"
-date = "2020-04-23"
+date = "2021-04-23"
 description = "Changelog"
 tags = ["rsyncosx"]
 categories = ["changelog"]

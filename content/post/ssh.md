@@ -1,6 +1,6 @@
 +++
 author = "Thomas Evensen"
-date = "2020-04-16"
+date = "2021-04-16"
 title =  "Passwordless logins by ssh-keys."
 tags = ["passwordless","ssh keypath and identity file"]
 # categories = ["remotelogins"]

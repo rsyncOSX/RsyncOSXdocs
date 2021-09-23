@@ -1,7 +1,7 @@
 +++
 author = "Thomas Evensen"
 title = "Important about RsyncOSX"
-date = "2020-04-23"
+date = "2021-04-23"
 description = "Important about RsyncOSX"
 tags = ["important"]
 categories = ["general information"]

@@ -1,6 +1,6 @@
 +++
 author = "Thomas Evensen"
-date = "2020-04-16"
+date = "2021-04-16"
 title =  "Execute single tasks"
 tags = ["single task","edit tasks", "user rsync parameters"]
 categories = ["synchronize"]

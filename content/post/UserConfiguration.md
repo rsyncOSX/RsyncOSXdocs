@@ -1,6 +1,6 @@
 +++
 author = "Thomas Evensen"
-date = "2020-04-16"
+date = "2021-04-16"
 title =  "User configuration"
 tags = ["userconfig"]
 categories = ["general information"]
