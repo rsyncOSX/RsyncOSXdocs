@@ -43,20 +43,20 @@ It is easy to add a first configuration and execute your first synchronize task.
 
 Rsync has a ton of parameters. In user selected parameters you can add your own additional parameters to rsync. There is also a set of default rsync parameters.
 
-- user selected [parameters](/post/userparameters/)
 - default [parameters](/post/rsyncparameters)
+- user selected [parameters](/post/userparameters/)
 
-## Snapshots, quick backup and scheduling
+## Snapshots, execute several tasks and scheduling
 
 Snapshot is an effective method for saving changes and deleted files. You can also execute a group of tasks. If you want to schedule daily or weekly synchronize or snapshot tasks, add a schedule in RsyncOSX and execute by the menu app.
 
 - utilizing [the snapshot](/post/snapshots/) feature
-- utilizing [the quick synchronize](/post/quickbackup/) feature
+- synchronize [several tasks](/post/severaltasks/)
 - scheduling of [tasks](/post/scheduletasks/)
 
-## How to restore
+## Restore of files
 
-Sometimes you need to restore files. Either execute [a full restore or file by file](/post/restore/).
+Sometimes you need to [restore files](/post/restore/).
 
 ## User configuration
 
