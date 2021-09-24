@@ -2,7 +2,7 @@
 author = "Thomas Evensen"
 date = "2021-04-16"
 title =  "Execute several tasks"
-tags = ["quickbackup"]
+tags = ["severaltasks"]
 categories = ["synchronize"]
 description = "How to execute several synchronize tasks."
 lastmod = "2020-12-13"
