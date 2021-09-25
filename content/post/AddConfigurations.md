@@ -14,28 +14,28 @@ There is also an [Assist function](/post/addconfigurations/#assist) which picks 
 ![](/images/RsyncOSX/master/add/add.png)
 
 ### Catalog parameters
+- **Task**
+  - synchronize, which is default and keeps source and destination in sync
+  - [snapshots](/post/snapshots/), save changes and deletes ahead of a synchronize
+  - syncremote, remote is source, synchronize a remote source to a local volume
+
 - **Local catalog**: required field
 - **Remote catalog**: required field
   - the backup catalog might also be a local catalog on a local attached disk
 
+- **ID**:
+  - informal tag for the configuration
 
-### Remote parameters
+- **Dont´t add**: `/`
+  §- by default a trailing `/` is added to both source and destination
+
+### Remote server parameters
 - **Remote username**:
   - username for login to remote server
 - **Remote server**:
   - either server name or IP-address for remote server
-- **ID**:
-  - informal tag for the configuration
 
-### Task
-- synchronize, which is default and keeps source and destination in sync
-- [snapshots](/post/snapshots/), save changes and deletes ahead of a synchronize
-- syncremote, remote is source, synchronize a remote source to a local volume
-- **Dont´t add**: `/`
-  - by default a trailing `/` is added to both source and destination
-
-
-### Shell scripts
+### Optional pre and post task
 
 The shell scripts names and locations is selected by the user.
 
