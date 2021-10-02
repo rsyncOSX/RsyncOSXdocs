@@ -50,7 +50,7 @@ Within the edit view:
 
 - prefix username `rsync://username`, remember the double `//`
 
-![](/images/RsyncOSX/master/rsyncdaemon/edit.png)
+{{< image src="/images/RsyncOSX/master/rsyncdaemon/edit.png" alt="" position="center" style="border-radius: 8px;" >}}
 
 
 Within the parameter view:
@@ -66,4 +66,4 @@ All actions is within the parameter view:
 - add a full path to the file with password, `--password-file=/Users/thomas/passord.txt`, remember to set `chmod 600` on the password file
 - delete the `-e ssh` parameter
 
-![](/images/RsyncOSX/master/rsyncdaemon/rsyncdaemon.png)
+{{< image src="/images/RsyncOSX/master/rsyncdaemon/rsyncdaemon.png" alt="" position="center" style="border-radius: 8px;" >}}

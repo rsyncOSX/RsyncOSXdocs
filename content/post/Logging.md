@@ -15,4 +15,4 @@ Log records can be selected for delete as well. To filter a log record select th
 
 The snap button marks logs for delete. It is only valid for snapshots. The marked logs are log records where the appropriate snapshot catalog is cleaned and deleted. Snapshots are cleand within the [snapshot tab](/post/snapshots/).
 
-![](/images/RsyncOSX/master/logging/logs.png)
+{{< image src="/images/RsyncOSX/master/logging/logs.png" alt="" position="center" style="border-radius: 8px;" >}}

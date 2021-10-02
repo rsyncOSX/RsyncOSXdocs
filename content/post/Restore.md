@@ -27,7 +27,7 @@ You can restore single file or catalogs by a double click in the right table, if
 
 A full restore might be restored to the original source catalog on the Mac. It is not advised to do so. Always execute a restore to the temporary restore path.
 
-![](/images/RsyncOSX/master/restore/restore.png)
+{{< image src="/images/RsyncOSX/master/restore/restore.png" alt="" position="center" style="border-radius: 8px;" >}}
 
 The button `Do the real thing:` must be checked before a restore can be executed (after an estimation run). If not only a simulation message is shown.
 

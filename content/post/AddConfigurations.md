@@ -11,7 +11,7 @@ A configuration require minimum a **local catalog** and a **remote catalog**. Af
 
 There is also an [Assist function](/post/addconfigurations/#assist) which picks up your local catalogs. You can also add your remote info for easy to add new tasks.
 
-![](/images/RsyncOSX/master/add/add.png)
+{{< image src="/images/RsyncOSX/master/add/add.png" alt="" position="center" style="border-radius: 8px;" >}}
 
 ### Catalog parameters
 - **Task**
@@ -66,4 +66,4 @@ Selecting `Local` or `Remote` transfer the data to the add new configrations scr
 - Remote username (in Add view): `Remote users`
 - Remote server (in Add view): `Remote computers`
 
-![](/images/RsyncOSX/master/add/assist.png)
+{{< image src="/images/RsyncOSX/master/add/assist.png" alt="" position="center" style="border-radius: 8px;" >}}

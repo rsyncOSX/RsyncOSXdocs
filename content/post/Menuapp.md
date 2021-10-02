@@ -24,16 +24,16 @@ Selecting the Home icon (house) quits the menu app and automatically opens Rsync
 
 The menu app submits a notification when a scheduled tasks are completed. A scheduled task is either of type once, daily or weekly. If there are tasks waiting to be executed, the status light will be green. Both `synchronize`and `snapshot` tasks can be executed as scheduled tasks.
 
-![](/images/RsyncOSX/master/menuapp/menuapp1.png)
+{{< image src="/images/RsyncOSX/master/menuapp/menuapp1.png" alt="" position="center" style="border-radius: 8px;" >}}
 
 ## Active tasks
 
 Active scheduled tasks.
 
-![](/images/RsyncOSX/master/menuapp/menuapp3.png)
+{{< image src="/images/RsyncOSX/master/menuapp/menuapp3.png" alt="" position="center" style="border-radius: 8px;" >}}
 
 ## Logging
 
 There is a minimal logging in the menu app. The menu app logs the major actions within the menu app.
 
-![](/images/RsyncOSX/master/menuapp/menuapp2.png)
+{{< image src="/images/RsyncOSX/master/menuapp/menuapp2.png" alt="" position="center" style="border-radius: 8px;" >}}

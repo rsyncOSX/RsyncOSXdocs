@@ -13,7 +13,7 @@ From macOS 10.15 Catalina, [notarizing is required for all software](https://dev
 
 This is the message when opening a downloaded version.
 
-![](/images/RsyncOSX/master/notarize/verify.png)
+{{< image src="/images/RsyncOSX/master/notarize/verify.png" alt="" position="center" style="border-radius: 8px;" >}}
 
 The message is "Apple checked it for malicious software and none was detected." You can also verify the signing by utilizing xcode developer tools. If you have Xcode developer tools installed, by executing the following command you can verify the following apps:
 

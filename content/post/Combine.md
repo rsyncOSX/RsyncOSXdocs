@@ -34,12 +34,12 @@ Check the About (in RsyncOSX) where RsyncOSX stores the configfiles:
 ```bash
 /Users/thomas/.rsyncosx/macserialnumber
 ```
-![](/images/RsyncOSX/master/combine/about.png)
+{{< image src="/images/RsyncOSX/master/combine/about.png" alt="" position="center" style="border-radius: 8px;" >}}
 
 If you dont see any configurations after start?
 
-![](/images/RsyncOSX/master/combine/empty.png)
+{{< image src="/images/RsyncOSX/master/combine/empty.png" alt="" position="center" style="border-radius: 8px;" >}}
 
 In the file menu choose Convert, then choose Convert again and the magic happens. RsyncOSX will **terminate itself** after conversion of files. Restart and files are converted.
 
-![](/images/RsyncOSX/master/combine/converted.png)
+{{< image src="/images/RsyncOSX/master/combine/converted.png" alt="" position="center" style="border-radius: 8px;" >}}

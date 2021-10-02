@@ -35,4 +35,4 @@ This app is compiled with support for **macOS Big Sur** and later.
 
 This is me on a cross country ski trip in the Norwegian mountains in April 2021. Another, for me, important activity is [outdoor life in the Norwegian mountains](https://toppturer.netlify.app/), summer and winter.
 
- ![](/images/me.png)
+ {{< image src="/images/me.png" alt="" position="center" style="border-radius: 8px;" >}}

@@ -9,7 +9,7 @@ lastmod = "2020-12-13"
 +++
 In Synchronize view (which is the opening view) tasks can be executed as singletasks. Execute single tasks requires a couple of double clicks: one for **estimation** run and the second for **executing** the real task. The output from rsync is presented after each run.
 
-![](/images/RsyncOSX/master/synchronize/synchronize.png)
+{{< image src="/images/RsyncOSX/master/synchronize/synchronize.png" alt="" position="center" style="border-radius: 8px;" >}}
 
 The `Shell` column is on, it indicates there is attached shell scripts to the task, also see more info about shell scripts in the [add configuration](/post/addconfigurations/).
 
@@ -23,26 +23,26 @@ If Abort is pressed any executing task is aborted.
 
 Using either two fingers on the touchpad or a finger on the mouse, slide to the left will execute a single task. If the task is estimated a progressbar will pop up.
 
-![](/images/RsyncOSX/master/singletask/executeleft.png)
+{{< image src="/images/RsyncOSX/master/singletask/executeleft.png" alt="" position="center" style="border-radius: 8px;" >}}
 
 Sliding to the right will delete a record. Every delete must be confirmed before delete.
 
-![](/images/RsyncOSX/master/singletask/deleteright.png)
+{{< image src="/images/RsyncOSX/master/singletask/deleteright.png" alt="" position="center" style="border-radius: 8px;" >}}
 
 
 ## Edit and params
 
 The edit enables changing the basic info about the task. The user can add, edit, enable and disable executing shell commands to the synchronize task.
 
-![](/images/RsyncOSX/master/singletask/edit.png)
+{{< image src="/images/RsyncOSX/master/singletask/edit.png" alt="" position="center" style="border-radius: 8px;" >}}
 
 The params enables access to add and change parameters to rsync. See more info about [default parameters](/post/rsyncparameters) and [user selected parameters](/post/userparameters/).
 
-![](/images/RsyncOSX/master/userparameters/userparameters.png)
+{{< image src="/images/RsyncOSX/master/userparameters/userparameters.png" alt="" position="center" style="border-radius: 8px;" >}}
 
 ## View output
 
 Selecting the output icon upper left corner in main view presents a view of either output from rsync or the logfile. You can switch the view by the toggle switch in left bottom. The `Copy` button copies to macOS clipboard and the `New` button creates a new logfile.
 
-![](/images/RsyncOSX/master/singletask/rsyncoutput.png)
-![](/images/RsyncOSX/master/singletask/logfile.png)
+{{< image src="/images/RsyncOSX/master/singletask/rsyncoutput.png" alt="" position="center" style="border-radius: 8px;" >}}
+{{< image src="/images/RsyncOSX/master/singletask/logfile.png" alt="" position="center" style="border-radius: 8px;" >}}
