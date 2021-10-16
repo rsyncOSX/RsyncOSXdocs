@@ -13,6 +13,10 @@ RsyncOSX is [signed and notarized](/post/notarized/). Please see info about [the
 
 Using RsyncOSX requires some knowledge of `rsync`. The main objective for RsyncOSX is to ease the use of `rsync`, not teach macOS users how to use `rsync`. That is beyond the scope of RsyncOSX. Setting the wrong parameters to rsync can result in deleted data. And RsyncOSX will not stop you for doing so. That is why it is very important to execute a simulated run (`--dry-run`) and inspect what happens before a real run.
 
+## Version 6.6.8 - not yet released
+
+The work on this release has commenced. It will not be released before December 2021 or January 2022. There will be some minor cleanup of GUI, but the major work is internal. There might be several hundred or thousands of logrecords. Reading and loading logrecords into memory is moved to when they are needed. And not when the app is started or a new profile is selected. The change will improve memory footprint and speed up the application.
+
 ## Version 6.6.7
 
 Date: 22 September 2021
