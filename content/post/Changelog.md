@@ -15,7 +15,9 @@ Using RsyncOSX requires some knowledge of `rsync`. The main objective for RsyncO
 
 ## Version 6.6.8 - not yet released
 
-The work on this release has commenced. It will not be released before December 2021 or January 2022. There will be some minor cleanup of GUI, but the major work is internal. There might be several hundred or thousands of logrecords. Reading and loading logrecords into memory is moved to when they are needed. And not when the app is started or a new profile is selected. The change will improve memory footprint and speed up the application.
+The work on **version 6.6.8** is commenced. There will be some minor cleanup of GUI, but the major work is internal. There might be several hundred or thousands of logrecords. Reading and loading logrecords into memory is moved to when they are needed. And not when the app is started or a new profile is selected. The change will improve memory footprint and speed up the application.
+
+This version will probably be released sometime in December 2021.
 
 ## Version 6.6.7
 
