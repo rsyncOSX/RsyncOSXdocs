@@ -15,9 +15,11 @@ Using RsyncOSX requires some knowledge of `rsync`. The main objective for RsyncO
 
 ## Version 6.6.8 release candidate
 
-Date 29 October 2021
+Date: 29 October 2021
 
-The work on **version 6.6.8** is commenced. There will be some minor cleanup of GUI, but the **major work is internal**. There might be several hundred or thousands of log records. Reading and loading log records into memory is moved to when they are needed. And not when the app is started or a new profile is selected. The change will improve memory footprint and speed up the application.
+Compiled on Apple Silicon (M1 Pro) by Xcode 13.1 as a Universal macOS Binary.
+
+There is some minor cleanup of GUI, but the **major work is internal**. There might be several hundred or thousands of log records. Reading and loading log records into memory is moved to when they are needed. And not when the app is started or a new profile is selected. The change will improve memory footprint and speed up the application.
 
 ## Version 6.6.7
 
