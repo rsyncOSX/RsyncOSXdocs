@@ -15,9 +15,9 @@ Using RsyncOSX requires some knowledge of `rsync`. The main objective for RsyncO
 
 ## Version 6.6.8 release candidate
 
-Date: 29 October 2021
+Updated: 30 October 2021 - compiled on Apple Silicon (M1 Pro) by Xcode 13.1 as a Universal macOS Binary.
 
-Compiled on Apple Silicon (M1 Pro) by Xcode 13.1 as a Universal macOS Binary.
+The updated version discover if you are on a Apple Silicon and enables the correct path for Homebrew if version 3 of rsync is ticked on.
 
 There is some minor cleanup of GUI, but the **major work is internal**. There might be several hundred or thousands of log records. Reading and loading log records into memory is moved to when they are needed. And not when the app is started or a new profile is selected. The change will improve memory footprint and speed up the application.
 
