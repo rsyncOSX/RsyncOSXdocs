@@ -12,11 +12,11 @@ There are a few parameters to choose in user configuration. Parameters are saved
 
 ## Rsync
 
- - v 3.1.2, 3.1.3, 3.2.x rsync - set optional path if **NOT** in /usr/local/bin
-   	- any version of rsync should work, but only version 2.6.9, 3.1.3 and 3.2.x are tested and verified
-    - [utilizing the snapshot feature](/post/snapshots/) require either version 3.1.3 or 3.2.x of rsync
+ - v3.2.x rsync - set optional path if NOT by Homebrev
+   	- any version of rsync should work, but only version 2.6.9 and 3.2.x are tested and verified
+    - [utilizing the snapshot feature](/post/snapshots/) require version 3.2.x of rsync
 - optional path for rsync:
-    - if other version of rsync is installed in other path than /usr/local/bin it must be set here
+    - if utilized version of rsync is **not** installed by Homebrew set path to rsync
 - temporary path restore:
     - preset temporary path for restoring single files and catalogs
     - preset temporary path for a full restore
@@ -106,5 +106,5 @@ It is possible to enter an environment variable to the process which executes th
 The `Backup` function copies all configurations and logs as a backup to your
 ```bash
 $HOME/Documents/RsyncOSXcopy-$date-suffix
-``` 
+```
 Viewing the catalog in Finder might show an empty catalog. The catalog is not empty, the configurations are saved as `.rsyncosx/macserialnumber` and Finder might not show `.` catalogs.
