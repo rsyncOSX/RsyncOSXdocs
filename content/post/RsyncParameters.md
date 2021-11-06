@@ -30,7 +30,7 @@ The following parameters are for networked tasks only. A networked task is a tas
 
 There are two parameters to set for ssh. The local ssh parameters overrides global ssh parameters set in the [user config](/post/userconfiguration/).
 
-- ssh port, set if ssh uses other port than standard port 22
+- ssh port, set if ssh uses other port than standard port `22`
 - the ssh keypath and identity file, normally this is `.ssh/id_rsa`, set name only if other keypath and identity file to be used by ssh
 
 ## User selected Parameters
