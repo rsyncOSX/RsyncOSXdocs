@@ -18,6 +18,7 @@ Using RsyncOSX requires some knowledge of `rsync`. The main objective for RsyncO
 Updated: 11 Nov 2021 - compiled on Apple Silicon (M1 Pro) by Xcode 13.1 as a Universal macOS Binary.
 
 Build 10 -> 11 - in Add view added GUI panel in selecting catalogs to synchronize
+
 Build 9 -> 10 - fixed display correct profile in main view.
 
 The updated version discover if you are on a Apple Silicon and enables the correct path for Homebrew if version 3 of rsync is ticked on.
