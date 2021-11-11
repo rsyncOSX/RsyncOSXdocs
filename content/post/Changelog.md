@@ -13,10 +13,11 @@ RsyncOSX is [signed and notarized](/post/notarized/). Please see info about [the
 
 Using RsyncOSX requires some knowledge of `rsync`. The main objective for RsyncOSX is to ease the use of `rsync`, not teach macOS users how to use `rsync`. That is beyond the scope of RsyncOSX. Setting the wrong parameters to rsync can result in deleted data. And RsyncOSX will not stop you for doing so. That is why it is very important to execute a simulated run (`--dry-run`) and inspect what happens before a real run.
 
-## Version 6.6.8 build (10) release candidate
+## Version 6.6.8 build (11) release candidate
 
-Updated: 4 Nov 2021 - compiled on Apple Silicon (M1 Pro) by Xcode 13.1 as a Universal macOS Binary.
+Updated: 11 Nov 2021 - compiled on Apple Silicon (M1 Pro) by Xcode 13.1 as a Universal macOS Binary.
 
+Build 10 -> 11 - in Add view added GUI panel in selecting catalogs to synchronize
 Build 9 -> 10 - fixed display correct profile in main view.
 
 The updated version discover if you are on a Apple Silicon and enables the correct path for Homebrew if version 3 of rsync is ticked on.
