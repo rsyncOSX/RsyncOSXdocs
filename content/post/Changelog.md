@@ -22,7 +22,6 @@ Compiled on Apple Silicon (M1 Pro) by Xcode 13.1 as a Universal macOS Binary.
 There are a few fixes within this release, the biggest change is internal.
 
 - in Add view added GUI panel in selecting catalogs to synchronize
-- fixed display correct profile in main view.
 - this version discover if you are on a Apple Silicon and enables the correct path for Homebrew if version 3 of rsync is ticked on
 - executing the schedule app, the menu app, is now from the File menu or by shortcut
 
