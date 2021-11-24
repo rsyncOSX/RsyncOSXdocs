@@ -7,11 +7,11 @@ tags = ["about"]
 # categories = ["todo"]
 lastmod = "2021-04-12"
 +++
-My name is Thomas and I am the developer of RsyncOSX and RsyncUI. The development of **RsyncOSX** commenced early in 2016 as a project to learn Swift. The work on the new **RsyncUI** commenced late in 2020 after some thoughts about what next? Should I learn a language like TypeScript and develop a multiplattform version of RsyncOSX or continue on the Apple plattform.
+My name is Thomas and I am the developer of RsyncOSX and RsyncUI. The development of **RsyncOSX** commenced early in 2016 as a project to learn Swift. The work on the SwiftUI based **RsyncUI** commenced late in 2020 after some thoughts about what next? Should I learn a language like TypeScript and develop a multiplattform version of RsyncOSX or continue on the Apple plattform.
 
 I did some investigating about multiplattform development and I did not manage to find out what should be the right tools for such an application. After some carefull thinking I decided stay on the Apple development plattform with Xcode, Swift and **SwiftUI**. SwiftUI is an amazing framework. I have also learned about another amazing framework, **Combine**.
 
-Learning is important for me. It is important to keep your mind sharp. I have a masters degree in computing science, but I am **not a professional developer**. I did my master degree in the days when Linux was released in 1991 and Internet became a public service. And a few years ahead of that, in 1989, the Web was invented at Cern.   
+I have a masters degree in computing science, but I am **not a professional developer**. I did my master degree in the days when Linux was released in 1991 and Internet became a public service. And a few years ahead of that, in 1989, the Web was invented at Cern.   
 
 For the moment I am a senior advicer at a university. I will, early in 2022 at the age of 62, retire from work. When I am retired I will spend more time with grand kids, photograpy and continue working on developing my macOS applications.
 
@@ -30,9 +30,3 @@ This app is compiled for **macOS Monterey**.
 - [RsyncOSX](https://github.com/rsyncOSX/RsyncOSX) a GUI for rsync
 
 This app is compiled with support for **macOS Big Sur** and later.
-
-## Me
-
-This is me on a cross country ski trip in the Norwegian mountains in April 2021. Another, for me, important activity is [outdoor life in the Norwegian mountains](https://toppturer.netlify.app/), summer and winter.
-
- {{< image src="/images/me.png" alt="" position="center" style="border-radius: 8px;" >}}
