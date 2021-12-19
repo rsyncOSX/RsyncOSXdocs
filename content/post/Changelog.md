@@ -19,7 +19,7 @@ Date: 18 December 2021, version 6.6.9 will be released sometime in January 2022
 
 - the restore part is refactored and more easy to use, for full restore select `./.` from the file list, estimate and then restore
 - a few other GUI fixes as well
-- resize windows works OK for all views like tables are expanding when view is expanded
+- resize windows now works OK for all views like tables are expanding when the windows is expanded
 
 ## Version 6.6.8 build (11)
 
