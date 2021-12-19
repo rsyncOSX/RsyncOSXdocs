@@ -16,9 +16,14 @@ RsyncOSX can also be installed by homebrew
 brew install --cask rsyncosx
 ```
 
-## The changelog
-
 There is a [changelog](/post/changelog/). Also please see info about [the latest version of rsync](/post/rsync/) to install. Before commencing use of RsyncOSX there are a few [important words to read](/post/important/).
+
+## How to add and execute single tasks
+
+It is easy to add a first configuration and execute your first synchronize task.
+
+- add [configurations](/post/addconfigurations/)
+- executing [single tasks](/post/singletask/)
 
 ## How to setup remote servers
 
@@ -28,13 +33,6 @@ Utilizing RsyncOSX to synchronize files to remote servers requires some setup. T
 - by [rsync daemon setup](/post/rsyncdaemon/)
 
 Snapshots is **not** possible with rsync daemon setup.
-
-## How to add and execute single tasks
-
-It is easy to add a first configuration and execute your first synchronize task.
-
-- add [configurations](/post/addconfigurations/)
-- executing [single tasks](/post/singletask/)
 
 ## How to add parameters to rsync
 
