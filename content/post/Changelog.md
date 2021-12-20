@@ -15,7 +15,9 @@ Using RsyncOSX requires some knowledge of `rsync`. The main objective for RsyncO
 
 ## Version 6.6.9 build (12) - release candidate
 
-Date: 18 December 2021, version 6.6.9 will be released sometime in January 2022
+Date: 18 December 2021, version 6.6.9 will be released sometime in January 2022.
+
+The release candidate is as stable as the released version.
 
 - the restore part is refactored and more easy to use, for full restore select `./.` from the file list, estimate and then restore
 - a few other GUI fixes as well
