@@ -7,11 +7,9 @@ categories = ["synchronize"]
 description = "Execute single task, first a verify run and then the real run."
 lastmod = "2020-12-13"
 +++
-In Synchronize view (which is the opening view) tasks can be executed as singletasks. Execute single tasks requires a couple of double clicks: one for **estimation** run and the second for **executing** the real task. The output from rsync is presented after each run.
+In Synchronize view tasks can be executed as single tasks. Execute single tasks require two **double clicks**: the first double click for **estimation** run and the second double click for **executing** the real task. The output from rsync is presented after each run.
 
 {{< image src="/images/RsyncOSX/master/synchronize/synchronize.png" alt="" position="center" style="border-radius: 8px;" >}}
-
-The `Shell` column is on, it indicates there is attached shell scripts to the task, also see more info about shell scripts in the [add configuration](/post/addconfigurations/).
 
 ## Execute single task
 
@@ -29,6 +27,9 @@ Sliding to the right will delete a record. Every delete must be confirmed before
 
 {{< image src="/images/RsyncOSX/master/singletask/deleteright.png" alt="" position="center" style="border-radius: 8px;" >}}
 
+## Shell scripts
+
+If the `Shell` column is on, it indicates there is attached shell scripts to the task, also see more info about shell scripts in the [add configuration](/post/addconfigurations/).
 
 ## Edit and params
 

@@ -27,7 +27,7 @@ There is also an [Assist function](/post/addconfigurations/#assist) which picks 
   - informal tag for the configuration
 
 - **Dont´t add**: `/`
-  §- by default a trailing `/` is added to both source and destination
+  - by default a trailing `/` is added to both source and destination
 
 ### Remote server parameters
 - **Remote username**:
@@ -35,7 +35,7 @@ There is also an [Assist function](/post/addconfigurations/#assist) which picks 
 - **Remote server**:
   - either server name or IP-address for remote server
 
-### Optional pre and post task
+### Shell scripts
 
 The shell scripts names and locations is selected by the user.
 
@@ -47,7 +47,7 @@ The shell scripts names and locations is selected by the user.
 
 ## Add configurations
 
-Select the `Add` button when completed and configuration is added to RsyncOSX. RsyncOSX adds a trailing / character to both local and remote volume. After selecting the Add button another configuration might be added. Any changes (edit or delete) to configurations are done from the Synchronize view. Additional parameters to rsync might be added utilizing the Parameter button.
+Select the `Add` button when completed and configuration is added to RsyncOSX. RsyncOSX adds a trailing / character to both local and remote volume. After selecting the Add button another configuration might be added. Any changes (edit or delete) to configurations are done from the Synchronize view.
 
 ## Assist
 
