@@ -18,12 +18,14 @@ brew install --cask rsyncosx
 
 There is a [changelog](/post/changelog/). Also please see info about [the latest version of rsync](/post/rsync/) to install. Before commencing use of RsyncOSX there are a few [important words to read](/post/important/).
 
-## How to add and execute single tasks
+## How to add a task and execute it as a single tasks
 
-It is easy to add a first configuration and execute your first synchronize task.
+It is easy to add a first task and execute your first synchronize task.
 
-- add [configurations](/post/addconfigurations/)
+- add [task](/post/addconfigurations/)
 - executing [single tasks](/post/singletask/)
+
+See below how to execute tasks in one go. Caution, **always** verify a task before executing tasks in one go. 
 
 ## How to setup remote servers
 

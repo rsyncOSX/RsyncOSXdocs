@@ -7,7 +7,9 @@ tags = ["add configurations"]
 categories = ["configurations"]
 lastmod = "2020-12-13"
 +++
-A configuration require minimum a **local catalog** and a **remote catalog**. After entering information about a configuration select the `Add` button to add it to RsyncOSX. Continue adding new configurations until completed and configurations are saved to permanent storage after each entry. Select local catalog either by drag and drop or by enter text directly. For remote catalogs only drag and drop for local attached volumes. For remote server catalogs enter by text only.
+A configuration require minimum a **local catalog** and a **remote catalog**. After entering information about a configuration select the `Add` button to add it to RsyncOSX. Continue adding new configurations until completed and configurations are saved to permanent storage after each entry. Select local catalog either by GUI, drag and drop or by enter text directly.
+
+For remote catalogs only drag and drop for local attached volumes. For remote server catalogs enter by text only.
 
 There is also an [Assist function](/post/addconfigurations/#assist) which picks up your local catalogs. You can also add your remote info for easy to add new tasks.
 
@@ -19,8 +21,10 @@ There is also an [Assist function](/post/addconfigurations/#assist) which picks 
   - [snapshots](/post/snapshots/), save changes and deletes ahead of a synchronize
   - syncremote, remote is source, synchronize a remote source to a local volume
 
-- **Local catalog**: required field
-- **Remote catalog**: required field
+- **Local catalog**:
+  - required field
+- **Remote catalog**:
+  - required field
   - the backup catalog might also be a local catalog on a local attached disk
 
 - **ID**:
