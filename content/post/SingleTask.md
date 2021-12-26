@@ -13,7 +13,7 @@ In Synchronize view tasks can be executed as single tasks. Execute single tasks 
 
 ## Execute single task
 
-Execute single tasks is a **two step** operation, one for estimation (dry-run) and one for the real task. A drop down view is automatically presented after both tasks. A single task is executed by  a double click on the selected task/row. There are five numbers in bottom page. Only version 3.x counts the number of remote directories. The numbers are files to be transferred and remote numbers. Another double click executes the real run and a progress bar is presented.
+Execute single tasks is a **two step** operation, one for estimation run, `dry-run`, and one for the real task. A drop down view of the output from rsync is automatically presented after both tasks. A single task is executed by a double click on the selected task. Another double click executes the real run and a progress bar is presented.
 
 If Abort is pressed any executing task is aborted.
 

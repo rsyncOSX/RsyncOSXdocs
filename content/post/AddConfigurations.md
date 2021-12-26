@@ -26,7 +26,7 @@ There is also an [Assist function](/post/addconfigurations/#assist) which picks 
 - **ID**:
   - informal tag for the configuration
 
-- **Dont´t add**: `/`
+- **Dont´t add trailing**: `/`
   - by default a trailing `/` is added to both source and destination
 
 ### Remote server parameters
