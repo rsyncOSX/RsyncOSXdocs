@@ -19,6 +19,8 @@ Date: 28 December 2021
 
 Compiled on Apple Silicon (M1 Pro) by Xcode 13.2.1 as a Universal macOS Binary.
 
+There seems to be a minor bug in the About notifying about new version, the download button is not enabled. The latest release is [here](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.6.9).
+
 The following are changed within this version:
 
 - the restore part is refactored and more easy to use, for full restore select `./.` from the file list, estimate and then restore
