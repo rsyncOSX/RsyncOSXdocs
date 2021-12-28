@@ -13,11 +13,13 @@ RsyncOSX is [signed and notarized](/post/notarized/). Please see info about [the
 
 Using RsyncOSX requires some knowledge of `rsync`. The main objective for RsyncOSX is to ease the use of `rsync`, not teach macOS users how to use `rsync`. That is beyond the scope of RsyncOSX. Setting the wrong parameters to rsync can result in deleted data. And RsyncOSX will not stop you for doing so. That is why it is very important to execute a simulated run (`--dry-run`) and inspect what happens before a real run.
 
-## Version 6.6.9 build (12) - release candidate
+## Version 6.6.9 build (13)
 
-Date: 18 December 2021, version 6.6.9 will be released sometime in January 2022.
+Date: 28 December 2021
 
-The release candidate is as stable as the released version.
+Compiled on Apple Silicon (M1 Pro) by Xcode 13.2.1 as a Universal macOS Binary.
+
+The following are changed within this version:
 
 - the restore part is refactored and more easy to use, for full restore select `./.` from the file list, estimate and then restore
 - a few other GUI fixes as well
