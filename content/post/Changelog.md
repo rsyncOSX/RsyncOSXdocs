@@ -17,15 +17,13 @@ Using RsyncOSX requires some knowledge of `rsync`. The main objective for RsyncO
 
 Date: 28 December 2021
 
-Compiled on Apple Silicon (M1 Pro) by Xcode 13.2.1 as a Universal macOS Binary.
-
-There seems to be a minor bug in the About notifying about new version, the download button is not enabled. The latest release is [here](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.6.9).
+Compiled on Apple Silicon (M1 Pro) by Xcode 13.2.1 as a Universal macOS Binary. There seems to be a **minor** bug in the About notifying about new version, the download button is not enabled. The latest release is [here](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.6.9).
 
 The following are changed within this version:
 
 - the restore part is refactored and more easy to use, for full restore select `./.` from the file list, estimate and then restore
-- a few other GUI fixes as well
-- resize windows now works OK for all views like tables are expanding when the windows is expanded
+- resize of the app now works OK for all views, all tables in all views are now resized when the app is resized
+- and a few other minor GUI fixes as well
 
 ## Version 6.6.8 build (11)
 
