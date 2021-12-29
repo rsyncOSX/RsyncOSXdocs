@@ -1,13 +1,13 @@
 +++
 author = "Thomas Evensen"
 date = "2021-04-16"
-title =  "Add configurations"
+title =  "Add tasks"
 description = "How to enter synchronize tasks into RsyncOSX."
-tags = ["add configurations"]
-categories = ["configurations"]
+tags = ["add tasks"]
+categories = ["tasks"]
 lastmod = "2020-12-13"
 +++
-A configuration require minimum a **local catalog** and a **remote catalog**. After entering information about a configuration select the `Add` button to add it to RsyncOSX. Continue adding new configurations until completed and configurations are saved to permanent storage after each entry. Select local catalog either by GUI, drag and drop or by enter text directly.
+A task require minimum a **local catalog** and a **remote catalog**. After entering information about a task select the `Add` button to add it to RsyncOSX. Continue adding new tasks until completed and tasks are saved to permanent storage after each entry. Select local catalog either by GUI, drag and drop or by enter text directly.
 
 For remote catalogs only drag and drop for local attached volumes. For remote server catalogs enter by text only.
 
@@ -28,7 +28,7 @@ There is also an [Assist function](/post/addconfigurations/#assist) which picks 
   - the backup catalog might also be a local catalog on a local attached disk
 
 - **ID**:
-  - informal tag for the configuration
+  - informal tag for the task
 
 - **Dont´t add trailing**: `/`
   - by default a trailing `/` is added to both source and destination
@@ -49,13 +49,13 @@ The shell scripts names and locations is selected by the user.
   - switch execute shell script on/off
 - **Halt on error**: if the phrase "error" occurs in the output from the `pre.sh` command, if `on` the execution of synchronize command is aborted
 
-## Add configurations
+## Add tasks
 
-Select the `Add` button when completed and configuration is added to RsyncOSX. RsyncOSX adds a trailing / character to both local and remote volume. After selecting the Add button another configuration might be added. Any changes (edit or delete) to configurations are done from the Synchronize view.
+Select the `Add` button when completed and task is added to RsyncOSX. RsyncOSX adds a trailing / character to both local and remote volume. After selecting the Add button another task might be added. Any changes (edit or delete) to tasks are done from the Synchronize view.
 
 ## Assist
 
-The main objective for the assist function is to ease adding configurations. Assist picks up the following:
+The main objective for the assist function is to ease adding tasks. Assist picks up the following:
 
 - the name of all catalogs within your home directory
 - the path of your home directory
@@ -63,7 +63,7 @@ The main objective for the assist function is to ease adding configurations. Ass
 
 There is not possible to save, change or delete values in assist.
 
-Selecting `Local` or `Remote` transfer the data to the add new configrations screen. The following is transferred from the selected dropdown values to the add view when selecting either `Local` or `Remote`:
+Selecting `Local` or `Remote` transfer the data to the add new task. The following is transferred from the selected dropdown values to the add view when selecting either `Local` or `Remote`:
 
 - Local catalog (in Add view): `Local home`  + `/` + `Catalogs`
 - Remote catalog (in Add view): `~`  + `/` + `Catalogs`
