@@ -1,5 +1,5 @@
 baseurl = "https://rsyncosx.netlify.app/"
-title   = "The RsyncOSX documentation..."
+title   = "How to use RsyncOSX ..."
 languageCode = "en-us"
 theme = "hello-friend-ng"
 
