@@ -11,8 +11,6 @@ A task require minimum a **local catalog** and a **remote catalog**. After enter
 
 For remote catalogs only drag and drop for local attached volumes. For remote server catalogs enter by text only.
 
-There is also an [Assist function](/post/addconfigurations/#assist) which picks up your local catalogs. You can also add your remote info for easy to add new tasks.
-
 {{< image src="/images/RsyncOSX/master/add/add.png" alt="" position="center" style="border-radius: 8px;" >}}
 
 ### Catalog parameters
