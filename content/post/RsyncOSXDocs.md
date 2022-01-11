@@ -7,16 +7,23 @@ tags = ["summary"]
 categories = ["general information"]
 lastmod = "2020-12-24"
 +++
-RsyncOSX is a GUI on top of the command line utility `rsync` which is a file based tool for synchronization of files. RsyncOSX is [signed and notarized](/post/notarized/) and built as [Universal macOS Binary](https://developer.apple.com/documentation/xcode/building_a_universal_macos_binary).
+RsyncOSX is a GUI on top of the command line utility `rsync` which is a file based tool for synchronization of files. RsyncOSX is [signed and notarized](/post/notarized/). It is also built as a Universal macOS Binary which means it run natively on both Apple silicon and Intel-based Mac computers.
 
 - the [latest version](https://github.com/rsyncOSX/RsyncOSX/releases) of RsyncOSX is compiled for **macOS Big Sur** and later
+- the [changelog](/post/changelog/)
 
 RsyncOSX can also be installed by homebrew
 ```bash
 brew install --cask rsyncosx
 ```
 
-There is a [changelog](/post/changelog/). Also please see info about [the latest version of rsync](/post/rsync/) to install. Before commencing use of RsyncOSX there are a few [important words to read](/post/important/).
+## First start
+
+The first time RsyncOSX starts it presents a link to some [important words to read](/post/important/).  Also please see info about [the latest version of rsync](/post/rsync/) to install.
+
+{{< image src="/images/RsyncOSX/master/start/start.png" alt="" position="center" style="border-radius: 8px;" >}}
+
+The error in bottom of the view is only RsyncOSX complaining about not finding the default file for stored tasks. The error will disappear as soon as a task is added.
 
 ## Add and execute your first task
 
