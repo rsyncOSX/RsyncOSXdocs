@@ -11,6 +11,10 @@ RsyncOSX is [signed and notarized](/post/notarized/). Please see info about [the
 
 Using RsyncOSX requires some knowledge of `rsync`. The main objective for RsyncOSX is to ease the use of `rsync`, not teach macOS users how to use `rsync`. That is beyond the scope of RsyncOSX. Setting the wrong parameters to rsync can result in deleted data. And RsyncOSX will not stop you for doing so. That is why it is very important to execute a simulated run (`--dry-run`) and inspect what happens before a real run.
 
+## Version 6.7.0 build (14) - prerelease
+
+There is a bug when setting another path for rsync. The fix was easy when spotted and it seems to be a minor bug in Xcode. The new build is uploaded as part of [current version]https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.6.9). 
+
 ## Version 6.6.9 build (13)
 
 Date: 28 December 2021
