@@ -13,9 +13,13 @@ Using RsyncOSX requires some knowledge of `rsync`. The main objective for RsyncO
 
 ## Version 6.7.0 build (14) - prerelease
 
-There is a bug when setting another path for rsync. The issue was easy to [fix](https://github.com/rsyncOSX/RsyncOSX/issues/2057) when spotted, it seems to be a minor bug in Xcode. The new build is uploaded as part of [current version](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.6.9).
+Date: 22 January 2022
 
-There is **no need** to update if you are utilizing either default version of rsync in macOS or rsync installed by Homebrev. 
+Compiled on Apple Silicon (M1 Pro) by Xcode 13.2.1 as a Universal macOS Binary.
+
+There is a bug when setting another path for rsync. The issue was easy to [fix](https://github.com/rsyncOSX/RsyncOSX/issues/2057) when found, it seems to be a minor bug in Xcode. A new build is uploaded as part of [current version](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.6.9).
+
+There is **no need** to update if you are utilizing either default version of rsync in macOS or rsync installed by Homebrev.
 
 Thx to [j-urich](https://github.com/j-urich) for reporting.
 
