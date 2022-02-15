@@ -11,6 +11,18 @@ RsyncOSX is [signed and notarized](/post/notarized/). Please see info about [the
 
 Using RsyncOSX requires some knowledge of `rsync`. The main objective for RsyncOSX is to ease the use of `rsync`, not teach macOS users how to use `rsync`. That is beyond the scope of RsyncOSX. Setting the wrong parameters to rsync can result in deleted data. And RsyncOSX will not stop you for doing so. That is why it is very important to execute a simulated run (`--dry-run`) and inspect what happens before a real run.
 
+## Version 6.7.1 build (15) - not yet released
+
+Date: 15 February 2022
+
+The following changes are in code, but not yet released. The changes also includes the bugfix from version 6.7.0.
+
+- the user config is now saved as JSON file, automatically transferred from the previous PLIST config file
+- continue the cleaning of code and removing of not used code
+	- the development of RsyncOSX commenced more than five years ago and there are still not used code which should be removed
+
+A new release will be published sometime in March 2022 after the release of version 13.3 of Xcode.
+
 ## Version 6.7.0 build (14) - prerelease
 
 Date: 22 January 2022
