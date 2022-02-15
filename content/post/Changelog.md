@@ -17,7 +17,8 @@ Date: 15 February 2022
 
 The following changes are in code, but not yet released. The changes also includes the bugfix from version 6.7.0.
 
-- the user config is now saved as JSON file, automatically transferred from the previous PLIST config file
+- the userconfig is now saved as JSON file, automatically transferred from the previous PLIST config file
+	- userconfig are values like which version of rsync is utilized, restore path and so on
 - continue the cleaning of code and removing of not used code
 	- the development of RsyncOSX commenced more than five years ago and there are still not used code which should be removed
 
