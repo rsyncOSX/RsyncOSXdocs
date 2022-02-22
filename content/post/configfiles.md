@@ -7,7 +7,7 @@ categories = ["general information"]
 description = "Where does RsyncOSX stores the various configuration files."
 lastmod = "2020-10-23"
 +++
-RsyncOSX stores its configurations, schedules and log records as [JSON](https://en.wikipedia.org/wiki/JSON) files. The storage of those files is:
+RsyncOSX stores its configurations, schedules and log records and user configurations as [JSON](https://en.wikipedia.org/wiki/JSON) files. The storage of those files is:
 ```bash
 $HOME/.rsyncosx/macserialnumber
 ```
@@ -32,8 +32,8 @@ $HOME/.rsyncosx/macserialnumber/profile/schedules.json
 
 ## User configurations
 
-The [user configurations](/post/userconfiguration/) is stored as plist in:
+The [user configurations](/post/userconfiguration/) is stored as:
 ```bash
-$HOME/.rsyncosx/macserialnumber/config.plist
+$HOME/.rsyncosx/macserialnumber/rsyncosxconfig.json
 ```
 The user settings applies to all profiles.

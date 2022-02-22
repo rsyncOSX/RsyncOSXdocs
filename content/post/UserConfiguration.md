@@ -55,11 +55,11 @@ $HOME/.rsyncosx/macserial/rsynclog.txt
 
 RsyncOSX can monitor the network connection during execution of tasks. If a network connection is dropped during execution, RsyncOSX sends an interrupt signal to the task and it halts with an error.
 
-## Check data when loading
+## Enable schedules
 
-- Check data
+- Schedules
 
-By setting check data, RsyncOSX will check and if required clean logs. The check data flag is **not** persistent and have to be set each time.
+By enable, the scheduling part of RsyncOSX, is enabled and available as a button within the main view.
 
 ## Ssh parameters (global)
 
