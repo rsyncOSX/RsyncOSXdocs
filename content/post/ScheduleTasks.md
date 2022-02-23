@@ -7,7 +7,9 @@ categories = ["synchronize"]
 description = "Tasks can be scheduled for executing."
 lastmod = "2020-12-13"
 +++
-The [menu app](/post/menuapp/) to RsyncOSX is responsible for executing scheduled tasks. Adding and deleting scheduled tasks are done within RsyncOSX. By selecting a row and choose schedule applies a scheduled. All schedules is set to start at selected date.
+By default the schedules part is not enabled, enable the schedule part in the userconfig. The schedules is available by the main view. The [menu app](/post/menuapp/) to RsyncOSX is responsible for executing scheduled tasks. Adding and deleting scheduled tasks are done within RsyncOSX. By selecting a row and choose schedule applies a scheduled. All schedules is set to start at selected date.
+
+{{< image src="/images/RsyncOSX/master/schedule/schedule1.png" alt="" position="center" style="border-radius: 8px;" >}}
 
 The menu app is reloading the schedules after each scheduled task is completed. By reloading the schedules all changes is also applied to the menu app.
 
@@ -23,11 +25,8 @@ Select task (row), set the start date and time and select the schedule (once, da
 
 The stack is a reference only to a configuration (by a hidden key). The user can change anything regarding a configuration up to the moment the task is executed by schedule. If a configuration is deleted all scheduled tasks connected to configuration is deleted as well.
 
-The [menu app](/post/menuapp/) should be started from RsyncOSX by either `⌘S` shortcut or form the File menu.
+The [menu app](/post/menuapp/) should be started from RsyncOSX by either `⌘S` shortcut or from the File menu.
 
 The yellow flag in column Sched indicates there are active scheduled tasks. The flag is either yellow or green. Green is next task within one hour.
 
-Remember, only the menu app which executes scheduled tasks. Select the calendar icon to start the menu app and automaticall close RsyncOSX.
-
-{{< image src="/images/RsyncOSX/master/schedule/schedule1.png" alt="" position="center" style="border-radius: 8px;" >}}
 {{< image src="/images/RsyncOSX/master/schedule/schedule2.png" alt="" position="center" style="border-radius: 8px;" >}}
