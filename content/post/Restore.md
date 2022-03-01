@@ -14,7 +14,7 @@ A restore of files should always be executed carefully. It is **only allowed** t
 There are two types of restore:
 
 - full restore
-- restore files
+- restore by files
   - if the remote is a snapshot the list of files might be huge, depends upon how many snapshots and how many files in a snapshot
 
 A restore **always** start with selecting the task and then the `Filelist` button. From the list of files either select the `./.` or any catalog or file. If the `./.` is selected a full restore will be executed.

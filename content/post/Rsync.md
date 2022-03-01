@@ -18,36 +18,3 @@ to install the latest version of rsync.
 ## Snapshots
 
 RsyncOSX supports [snapshots](/post/snapshots/) of files. Due to a bug in version 2.6.9 in rsync, the snapshot feature of RsyncOSX require to install the latest version of rsync.
-
-## Compile the latest version
-
-The source code for the latest version of rsync can be downloaded from [rsync.samba.org](https://rsync.samba.org/). There are some new features within the latest version and it require some additional libraries. I recommend to install the latest version as part of Homebrew. If you have installed Xcode command line tools and the required libraries you can also compile your own version of rsync. The following dynamic libraries is required:
-
-```bash
-otool -L rsync
-rsync:
-	/usr/local/opt/popt/lib/libpopt.0.dylib (compatibility version 1.0.0, current version 1.1.0)
-	/usr/lib/libiconv.2.dylib (compatibility version 7.0.0, current version 7.0.0)
-	/usr/local/opt/lz4/lib/liblz4.1.dylib (compatibility version 1.0.0, current version 1.9.2)
-	/usr/local/opt/zstd/lib/libzstd.1.dylib (compatibility version 1.0.0, current version 1.4.5)
-	/usr/local/opt/xxhash/lib/libxxhash.0.dylib (compatibility version 0.0.0, current version 0.7.4)
-	/usr/local/opt/openssl@1.1/lib/libcrypto.1.1.dylib (compatibility version 1.1.0, current version 1.1.0)
-	/usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1281.100.1)
-	/usr/lib/libcharset.1.dylib (compatibility version 2.0.0, current version 2.0.0)
-```
-
-Before a compile set the environment variables to let the `configure` script to find the libraries. The libraries is also installed as part of Homebrev.
-
-```bash
-export LDFLAGS="-L/usr/local/opt/openssl/lib -L/usr/local/lib"
-export CFLAGS="-I/usr/local/opt/openssl/include/ -I/usr/local/include"
-export CPPFLAGS="-I/usr/local/opt/openssl/include/ -I/usr/local/include"
-```
-
-Then execute the `configure` script to produce the makefile. I also instructs configure to install rsync in `$HOME/rsync`.
-
-```bash
-./configure --prefix=/Users/thomas/rsync
-make
-make install
-```

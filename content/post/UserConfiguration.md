@@ -59,7 +59,7 @@ RsyncOSX can monitor the network connection during execution of tasks. If a netw
 
 - Schedules
 
-By enable, the scheduling part of RsyncOSX, is enabled and available as a button within the main view.
+By activating, the planning part of RsyncOSX becomes available as a button in the main view.
 
 ## Ssh parameters (global)
 
@@ -83,7 +83,7 @@ is the ssh keypath and identityfile and
 ```
 is the port number ssh communicates through, default port 22.
 
-If global ssh parameters are set, it applies to **all configurations**. It is possible to set other ssh values on each task.
+If global ssh parameters are set, it applies to **all** configurations. It is possible to set other ssh values on each task.
 
 ## Number of days
 
@@ -107,4 +107,4 @@ The `Backup` function copies all configurations and logs as a backup to your
 ```bash
 $HOME/Documents/RsyncOSXcopy-$date-suffix
 ```
-Viewing the catalog in Finder might show an empty catalog. The catalog is not empty, the configurations are saved as `.rsyncosx/macserialnumber` and Finder might not show `.` catalogs.
+Viewing the catalog in macOS Finder might show an empty catalog. The catalog is not empty, the configurations are saved as `.rsyncosx/macserialnumber` and Finder might not show `.` catalogs.

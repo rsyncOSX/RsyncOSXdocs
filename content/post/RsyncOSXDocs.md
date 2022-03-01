@@ -50,12 +50,17 @@ Rsync has a ton of parameters. In user selected parameters you can add your own 
 - default [parameters](/post/rsyncparameters)
 - user selected [parameters](/post/userparameters/)
 
-## Snapshots, execute several tasks and scheduling
+## Snapshots and execute several tasks
 
 Snapshot is an effective method for saving changes and deleted files. You can also execute a group of tasks. If you want to schedule daily or weekly synchronize or snapshot tasks, add a schedule in RsyncOSX and execute by the menu app.
 
 - utilizing [the snapshot](/post/snapshots/) feature
 - synchronize [several tasks](/post/severaltasks/)
+
+## Schedule tasks
+
+By default the schedules part is not enabled, enable the schedule part in the userconfig. The schedules is available by a button within the main view.
+
 - scheduling of [tasks](/post/scheduletasks/)
 
 ## Restore of files

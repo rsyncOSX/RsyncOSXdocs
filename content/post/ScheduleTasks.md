@@ -7,7 +7,9 @@ categories = ["synchronize"]
 description = "Tasks can be scheduled for executing."
 lastmod = "2020-12-13"
 +++
-By default the schedules part is not enabled, enable the schedule part in the userconfig. The schedules is available by the main view. The [menu app](/post/menuapp/) to RsyncOSX is responsible for executing scheduled tasks. Adding and deleting scheduled tasks are done within RsyncOSX. By selecting a row and choose schedule applies a scheduled. All schedules is set to start at selected date.
+By default the schedules part is not enabled, enable the schedule part in the userconfig. The schedules is available by a button within the main view.
+
+The [menu app](/post/menuapp/) to RsyncOSX is responsible for executing scheduled tasks. Adding and deleting scheduled tasks are done within RsyncOSX. By selecting a row and choose schedule applies a scheduled. All schedules is set to start at selected date.
 
 {{< image src="/images/RsyncOSX/master/schedule/schedule1.png" alt="" position="center" style="border-radius: 8px;" >}}
 
