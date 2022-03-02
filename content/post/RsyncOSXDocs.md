@@ -19,7 +19,13 @@ brew install --cask rsyncosx
 
 ## First start
 
-The first time RsyncOSX starts it presents a link to some [important words to read](/post/important/).  Also please see info about [the latest version of rsync](/post/rsync/) to install.
+The first time RsyncOSX starts it presents a link to some
+
+- [important words](/post/important/) to read
+
+Also please see info about
+
+- [the latest version of rsync](/post/rsync/) to install
 
 {{< image src="/images/RsyncOSX/master/start/start.png" alt="" position="center" style="border-radius: 8px;" >}}
 
@@ -52,7 +58,7 @@ Rsync has a ton of parameters. In user selected parameters you can add your own 
 
 ## Snapshots and execute several tasks
 
-Snapshot is an effective method for saving changes and deleted files. You can also execute a group of tasks. If you want to schedule daily or weekly synchronize or snapshot tasks, add a schedule in RsyncOSX and execute by the menu app.
+Snapshot is an effective method for saving changes and deleted files. You can also execute a group of tasks.
 
 - utilizing [the snapshot](/post/snapshots/) feature
 - synchronize [several tasks](/post/severaltasks/)
