@@ -11,7 +11,7 @@ RsyncOSX is [signed and notarized](/post/notarized/). Please see info about [the
 
 Using RsyncOSX requires some knowledge of `rsync`. The main objective for RsyncOSX is to ease the use of `rsync`, not teach macOS users how to use `rsync`. That is beyond the scope of RsyncOSX. Setting the wrong parameters to rsync can result in deleted data. And RsyncOSX will not stop you for doing so. That is why it is very important to execute a simulated run (`--dry-run`) and inspect what happens before a real run.
 
-## Version 6.7.1 build (15) - Release Candidate
+## Version 6.7.1 build (15)
 
 Date: 21 February 2022
 
@@ -25,7 +25,6 @@ The changes also includes the bugfix from version 6.7.0.
 	- the schedule part is by default hidden, enable the schedule part in the userconfig
 - continue the cleaning of code and removing of not used code
 	- the development of RsyncOSX commenced more than five years ago and there are still not used code which should be removed
-- there might be a few localization issues (languages), there will be a quality check of localization before release in March 2022
 
 ## Version 6.7.0 build (14) - prerelease
 
