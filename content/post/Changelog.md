@@ -19,6 +19,8 @@ Compiled on Apple Silicon (M1 Pro) by Xcode 13.3 as a Universal macOS Binary.
 
 This is a minor maintenance release. The [Add part](https://rsyncosx.netlify.app/post/addconfigurations/) is moved to the top menu of RsyncOSX. There is also some minor cleanup in the localizations.
 
+**Issue**: within the new Add view there is a bug selecting the graphical view for catalogs, for the moment only drag by Finder or by text works.
+
 ## Version 6.7.1 build (15)
 
 Date: 21 February 2022
