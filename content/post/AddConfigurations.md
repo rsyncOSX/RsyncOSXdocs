@@ -9,6 +9,10 @@ lastmod = "2020-12-13"
 +++
 A task require minimum a **local catalog** and a **remote catalog**. After entering information about a task select the `Add` button to add it to RsyncOSX. Continue adding new tasks until completed and tasks are saved to permanent storage after each entry. Select local catalog either by GUI, drag and drop or by enter text directly.
 
+Add is selected by chossing the green plus sign in top main menu.
+
+{{< image src="/images/RsyncOSX/master/add/addmain.png" alt="" position="center" style="border-radius: 8px;" >}}
+
 For remote catalogs only drag and drop for local attached volumes. For remote server catalogs enter by text only.
 
 {{< image src="/images/RsyncOSX/master/add/add.png" alt="" position="center" style="border-radius: 8px;" >}}
@@ -51,15 +55,13 @@ The shell scripts names and locations is selected by the user.
 
 Select the `Add` button when completed and task is added to RsyncOSX. RsyncOSX adds a trailing / character to both local and remote volume. After selecting the Add button another task might be added. Any changes (edit or delete) to tasks are done from the Synchronize view.
 
-## Assist
+## Local and Remote buttons
 
 The main objective for the assist function is to ease adding tasks. Assist picks up the following:
 
 - the name of all catalogs within your home directory
 - the path of your home directory
 - and if there are added tasks, remote server and remote user from the current profile
-
-There is not possible to save, change or delete values in assist.
 
 Selecting `Local` or `Remote` transfer the data to the add new task. The following is transferred from the selected dropdown values to the add view when selecting either `Local` or `Remote`:
 
