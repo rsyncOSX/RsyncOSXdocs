@@ -17,6 +17,8 @@ Date: 13 April 2022
 
 Compiled on Apple Silicon (M1 Pro) by Xcode 13.3 as a Universal macOS Binary.
 
+This is a minor maintenance release. The Add part is moved to the top menu of RsyncOSX. There is also some minor cleanup in the localizing part of the app.
+
 ## Version 6.7.1 build (15)
 
 Date: 21 February 2022
