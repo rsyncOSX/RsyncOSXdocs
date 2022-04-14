@@ -31,6 +31,7 @@ Also please see info about
 
 The error in bottom of the view is only RsyncOSX complaining about not finding the default file for stored tasks. The error will disappear as soon as a task is added.
 
+
 ## Add and execute your first task
 
 It is easy to add and execute your first synchronize task.
