@@ -11,6 +11,14 @@ RsyncOSX is [signed and notarized](/post/notarized/). Please see info about [the
 
 Using RsyncOSX requires some knowledge of `rsync`. The main objective for RsyncOSX is to ease the use of `rsync`, not teach macOS users how to use `rsync`. That is beyond the scope of RsyncOSX. Setting the wrong parameters to rsync can result in deleted data. And RsyncOSX will not stop you for doing so. That is why it is very important to execute a simulated run (`--dry-run`) and inspect what happens before a real run.
 
+## Version 6.7.3 build (17)
+
+Date: 27 April 2022 - not yet released as a release. If no issues this build will become next version sometime in May 2022.
+
+Compiled on Apple Silicon (M1 Pro) by Xcode 13.3 as a Universal macOS Binary.
+
+The button for "Add task" is moved to the sidepanel. The sidepanel buttons are slightly reorganized. There are a few localization fixes in German and Norwegian. And there are some views which are adjusted as well. 
+
 ## Version 6.7.2 build (16)
 
 Date: 13 April 2022
