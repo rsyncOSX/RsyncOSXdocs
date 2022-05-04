@@ -7,9 +7,7 @@ tags = ["add tasks"]
 categories = ["tasks"]
 lastmod = "2020-12-13"
 +++
-A task require minimum a **local catalog** and a **remote catalog**. After entering information about a task select the `Add` button to add it to RsyncOSX. Continue adding new tasks until completed and tasks are saved to permanent storage after each entry. Select local catalog either by GUI, drag and drop or by enter text directly.
-
-Add is selected by choosing the green plus sign in top main menu.
+A task require minimum a **local catalog** and a **remote catalog**. After entering information about a task select the `Add` button to add it to RsyncOSX. Continue adding new tasks until completed and tasks are saved to permanent storage after each entry. Select local catalog either by GUI, drag and drop or by enter text directly. Add is selected by choosing `Add task` on the sidebar menu.
 
 {{< image src="/images/RsyncOSX/master/add/addmain.png" alt="" position="center" style="border-radius: 8px;" >}}
 
