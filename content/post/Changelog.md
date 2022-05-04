@@ -13,11 +13,13 @@ Using RsyncOSX requires some knowledge of `rsync`. The main objective for RsyncO
 
 ## Version 6.7.3 build (17)
 
-Date: 27 April 2022 - not yet released as a release. If no issues this build will become next version sometime in May 2022.
+Date: 13 April 2022
 
-Compiled on Apple Silicon (M1 Pro) by Xcode 13.3 as a Universal macOS Binary.
+Compiled on Apple Silicon (M1 Pro) by Xcode 13.3 as a Universal macOS Binary. Users who already have updated to this version does not need to reinstall it.
 
-The button for "Add task" is moved to the sidepanel. The sidepanel buttons are slightly reorganized. There are a few localization fixes in German and Norwegian. And there are some views which are adjusted as well. 
+The button for "Add task" is moved to the sidepanel. The sidepanel buttons are slightly reorganized. There are a few localization fixes in German and Norwegian. And there are also some views which are adjusted as well.
+
+This is a minor maintenance release.
 
 ## Version 6.7.2 build (16)
 
