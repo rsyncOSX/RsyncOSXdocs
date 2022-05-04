@@ -13,7 +13,7 @@ Using RsyncOSX requires some knowledge of `rsync`. The main objective for RsyncO
 
 ## Version 6.7.3 build (17)
 
-Date: 13 April 2022
+Date: 4 May 2022
 
 Compiled on Apple Silicon (M1 Pro) by Xcode 13.3 as a Universal macOS Binary. Users who already have updated to this version does not need to reinstall it.
 
