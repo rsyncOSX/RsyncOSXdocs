@@ -17,7 +17,7 @@ Snapshot is not possible in a rsync daemon setup. For info about what a rsync da
 
 ## What is a snapshot?
 
-A snapshot is a saved state or backup of data at a specific point of time. Every snapshot is in sync with local catalog at the time of creating the snapshot. Previous versions of files can be restored from snapshots. The snapshot is by utilizing the `--link-dest` parameter to rsync. The rsync parameter for next snapshot to save is:
+A snapshot is a saved state or backup of data at a specific point of time. Every snapshot is in sync with local catalog at the time of creating the snapshot. Previous versions of files can be restored from a snapshot. The snapshot is by utilizing the `--link-dest` parameter to rsync. The rsync parameter for next snapshot to save is:
 ```bash
 --link-dest=~/snapshots/n-1 /Volumes/user/data/ user@remote.server:~/snapshots/n
 ```
@@ -55,7 +55,7 @@ RsyncUI creates the snapshots within the remote catalog. The ~ is expanded to th
 
 ## Create a snapshot
 
-To create a snapshot task select `snapshot` as type in [add configurations](/post/addconfigurations/). Do **not** copy and paste command for execution within a terminal window. RsyncOSX saves the number n to the configuration. The number n is the next snapshot number. The number n is used when computing the parameter for rsync
+To create a snapshot task select `snapshot` as type in [add tasks](/post/addconfigurations/). Do **not** copy and paste command for execution within a terminal window. RsyncOSX saves the number n to the configuration. The number n is the next snapshot number. The number n is used when computing the parameter for rsync
 and is picked up from the configuration.
 
 ## Snapshots on local attached volumes
