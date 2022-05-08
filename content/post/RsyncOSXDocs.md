@@ -19,13 +19,7 @@ brew install --cask rsyncosx
 
 ## First start
 
-The first time RsyncOSX starts it presents a link to some
-
-- [important words](/post/important/) to read
-
-Also please see info about
-
-- [the latest version of rsync](/post/rsync/) to install
+The first time RsyncOSX starts it presents a link to [important words](/post/important/) about it. There is also info about [the latest version of rsync](/post/rsync/) to install.
 
 {{< image src="/images/RsyncOSX/master/start/start.png" alt="" position="center" style="border-radius: 8px;" >}}
 

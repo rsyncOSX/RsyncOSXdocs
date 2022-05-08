@@ -8,9 +8,9 @@ lastmod = "2021-04-12"
 +++
 My name is Thomas, <thomeven@gmail.com>, and I am the developer of RsyncOSX and RsyncUI. The development of **RsyncOSX** commenced early in 2016 as a project to learn Swift. The work on the SwiftUI based **RsyncUI** commenced late in 2020 after some thoughts about what next? Should I learn a language like TypeScript and develop a multiplattform version of RsyncOSX or continue on the Apple plattform.
 
-I did some investigating about multiplattform development and I did not manage to find out what should be the right tools for such an application. After some careful thinking I decided stay on the Apple development plattform with Xcode, Swift and SwiftUI. SwiftUI is an amazing framework. I have also learned about another amazing framework, Combine.
+I did some research about multi plattform development, but I did not manage to find out what should be the right tools for such an application. After some careful thinking I decided stay on the Apple development plattform with Xcode, Swift and SwiftUI. SwiftUI is an amazing framework. I have also learned about another amazing framework, Combine.
 
-I have a masters degree in computing science, but I am **not** a professional developer. I did my master degree in the days when Linux was released in 1991 and Internet became a public service. And a few years ahead of that, in 1989, the Web was invented at Cern.   
+I have a master degree in computing science, but I am **not** a professional developer. I did my master in the days when Linux was released in 1991 and Internet became a public service. And a few years ahead of that, in 1989, the Web was invented at Cern.   
 
 RsyncOSX and RsyncUI is not professional software. There is only one developer, me, and I am doing what I can to keep the applications as stable and user friendly as possible. I am not a UI designer and some user might find the UI complicated and less user friendly.
 
