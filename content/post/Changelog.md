@@ -1,11 +1,11 @@
 +++
 author = "Thomas Evensen"
 title = "Changelog"
-date = "2021-04-23"
+date = "2022-05-07"
 description = "Changelog"
 tags = ["rsyncosx"]
 categories = ["changelog"]
-lastmod = "2021-03-24"
+lastmod = "2022-05-04"
 +++
 RsyncOSX is [signed and notarized](/post/notarized/). Please see info about [the latest version of rsync in install](/post/rsync/).
 

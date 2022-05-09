@@ -1,11 +1,11 @@
 +++
 author = "Thomas Evensen"
-date = "2021-04-16"
-title =  "Add tasks"
-description = "How to enter synchronize tasks into RsyncOSX."
-tags = ["add tasks"]
-categories = ["tasks"]
-lastmod = "2020-12-13"
+date = "2022-05-08"
+title =  "Add task"
+description = "How to add tasks into RsyncOSX."
+tags = ["add task"]
+categories = ["synchronize"]
+lastmod = "2022-05-08"
 +++
 A task require minimum a **local catalog** and a **remote catalog**. Continue to add new tasks until completed and tasks are saved to permanent storage after each entry. Select local catalog either by GUI, drag and drop or by enter text directly.
 

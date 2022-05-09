@@ -1,11 +1,11 @@
 +++
 author = "Thomas Evensen"
 title = "How to use RsyncOSX"
-date = "2021-04-24"
+date = "2022-05-09"
 description = "If you want some more info about RsyncOSX there are some resources here."
 tags = ["summary"]
 categories = ["general information"]
-lastmod = "2020-12-24"
+lastmod = "2022-05-09"
 +++
 RsyncOSX is a [signed and notarized](/post/notarized/) GUI on top of the command line utility `rsync`, which is a file based tool for synchronization of files. It is built as a Universal macOS Binary which means it run natively on Apple Silicon and Intel based Mac computers.
 
