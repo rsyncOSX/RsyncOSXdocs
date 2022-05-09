@@ -2,8 +2,8 @@
 author = "Thomas Evensen"
 date = "2021-04-16"
 title =  "Combine and RsyncOSX"
-tags = ["combine"]
-categories = ["synchronize"]
+tags = ["develop"]
+categories = ["develop"]
 description = "Combine and RsyncOSX."
 lastmod = "2021-05-30"
 +++

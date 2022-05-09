@@ -23,7 +23,7 @@ The first time RsyncOSX starts it presents a link to [important words](/post/imp
 
 {{< image src="/images/RsyncOSX/master/start/start.png" alt="" position="center" style="border-radius: 8px;" >}}
 
-The error in bottom of the view is only RsyncOSX complaining about not finding the default file for stored tasks. The error will disappear as soon as a task is added.
+The error in bottom of the view is only RsyncOSX complaining about not finding the default file for stored tasks. The error disappears as soon as the first task is added.
 
 
 ## Add and execute your first task
@@ -33,7 +33,7 @@ It is easy to add and execute your first synchronize task.
 - add [a task](/post/addconfigurations/)
 - execute [a single task](/post/singletask/)
 
-See below how to execute tasks in one go. Caution, **always** verify a task before executing tasks in one go.
+**Always** verify the result of a task before executing it.
 
 ## How to setup remote servers
 

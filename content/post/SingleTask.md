@@ -7,19 +7,26 @@ categories = ["synchronize"]
 description = "Execute single task, first a verify run and then the real run."
 lastmod = "2020-12-13"
 +++
-In Synchronize view tasks can be executed as single tasks. Execute single tasks require two **double clicks**: the first double click for **estimation** run and the second double click for **executing** the real task. The output from rsync is presented after each run.
+In Synchronize view tasks can be executed as single tasks. Execute single tasks require two **double clicks**:
+
+  - the first double click for **estimation** and
+  - the second double click for **executing** the task
+
+The output from rsync is presented after each run.
 
 {{< image src="/images/RsyncOSX/master/synchronize/synchronize.png" alt="" position="center" style="border-radius: 8px;" >}}
 
-## Execute single task
+## Verify and execute a single task
 
-Execute single tasks is a **two step** operation, one for estimation run, `dry-run`, and one for the real task. A drop down view of the output from rsync is automatically presented after both tasks. A single task is executed by a double click on the selected task. Another double click executes the real run and a progress bar is presented.
+Execute a single task is a **two step** operation. The first is an estimation or verify run, a `dry-run` execution. The second one is the real run. A drop down view of the output from rsync is automatically presented after both steps.
 
-If Abort is pressed any executing task is aborted.
+A single task is executed by a double click on the selected task. Another double click executes the real run and a progress bar is presented.
+
+If Abort is pressed execution is aborted. It is also possible [to execute several tasks](/post/severaltasks/) in one go.
 
 ## Slide left and right
 
-Using either two fingers on the touchpad or a finger on the mouse, slide to the left will execute a single task. If the task is estimated a progressbar will pop up.
+Using either two fingers on the touchpad or a finger on the mouse, slide to the left will execute a single task. If the task is estimated a progress bar will pop up.
 
 {{< image src="/images/RsyncOSX/master/singletask/executeleft.png" alt="" position="center" style="border-radius: 8px;" >}}
 
