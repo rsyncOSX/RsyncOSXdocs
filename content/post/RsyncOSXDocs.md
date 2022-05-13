@@ -12,10 +12,7 @@ RsyncOSX is a [signed and notarized](/post/notarized/) GUI on top of the command
 - the [latest version](https://github.com/rsyncOSX/RsyncOSX/releases) of RsyncOSX is compiled for **macOS Big Sur** and later
 - the [changelog](/post/changelog/)
 
-RsyncOSX can also be installed by homebrew
-```bash
-brew install --cask rsyncosx
-```
+RsyncOSX can also be installed by homebrew: `brew install --cask rsyncosx`.
 
 ## First start
 
