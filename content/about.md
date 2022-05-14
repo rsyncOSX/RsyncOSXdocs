@@ -18,9 +18,9 @@ The development of RsyncOSX and RsyncUI will continue to be one of my prioritize
 
 I have retired form work at the age of 62. I am a passionate photographer, nature and wildlife (birds) and love staying in the Norwegian mountains. Grand kids, photography, continue maintenance of my macOS applications and cross country skiing are keeping me busy.
 
-{{< image src="/images/siv1.jpeg" alt="" position="center" style="border-radius: 8px;" >}}
-{{< image src="/images/siv2.jpeg" alt="" position="center" style="border-radius: 8px;" >}}
-{{< image src="/images/siv3.jpeg" alt="" position="center" style="border-radius: 8px;" >}}
+{{< image src="/images/siv1.jpg" alt="" position="center" style="border-radius: 8px;" >}}
+{{< image src="/images/siv2.jpg" alt="" position="center" style="border-radius: 8px;" >}}
+{{< image src="/images/siv3.jpg" alt="" position="center" style="border-radius: 8px;" >}}
 
 ## SwiftUI based
 
