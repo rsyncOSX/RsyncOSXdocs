@@ -16,9 +16,11 @@ RsyncOSX and RsyncUI is not professional software. There is only one developer, 
 
 The development of RsyncOSX and RsyncUI will continue to be one of my prioritized hobbies. As long as there are users of the apps I will continue developing.  If you like using RsyncOSX or RsyncUI please consider giving me a star on the GitHub repository. Every single star is a motivation for me to continue developing and keep the apps updated for the latest version of macOS.
 
-{{< image src="/images/bird.jpg" alt="" position="center" style="border-radius: 8px;" >}}
-
 I have retired form work at the age of 62. I am a passionate photographer, nature and wildlife (birds) and love staying in the Norwegian mountains. Grand kids, photography, continue maintenance of my macOS applications and cross country skiing are keeping me busy.
+
+{{< image src="/images/siv1.jpeg" alt="" position="center" style="border-radius: 8px;" >}}
+{{< image src="/images/siv2.jpeg" alt="" position="center" style="border-radius: 8px;" >}}
+{{< image src="/images/siv3.jpeg" alt="" position="center" style="border-radius: 8px;" >}}
 
 ## SwiftUI based
 
