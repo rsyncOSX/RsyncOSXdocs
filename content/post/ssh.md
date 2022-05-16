@@ -7,31 +7,21 @@ tags = ["passwordless","ssh keypath and identity file"]
 description = "RsyncOSX can guide you in setting up passwordless login by ssh-keys"
 lastmod = "2020-04-16"
 +++
-RsyncOSX utilizes user set ssh keypath and identityfile. Default values for ssh are `~/.ssh/id_rsa` and portnumber `22`. It is **not required** to set your own values for key path and identityfile if default values are used.
+RsyncOSX utilizes user set ssh keypath and identityfile. Default values for ssh are `~/.ssh/id_rsa` and portnumber `22`. It is not required to set your own values for key path and identityfile if default values are used. The ssh parameter within the rsync command is, if set by the user:
 
-The ssh parameter within the rsync command is if set by the user:
+- `-e  "ssh -i ~/.ssh_keypath/identityfile -p NN"`
 
-`-e  "ssh -i ~/.ssh_keypath/identityfile -p NN"`
-
-where
-
-`-i ~/.ssh_keypath/identityfile`
-
-is the ssh keypath and identityfile and
-
-`-p NN`
-
-is the port number ssh communicates through, default port 22
+where `-i ~/.ssh_keypath/identityfile` is the ssh keypath and identityfile and `-p NN` is the port number ssh communicates through, default port 22
 
 ## Ssh keypath and identityfile
 
 How to set ssh keypath and identityfile in [the user configuration](/post/sshsettings/).
 
-If global ssh parameters are set, it applies to **all configurations**. It is possible to set other ssh values on each task. There is a check and QA of ssh keypath and identityfile. When enabling user selected ssh keypath and identityfile please make sure it is in compliance with:
+If global ssh parameters are set, it applies to all configurations. It is possible to set other ssh values on each task. There is a check of the ssh keypath and identityfile. When enabling user selected ssh keypath and identityfile please make sure it is in compliance with:
 
-`~/.mynewsshcatalog/mynewkey`
+- `~/.mynewsshcatalog/mynewkey`
 
-The prefix has to be `~` followed by a `/`. RsyncOSX will verify that the ssh keypath has the prefix `~` and at least two `/` before saving the new keypath.
+The prefix has to be `~` followed by a `/`. RsyncOSX will verify that the ssh keypath is prefix by `~` and at least two `/` before saving the new keypath.
 
 ## Tools used
 
@@ -39,25 +29,24 @@ The following ssh tools are used: `ssh-keygen` and `ssh-copy-id`. RsyncOSX only 
 
 The ssh functions assist in two methods:
 
-- private and public ssh key pair based upon default ssh values for RSA based key
-
-`~/.ssh/id_rsa`
-
-- private and public ssh key pair based upon user selected values as
-
-`~/.ssh_rsyncosx/rsyncosx`
+- private and public ssh key pair based upon default ssh values for RSA based key `~/.ssh/id_rsa`
+- private and public ssh key pair based upon user selected values as `~/.ssh_rsyncosx/rsyncosx`
 
 If creating a new public ssh key pair based upon default ssh values for RSA based key, RsyncOSX does not add any parameters to the rsync command because this is default values. Ssh parameters to the rsync command is only added if the second method is chosen.
 
 The following commands for creating a new, alternative private and public ssh key pair:
-```bash
-cd
-mkdir .ssh_rsyncosx
-ssh-keygen -t rsa -N "" -f ~/.ssh_rsyncosx/rsyncosx
-```
+
+`cd`
+
+`mkdir .ssh_rsyncosx`
+
+`ssh-keygen -t rsa -N "" -f ~/.ssh_rsyncosx/rsyncosx`
+
+where
+
 - `-t rsa ""` generates a RSA based key-pair
 - `-N ""` sets no password
-- where `~/.ssh_rsyncosx/rsyncosx` is set by the user
+- and `~/.ssh_rsyncosx/rsyncosx` is set by the user
 
 The following command copy the newly created public key to the server:
 
