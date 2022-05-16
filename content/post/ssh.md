@@ -11,17 +11,16 @@ RsyncOSX utilizes user set ssh keypath and identityfile. Default values for ssh 
 
 The ssh parameter within the rsync command is if set by the user:
 
-```bash
--e  "ssh -i ~/.ssh_keypath/identityfile -p NN"
-```
+`-e  "ssh -i ~/.ssh_keypath/identityfile -p NN"`
+
 where
-```bash
--i ~/.ssh_keypath/identityfile
-```
+
+`-i ~/.ssh_keypath/identityfile`
+
 is the ssh keypath and identityfile and
-```bash
--p NN
-```
+
+`-p NN`
+
 is the port number ssh communicates through, default port 22
 
 ## Ssh keypath and identityfile
@@ -29,9 +28,9 @@ is the port number ssh communicates through, default port 22
 How to set ssh keypath and identityfile in [the user configuration](/post/sshsettings/).
 
 If global ssh parameters are set, it applies to **all configurations**. It is possible to set other ssh values on each task. There is a check and QA of ssh keypath and identityfile. When enabling user selected ssh keypath and identityfile please make sure it is in compliance with:
-```bash
-~/.mynewsshcatalog/mynewkey
-```
+
+`~/.mynewsshcatalog/mynewkey`
+
 The prefix has to be `~` followed by a `/`. RsyncOSX will verify that the ssh keypath has the prefix `~` and at least two `/` before saving the new keypath.
 
 ## Tools used
@@ -41,13 +40,13 @@ The following ssh tools are used: `ssh-keygen` and `ssh-copy-id`. RsyncOSX only 
 The ssh functions assist in two methods:
 
 - private and public ssh key pair based upon default ssh values for RSA based key
-```bash
-~/.ssh/id_rsa
-```
+
+`~/.ssh/id_rsa`
+
 - private and public ssh key pair based upon user selected values as
-```bash
-~/.ssh_rsyncosx/rsyncosx
-```
+
+`~/.ssh_rsyncosx/rsyncosx`
+
 If creating a new public ssh key pair based upon default ssh values for RSA based key, RsyncOSX does not add any parameters to the rsync command because this is default values. Ssh parameters to the rsync command is only added if the second method is chosen.
 
 The following commands for creating a new, alternative private and public ssh key pair:
@@ -61,14 +60,13 @@ ssh-keygen -t rsa -N "" -f ~/.ssh_rsyncosx/rsyncosx
 - where `~/.ssh_rsyncosx/rsyncosx` is set by the user
 
 The following command copy the newly created public key to the server:
-```bash
-ssh-copy-id -i /Users/thomas/.ssh_rsyncosx/rsyncosx -p NN user@server
-```
+
+`ssh-copy-id -i /Users/thomas/.ssh_rsyncosx/rsyncosx -p NN user@server`
+
 You can also setup the new ssh keypath and identityfile in a terminal window and after setup add the new ssh keypath and identityfile in Userconfig. RsyncOSX will automatically enable it when added in user config.
 
 The user can also apply local ssh keypath and identityfile and ssh port, which rules the global settings, on each task.
 
 Make sure that the new ssh catalog has the correct permissions. Open a terminal window and execute the following command.
-```bash
-chmod 700 ~/.ssh_rsyncosx
-```
+
+`chmod 700 ~/.ssh_rsyncosx`

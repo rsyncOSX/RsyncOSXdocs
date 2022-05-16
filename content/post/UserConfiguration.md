@@ -47,9 +47,8 @@ Logging is saved to permanent store:
 - either minimum (last 10 lines) or full logging of output from rsync, be carful not logging everything, the log file might be big
 - the log file can be inspected by open the output
 - the log file is stored at
-```bash
-$HOME/.rsyncosx/macserial/rsynclog.txt
-```
+
+`$HOME/.rsyncosx/macserial/rsynclog.txt`
 
 ## Monitor network connection
 
@@ -70,17 +69,16 @@ The user can set a selected ssh keypath and identityfile. Default values for ssh
 
 If global values are set, this is what the ssh parameter within the rsync command looks like.
 
-```bash
--e  "ssh -i ~/.ssh_keypath/identityfile -p NN"
-```
+`-e  "ssh -i ~/.ssh_keypath/identityfile -p NN"`
+
 where
-```bash
--i ~/.ssh_keypath/identityfile
-```
+
+`-i ~/.ssh_keypath/identityfile`
+
 is the ssh keypath and identityfile and
-```bash
--p NN
-```
+
+`-p NN`
+
 is the port number ssh communicates through, default port 22.
 
 If global ssh parameters are set, it applies to **all** configurations. It is possible to set other ssh values on each task.
@@ -97,14 +95,12 @@ Enable environment:
 
 It is possible to enter an environment variable to the process which executes the synchronize task. An example of such is :
 
-```bash
-"SSH_AUTH_SOCK": "/Users/username/.gnupg/S.gpg-agent.ssh"
-```
+`"SSH_AUTH_SOCK": "/Users/username/.gnupg/S.gpg-agent.ssh"`
 
 ## Backup
 
 The `Backup` function copies all configurations and logs as a backup to your
-```bash
-$HOME/Documents/RsyncOSXcopy-$date-suffix
-```
+
+`$HOME/Documents/RsyncOSXcopy-$date-suffix`
+
 Viewing the catalog in macOS Finder might show an empty catalog. The catalog is not empty, the configurations are saved as `.rsyncosx/macserialnumber` and Finder might not show `.` catalogs.
