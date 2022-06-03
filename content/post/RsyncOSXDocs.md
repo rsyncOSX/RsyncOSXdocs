@@ -22,6 +22,12 @@ The first time RsyncOSX starts it presents a link to [important words](/post/imp
 
 The error in bottom of the view is only RsyncOSX complaining about not finding the default file for stored tasks. The error disappears as soon as the first task is added.
 
+### Aborting task
+
+Please be aware it is an external task or process which actually executes the command line tool `rsync`. RsyncOSX is monitoring the external task for counting progress and termination. The user can abort all tasks at any time. Please let abort of a task to finish and cleanup properly before starting a new task. It might take a few seconds. If not RsyncOSX might become unresponsive.
+
+One advantage of utilizing `rsync` is that it can restart the synchronize task from where it was aborted.
+
 
 ## Add and execute your first task
 
