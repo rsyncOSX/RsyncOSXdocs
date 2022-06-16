@@ -37,7 +37,9 @@ If creating a new public ssh key pair based upon default ssh values for RSA base
 The following commands for creating a new, alternative private and public ssh key pair:
 
 `cd`
+
 `mkdir .ssh_rsyncosx`
+
 `ssh-keygen -t rsa -N "" -f ~/.ssh_rsyncosx/rsyncosx`
 
 where
