@@ -32,25 +32,22 @@ If remote catalog is a local volume full path must be added. The source catalog 
 
 RsyncUI creates the snapshots within the remote catalog. The ~ is expanded to the user home catalog on remote server. Utilizing snapshot on local attached disks require full path for remote catalog.
 
+`~/snapshots/1`
+
 - snapshot one
 - a full sync when snapshot is created
 
-`~/snapshots/1`
+`~/snapshots/2`
 
 - snapshot two
 - the next snapshots saves the changed files and makes hard links for files not changed
 
-`~/snapshots/2`
+...
 
-- snapshot n
-- n-1 is the latest snapshot saved to disk
-
-`~/snapshots/n-1`
+`~/snapshots/n`
 
 - snapshot n
 - n is the latest snapshot to be saved
-
-`~/snapshots/n`
 
 ## Create a snapshot
 

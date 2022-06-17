@@ -12,7 +12,7 @@ I did some research about multi plattform development, but I did not manage to f
 
 I have a master degree in computing science, but I am **not** a professional developer. I did my master in the days when Linux was released in 1991 and Internet became a public service. And a few years ahead of that, in 1989, the Web was invented at Cern.   
 
-RsyncOSX and RsyncUI is not professional software. There is only one developer, me, and I am doing what I can to keep the applications as stable and user friendly as possible. I am not a UI designer and some user might find the UI complicated and less user friendly.
+RsyncOSX and RsyncUI are not professional software. There is only one developer, me, and I am doing what I can to keep the applications as stable and user friendly as possible. I am not a UI designer and some user might find the UI complicated and less user friendly.
 
 The development of RsyncOSX and RsyncUI will continue to be one of my prioritized hobbies. As long as there are users of the apps I will continue developing.  If you like using RsyncOSX or RsyncUI please consider giving me a star on the GitHub repository. Every single star is a motivation for me to continue developing and keep the apps updated for the latest version of macOS.
 
@@ -20,14 +20,15 @@ I have retired from work at the age of 62. I am a passionate [photographer](http
 
 {{< image src="/images/siv1.jpg" alt="" position="center" style="border-radius: 8px;" >}}
 
+## Swift and Storyboard
+
+- [RsyncOSX](https://github.com/rsyncOSX/RsyncOSX) a GUI for rsync
+
+This app is compiled with support for macOS Big Sur and later.
+
 ## SwiftUI based
 
 - [RsyncUI](https://github.com/rsyncOSX/RsyncUI) a GUI for rsync
 
 This app is compiled for macOS Monterey.
 
-## Swift and Storyboard
-
-- [RsyncOSX](https://github.com/rsyncOSX/RsyncOSX) a GUI for rsync
-
-This app is compiled with support for macOS Big Sur and later.
