@@ -11,6 +11,12 @@ RsyncOSX is [signed and notarized](/post/notarized/). Please see info about [the
 
 Using RsyncOSX requires some knowledge of `rsync`. The main objective for RsyncOSX is to ease the use of `rsync`, not teach macOS users how to use `rsync`. That is beyond the scope of RsyncOSX. Setting the wrong parameters to rsync can result in deleted data. And RsyncOSX will not stop you for doing so. That is why it is very important to execute a simulated run (`--dry-run`) and inspect what happens before a real run.
 
+## Version 6.7.4 build (18) - not yet released
+
+Date: 16 July 2022
+
+There will be a new release as soon as macOS Ventura and Xcode 14.0 are released. There are fixed a couple of minor glitches. All glitches are related to a few missing updates in a couple of views. As part of Xcode 14.0 there is also a new version of Swift. There might as well be some updates related to the new version of Swift.
+
 ## Version 6.7.3 build (17)
 
 Date: 4 May 2022
