@@ -14,7 +14,7 @@ RsyncOSX is a [signed and notarized](/post/notarized/) GUI on top of the command
 
 RsyncOSX can also be installed by homebrew: `brew install --cask rsyncosx`.
 
-## First start
+## First time use
 
 The first time RsyncOSX starts it presents a link to [important words](/post/important/) about it. There is also info about [the latest version of rsync](/post/rsync/) to install.
 
@@ -22,12 +22,11 @@ The first time RsyncOSX starts it presents a link to [important words](/post/imp
 
 The error in bottom of the view is only RsyncOSX complaining about not finding the default file for stored tasks. The error disappears as soon as the first task is added.
 
-### Aborting task
+### Aborting tasks
 
-Please be aware it is an external task or process which actually executes the command line tool `rsync`. RsyncOSX is monitoring the external task for counting progress and termination. The user can abort a tasks at any time. Please let the abort to finish and cleanup properly before starting a new task. It might take a few seconds. If not the apps might become unresponsive.
+Please be aware it is an external task not controlled by RsyncOSX which executes the command line tool `rsync`. RsyncOSX is monitoring the task for progress and termination. The user can abort a tasks at any time. Please let the abort to finish and cleanup properly before starting a new task. It might take a few seconds. If not the apps might become unresponsive.
 
-One advantage of utilizing `rsync` is that it can restart the synchronize task from where it was aborted.
-
+One of many advantages of utilizing `rsync` is that it can restart and continue the synchronize task from where it was aborted.
 
 ## Add and execute your first task
 
@@ -63,9 +62,7 @@ Snapshot is an effective method for saving changes and deleted files. You can al
 
 ## Schedule tasks
 
-By default the schedules part is not enabled, enable the schedule part in the userconfig. The schedules is available by a button within the main view.
-
-- scheduling of [tasks](/post/scheduletasks/)
+By default the schedules part is **not** enabled, enable [scheduling of tasks](/post/scheduletasks/) in userconfig.
 
 ## Restore of files
 
