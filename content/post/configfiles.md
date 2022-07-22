@@ -21,7 +21,7 @@ If profile is utilized:
 `$HOME/.rsyncosx/macserialnumber/profile/configurations.json`
 ## Schedules and log records
 
-`$HOME/.rsyncosx/macserialnumber/macserialnumber/schedules.json`
+`$HOME/.rsyncosx/macserialnumber/schedules.json`
 
 If profile is utilized:
 
