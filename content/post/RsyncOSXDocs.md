@@ -7,12 +7,12 @@ tags = ["summary"]
 categories = ["general information"]
 lastmod = "2022-05-09"
 +++
-RsyncOSX is a [signed and notarized](/post/notarized/) GUI on top of the command line utility `rsync`, which is a file based tool for synchronization of files. It is built as a Universal macOS Binary which means it run natively on Apple Silicon and Intel based Mac computers.
+RsyncOSX is a [signed and notarized](/post/notarized/) GUI on top of the command line utility `rsync`, which is a file based tool for synchronization of files. It is built as a Universal macOS Binary which means it runs natively on Apple Silicon and Intel based Mac computers.
 
-- the [latest version](https://github.com/rsyncOSX/RsyncOSX/releases) of RsyncOSX is compiled for **macOS Big Sur** and later
+- [RsyncOSX](https://github.com/rsyncOSX/RsyncOSX/releases) is compiled for **macOS Big Sur** and later
 - the [changelog](/post/changelog/)
 
-RsyncOSX can also be installed by homebrew: `brew install --cask rsyncosx`.
+RsyncOSX can be installed by homebrew: `brew install --cask rsyncosx` or by download the [latest version](https://github.com/rsyncOSX/RsyncOSX/releases).
 
 ## First time use
 
