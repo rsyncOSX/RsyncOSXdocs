@@ -11,11 +11,13 @@ RsyncOSX is [signed and notarized](/post/notarized/). Please see info about [the
 
 Using RsyncOSX requires some knowledge of `rsync`. The main objective for RsyncOSX is to ease the use of `rsync`, not teach macOS users how to use `rsync`. That is beyond the scope of RsyncOSX. Setting the wrong parameters to rsync can result in deleted data. And RsyncOSX will not stop you for doing so. That is why it is very important to execute a simulated run (`--dry-run`) and inspect what happens before a real run.
 
-## Version 6.7.4 build (18) - not yet released
+## Version 6.7.4 build (18)
 
-Date: 16 July 2022
+Date: 8 September 2022
 
-There will be a new release as soon as macOS Ventura and Xcode 14.0 are released. There are fixed a couple of minor glitches. All glitches are related to a few missing updates in a couple of views. As part of Xcode 14.0 there is also a new version of Swift. There might as well be some updates related to the new version of Swift.
+Compiled on Apple Silicon (M1 Pro) by Xcode 14.0 as a Universal macOS Binary.
+
+Built on macOS Ventura by Xcode 14.0. There are fixed a couple of minor glitches. All glitches are related to a few missing updates in a couple of views.
 
 ## Version 6.7.3 build (17)
 
@@ -46,11 +48,11 @@ Compiled on Apple Silicon (M1 Pro) by Xcode 13.2.1 as a Universal macOS Binary.
 The changes also includes the bugfix from version 6.7.0.
 
 - **the userconfig** is now saved as JSON file, automatically transferred from the previous PLIST config file
-	- userconfig are values like which version of rsync is utilized, restore path and so on
+  - userconfig are values like which version of rsync is utilized, restore path and so on
 - accessing **the schedule part is moved to a button within main view**, the main percentage of the users of RsyncOSX does not utilize the schedule part and the change clean up the main tab view
-	- the schedule part is by default hidden, enable the schedule part in the userconfig
+  - the schedule part is by default hidden, enable the schedule part in the userconfig
 - continue the cleaning of code and removing of not used code
-	- the development of RsyncOSX commenced more than five years ago and there are still not used code which should be removed
+  - the development of RsyncOSX commenced more than five years ago and there are still not used code which should be removed
 
 ## Version 6.7.0 build (14) - prerelease
 
@@ -236,9 +238,9 @@ There is an issue with **creating new** `snapshot` tasks in version 6.5.0. The b
 
 The following are changes in the release:
 
--  default path for RsyncOSX config files is changed to `$HOME/.rsyncosx/macserialnumber`
-	- existing users can choose to migrate or keep config files in previous default path which is `$HOME/Documents/Rsync/macserialnumber`
-	- in About the used path for config files is presented
+- default path for RsyncOSX config files is changed to `$HOME/.rsyncosx/macserialnumber`
+  - existing users can choose to migrate or keep config files in previous default path which is `$HOME/Documents/Rsync/macserialnumber`
+  - in About the used path for config files is presented
 - the Restore part is adjusted
 - and a few minor fixes
 - due to the above issue, RsyncOSX version 6.4.6 and later is for macOS 10.15 and later
@@ -264,9 +266,9 @@ There is one major enhancement in the release, execute shell scripts before and 
 Pre and post shell scripts are **only executed** by selecting the task and by `⌘B` (Execute now, RsyncOSX) or by a schedule in the menu app (RsyncOSXsched).
 
 - adding execute post and pre scripts on tasks (requested by [@Dante Barba](https://github.com/dantebarba))
-	- by [utilizing John Sundell´s ShellOut](https://github.com/JohnSundell/ShellOut)
-	- shell scripts may be used for mounting and unmounting volumes before and after rsync task or any other housekeeping tasks
-	- add and enable, disable pre and post shell commands in Add or Edit view
+  - by [utilizing John Sundell´s ShellOut](https://github.com/JohnSundell/ShellOut)
+  - shell scripts may be used for mounting and unmounting volumes before and after rsync task or any other housekeeping tasks
+  - add and enable, disable pre and post shell commands in Add or Edit view
 - the menu app (RsyncOSXsched) now executes pre and post scripts
 - fixed bug in canceling and deleting schedules
 - fixed a serious bug how dates are calculated in both RsyncOSX and the menu app (reported by [@CaspervdGeer](https://github.com/CaspervdGeer))
