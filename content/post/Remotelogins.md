@@ -3,7 +3,7 @@ author = "Thomas Evensen"
 date = "2021-04-17"
 title =  "Remote servers and passwordless logins"
 tags = ["passwordless"]
-categories = ["remotelogins"]
+categories = ["remote servers"]
 description = "There are two ways to setup passwordless logins to remote servers."
 lastmod = "2020-08-06"
 +++

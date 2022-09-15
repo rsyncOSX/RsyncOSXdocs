@@ -1,10 +1,10 @@
 +++
 author = "Thomas Evensen"
 date = "2021-04-16"
-title =  "Passwordless logins by ssh-keys."
-tags = ["passwordless","ssh keypath and identity file"]
+title =  "Passwordless logins by ssh-keys"
+tags = ["passwordless"]
 
-# categories = ["remotelogins"]
+categories = ["remote servers"]
 
 description = "RsyncOSX can guide you in setting up passwordless login by ssh-keys"
 lastmod = "2020-04-16"

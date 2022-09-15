@@ -2,7 +2,7 @@
 author = "Thomas Evensen"
 date = "2021-04-16"
 title =  "Logging"
-tags = ["RsyncOSX files"]
+tags = ["logging"]
 categories = ["general information"]
 description = "There are a few logging options to file in RsyncOSX."
 lastmod = "2020-12-13"

@@ -2,7 +2,7 @@
 author = "Thomas Evensen"
 date = "2021-04-17"
 title =  "How to compile RsyncOSX"
-tags = ["develop"]
+tags = ["compile"]
 categories = ["develop"]
 description = "If you pull RsyncOSX from GitHub you can easy compile your own version."
 +++

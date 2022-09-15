@@ -2,7 +2,7 @@
 author = "Thomas Evensen"
 date = "2021-04-16"
 title =  "RsyncOSX config files"
-tags = ["config file"]
+tags = ["config files"]
 categories = ["general information"]
 description = "Where does RsyncOSX stores the various configuration files."
 lastmod = "2020-10-23"
@@ -19,6 +19,7 @@ In the `About` the used path for configuration files is shown. RsyncOSX evaluate
 If profile is utilized:
 
 `$HOME/.rsyncosx/macserialnumber/profile/configurations.json`
+
 ## Schedules and log records
 
 `$HOME/.rsyncosx/macserialnumber/schedules.json`

@@ -2,7 +2,7 @@
 author = "Thomas Evensen"
 date = "2021-04-16"
 title =  "Localization"
-tags = ["Localization"]
+tags = ["localization"]
 categories = ["general information"]
 description = "RsyncOSX speaks several languages."
 +++

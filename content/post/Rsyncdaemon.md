@@ -3,7 +3,7 @@ author = "Thomas Evensen"
 date = "2021-04-16"
 title =  "Rsync daemon setup"
 tags = ["passwordless","rsync daemon"]
-categories = ["remotelogins"]
+categories = ["remote servers"]
 description = "How to setup remote logins by rsync daemon. There are also two methods for setting up."
 lastmod = "2020-07-16"
 +++

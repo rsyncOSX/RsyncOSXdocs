@@ -3,7 +3,7 @@ author = "Thomas Evensen"
 date = "2022-05-08"
 title =  "Add task"
 description = "How to add tasks into RsyncOSX."
-tags = ["add task"]
+tags = ["add"]
 categories = ["synchronize"]
 lastmod = "2022-05-08"
 +++
@@ -18,24 +18,32 @@ For remote catalogs only drag and drop for local attached volumes. For remote se
 {{< image src="/images/RsyncOSX/master/add/add.png" alt="" position="center" style="border-radius: 8px;" >}}
 
 ### Catalog parameters
+
 - **Task**
+  
   - synchronize, which is default and keeps source and destination in sync
   - [snapshots](/post/snapshots/), save changes and deletes ahead of a synchronize
   - syncremote, remote is source, synchronize a remote source to a local volume
 
 - **Local catalog**:
+  
   - required field
+
 - **Remote catalog**:
+  
   - required field
   - the backup catalog might also be a local catalog on a local attached disk
 
 - **ID**:
+  
   - informal tag for the task
 
 - **Dont´t add trailing**: `/`
+  
   - by default a trailing `/` is added to both source and destination
 
 ### Remote server parameters
+
 - **Remote username**:
   - username for login to remote server
 - **Remote server**:

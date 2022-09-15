@@ -3,8 +3,8 @@ author = "Thomas Evensen"
 title = "Changelog"
 date = "2022-05-07"
 description = "Changelog"
-tags = ["rsyncosx"]
-categories = ["changelog"]
+tags = ["changelog"]
+categories = ["general information"]
 lastmod = "2022-05-04"
 +++
 RsyncOSX is [signed and notarized](/post/notarized/). Please see info about [the latest version of rsync in install](/post/rsync/).
