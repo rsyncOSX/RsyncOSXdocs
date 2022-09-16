@@ -4,7 +4,6 @@ date = "2021-04-16"
 title =  "Signing and notarization"
 tags = ["notarize","signing"]
 categories = ["general information"]
-description = "Some info about signing and notarizing."
 lastmod = "2020-08-06"
 +++
 RsyncOSX is signed with my Apple ID developer certificate and [notarized](https://support.apple.com/en-us/HT202491) by Apple. This means that the app is verified and checked for not containing malicious code and it will work with Apples Gatekeeper technology. From macOS 10.15 Catalina, [notarizing is required for all software](https://developer.apple.com/documentation/security/notarizing_your_app_before_distribution).

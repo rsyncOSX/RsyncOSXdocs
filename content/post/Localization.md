@@ -4,7 +4,6 @@ date = "2021-04-16"
 title =  "Localization"
 tags = ["localization"]
 categories = ["general information"]
-description = "RsyncOSX speaks several languages."
 +++
 RsyncOSX is localized to:
 

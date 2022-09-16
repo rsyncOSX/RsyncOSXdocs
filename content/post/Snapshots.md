@@ -4,7 +4,6 @@ date = "2021-04-16"
 title =  "Snapshots"
 tags = ["snapshot"]
 categories = ["synchronize"]
-description = "Snapshot is a very effective method for saving changes to file."
 lastmod = "2020-12-13"
 +++
 Utilizing snapshot is an effective method for restore of previous versions of data and deleted files. Snapshot utilize [hardlinks](https://en.wikipedia.org/wiki/Hard_link) and only changed and deleted files are saved as separate files in a snapshot. Files which are not changed are hardlinks to the original file.

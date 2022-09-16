@@ -4,7 +4,6 @@ date = "2021-04-16"
 title =  "Execute single tasks"
 tags = ["single task","edit tasks"]
 categories = ["synchronize"]
-description = "Execute single task, first a verify run and then the real run."
 lastmod = "2020-12-13"
 +++
 In Synchronize view tasks can be executed as single tasks. Execute single tasks require two **double clicks**:

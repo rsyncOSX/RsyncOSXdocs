@@ -4,7 +4,6 @@ date = "2021-04-16"
 title =  "Execute several tasks"
 tags = ["several tasks"]
 categories = ["synchronize"]
-description = "How to execute several synchronize tasks."
 lastmod = "2020-12-13"
 +++
 There are three options for executing several synchronize tasks. The three toolbar buttons are:

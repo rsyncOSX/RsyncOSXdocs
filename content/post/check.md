@@ -2,9 +2,8 @@
 author = "Thomas Evensen"
 date = "2021-04-16"
 title =  "Verify synchronized files"
-tags = ["verify","--checksum","check"]
-categories = ["rsync"]
-description = "Sometimes you want to verify the synchronized data."
+tags = ["verify","checksum","check"]
+categories = ["synchronize"]
 lastmod = "2020-12-13"
 +++
 The verify of synchronized data is triggered by the `File -> Check synchronized` menu or the `⌘K` shortcut. The `--archive` parameter is the normal parameter to use in synchronize and snapshot tasks because it is fast. The `--archive` parameter to [rsync](https://en.wikipedia.org/wiki/Rsync) preserves a lot of attributes of files when synchronizing. Files transferred in --archive mode ensures that symbolic links, devices, permissions, ownerships, modification times, ACLs, and extended attributes are preserved. When synchronizing files based upon the --archive parameter, rsync compares file size and last modification time to compute which files to be synchronized.

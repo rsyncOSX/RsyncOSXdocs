@@ -4,7 +4,6 @@ date = "2021-04-16"
 title =  "Restore files"
 tags = ["restore"]
 categories = ["synchronize"]
-description = "How to restore files, there are two options."
 lastmod = "2020-12-13"
 +++
 A restore of files should always be executed carefully. It is **only allowed** to do a restore of files to a temporary restore catalog. To set a temporary restore path [select userconfiguration](/post/userconfiguration/) and set `temporary path restore`.

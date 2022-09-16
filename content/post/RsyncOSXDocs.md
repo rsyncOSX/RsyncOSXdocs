@@ -2,7 +2,6 @@
 author = "Thomas Evensen"
 title = "How to use RsyncOSX"
 date = "2022-05-09"
-description = "If you want some more info about RsyncOSX there are some resources here."
 tags = ["overview"]
 categories = ["general information"]
 lastmod = "2022-05-09"

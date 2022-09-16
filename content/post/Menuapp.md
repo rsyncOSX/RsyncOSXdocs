@@ -4,7 +4,6 @@ date = "2021-04-16"
 title =  "Menuapp"
 tags = ["menu app","scheduling"]
 categories = ["synchronize"]
-description = "The menu app for executing scheduled tasks."
 lastmod = "2020-06-16"
 +++
 The menu app is available for download together with RsyncOSX. The menu app is a scaled down and minimal app for executing scheduled tasks in RsyncOSX. It executes as a menu app and keeps track on next task to execute. The app is monitoring all schedules in all profiles. Scheduled tasks are added in RsyncOSX.

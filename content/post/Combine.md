@@ -4,7 +4,6 @@ date = "2021-04-16"
 title =  "Combine and RsyncOSX"
 tags = ["combine"]
 categories = ["develop"]
-description = "Combine and RsyncOSX."
 lastmod = "2021-05-30"
 +++
 In development of [RsyncUI](https://github.com/rsyncOSX/RsyncUI), I learned about the new declarative framework Combine. Combine is a great framework and makes the code easy to write and easy to read. In the Combine code for encode and write data to JSON file, the publisher requiere **macOS BigSur** and later.

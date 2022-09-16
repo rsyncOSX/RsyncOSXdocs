@@ -4,7 +4,6 @@ date = "2021-04-16"
 title =  "Rsync daemon setup"
 tags = ["passwordless","rsync daemon"]
 categories = ["remote servers"]
-description = "How to setup remote logins by rsync daemon. There are also two methods for setting up."
 lastmod = "2020-07-16"
 +++
 With a few tweaks it is possible to get RsyncOSX working with rsync daemon. Be aware of not utilizing ssh, transfer of data is not encrypted. This is might not a problem on a local network, but I would not advise it on a public network. Also be aware of **snapshot is not possible** with a rsync daemon setup.

@@ -2,9 +2,8 @@
 author = "Thomas Evensen"
 date = "2021-04-16"
 title =  "Scheduled task"
-tags = ["scheduling","menu app"]
+tags = ["schedules","menu app"]
 categories = ["synchronize"]
-description = "Tasks can be scheduled for executing."
 lastmod = "2020-12-13"
 +++
 By default the schedules part is not enabled, **enable** it in the [userconfig](/post/userconfiguration/). The view for adding and delete schedules is from the schedules button from the main view.

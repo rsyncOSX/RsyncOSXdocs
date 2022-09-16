@@ -4,7 +4,6 @@ date = "2021-04-16"
 title =  "License"
 tags = ["license"]
 categories = ["general information"]
-description = "The License of RsyncOSX."
 +++
 The MIT License (MIT)
 

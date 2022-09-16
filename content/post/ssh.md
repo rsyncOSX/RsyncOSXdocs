@@ -2,11 +2,8 @@
 author = "Thomas Evensen"
 date = "2021-04-16"
 title =  "Passwordless logins by ssh-keys"
-tags = ["passwordless"]
-
+tags = ["passwordless","ssh-keys"]
 categories = ["remote servers"]
-
-description = "RsyncOSX can guide you in setting up passwordless login by ssh-keys"
 lastmod = "2020-04-16"
 +++
 RsyncOSX utilizes user set ssh keypath and identityfile. Default values for ssh are `~/.ssh/id_rsa` and portnumber `22`. It is not required to set your own values for key path and identityfile if default values are used. The ssh parameter within the rsync command is, if set by the user:

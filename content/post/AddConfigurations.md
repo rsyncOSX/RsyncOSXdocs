@@ -2,7 +2,6 @@
 author = "Thomas Evensen"
 date = "2022-05-08"
 title =  "Add task"
-description = "How to add tasks into RsyncOSX."
 tags = ["add"]
 categories = ["synchronize"]
 lastmod = "2022-05-08"
