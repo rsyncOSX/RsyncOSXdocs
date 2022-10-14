@@ -29,17 +29,12 @@ where
 
 If remote catalog is a local volume full path must be added. The source catalog is **never** touched, only read by rsync.
 
-RsyncUI creates the snapshots within the remote catalog. The ~ is expanded to the user home catalog on remote server. Utilizing snapshot on local attached disks require full path for remote catalog.
+RsyncOSX creates the snapshots within the remote catalog. The ~ is expanded to the user home catalog on remote server. Utilizing snapshot on local attached disks require full path for remote catalog.
 
 `~/snapshots/1`
 
 - snapshot one
 - a full sync when snapshot is created
-
-`~/snapshots/2`
-
-- snapshot two
-- the next snapshots saves the changed files and makes hard links for files not changed
 
 ...
 
