@@ -12,8 +12,6 @@ RsyncOSX and RsyncUI are not professional software. There is one developer only,
 
 I have retired from work at the age of 62. I am a passionate [photographer](https://photosbythomas.netlify.app/), nature and wildlife (birds) and love staying in the Norwegian mountains. Grand kids, photography, continue maintenance of my macOS applications and cross country skiing are keeping me busy.
 
-{{< image src="/images/siv1.jpg" alt="" position="center" style="border-radius: 8px;" >}}
-
 ## Swift and Storyboard
 
 - [RsyncOSX](https://github.com/rsyncOSX/RsyncOSX) a GUI for rsync
