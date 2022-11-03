@@ -11,6 +11,14 @@ RsyncOSX is [signed and notarized](/post/notarized/). Please see info about [the
 
 Using RsyncOSX requires some knowledge of `rsync`. The main objective for RsyncOSX is to ease the use of `rsync`, not teach macOS users how to use `rsync`. That is beyond the scope of RsyncOSX. Setting the wrong parameters to rsync can result in deleted data. And RsyncOSX will not stop you for doing so. That is why it is very important to execute a simulated run (`--dry-run`) and inspect what happens before a real run.
 
+## Version 6.7.5 - not yet released
+
+Date: 3 November 2022
+
+The work on next version is commenced. The major work in this release is rewriting some of the code to utilize Swifts `async` and `await` for asynchronous execution of code. The new code utilizing `async` and `await` is simpler and cleaner to read and write. The need for callback functions are reduced and it makes code lesser.  And lesser code is better code. Asynchronous execution is a key part of RsyncOSX. The completion of a task is not known ahead of execution and whenever a task is completed next action is executed. Next action is e.g. execute next synchronization task, present output from rsync or present a list of files. 
+
+The work is just commenced and there will be a few weeks befor release. There is for the moment no plans for GUI anhencements or new functions. 
+
 ## Version 6.7.4 build (18)
 
 Date: 8 September 2022
