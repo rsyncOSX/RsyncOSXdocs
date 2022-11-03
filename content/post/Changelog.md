@@ -17,7 +17,7 @@ Date: 3 November 2022
 
 The work on next version is commenced. The major work in this release is rewriting some of the code to utilize Swifts `async` and `await` for asynchronous execution of code. The new code utilizing `async` and `await` is simpler and cleaner to read and write. The need for callback functions are reduced and it makes code lesser.  And lesser code is better code. Asynchronous execution is a key part of RsyncOSX. The completion of a task is not known ahead of execution and whenever a task is completed next action is executed. Next action is e.g. execute next synchronization task, present output from rsync or present a list of files. 
 
-The work is just commenced and there will be a few weeks before release. There is for the moment no plans for GUI anhencements or new functions. 
+The work is just commenced and there will be a few weeks before release. There is for the moment no plans for GUI enhancements, new or changed functions. 
 
 ## Version 6.7.4 build (18)
 
