@@ -15,7 +15,7 @@ Using RsyncOSX requires basic knowledge of `rsync`. The main objective for Rsync
 
 Updated: 9 November 2022
 
-The work on next version is commenced. The main work is rewriting some of the code to utilize Swifts `async` and `await` for asynchronous execution of code. Utilizing `async` and `await` makes the code simpler and cleaner. The need for callback functions are reduced.  And lesser code is better code. Asynchronous execution is a key part of RsyncOSX. The completion of a task is not known ahead and whenever a task is completed next action is executed. Next action is e.g. execute next synchronization task, present output from rsync or present a list of files. 
+The major work within this version are rewrite of code to utilize Swifts `async` and `await` for asynchronous execution of tasks. Utilizing `async` and `await` makes the code simpler and cleaner. The need for callback functions are reduced.  And lesser code is better code. Asynchronous execution is a key part of RsyncOSX. The completion of a task is not known ahead and whenever a task is completed next action is executed. Next action is e.g. execute next synchronization task, present output from rsync or present a list of files. 
 
 There are also a few fixes within the snapshot part of RsyncOSX. 
 
