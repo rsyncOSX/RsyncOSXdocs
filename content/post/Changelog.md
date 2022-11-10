@@ -11,19 +11,17 @@ RsyncOSX is [signed and notarized](/post/notarized/). Please see info about [the
 
 Using RsyncOSX requires basic knowledge of `rsync`. The main objective for RsyncOSX is to ease the use of `rsync`, not teach macOS users how to use `rsync`. That is beyond the scope of RsyncOSX. Setting wrong parameters to rsync can result in deleted data. RsyncOSX nor RsyncUI will not stop you for doing so. That is why it is very important to execute a simulated run, a `--dry-run`, and verify the result before the real run.
 
-## Version 6.7.5 - not yet released
+## Version 6.7.5 build (19) release candidate 
 
-Updated: 9 November 2022
+Date: 10 November 2022
 
-The major work within this version are rewrite of code to utilize Swifts `async` and `await` for asynchronous execution of tasks. Utilizing `async` and `await` makes the code simpler and cleaner. The need for callback functions are reduced.  And lesser code is better code. Asynchronous execution is a key part of RsyncOSX. The completion of a task is not known ahead and whenever a task is completed next action is executed. Next action is e.g. execute next synchronization task, present output from rsync or present a list of files. 
+Compiled on Apple Silicon (M1 Pro) by Xcode 14.1 as a Universal macOS Binary.
 
-There are also a few fixes within the snapshot part of RsyncOSX. 
+The major work within this version is rewrite of code to utilize Swifts `async` and `await` for asynchronous execution of tasks. Utilizing `async` and `await` makes the code simpler and cleaner. The need for callback functions are reduced.  And lesser code is better code. Asynchronous execution is a key part of RsyncOSX. The completion of a task is not known ahead and whenever a task is completed next action is executed. Next action is e.g. execute next synchronization task, present output from rsync or present a list of files. 
 
-There is also some time since I have cleaned, simplified and deleted not used code.  Reviewing code after some periode of time (years) is very usefull. 
+There are also a few fixes within the snapshot part of RsyncOSX, some cleanup and deletion of unused code. 
 
-There is for the moment no plans for GUI enhancements, new or changed functions. 
-
-A release candidate will be published in a few days.
+There are no changes to the GUI part, only internal changes.
 
 ## Version 6.7.4 build (18)
 
