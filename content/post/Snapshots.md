@@ -10,7 +10,7 @@ Utilizing snapshot is an effective method for restore of previous versions of da
 
 If a `file.txt` is saved in snapshot number one and never changed or deleted, the file `file.txt` in the latest snapshot is just a hardlink to the original file. If the `file.txt` is deleted from the first snapshot, the filesystem takes care of updating and where to save the original file as part of the delete operation.
 
-About the last release candidate version 6.7.5 (released in November 2022) and **administration of snapshots**. Even if all snapshots are tagged for delete, the first and last snapshot are not deleted. The first and last snapshot are removed from the delete list as part of preparation (internal) of delete. 
+Even if all snapshots are tagged for delete, **the first** and **last** snapshot are not deleted. The first and last snapshot are removed from the delete list as part of preparation (internal) of delete. 
 
 ## Snapshot and rsync daemon setup
 
