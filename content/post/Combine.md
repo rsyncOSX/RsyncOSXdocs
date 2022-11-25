@@ -6,7 +6,7 @@ tags = ["combine","asynchronous execution"]
 categories = ["develop"]
 lastmod = "2021-05-30"
 +++
-RsyncOSX is developed utilizing default Swift and Swift libraries. Swift is a fumctional programming language, but some parts of RsyncOSX utilizes Combine which is a declarative framework.
+RsyncOSX is developed utilizing default Swift and Swift libraries. Swift is a functional programming language, but some parts of RsyncOSX utilizes Combine which is a declarative framework.
 
 # Combine
 
