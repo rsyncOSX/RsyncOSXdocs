@@ -11,6 +11,17 @@ RsyncOSX is [signed and notarized](/post/notarized/). Please see info about [the
 
 Using RsyncOSX requires basic knowledge of `rsync`. The main objective for RsyncOSX is to ease the use of `rsync`, not teach macOS users how to use `rsync`. That is beyond the scope of RsyncOSX. Setting wrong parameters to rsync can result in deleted data. RsyncOSX nor RsyncUI will not stop you for doing so. That is why it is very important to execute a simulated run, a `--dry-run`, and verify the result before the real run.
 
+## Version 6.7.6 build (21) - not yet released
+
+Date: 2 December 2022
+
+Some work on next version is commenced. The check for updated version of RsyncOSX  is changed (internal stuff). All new tasks are marked with red text in date field until a real synchronize is executed. A double click for estimate (dryrun) on a newly added task will change the text "not verified (dryrun)" to todays date in red. When the real run is executed the timestamp is written to the task. 
+
+If the user decide to skip the dryrun and not verify the result, the user might delete and loose data if parameters to rsync is wrong according to what is expetcted. Like mixing up source and destination folders will most likely cause data to be deleted.
+
+{{< image src="/images/Temporary/notverified1.png" alt="" position="center" style="border-radius: 8px;" >}}
+{{< image src="/images/Temporary/notverified2.png" alt="" position="center" style="border-radius: 8px;" >}}
+
 ## Version 6.7.5 build (19) 
 
 Date: 18 November 2022
