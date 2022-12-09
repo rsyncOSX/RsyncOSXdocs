@@ -6,6 +6,8 @@ tags = ["add"]
 categories = ["synchronize"]
 lastmod = "2022-05-08"
 +++
+**Caution**:  **always** verify, by a `dryrun`,  the result of a **new** task before executing it.
+
 A task require minimum a **local catalog** and a **remote catalog**. Continue to add new tasks until completed and tasks are saved to permanent storage after each entry. Select local catalog either by GUI, drag and drop or by enter text directly.
 
 Add is selected by choosing `Add task` on the sidebar menu.

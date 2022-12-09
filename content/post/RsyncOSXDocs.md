@@ -27,6 +27,13 @@ Please be aware it is an external task not controlled by RsyncOSX which executes
 
 One of many advantages of utilizing `rsync` is that it can restart and continue the synchronize task from where it was aborted.
 
+### How to verify a new task - important
+
+After adding [a task](/post/addconfigurations/), a double click on the new task will execute a simulated run or what is called a `dryrun`. Check the output from rsync, either by opening the log, top left icon in sidebar of RsyncOSX, ahead or after the simulated run. 
+
+For more experienced users of rsync, select the new task and press the `Command` button. Copy and paste the `Synchronize` string into a terminal view. The rsync command includes the `dryrun` parameter as default within this view.
+
+
 ## Add and execute your first task
 
 It is easy to add and execute your first synchronize task.
@@ -34,7 +41,7 @@ It is easy to add and execute your first synchronize task.
 - add [a task](/post/addconfigurations/)
 - execute [a single task](/post/singletask/)
 
-**Always** verify the result of a task before executing it.
+**Always** verify, by a `dryrun`,  the result of a **new** task before executing it.
 
 ## How to setup remote servers
 
