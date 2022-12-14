@@ -35,7 +35,7 @@ For more experienced users of rsync, select the new task and press the `Command`
 
 ## Synchronize data
 
-After [adding a task](/post/addconfigurations/) you are ready to execute a [synchronize data task](/post/tasks/).
+After [adding a task](/post/addconfigurations/) you are ready to execute a [synchronize data task](/post/singletask/).
 
 **Always** verify, by a `dryrun`,  the result of a **new** task before executing it.
 
