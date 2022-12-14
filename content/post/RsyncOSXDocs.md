@@ -33,12 +33,9 @@ After adding [a task](/post/addconfigurations/), a double click on the new task 
 
 For more experienced users of rsync, select the new task and press the `Command` button. Copy and paste the `Synchronize` string into a terminal view. The rsync command includes the `dryrun` parameter as default within this view.
 
-## Add and execute your first task
+## Synchronize data
 
-It is easy to add and execute your first synchronize task.
-
-- add [a task](/post/addconfigurations/)
-- execute [a single task](/post/singletask/)
+After [adding a task](/post/addconfigurations/) you are ready to execute a [synchronize data task](/post/tasks/).
 
 **Always** verify, by a `dryrun`,  the result of a **new** task before executing it.
 
@@ -58,12 +55,9 @@ Rsync has a ton of parameters. In user selected parameters you can add your own 
 - default [parameters](/post/rsyncparameters)
 - user selected [parameters](/post/userparameters/)
 
-## Snapshots and execute several tasks
+## Snapshots
 
-Snapshot is an effective method for saving changes and deleted files. You can also execute a group of tasks.
-
-- utilizing [the snapshot](/post/snapshots/) feature
-- synchronize [several tasks](/post/severaltasks/)
+[Snapshot is an effective method](/post/snapshots/) for saving previous versions of data and deleted files in case of a restore.
 
 ## Schedule tasks
 
