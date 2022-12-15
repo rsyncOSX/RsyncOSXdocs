@@ -47,8 +47,7 @@ RsyncOSX creates the snapshots within the remote catalog. The ~ is expanded to t
 
 ## Create a snapshot
 
-To create a snapshot task select `snapshot` as type in [add tasks](/post/addconfigurations/). Do **not** copy and paste command for execution within a terminal window. RsyncOSX saves the number n to the configuration. The number n is the next snapshot number. The number n is used when computing the parameter for rsync
-and is picked up from the configuration.
+To create a snapshot task select `snapshot` as type in [add tasks](/post/addconfigurations/). Do **not** copy and paste command for execution within a terminal window. RsyncOSX saves the number `n` to the configuration. The number `n` is the next snapshot number.
 
 ## Snapshots on local attached volumes
 
