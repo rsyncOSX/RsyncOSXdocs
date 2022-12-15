@@ -15,19 +15,19 @@ RsyncOSX can be installed by homebrew: `brew install --cask rsyncosx` or by down
 
 ## First time use
 
-The first time RsyncOSX starts it presents a link to [important words](/post/important/) about it. There is also info about [the latest version of rsync](/post/rsync/) to install.
+The first time RsyncOSX starts it presents a link to [important information](/post/important/). There is also info about [the latest version of rsync](/post/rsync/) to install.
 
 {{< image src="/images/RsyncOSX/master/start/start.png" alt="" position="center" style="border-radius: 8px;" >}}
 
 The error in bottom of the view is only RsyncOSX complaining about not finding the default file for stored tasks. The error disappears as soon as the first task is added.
 
-### Aborting tasks
+### Aborting a task
 
-Please be aware it is an external task not controlled by RsyncOSX which executes the command line tool `rsync`. RsyncOSX is monitoring the task for progress and termination. The user can abort a tasks at any time. Please let the abort to finish and cleanup properly before starting a new task. It might take a few seconds. If not the apps might become unresponsive.
+Please be aware it is an external task not controlled by RsyncOSX which executes the command line tool `rsync`. RsyncOSX is monitoring the task for progress and termination. The user can abort a task at any time. Please let the abort to finish and cleanup properly before starting a new task. It might take a few seconds. If not the apps might become unresponsive.
 
 One of many advantages of utilizing `rsync` is that it can restart and continue the synchronize task from where it was aborted.
 
-### How to verify a new task - important
+### Verify a new task
 
 After adding [a task](/post/addconfigurations/), a double click on the new task will execute a simulated run or what is called a `dryrun`. Verify the output from rsync by opening the log, top left icon in sidebar of RsyncOSX, either ahead or after the simulated run. 
 
@@ -39,7 +39,7 @@ After [adding a task](/post/addconfigurations/) you are ready to execute a [sync
 
 **Always** verify, by a `dryrun`,  the result of a **new** task before executing it.
 
-## How to setup remote servers
+## Remote servers
 
 Utilizing RsyncOSX to synchronize files to remote servers requires some setup. There are two options to setup [passwordless logins](/post/remotelogins/). The advised setup is by utilizing ssh-keys.
 
@@ -48,7 +48,7 @@ Utilizing RsyncOSX to synchronize files to remote servers requires some setup. T
 
 Snapshots is **not** possible with rsync daemon setup.
 
-## How to add parameters to rsync
+## Add parameters to rsync
 
 Rsync has a ton of parameters. In user selected parameters you can add your own additional parameters to rsync. There is also a set of default rsync parameters.
 

@@ -17,7 +17,7 @@ Default parameters set by RsyncOSX to `rsync` can be disabled task by task. If y
 
 ## Aborting a task
 
-Please be aware it is an external task not controlled by RsyncOSX, which executes the command line tool `rsync`. RsyncOSX is monitoring the task for progress and termination. The user can abort a tasks at any time. Please let the abort to finish and cleanup before starting a new task. It might take a few seconds. If not RsyncOSX might become unresponsive.
+Please be aware it is an external task not controlled by RsyncOSX, which executes the command line tool `rsync`. RsyncOSX is monitoring the task for progress and termination. The user can abort a task at any time. Please let the abort to finish and cleanup before starting a new task. It might take a few seconds. If not RsyncOSX might become unresponsive.
 
 One of many advantages of utilizing `rsync` is that it can restart and continue the synchronize task from where it was aborted.
 
