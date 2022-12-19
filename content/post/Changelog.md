@@ -9,8 +9,6 @@ lastmod = "2022-05-04"
 +++
 RsyncOSX is [signed and notarized](/post/notarized/). Please see info about [the latest version of rsync in install](/post/rsync/).
 
-Using RsyncOSX requires basic knowledge of `rsync`. The main objective for RsyncOSX is to ease the use of `rsync`, not teach macOS users how to use `rsync`. That is beyond the scope of RsyncOSX. Setting wrong parameters to rsync can result in deleted data. RsyncOSX nor RsyncUI will not stop you for doing so. That is why it is very important to execute a simulated run, a `--dry-run`, and verify the result before the real run.
-
 ## Version 6.7.6 build (21) - not yet released
 
 Date: 2 December 2022
