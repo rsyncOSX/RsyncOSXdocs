@@ -13,9 +13,9 @@ RsyncOSX is a [signed and notarized](/post/notarized/) GUI on top of the command
 
 RsyncOSX can be installed by homebrew: `brew install --cask rsyncosx` or by download the [latest version](https://github.com/rsyncOSX/RsyncOSX/releases).
 
-## First time use
+## First time
 
-The first time RsyncOSX starts it presents a link to [important information](/post/important/). There is also info about [the latest version of rsync](/post/rsync/) to install.
+The first time RsyncOSX starts it presents a link to [important](/post/important/) information. There is also info about the latest [version of rsync](/post/rsync/) to install.
 
 {{< image src="/images/RsyncOSX/master/start/start.png" alt="" position="center" style="border-radius: 8px;" >}}
 
