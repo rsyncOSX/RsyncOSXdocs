@@ -11,7 +11,9 @@ RsyncOSX is [signed and notarized](/post/notarized/). Please see info about [the
 
 ## Version 6.7.6 build (21) - not yet released
 
-Date: 2 December 2022
+Date: 22 December 2022 , will be relased sometime in January 2023. 
+
+Master repository is updated, it is easy [to compile](https://rsyncosx.netlify.app/post/compile/) your own version.
 
 Some work on next version is commenced. The check for updated version of RsyncOSX  is changed (internal stuff). All new tasks are marked with red text in date field until a real synchronize is executed. A double click for estimate (dryrun) on a newly added task will change the text "not verified (dryrun)" to todays date in red. When the real run is executed the timestamp is written to the task. 
 
@@ -19,6 +21,8 @@ If the user decide to skip the dryrun and not verify the result, the user might 
 
 {{< image src="/images/Temporary/notverified1.png" alt="" position="center" style="border-radius: 8px;" >}}
 {{< image src="/images/Temporary/notverified2.png" alt="" position="center" style="border-radius: 8px;" >}}
+
+There are also some other minor fixes and updates underways. 
 
 ## Version 6.7.5 build (19) 
 
