@@ -357,4 +357,4 @@ Released 11 January 2020.
 
 ## Version 6.1.0 - initial release
 
-Version 6.1.0 was released 24 December 2019. The initial relase was **14 March 2016**.
+Version 6.1.0 was released 24 December 2019. The initial release was **14 March 2016**.
