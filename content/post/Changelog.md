@@ -11,7 +11,7 @@ RsyncOSX is [signed and notarized](/post/notarized/). Please see info about [the
 
 ## Version 6.7.6 build (21) - release candidate
 
-Date: 22 December 2022 
+Released 22 December 2022 
 
 Compiled on Apple Silicon (M1 Pro) by Xcode 14.1 as a Universal macOS Binary on macOS Ventura. 
 
@@ -26,7 +26,7 @@ There are also some other minor fixes and updates in this rc. I am using this rc
 
 ## Version 6.7.5 build (19) 
 
-Date: 18 November 2022
+Released 18 November 2022
 
 Compiled on Apple Silicon (M1 Pro) by Xcode 14.1 as a Universal macOS Binary.
 
@@ -40,7 +40,7 @@ There are no changes to the GUI part, only internal changes.
 
 ## Version 6.7.4 build (18)
 
-Date: 8 September 2022
+Released 8 September 2022
 
 Compiled on Apple Silicon (M1 Pro) by Xcode 14.0 as a Universal macOS Binary.
 
@@ -48,7 +48,7 @@ Built on macOS Ventura by Xcode 14.0. There are fixed a couple of minor glitches
 
 ## Version 6.7.3 build (17)
 
-Date: 4 May 2022
+Released 4 May 2022
 
 Compiled on Apple Silicon (M1 Pro) by Xcode 13.3 as a Universal macOS Binary. Users who already have updated to this version does not need to reinstall it.
 
@@ -58,7 +58,7 @@ This is a minor maintenance release.
 
 ## Version 6.7.2 build (16)
 
-Date: 13 April 2022
+Released 13 April 2022
 
 Compiled on Apple Silicon (M1 Pro) by Xcode 13.3 as a Universal macOS Binary.
 
@@ -68,7 +68,7 @@ The [issue](https://github.com/rsyncOSX/RsyncOSX/issues/2062) is fixed.
 
 ## Version 6.7.1 build (15)
 
-Date: 21 February 2022
+Released 21 February 2022
 
 Compiled on Apple Silicon (M1 Pro) by Xcode 13.2.1 as a Universal macOS Binary.
 
@@ -83,7 +83,7 @@ The changes also includes the bugfix from version 6.7.0.
 
 ## Version 6.7.0 build (14) - prerelease
 
-Date: 22 January 2022
+Released 22 January 2022
 
 Compiled on Apple Silicon (M1 Pro) by Xcode 13.2.1 as a Universal macOS Binary.
 
@@ -95,7 +95,7 @@ Thx to [j-urich](https://github.com/j-urich) for reporting.
 
 ## Version 6.6.9 build (13)
 
-Date: 28 December 2021
+Released 28 December 2021
 
 Compiled on Apple Silicon (M1 Pro) by Xcode 13.2.1 as a Universal macOS Binary. There seems to be a **minor** bug in the About notifying about new version, the download button is not enabled. The latest release is [here](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.6.9).
 
@@ -107,7 +107,7 @@ The following are changed within this version:
 
 ## Version 6.6.8 build (11)
 
-Date: 17 November 2021
+Released 17 November 2021
 
 Compiled on Apple Silicon (M1 Pro) by Xcode 13.1 as a Universal macOS Binary.
 
@@ -121,19 +121,19 @@ The major work is internal. There might be several hundred or thousands of log r
 
 ## Version 6.6.7
 
-Date: 22 September 2021
+Released 22 September 2021
 
 There are a couple of UI-fixes within this release. The release is also build by the Xcode 13 which was released yesterday.
 
 ## Version 6.6.5
 
-Date: 18 September 2021
+Released 18 September 2021
 
 There is a bug for new users of RsyncOSX. The bug was related to creating log records after executing a task and also caused some unwanted sideeffects.
 
 ## Version 6.6.4 - issue sync remote task - fixed
 
-Date: 11 September 2021
+Released 11 September 2021
 
 There is an issue with adding `syncremote` tasks in version 6.6.3. A syncremote task is pulling data from a remote server to local Mac.
 
@@ -143,7 +143,7 @@ The issue was caused only by a missing connection between a `@IBOutlet` variable
 
 This build is for **macOS Big Sur and later**.
 
-[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.6.3) 25 July 2021.
+Released 25 July 2021.
 
 This is a maintenance release with **one** bugfix and a **few** cleanups within the UI. The add view is cleaned up a little bit, profile info is moved to the sidebar.
 
@@ -151,7 +151,7 @@ This is a maintenance release with **one** bugfix and a **few** cleanups within 
 
 This build is for **macOS Big Sur and later**.
 
-[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.6.2) 24 June 2021.
+Released 24 June 2021.
 
 - fixed a bug in adding new configurations on a new install of RsyncOSX or creating a new profile
 
@@ -159,7 +159,7 @@ This build is for **macOS Big Sur and later**.
 
 This build is for **macOS Big Sur and later**.
 
-[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.6.1) 21 June 2021.
+Released 21 June 2021.
 
 This is primarly a maintenance release, some cleanup in code and fixing one "bug" when adding configurations. Default now when adding a configuration is adding trailing `/`. This was by mistake not in the 6.6.0 release. Adding a trailing `/` to rsync or not makes two very different tasks.
 
@@ -167,7 +167,7 @@ This is primarly a maintenance release, some cleanup in code and fixing one "bug
 
 This build is for **macOS Big Sur and later**.
 
-[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.8) 6 June 2021
+Released 6 June 2021
 
 - the major work in this release is utilizing [Combine](/post/combine/)
 - this release does only support macOS Big Sur and later versions of macOS (due to some features in Combine)
@@ -176,20 +176,20 @@ This release will be maintained in the future together with RsyncUI. Version 6.5
 
 ## Version 6.5.8
 
-[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.8) 24 March 2021
+Released 24 March 2021
 
 - there is fixed a bug in parameters to rsync, `-e ssh` is missing if there is **not** set an explicit ssh keypath and identityfile
 - the above is only valid for remote servers, the parameter `-e ssh` causes the transferred data to be encrypted through a ssh tunell
 
 ## Version 6.5.7
 
-[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.7) 19 March 2021
+Released 19 March 2021
 
 - there are fixed a few layout (UI) issues in this release
 
 ## Version 6.5.6
 
-[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.6) 18 January 2021
+Released 18 January 2021
 
 There is a annoying bug in creating snapshots in version 6.5.4. It is one of the issues related to develop Swift and Storyboard applications. A button was removed in the Storyboard but not in code. And that one line of code causes a nil pointer exception and a crash.
 
@@ -200,7 +200,7 @@ I am focusing on developing a SwiftUI based version of RsyncOSX and version 6.5.
 
 ## Version 6.5.4
 
-[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.4) 31 December 2020
+Released 31 December 2020
 
 The following is changed:
 
@@ -209,7 +209,7 @@ The following is changed:
 
 ## Version 6.5.3
 
-[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.3) 24 December 2020
+Released 24 December 2020
 
 The following are changes:
 
@@ -224,7 +224,7 @@ I have no idea when a SwiftUI version wil be ready. I have a lot to learn about 
 
 ## Version 6.5.2
 
-[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.2) 4 December 2020
+Released 4 December 2020
 
 There are several internal changes in this version (refactor of code) to make the maintenance of the code more easy.
 
@@ -237,7 +237,7 @@ There are several internal changes in this version (refactor of code) to make th
 
 ## Version 6.5.0
 
-[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.5.0) 12 November 2020
+Released 12 November 2020
 
 Version 6.5.0 and later versions are only working on macOS 10.15 Catalina and 11.01 Big Sur. This version is built om macOS Big Sur with Xcode 12.2.
 
@@ -261,7 +261,7 @@ There is an issue with **creating new** `snapshot` tasks in version 6.5.0. The b
 
 ## Version 6.4.6
 
-[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.4.6) 23 September 2020
+Released 23 September 2020
 
 The following are changes in the release:
 
@@ -276,7 +276,7 @@ The reason for changing path for config file is there might be some issues for u
 
 ## Version 6.4.2
 
-[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.4.2) 22 August 2020
+Released 22 August 2020
 
 - fixed some bugs in logs and schedule part
 - fixed issue when creating a snapshot task
@@ -286,7 +286,7 @@ The reason for changing path for config file is there might be some issues for u
 
 ## Version 6.4.0
 
-[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.4.0) 26 July 2020
+Released 26 July 2020
 
 There is one major enhancement in the release, execute shell scripts before and after the rsync command. A serious bug in dates and the menu app is also fixed. And lastly there is also fixed a bug in deleting and canceling schedules.
 
@@ -303,7 +303,7 @@ Pre and post shell scripts are **only executed** by selecting the task and by `â
 
 ## Version 6.3.5
 
-[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.3.5) 30 June 2020
+Released 30 June 2020
 
 - some localization updates (German, Chinese Simplified, French)
 - added user set SSH keypath and identityfile, global and local settings
@@ -312,7 +312,7 @@ Pre and post shell scripts are **only executed** by selecting the task and by `â
 
 ## Version 6.3.0
 
-[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.3.0) 26 May 2020
+Released 26 May 2020
 
 - added counting numbers in quick backup
 - updatet a more precise counting when rsync is transferring files
@@ -321,7 +321,7 @@ Pre and post shell scripts are **only executed** by selecting the task and by `â
 
 ## Version 6.2.6
 
-[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.2.6) 23 April 2020.
+Released 23 April 2020.
 
 - batch is removed and replaced with multiple selection of tasks to execute
 - Italian localization added
@@ -334,7 +334,7 @@ Pre and post shell scripts are **only executed** by selecting the task and by `â
 
 ## Version 6.2.0
 
-[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.2.0) 27 February 2020.
+Released 27 February 2020.
 
 - restore single files and the full restore are combined
 - cleaned up some other views as well
@@ -342,13 +342,13 @@ Pre and post shell scripts are **only executed** by selecting the task and by `â
 
 ## Version 6.1.7
 
-[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.1.7) 5 February 2020.
+Released 5 February 2020.
 
 There are a few minor changes and enhancements in this release. The most noticeable change is the possibility to select another profile direct from the main, schedule and snapshot view (not from the profile dropdown menu). There are also some other minor changes which improves the usability of RsyncOSX. localization are updated as well.
 
 ## Version 6.1.5
 
-[Released](https://github.com/rsyncOSX/RsyncOSX/releases/tag/v6.1.5) 11 January 2020.
+Released 11 January 2020.
 
 - added German and French localization
 - fixed a minor bug
