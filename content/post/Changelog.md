@@ -13,7 +13,7 @@ RsyncOSX is [signed and notarized](/post/notarized/). Please see info about [the
 
 Released 22 December 2022 
 
-Compiled on Apple Silicon (M1 Pro) by Xcode 14.1 as a Universal macOS Binary on macOS Ventura. 
+Compiled on Apple Silicon (M1 Pro) by Xcode 14.2 as a Universal macOS Binary on macOS Ventura. 
 
 Some work on next version is commenced. The check for new versions of RsyncOSX  is changed (internal stuff). All new tasks are marked with red text in date field until a real synchronize is executed. A double click for estimate (dryrun) on a newly added task will change the text "not verified (dryrun)" to todays date in red. When the real run is executed the timestamp is written to the task. 
 
