@@ -6,7 +6,7 @@ tags = ["built"]
 categories = ["general information"]
 lastmod = "2022-12-29"
 +++
-RsyncOSX and RsyncUI shares a few of the basic components. RsyncOSX is a pure Swift and Storyboard based macOS application. RsyncUI is a pure SwiftUI and Swift based macOS application.  SwiftUI is a *declarative* programming paradigm vs Swift´s *imperativ* paradigm. Both apps utilizes another great declarativ library Combine developed by Apple. As well as JSON files for storing tasks, logrecords and user configuration. 
+RsyncOSX and RsyncUI shares a few of the basic components. RsyncOSX is a pure Swift and Storyboard based macOS application. RsyncUI is a pure SwiftUI and Swift based macOS application.  SwiftUI is a *declarative* programming paradigm vs Swift´s *imperativ* paradigm. Both apps utilizes another great declarative library Combine developed by Apple. As well as JSON files for storing tasks, logrecords and user configuration. 
 
 ## RsyncOSX vs RsyncUI
 
@@ -14,7 +14,7 @@ The major difference between the two apps is the UI part and how the UI part is 
 
 RsyncOSX utilizes Storyboards which is a graphical design of how the UI is compiled. All UI components within a view like buttons, tables and other UI components are added and placed within the view by Xcode. After design all UI views and components within a view are connected to Swift code. This is a manual action performed by the developer. If a UI component is not connected the app will crash with an nil pointer exception.
 
-RsyncUI utilizes SwiftUI for all UI parts. All UI parts are views, which programatically are structs (not classes), and they are programatically coded. A view, or struct, cannot be changed unless utilizing what is called a mutating function. In  SwitfUI there are special mutable property wrappers like `@State` and `@Binding` for local and private properties and properties for transferring data between views . There are property wrapper  like `@StateObject` which are of reference type. The latter property wrapper is initialized in the view as a class of type Observeable object. And there are other property wrappers to use within SwiftUI.
+RsyncUI utilizes SwiftUI for all UI parts. All UI parts are views, which is a value type (struct) vs a reference type (class), and they are programatically coded. A view cannot be changed unless utilizing a mutating function. In  SwitfUI there are special mutable property wrappers like `@State` and `@Binding` for local and private properties and properties for transferring data between views . There are property wrapper  like `@StateObject` which are of reference type. The latter property wrapper is initialized in the view as a class of type Observeable object. And there are other property wrappers to use within SwiftUI.
 
 ## Asynchronous execution
 
