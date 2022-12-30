@@ -8,7 +8,7 @@ lastmod = "2022-12-29"
 +++
 This page is under development.
 
-This page is for documentation of the major components of RsyncOSX and RsyncUI. But it will not document enough details to get a clear and precise understanding. Classes and structs for both apps are *focused* to keep them small and easy to understand (probably). And the name of structs, classes, variables and functions will also inform in some matter what it does (probably). 
+This page is for minor (or lesser) documentation of the main components of RsyncOSX and RsyncUI. It will not document details to get a clear and precise understanding how the apps work but more like an overview. Classes and structs for both apps are *focused* to keep them small and probably easy to understand. And names of structs, classes, variables and functions will also inform in some matter what it does. 
 
 The development of the apps has been an evolving process. Today both apps are stable and they are in a state of maintenace. Google and the open source community has been and stil are great resources for ideas and how to solve spesific tasks. Another focus has also been to utilize functions within Swift and SwiftUI libraries. Functions exposed by the libraries are way more effective than I am able to write myself. And it is much more effective to utilize most out of the functions within the libraries.
 
@@ -23,14 +23,14 @@ RsyncOSX and RsyncUI shares a few of the basic components.
 
 | App      | Code | Paradigm |
 | ----------- | ----------- |   ----------- |
-| RsyncOSX   | Swift, Storyboard   | imperativ       |
+| RsyncOSX   | Swift, Storyboard   | imperativ (Swift)      |
 | RsyncUI   | SwiftUI, Swift | declarativ  (SwiftUI)     |
 
 RsyncOSX is a pure Swift and Storyboard based macOS application. RsyncUI is a pure SwiftUI and Swift based macOS application.  Both apps utilizes another great declarative library Combine developed by Apple. As well as JSON files for storing tasks, logrecords and user configuration. 
 
-The major difference between the two apps is the UI part and how the UI is designed and built. 
+The main difference between the two apps is the UI part and how the UI is designed and built. 
 
-*RsyncOSX* utilizes Storyboard, which is a tool for graphical design of views. All UI components like buttons, tables and other UI components are added and placed within the view by Xcode. After design all UI components are connected, create bindings, to Swift code. This is a manual action performed by the developer. If the developer misses to bind a UI component the app will crash with an nil pointer exception every time that view is exposed.
+*RsyncOSX* utilizes Storyboard, which is a tool for graphical design of views. All UI components like buttons, tables and other UI components are added and placed within the view by Xcode. After design all UI components are connected, create bindings, to Swift code. This is a manual action performed by the developer. If the developer misses to bind a UI component, the app will crash with an nil pointer exception every time that view is exposed.
 
 *RsyncUI* utilizes SwiftUI for all UI parts. All UI parts are views, which is a value type struct and not a reference type class, and they are programatically coded. A  value type cannot be changed unless utilizing a mutating function. In  SwitfUI there are special property wrappers like `@State` and `@Binding` for local and private properties and properties for transferring data between views . There are property wrapper  like `@StateObject` which are of reference type. The latter property wrapper is initialized in the view as a class of type Observeable object. And there are many other property wrappers to be used within SwiftUI. RsyncUI utilizes only a few.
 
