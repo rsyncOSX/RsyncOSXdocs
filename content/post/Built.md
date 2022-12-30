@@ -10,7 +10,7 @@ This page is under development.
 
 This page is for documentation of the major components of RsyncOSX and RsyncUI. But it will not document enough details to get a clear and precise understanding. Classes and structs for both apps are *focused* to keep them small and easy to understand (probably). And the name of structs, classes, variables and functions will also inform in some matter what it does (probably). 
 
-The development of the apps has been an evolving process. Today both apps are stabel and they are in a state of maintenace. Google and the open source community has been and stil are great resources for ideas and how to solve spesific tasks. Another focus has also been to utilize functions within Swift and SwiftUI libraries. Functions exposed by the libraries are way more effective than I am able to write myself. And it is much more effective to utilize most out of the functions within the libraries.
+The development of the apps has been an evolving process. Today both apps are stable and they are in a state of maintenace. Google and the open source community has been and stil are great resources for ideas and how to solve spesific tasks. Another focus has also been to utilize functions within Swift and SwiftUI libraries. Functions exposed by the libraries are way more effective than I am able to write myself. And it is much more effective to utilize most out of the functions within the libraries.
 
 | App      | Lines of code | Swift files |
 | ----------- | ----------- |   ----------- |
