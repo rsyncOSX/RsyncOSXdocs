@@ -6,7 +6,7 @@ tags = ["built"]
 categories = ["general information"]
 lastmod = "2022-12-29"
 +++
-This info only for describing some of the key components of RsyncOSX and RsyncUI. Nor will it describe enough info to get a detailed understanding of what is happening. And there are no comments in code to describe what it does. Classes and structs are small and the purpose of each class and struct are focused to keep them small for understanding what it does. And the name of structs, classes, variables and functions will also inform what it does. There are about 160.000 - 170.000 lines of code in each app. 
+This info is only for describing some of the key components of RsyncOSX and RsyncUI. Nor will it describe enough to get a detailed understanding. Classes and struct are *focused* to keep them small and easy to understand (probably). And the name of structs, classes, variables and functions will also inform what it does (probably). There are about 160.000 - 170.000 lines of code in each app. 
 
 The development of the apps has been and still is an evolving process. The apps are developed by googling and reading code snippets and advices from other developers when I have questions about solutions. Another focus has also been to utilize functions within Swift and SwiftUI libraries. Functions exposed by the libraries are way more effective than I am able to write myself. And it is very effective to utilize most of the libraries.
 
