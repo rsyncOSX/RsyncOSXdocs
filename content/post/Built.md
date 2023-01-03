@@ -36,7 +36,7 @@ Storyboard for the sheetviews:
 
 ### RsyncUI and SwiftUI
 
-*RsyncUI* utilizes SwiftUI for all UI parts. All UI components are views, which is a value type, a struct, and not a reference type, a class. All UI components are added to RsyncUI by code. Example of a view is the [Details view](https://github.com/rsyncOSX/RsyncUI/blob/main/RsyncUI/Views/Detailsview/DetailsView.swift) after estimating tasks.
+*RsyncUI* utilizes SwiftUI for all UI parts. All UI components are views, which is a value type, a struct, and not a reference type, a class. All UI components are added to RsyncUI by code. Example of a view is the [Details view](https://github.com/rsyncOSX/RsyncUI/blob/main/RsyncUI/Views/Detailsview/DetailsView.swift) selecting the `DryRun` button.
 
 The details view:
 {{< image src="/images/Xcode/detailsview.png" alt="" position="center" style="border-radius: 8px;" >}}
