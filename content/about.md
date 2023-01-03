@@ -8,11 +8,11 @@ lastmod = "2021-04-12"
 +++
 My name is Thomas, e-mail: <thomeven@gmail.com>, and I am the developer of RsyncOSX and RsyncUI. The development of **RsyncOSX** commenced early in 2016 as a personal project to learn Swift. The first release of RsyncOSX on GitHub was March 2016. And there has been a ton of changes since then. [^1]. 
 
-[^1]: The start of development was a project to learn Swift. And there has been a lot of learning. Major parts of the current codebase of RsyncOSX is rewritten at least a couple of times compared to the first versions. Learning is an evolving process and even if some codelines does the work does not mean they are correct.
+[^1]: The start of development was a project to learn Swift. And there has been a lot of learning. Major parts of the codebase of RsyncOSX is rewritten a couple of times since start of the project.
 
 The work on the *SwiftUI* based **RsyncUI** commenced late in 2020. Many of the basic Swift components are shared between the two apps.[^2]
 
- [^2]: SwiftUI is a declarative programming paradigm vs Swift´s imperative paradigm. SwiftUI is a language for declaring the GUI´s (views) and that is why RsyncOSX and RsyncUI looks are very different. RsyncOSX is a Storyboard application where all GUIs are designed and connected with the approriate Swift files. 
+ [^2]: SwiftUI is a declarative programming paradigm vs Swift´s imperative paradigm. SwiftUI is a language for declaring the GUI´s and that is why RsyncOSX and RsyncUI looks are very different. RsyncOSX is a Storyboard application where all GUIs are designed and connected with the approriate Swift files. 
  
 I have a master degree in computing science, but I am **not** a professional developer. I did my master in the days when Linux was released in 1991 and Internet became a public service. And a few years ahead of that, in 1989, the Web was invented at Cern.   
 
