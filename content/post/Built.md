@@ -4,11 +4,9 @@ date = "2022-05-01"
 title =  "How are the apps built?"
 tags = ["built"]
 categories = ["general information"]
-lastmod = "2022-12-29"
+lastmod = "2023-01-03"
 +++
-This page is under development.
-
-This page is an overview of the main components of RsyncOSX and RsyncUI. The development of the apps has been an evolving process. Both apps are today stable and in a state of maintenace. Google and the open source community has been and still are great resources for ideas and how to solve spesific tasks. Some numbers:
+*Under development.* This page is an overview of the main components of RsyncOSX and RsyncUI. The development of the apps has been an evolving process. The open source community has been and still are a great resource for ideas and how to solve spesific tasks. Both apps are today stable and in a state of maintenace. Some numbers:
 
 | App      | Lines of code | Swift files |
 | ----------- | ----------- |   ----------- |
@@ -43,15 +41,13 @@ The details view:
 
  A  value type cannot be changed unless utilizing a mutating function. In  SwitfUI there are special property wrappers like `@State` and `@Binding` for local and private properties and properties for transferring data between views . There are property wrapper  like `@StateObject` which are of reference type. The latter property wrapper is initialized in the view as a class of type Observeable object. And there are many other property wrappers to be used within SwiftUI. RsyncUI utilizes only a few.
 
-Every time like a property wrapper is changed the view in a SwiftUI based app is reloaded. By reload means the view is recreated by the runtime. The model for when and how to reload is complex, but it is superfast. The cost of creating a value type vs creating a reference type is way more effective.
+Every time like a property wrapper is changed the view in a SwiftUI based app is reloaded. By reload means the view is recreated by the runtime. The internal model for when to reload is complex, but it is superfast. The cost of creating a value type vs creating a reference type is way more effective.
 
 ## Asynchronous execution
 
 Asynchronous execution of tasks are a key component of both apps. There are two methods for asynchronous execution. One is utilizing *callback functions* or *completion handlers*, which trigger next action when task is completed. The second is utilize Swift´s `async` and `await` utilities for asynchronous execution. Utilizing `async` and `await` makes the code simpler and cleaner. The need for *completion handlers* are reduced.  And lesser code is better code.
 
-All code which utilizes asynchronous execution are shared between the two apps. The `Process` object is where the real work is done. Input to the `Process` are the command to execute and the parameters for the command. The `Process` object utilizes Combine for monitoring process termination and output, when needed by the apps, from the command. 
-
-There are two versions of the process object:
+All code which utilizes asynchronous execution are shared between the two apps. The `Process` object is where the real work is done. Input to the `Process` are the command to execute and the parameters for the command. The `Process` object utilizes Combine for monitoring process termination and output, when needed by the apps, from the command.  There are two versions of the process object:
 
 - [the process object](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/RsyncProcess.swift)
 - [the async process object](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/RsyncProcessAsync.swift)
@@ -62,7 +58,7 @@ The difference between those two objects are minor, the async version marks the 
 
 ## Combine
 
-Combine makes the code easy to write and easy to read. In the Combine code for encode and write data to JSON file, the publisher requiere **macOS BigSur** and later. Combine is utilized in the following parts of RsyncOSX and likewise for RsyncUI. All code where Combine is utilized is shared between the two apps.
+Combine, a declarative library by Apple, makes the code easy to write and easy to read. In the Combine code for encode and write data to JSON file, the publisher requiere **macOS BigSur** and later. Combine is utilized in the following parts of RsyncOSX and likewise for RsyncUI. All code where Combine is utilized is shared between the two apps.
 
 - [read](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ReadUserConfigurationJSON.swift) user configurations from permanent store
 - [read](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ReadConfigurationJSON.swift) and [write](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/WriteConfigurationJSON.swift) configurations
