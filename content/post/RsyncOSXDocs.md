@@ -75,6 +75,6 @@ There are a few [user selected options](/post/userconfiguration/).
 
 Where does RsyncOSX [stores the config files](/post/configfiles/)?
 
-## Compile
+## Compile and how is the apps built
 
-And there is some info about [how to compile RsyncOSX](/post/compile/).
+And there is some info about how [to compile RsyncOSX](/post/compile/) and some overview of how the apps are [built](/post/built/).
