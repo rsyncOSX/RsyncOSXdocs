@@ -25,7 +25,7 @@ RsyncOSX and RsyncUI shares most of the code for the model components. RsyncOSX 
 
 ### RsyncOSX and Storyboard
 
-*RsyncOSX* utilizes Storyboard, which is a tool for graphical design of views. All UI components like buttons, tables and other UI components are added and placed within the view by the developer utilizing Xcode. After design all UI components are connected, create bindings, to Swift code. This is a manual action performed by the developer. If the developer misses to bind a UI component, the app will crash with an nil pointer exception every time that view is exposed.
+*RsyncOSX* utilizes Storyboard, which is a tool for graphical design of views. UI components like buttons, tables and other UI components are added and placed within the view by the developer utilizing Xcode. After design all UI components are connected by creating bindings to Swift code. The developer manually adds a reference to the Swift source code for every view  within the Storyboard. If the developer misses to bind a UI component, the app will crash with an nil pointer exception every time that view is exposed.
 
 Storyboard for the tab views:
 {{< image src="/images/Xcode/storyboard1.png" alt="" position="center" style="border-radius: 8px;" >}}
@@ -34,18 +34,20 @@ Storyboard for the sheetviews:
 
 ### RsyncUI and SwiftUI
 
-*RsyncUI* utilizes SwiftUI for all UI parts. All UI components are views, which is a value type, a struct, and not a reference type, a class. All UI components are added to RsyncUI by code. Example of a view is the [Details view](https://github.com/rsyncOSX/RsyncUI/blob/main/RsyncUI/Views/Detailsview/DetailsView.swift) selecting the `DryRun` button.
+*RsyncUI* utilizes SwiftUI for the UI. UI components are views, which is a value type `struct` and not a reference type `class`. UI components are added to RsyncUI by code. Example of a view is the [Details view](https://github.com/rsyncOSX/RsyncUI/blob/main/RsyncUI/Views/Detailsview/DetailsView.swift) selecting the `DryRun` button.
 
 The details view:
 {{< image src="/images/Xcode/detailsview.png" alt="" position="center" style="border-radius: 8px;" >}}
 
- A  value type cannot be changed unless utilizing a mutating function. In  SwitfUI there are special property wrappers like `@State` and `@Binding` for local and private properties and properties for transferring data between views . There are property wrapper  like `@StateObject` which are of reference type. The latter property wrapper is initialized in the view as a class of type Observeable object. And there are many other property wrappers to be used within SwiftUI. RsyncUI utilizes only a few.
+ A property within a value types can only be modified by a `mutating func`. In  SwitfUI there are special property wrappers like `@State` and `@Binding` for local and private properties and properties for transferring data between views . These property wrappers enables to modify a property within a SwiftUI view. There are property wrapper  like `@StateObject` which are of reference type. The latter property wrapper is initialized in the view as a class of type Observeable object which is a reference type. And there are many other property wrappers to be used within SwiftUI. RsyncUI utilizes only a few.
 
-Every time like a property wrapper is changed the view in a SwiftUI based app is reloaded. By reload means the view is recreated by the runtime. The internal model for when to reload is complex, but it is superfast. The cost of creating a value type vs creating a reference type is way more effective.
+Every time like a property wrapper is changed the view in a SwiftUI based app is recreated by the runtime. The internal model for creating views is a kind of complex and it is superfast. The cost of creating a value type vs a reference type is way more effective.
 
 ## Asynchronous execution
 
-Asynchronous execution of tasks are a key component of both apps. There are two methods for asynchronous execution. One is utilizing *callback functions* or *completion handlers*, which trigger next action when task is completed. The second is utilize Swift´s `async` and `await` utilities for asynchronous execution. Utilizing `async` and `await` makes the code simpler and cleaner. The need for *completion handlers* are reduced.  And lesser code is better code.
+Asynchronous execution of tasks are key components of both apps. Every time a `rsync` synchronize or restore task is executed the termination of the task is not known ahead.  When the termination signal is observed some actions are requiered. Some actions are like stopping a progressview, send a message about task is completed and do some logging.
+
+There are two methods for asynchronous execution. One is utilizing *callback functions* or *completion handlers*, which trigger next action when task is completed. The second is utilize Swift´s `async` and `await` utilities for asynchronous execution. Utilizing `async` and `await` makes the code simpler and cleaner. The need for *completion handlers* are reduced.  And lesser code is better code.
 
 All code which utilizes asynchronous execution are shared between the two apps. The `Process` object is where the real work is done. Input to the `Process` are the command to execute and the parameters for the command. The `Process` object utilizes Combine for monitoring process termination and output, when needed by the apps, from the command.  There are two versions of the process object:
 
