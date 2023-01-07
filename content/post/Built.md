@@ -15,7 +15,7 @@ lastmod = "2023-01-03"
 
 ## RsyncOSX vs RsyncUI
 
-RsyncOSX and RsyncUI shares most of the code for the model components. RsyncOSX is a pure Swift and Storyboard based macOS application. RsyncUI is a pure SwiftUI and Swift based macOS application.  Both apps utilizes another great declarative library Combine developed by Apple. As well as JSON files for storing tasks, logrecords and user configuration. The main difference between the two apps is the UI part and how the UI is designed and built. 
+RsyncOSX and RsyncUI shares most of the code for the model components. RsyncOSX is a pure Swift and Storyboard based macOS application. RsyncUI is a pure SwiftUI and Swift based macOS application.  Both apps utilizes another great declarative library Combine developed by Apple. As well as JSON files for storing tasks, logrecords and user configuration. The main difference between the two apps is the UI and how the UI is designed and built. 
 
 
 | App      | Code | Paradigm |
