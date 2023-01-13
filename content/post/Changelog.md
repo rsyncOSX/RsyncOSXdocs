@@ -24,7 +24,7 @@ If the user decide to skip the dryrun and not verify the result, the user might 
 {{< image src="/images/Temporary/notverified1.png" alt="" position="center" style="border-radius: 8px;" >}}
 {{< image src="/images/Temporary/notverified2.png" alt="" position="center" style="border-radius: 8px;" >}}
 
-There are also some other minor fixes and updates in this rc. I am using this rc on a daily basis and it seems to be as stable as the previous release. 
+There are also some other minor fixes and updates in this release.
 
 ## Version 6.7.5 build (19) 
 
