@@ -15,18 +15,18 @@ Released 13 January 2023
 
 Compiled on Apple Silicon (M1 Pro) by Xcode 14.2 as a Universal macOS Binary on macOS Ventura. 
 
-This release is **not changed** since the release candidate. There is **no need** to update if already dowloaded the release candidate from 23 December 2022.
-
 I have also commenced writing [an article](/post/built/) about how the apps (RsyncOSX and RsyncUI) are built. It is work in progress and documents some of the main building blocks for the apps.
 
-The check for new versions of RsyncOSX  is changed (internal stuff). All new tasks are marked with red text in date field until a real synchronize is executed. A double click for estimate (dryrun) on a newly added task will change the text "not verified (dryrun)" to todays date in red. When the real run is executed the timestamp is written to the task. 
+This release is **not changed** since the release candidate. There is **no need** to update if already dowloaded the release candidate from 23 December 2022.
+
+- the check for new versions of RsyncOSX  is changed (internal stuff)
+- all new tasks are marked with red text in date field until a real synchronize is executed, a double click for estimate (dryrun) on a newly added task will change the text "not verified (dryrun)" to todays date in red, when the real run is executed the timestamp is written to the task
+- there are also some other minor fixes and updates 
 
 If the user decide to skip the dryrun and not verify the result, the user might delete and loose data if parameters to rsync is wrong according to what is expected. Like mixing up source and destination folders will most likely cause data to be deleted.
 
 {{< image src="/images/Temporary/notverified1.png" alt="" position="center" style="border-radius: 8px;" >}}
 {{< image src="/images/Temporary/notverified2.png" alt="" position="center" style="border-radius: 8px;" >}}
-
-There are also some other minor fixes and updates in this release.
 
 ## Version 6.7.5 build (19) 
 
