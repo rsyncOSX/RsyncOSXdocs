@@ -13,6 +13,10 @@ lastmod = "2023-01-03"
 | RsyncOSX   | about 160K   | 130       |
 | RsyncUI   | about 170K        | 170       |
 
+# Some building blocks
+
+The following adresses some of the main building blocks of both apps and the main difference between them. 
+
 ## RsyncOSX vs RsyncUI
 
 RsyncOSX and RsyncUI shares most of the code for the model components. RsyncOSX is a pure Swift and Storyboard based macOS application. RsyncUI is a pure SwiftUI and Swift based macOS application.  Both apps utilizes another great declarative library Combine developed by Apple. As well as JSON files for storing tasks, logrecords and user configuration. The main difference between the two apps is the UI and how the UI is designed and built. 
@@ -43,7 +47,7 @@ The details view:
 
 Every time like a property wrapper is changed the view in a SwiftUI based app is recreated by the runtime. The internal model for creating views is a kind of complex and it is superfast. The cost of creating a value type vs a reference type is way more effective.
 
-## Asynchronous execution
+## Asynchronous execution - boths apps
 
 Asynchronous execution of tasks are key components of both apps. Every time a `rsync` synchronize or restore task is executed the termination of the task is not known ahead.  When the termination signal is observed some actions are requiered. Some actions are like stopping a progressview, send a message about task is completed and do some logging.
 
@@ -58,7 +62,7 @@ The difference between those two objects are minor, the async version marks the 
 
 - [the await keyword](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ExecuteTaskNow.swift)
 
-## Combine
+## Combine  - boths apps
 
 Combine, a declarative library by Apple, makes the code easy to write and easy to read. In the Combine code for encode and write data to JSON file, the publisher requiere **macOS BigSur** and later. Combine is utilized in the following parts of RsyncOSX and likewise for RsyncUI.
 
@@ -67,6 +71,18 @@ Combine, a declarative library by Apple, makes the code easy to write and easy t
 - [read](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ReadScheduleJSON.swift) and [write](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/WriteScheduleJSON.swift) schedules and logs
 - [the process object](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/RsyncProcess.swift), executing tasks
 - preparing [the output](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/TrimTwo.swift) from rsync process
+
+# How to start the apps
+
+There are different ways of starting a Storyboard based app vs a SwiftUI based app.
+
+## Start of RsyncUI
+
+The start of RsyncUI conforms to the [App protocol](https://developer.apple.com/documentation/SwiftUI/App). There is only one entrance point `@main` in [RsyncUI](https://github.com/rsyncOSX/RsyncUI/blob/main/RsyncUI/Main/RsyncUIApp.swift). The `@main` initializes the app, setup of the menubar and open the [navigation bar](https://github.com/rsyncOSX/RsyncUI/blob/main/RsyncUI/Main/RsyncUIView.swift) which is the main user start for the app.
+
+## Start of RSyncOSX
+
+The start of RsyncOSX starts with the attribute `@NSApplicationMain` which kicks off everything. Within the Storyboard the entrypoint is marked and the view is binded with [MainWindowsController.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/MainWindowsController.swift). The [Toolbar](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/Toolbar.swift) is programatically constructed which makes it more easy to change vs designing it the Storyboard. But all the details how this actually work is beyond me, but it works.
 
 
 
