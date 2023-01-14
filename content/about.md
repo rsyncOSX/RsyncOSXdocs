@@ -22,7 +22,7 @@ I have retired from work at the age of 62. I am a passionate [photographer](http
 
 ## How are these pages built
 
-Hugo, which is **static site** generator, is the web framwork serving these pages. The source for his web is hosted on GitHub. Netlify, which runs the web server, automatically picks up changes on main branch and rebuilds the server. The Hugo theme used is another open source project hosted on GitHub. 
+Hugo, which is **static site** generator, is the web framwork serving these pages. The source for this web is hosted on GitHub. Netlify, which runs the web server, automatically picks up changes on the main branch and rebuilds the server. The Hugo theme used is another open source project hosted on GitHub. 
 
 Every time I change or add pages I commit the changes to GitHub and Netlify automatically builds the new server in seconds. 
 
