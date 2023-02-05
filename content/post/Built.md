@@ -15,7 +15,7 @@ lastmod = "2023-01-03"
 
 # Some building blocks
 
-The following adresses some of the main building blocks of both apps and the main difference between them. The MVC design pattern is basis for both apps. 
+The following addresses some of the main building blocks of both apps and the main difference between them. The MVC design pattern is the basis for both apps. 
 
 ## RsyncOSX vs RsyncUI
 
