@@ -6,7 +6,7 @@ tags = ["built"]
 categories = ["general information"]
 lastmod = "2023-01-03"
 +++
-*Under development.* This page is an overview of the main components of RsyncOSX and RsyncUI. The development of the apps has been an evolving process. The open source community has been and still are a great resource for ideas and how to solve spesific tasks. Both apps are today stable and in a state of maintenace. Some numbers:
+*Under development.* This page is an overview of the main components of RsyncOSX and RsyncUI. The development of the apps has been an evolving process. The open source community has been and still are a great resource for ideas and how to solve specific tasks. Both apps are today stable and in a state of maintenace. Some numbers:
 
 | App      | Lines of code | Swift files |
 | ----------- | ----------- |   ----------- |
@@ -49,7 +49,7 @@ Every time like a property wrapper is changed the view in a SwiftUI based app is
 
 ## Asynchronous execution - boths apps
 
-Asynchronous execution of tasks are key components of both apps. Every time a `rsync` synchronize or restore task is executed the termination of the task is not known ahead.  When the termination signal is observed some actions are requiered. Some actions are like stopping a progressview, send a message about task is completed, do some logging and execute next synchronize task.
+Asynchronous execution of tasks are key components of both apps. Every time a `rsync` synchronize or restore task is executed the termination of the task is not known ahead.  When the termination signal is observed some actions are required. Some actions are like stopping a progressview, send a message about task is completed, do some logging and execute next synchronize task.
 
 There are two methods for asynchronous execution. One is utilizing *callback functions* or *completion handlers*, which trigger next action when task is completed. The second is utilize Swift´s `async` and `await` utilities for asynchronous execution. Utilizing `async` and `await` makes the code simpler and cleaner. The need for *completion handlers* are reduced.  And lesser code is better code.
 
@@ -64,7 +64,7 @@ The difference between those two objects are minor, the async version marks the 
 
 ## Combine  - boths apps
 
-Combine, a declarative library by Apple, makes the code easy to write and easy to read. In the Combine code for encode and write data to JSON file, the publisher requiere **macOS BigSur** and later. Combine is utilized in the following parts of RsyncOSX and likewise for RsyncUI.
+Combine, a declarative library by Apple, makes the code easy to write and easy to read. In the Combine code for encode and write data to JSON file, the publisher require **macOS BigSur** and later. Combine is utilized in the following parts of RsyncOSX and likewise for RsyncUI.
 
 - [read](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ReadUserConfigurationJSON.swift) user configurations from permanent store
 - [read](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/ReadConfigurationJSON.swift) and [write](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/WriteConfigurationJSON.swift) configurations
@@ -82,7 +82,5 @@ The start of RsyncUI conforms to the [App protocol](https://developer.apple.com/
 
 ## Start of RSyncOSX
 
-The start of RsyncOSX starts with the attribute `@NSApplicationMain` which kicks off everything. Within the Storyboard the entrypoint is marked and the view is binded with [MainWindowsController.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/MainWindowsController.swift). The [Toolbar](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/Toolbar.swift) is programatically constructed which makes it more easy to change vs designing it the Storyboard. But all the details how this actually work is beyond me, but it works.
-
-
+The start of RsyncOSX starts with the attribute `@NSApplicationMain` which kicks off everything. Within the Storyboard the entry point is marked and the view is binded with [MainWindowsController.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/MainWindowsController.swift). The [Toolbar](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/Toolbar.swift) is programmatically constructed which makes it more easy to change vs designing it the Storyboard. But all the details how this actually work is beyond me, but it works.
 
