@@ -8,10 +8,10 @@ lastmod = "2023-01-03"
 +++
 *Under development.* This page is an overview of the main components of RsyncOSX and RsyncUI. The development of the apps has been an evolving process. The open source community has been and still are a great resource for ideas and how to solve specific tasks. Both apps are today stable and in a state of maintenace. Some numbers:
 
-| App      | Lines of code | Swift files |
-| ----------- | ----------- |   ----------- |
-| RsyncOSX   | about 160K   | 130       |
-| RsyncUI   | about 170K        | 170       |
+| App      | Lines of code | Swift files | Version 1.0 |
+| ----------- | ----------- |   ----------- | -------- |
+| RsyncOSX   | about 160K   | 130       | 14 March 2016 |	
+| RsyncUI   | about 170K        | 170       | 6 May 2021 |
 
 # Some building blocks
 
@@ -19,13 +19,15 @@ The following addresses some of the main building blocks of both apps and the ma
 
 ## RsyncOSX vs RsyncUI
 
-RsyncOSX and RsyncUI shares most of the code for *the model components*. RsyncOSX is a pure Swift and Storyboard based macOS application. RsyncUI is a pure SwiftUI and Swift based macOS application.  Both apps utilizes another great declarative library Combine developed by Apple. As well as JSON files for storing tasks, logrecords and user configuration. The main difference between the two apps is the UI and how the UI is designed and built. 
+RsyncOSX and RsyncUI shares most of the code for *the model components*. RsyncOSX is a pure *Swift* and *Storyboard* based macOS application. RsyncUI is a pure *SwiftUI* and *Swift* based macOS application.  Both apps utilizes another great declarative library Combine developed by Apple. As well as JSON files for storing tasks, logrecords and user configuration. The main difference between the two apps is the UI and how the UI is designed and built. 
 
 
 | App      | Code | Paradigm |
 | ----------- | ----------- |   ----------- |
 | RsyncOSX   | Swift, Storyboard   | imperativ (Swift)      |
 | RsyncUI   | SwiftUI, Swift | declarativ  (SwiftUI)     |
+
+SwiftUI is the latest declarative framework developed by Apple for views, controls, and layout structures for user interface. 
 
 ### RsyncOSX and Storyboard
 
