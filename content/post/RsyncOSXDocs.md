@@ -6,14 +6,21 @@ tags = ["overview"]
 categories = ["general information"]
 lastmod = "2022-05-09"
 +++
-RsyncOSX is a [signed and notarized](/post/notarized/) GUI on top of the command line utility `rsync`, which is a file based tool for synchronization of files. It is built as a Universal macOS Binary which means it runs natively on Apple Silicon and Intel based Mac computers.
+RsyncOSX is a signed and notarized GUI on top of the command line utility `rsync`, which is a file based tool for synchronization of files. By signed and notarized means that Apple has digital signed and verified the application for not containing malicious code. 
 
-- [RsyncOSX](https://github.com/rsyncOSX/RsyncOSX/releases) is compiled for **macOS Big Sur** and later
-- the [changelog](/post/changelog/)
+[RsyncOSX](https://github.com/rsyncOSX/RsyncOSX/releases) is compiled for **macOS Big Sur** and later. See [the changelog](/post/changelog/) for updates. RsyncOSX is built as a Universal macOS Binary which means it runs natively on Apple Silicon and Intel based Mac computers.
 
 RsyncOSX can be installed by homebrew: `brew install --cask rsyncosx` or by download the [latest version](https://github.com/rsyncOSX/RsyncOSX/releases).
 
-## First time
+If installed by homebrew the shasum is automatically verified. If downloaded from GitHub please verify the shasum.
+
+### Remote servers or local attached volumes
+
+RsyncOSX can synchronize your data to either remote servers on Internet and local LAN, or to local attached volumes (disks). If you only want to synchronize data to local attached volumes, connect the external disk and just add the source and destination and you are ready for your first task. 
+
+If you want to synchronize data to remote servers there are some more setup to do. If you already have enabled *passwordless login* by `ssh` you only have to add login id and servername, the source and destination and you are ready.  If you have not enabled  *passwordless login* there are some more actions requiered before your first task. See chapter *Remote servers* below.
+
+### First time
 
 The first time RsyncOSX starts it presents a link to [important](/post/important/) information. There is also info about the latest [version of rsync](/post/rsync/) to install.
 
@@ -39,6 +46,13 @@ After [adding a task](/post/addconfigurations/) you are ready to execute a [sync
 
 **Always** verify, by a `dryrun`,  the result of a **new** task before executing it.
 
+## Add parameters to rsync
+
+Rsync has a ton of parameters. In user selected parameters you can add your own additional parameters to rsync. There is also a set of default rsync parameters.
+
+- default [parameters](/post/rsyncparameters)
+- user selected [parameters](/post/userparameters/)
+
 ## Remote servers
 
 Utilizing RsyncOSX to synchronize files to remote servers requires some setup. There are two options to setup [passwordless logins](/post/remotelogins/). The advised setup is by utilizing ssh-keys.
@@ -47,13 +61,6 @@ Utilizing RsyncOSX to synchronize files to remote servers requires some setup. T
 - by [rsync daemon setup](/post/rsyncdaemon/)
 
 Snapshots is **not** possible with rsync daemon setup.
-
-## Add parameters to rsync
-
-Rsync has a ton of parameters. In user selected parameters you can add your own additional parameters to rsync. There is also a set of default rsync parameters.
-
-- default [parameters](/post/rsyncparameters)
-- user selected [parameters](/post/userparameters/)
 
 ## Snapshots
 
