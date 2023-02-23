@@ -1,15 +1,17 @@
 +++
 author = "Thomas Evensen"
-title = "How to use RsyncOSX"
+title = "RsyncOSX - a GUI for rsync"
 date = "2022-05-09"
 tags = ["overview"]
 categories = ["general information"]
 lastmod = "2022-05-09"
 +++
 
-# Some info before commenzing use of RsyncOSX
+RsyncOSX is a pure Swift based macOS application utilizing the command line tool `rsync` for synchronizing files. It is `rsync` which executes the actual synchronize task. RsyncOSX is only a GUI ontop of `rsync`. RsyncOSX is a signed and notarized by Apple. By signed and notarized means that Apple has verified for not containing malicious code and digitally signed it . 
 
-RsyncOSX is a signed and notarized GUI on top of the command line utility `rsync`, which is a file based tool for synchronization of files. By signed and notarized means that Apple has digital signed and verified the application for not containing malicious code. 
+`rsync` is a file based tool for synchronization of files.
+
+# Some info before commenzing use of RsyncOSX
 
 [RsyncOSX](https://github.com/rsyncOSX/RsyncOSX/releases) is compiled for **macOS Big Sur** and later. See [the changelog](/post/changelog/) for updates. RsyncOSX is built as a Universal macOS Binary which means it runs natively on Apple Silicon and Intel based Mac computers.
 
