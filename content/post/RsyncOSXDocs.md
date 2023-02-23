@@ -15,7 +15,7 @@ RsyncOSX is a pure Swift based macOS application utilizing the command line tool
 
 [RsyncOSX](https://github.com/rsyncOSX/RsyncOSX/releases) is compiled for **macOS Big Sur** and later. See [the changelog](/post/changelog/) for updates. RsyncOSX is built as a Universal macOS Binary which means it runs natively on Apple Silicon and Intel based Mac computers.
 
-RsyncOSX can be installed by homebrew, `brew install --cask rsyncosx` or by download the [latest version](https://github.com/rsyncOSX/RsyncOSX/releases). If installed by homebrew the shasum is automatically verified. If downloaded from GitHub please verify the shasum.
+RsyncOSX can be installed by homebrew by command `brew install --cask rsyncosx` or by download the [latest version](https://github.com/rsyncOSX/RsyncOSX/releases). If installed by homebrew the shasum is automatically verified. If downloaded from GitHub please verify the shasum.
 
 ## Remote servers or local attached volumes
 
@@ -41,11 +41,11 @@ One of many advantages of utilizing `rsync` is that it can restart and continue 
 
 ## New tasks, verify and synchronize data
 
-After adding [a task](/post/addconfigurations/), a double click on the new task will execute a simulated run or what is called a `dryrun`. Verify the output from rsync by opening the log, top left icon in sidebar of RsyncOSX, either ahead or after the simulated run. 
+After [adding a task](/post/addconfigurations/), a double click on the new task will execute a simulated run or what is called a `dryrun`. Verify the output from rsync by opening the log, top left icon in sidebar of RsyncOSX, either ahead or after the simulated run. 
 
 After adding a task you are ready to execute a [synchronize data task](/post/singletask/).
 
-For more experienced users of rsync, select the new task and press the `Command` button. Copy and paste the `Synchronize` string into a terminal view. The rsync command includes the `dryrun` parameter as default within this view. 
+For more experienced users of rsync, select the new task and press the `Command` button. Copy and paste the `Synchronize` string into a terminal view for verification of added task. The rsync command includes the `dryrun` parameter as default within this view. 
 
 **Always** verify, by a `dryrun`,  the result of a **new** task before executing it.
 
@@ -60,7 +60,7 @@ Rsync has a ton of parameters. In user selected parameters you can add your own 
 
 Utilizing RsyncOSX to synchronize files to remote servers requires some setup. There are two options to setup [passwordless logins](/post/remotelogins/). The advised setup is by utilizing ssh-keys.
 
-- by [ssh-keys](/post/ssh/)
+- by [ssh-keys](/post/ssh/) which is the recommended setup
 - by [rsync daemon setup](/post/rsyncdaemon/)
 
 Snapshots is **not** possible with rsync daemon setup.

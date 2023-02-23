@@ -31,7 +31,3 @@ There are two parameters to set for ssh. The local ssh parameters overrides glob
 
 - ssh port, set if ssh uses other port than standard port `22`
 - the ssh keypath and identity file, normally this is `.ssh/id_rsa`, set name only if other keypath and identity file to be used by ssh
-
-## User selected Parameters
-
-There is also possible to add [user selected parameters](/post/userparameters/).
