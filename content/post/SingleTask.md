@@ -23,7 +23,7 @@ If Abort is pressed execution is aborted. It is also possible [to execute severa
 
 ## Slide left and right
 
-Using either two fingers on the touchpad or a finger on the mouse, slide to the left will execute an estimated single task. **Caution** - apply to version 6.7.6 (not yet released by December 2022).
+Using either two fingers on the touchpad or a finger on the mouse, slide to the left will execute an estimated single task.
 
 {{< image src="/images/RsyncOSX/master/singletask/executeleft.png" alt="" position="center" style="border-radius: 8px;" >}}
 
