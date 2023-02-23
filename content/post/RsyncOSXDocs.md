@@ -10,7 +10,7 @@ RsyncOSX is a signed and notarized GUI on top of the command line utility `rsync
 
 [RsyncOSX](https://github.com/rsyncOSX/RsyncOSX/releases) is compiled for **macOS Big Sur** and later. See [the changelog](/post/changelog/) for updates. RsyncOSX is built as a Universal macOS Binary which means it runs natively on Apple Silicon and Intel based Mac computers.
 
-RsyncOSX can be installed by homebrew: `brew install --cask rsyncosx` or by download the [latest version](https://github.com/rsyncOSX/RsyncOSX/releases).
+RsyncOSX can be installed by homebrew, `brew install --cask rsyncosx` or by download the [latest version](https://github.com/rsyncOSX/RsyncOSX/releases).
 
 If installed by homebrew the shasum is automatically verified. If downloaded from GitHub please verify the shasum.
 
