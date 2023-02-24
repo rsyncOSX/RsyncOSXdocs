@@ -16,7 +16,7 @@ where `-i ~/.ssh_keypath/identityfile` is the ssh keypath and identityfile and `
 
 ## Ssh keypath and identityfile
 
-How to set ssh keypath and identityfile in [the user configuration](/post/sshsettings/).
+How to set ssh keypath and identityfile in [the user configuration](/post/userconfiguration/).
 
 If global ssh parameters are set, it applies to all configurations. It is possible to set other ssh values on each task. There is a check of the ssh keypath and identityfile. When enabling user selected ssh keypath and identityfile please make sure it is in compliance with:
 
