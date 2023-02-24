@@ -6,7 +6,7 @@ tags = ["built"]
 categories = ["general information"]
 lastmod = "2023-01-03"
 +++
-*Under development.* This page is an overview of the main components of RsyncOSX and RsyncUI. The development of the apps has been an evolving process. The open source community has been and still are a great resource for ideas and how to solve specific tasks. Both apps are today stable and in a state of maintenace. Some numbers:
+*Under development.* This page is an overview of the main components of RsyncOSX and RsyncUI. The development of the apps has been an evolving process. The open source community has been and still are a great resource for ideas and how to solve specific tasks. Both apps today are stable and in a state of maintenace. Some numbers:
 
 | App      | Lines of code | Swift files | Version 1.0 |
 | ----------- | ----------- |   ----------- | -------- |

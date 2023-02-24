@@ -6,12 +6,9 @@ description = "Who am I?"
 tags = ["about"]
 lastmod = "2021-04-12"
 +++
-My name is Thomas, e-mail: <thomeven@gmail.com>, and I am the developer of RsyncOSX and RsyncUI. The development of **RsyncOSX** commenced early in 2016 as a personal project to learn Swift. And the development of RsyncUI commenced late 2020 to learn SwiftUI. There are some more info about the development [here](/post/built/).
+My name is Thomas, e-mail: <thomeven@gmail.com>, and I am the developer of RsyncOSX and RsyncUI. The development of **RsyncOSX** commenced early in 2016 as a personal project to learn Swift. And the development of **RsyncUI** commenced late in 2020 to learn SwiftUI. 
 
-| App      | Lines of code | Swift files | Version 1.0 |
-| ----------- | ----------- |   ----------- | -------- |
-| RsyncOSX   | about 160K   | 130       | 14 March 2016 |	
-| RsyncUI   | about 170K        | 170       | 6 May 2021 |
+There are some more info about the development [here](/post/built/).
  
 I have a master degree in computing science, but I am **not** a professional developer. I did my master in the days when Linux was released in 1991 and Internet became a public service. And a few years ahead of that, in 1989, the Web was invented at Cern.   
 
@@ -35,5 +32,5 @@ This app is compiled with support for macOS Big Sur and later.
 
 - [RsyncUI](https://github.com/rsyncOSX/RsyncUI) a GUI for rsync
 
-This app is compiled for macOS Monterey and later.
+This app is compiled with support for macOS Monterey and later.
 
