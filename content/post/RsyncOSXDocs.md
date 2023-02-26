@@ -19,7 +19,7 @@ RsyncOSX can be installed by homebrew by command `brew install --cask rsyncosx` 
 
 ## Remote servers, passwordless logins and local disks
 
-RsyncOSX can synchronize your data to either remote servers on Internet and local LAN, or to local attached disks). If you only want to synchronize data to a local attached disk, connect the external disk and just add the source and destination and you are ready for your first task. 
+RsyncOSX can synchronize your data to either remote servers on Internet and local LAN, or to local attached disks. If you only want to synchronize data to a local attached disk, connect the disk and just add the source and destination and you are ready for your first task. 
 
 If you want to synchronize data to remote servers there are some more setup to do. If you already have enabled **passwordless login** by `ssh` you only have to add login id and servername, the source and destination and you are ready.  If you have not enabled  passwordless login there are some more actions requiered before your first task. See chapter *Remote servers* below.
 
