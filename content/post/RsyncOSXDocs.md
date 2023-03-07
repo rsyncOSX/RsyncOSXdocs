@@ -7,7 +7,7 @@ categories = ["general information"]
 lastmod = "2022-05-09"
 +++
 
-RsyncOSX is a pure Swift based macOS application utilizing the command line tool `rsync` for synchronizing files. It is `rsync` which executes the actual synchronize task. RsyncOSX is only a GUI ontop of `rsync`. RsyncOSX is a signed and notarized by Apple. Apple has verified for not containing malicious code and digitally signed it . 
+RsyncOSX is a pure Swift based macOS application utilizing the command line tool `rsync` for synchronizing files. It is `rsync` which executes the actual synchronize task. RsyncOSX is a GUI only ontop of `rsync`. RsyncOSX is a signed and notarized by Apple. Apple has verified it for not containing malicious code and digitally signed it . 
 
 `rsync` is a file based tool for synchronization of files.
 
