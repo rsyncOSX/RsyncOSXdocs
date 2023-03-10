@@ -86,3 +86,19 @@ The start of RsyncUI conforms to the [App protocol](https://developer.apple.com/
 
 The start of RsyncOSX starts with the attribute `@NSApplicationMain` which kicks off everything. Within the Storyboard the entry point is marked and the view is binded with [MainWindowsController.swift](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/MainWindowsController.swift). The [Toolbar](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/Toolbar.swift) is programmatically constructed which makes it more easy to change vs designing it the Storyboard. But all the details how this actually work is beyond me, but it works.
 
+# The model
+
+The model is not equal for the apps. The concept of model is the same, but there are some differences due to the fact that SwiftUI views are structs and not reference type as for Storyboard and Swift. The model is also responsible for informing the views when there are changes to the model. But both apps share the basic functions like read and write data from store, functions for updating the model and so on. 
+
+The memory footprint about tasks is minimal. Data for tasks are kept in memory for both apps during the lifetime of the apps. The memory footprint for logs will grow over time as new logs are created and stored. But logs are only  read from store either when viewing logs and ahead of changes like adding and deletions. When data about logs is not used, the data is automatically released from memory to keep the memory as low as possible.
+
+## Model for RsyncUI
+
+Data for tasks are read from store and made avaliable for all the views by an Environment property. The [RsyncUIApp.swift](https://github.com/rsyncOSX/RsyncUI/blob/main/RsyncUI/Main/RsyncUIApp.swift) is the main entrance point for RsyncUI. After the app is initialized and started it opens the [main navigation view](https://github.com/rsyncOSX/RsyncUI/blob/main/RsyncUI/Main/RsyncUIView.swift) and read tasks for the default profile or other profile when selected. Data is made avaliable for all views by the `.environmentObject` property. 
+
+The data about tasks is read into a object of reference type [RsyncUIconfigurations.swift](https://github.com/rsyncOSX/RsyncUI/blob/main/RsyncUI/Model/Data/RsyncUIconfigurations.swift) which conforms to `ObservableObject`. Any changes to the model is published and the subscriber will be notified and requiered actions will be executed.  This is an asynchron publish and subscribe feature which is enabled by the declarative library Combine which is a important part of SwiftUI. 
+
+Data about logs are only read from store when needed. After operation on logs the memory is automatically released. The [SidebarLogsView.swift](https://github.com/rsyncOSX/RsyncUI/blob/main/RsyncUI/Views/Sidebar/SidebarLogsView.swift) takes care of reading data for logs when the user select viewing logs. 
+
+Data used within views either from `EnvironmentObject` or `StateObject`, which both are reference types which conforms to `ObservableObject`, are read only within a SwiftUI view. The only way to change data within RsyncUI , e.g. add or delete, is to make the data or the reference to the data avaliable for a Swift object of reference type. This object takes care of any changes. The view which is responsible for the action sends a message that a change is committed and a new load of data is executed. Again, the messages is based upon the asynchron asynchron publish and subscribe feature of Combine.
+
