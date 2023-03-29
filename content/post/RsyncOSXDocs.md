@@ -82,10 +82,6 @@ Snapshots is **not** possible with rsync daemon setup.
 
 [Snapshot is an effective method](/post/snapshots/) for saving previous versions of data and deleted files in case of a restore.
 
-## Schedule tasks
-
-By default the schedules part is **not** enabled, enable [scheduling of tasks](/post/scheduletasks/) in userconfig.
-
 ## Restore of files
 
 Sometimes you need to [restore files](/post/restore/).
