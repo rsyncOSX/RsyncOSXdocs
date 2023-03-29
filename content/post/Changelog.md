@@ -17,6 +17,8 @@ There is one critical issue with **the schedule part** of RsyncOSX. On macOS Ven
 
 I have therefore decidede to remove it and the schedule function of RsyncOSX. Over the time only a few users have used the menu app. Most important for me is to enable a stable RsyncOSX and the scheduled part is either due for a serious update or remove it. For me the answer is **remove it**.  
 
+Changes are already in code. Code is cleaned and not used code is removed. Version 6.8.0 is to be relased after Easter 2023.
+
 ## Version 6.7.6 build (21) 
 
 Released 13 January 2023 
