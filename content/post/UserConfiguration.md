@@ -23,13 +23,6 @@ There are a few parameters to choose in user configuration. Parameters are saved
 
 If there is a not valid rsync path is set an error is presented.
 
-## Paths for RsyncOSX and RsyncOSXsched
-
-If both apps are installed in `/Applications` there is no need for setting paths.
-
-- path RsyncOSX
-- path RsyncOSXsched
-
 ## Logging
 
 Detailed logging on or off:
@@ -53,12 +46,6 @@ Logging is saved to permanent store:
 ## Monitor network connection
 
 RsyncOSX can monitor the network connection during execution of tasks. If a network connection is dropped during execution, RsyncOSX sends an interrupt signal to the task and it halts with an error.
-
-## Enable schedules
-
-- Schedules
-
-By activating, the planning part of RsyncOSX becomes available as a button in the main view.
 
 ## Ssh parameters (global)
 
