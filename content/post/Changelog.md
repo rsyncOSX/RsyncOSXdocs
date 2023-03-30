@@ -9,15 +9,18 @@ lastmod = "2022-05-04"
 +++
 RsyncOSX is [signed and notarized](/post/notarized/). Please see info about [the latest version of rsync in install](/post/rsync/).
 
-## Date: 29 March 2023
+## Version 6.8.0 build (22) release candidate
+
+Released 30  March 2023
+
+- the schedules part is removed from build, also som minor cleanup
+- this wil released as version 6.8.0 if no bugs are found after Easter 2023
 
 This is **not** about RsyncOSX, but **the menu app or the schedule part**.
 
 There is one critical issue with **the schedule part** of RsyncOSX. On macOS Ventura 13.3  **the scheduled part does not** work, and most likely not on previous version of macOS Ventura either. The issue is that **the schedule part** does not execute the external process which executes the real synchronize task. 
 
 I have therefore decidede to remove it and the schedule function of RsyncOSX. Over the time only a few users have used the menu app. Most important for me is to enable a stable RsyncOSX and the scheduled part is either due for a serious update or remove it. For me the answer is **remove it**.  
-
-Changes are already in code. Code is cleaned and not used code is removed. Version 6.8.0 is to be relased after Easter 2023.
 
 ## Version 6.7.6 build (21) 
 
