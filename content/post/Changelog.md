@@ -9,12 +9,14 @@ lastmod = "2022-05-04"
 +++
 RsyncOSX is [signed and notarized](/post/notarized/). Please see info about [the latest version of rsync in install](/post/rsync/).
 
-## Version 6.8.0 build (22) release candidate
+## Version 6.8.0 build (22) 
 
-Released 30  March 2023
+Released 13  April 2023
+
+This version was released as release candidate in March. It is stable and status is changed to latest release.
 
 - the schedules part is removed from build, also some minor cleanup in code
-- this will be released as version 6.8.0 if no bugs are found after Easter 2023
+- this will be released as version 6.8.0 if no bugs are found after Easter 2023 (released as latest release 13 April 2023)
 
 There is one critical issue with **the schedule part** of RsyncOSX. On macOS Ventura 13.3  **the scheduled part does not** work, and most likely not on previous version of macOS Ventura either. The issue is that **the schedule part** does not execute the external process which executes the real synchronize task. 
 
