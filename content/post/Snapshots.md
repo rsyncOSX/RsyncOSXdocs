@@ -12,9 +12,7 @@ If a `file.txt` is saved in snapshot number one and never changed or deleted, th
 
 Even if all snapshots are tagged for delete, **the first** and **last** snapshot are not deleted. The first and last snapshot are removed from the delete list as part of preparation (internal) of delete. 
 
-## Snapshot and rsync daemon setup
-
-Snapshot is *not* possible in a rsync daemon setup. For info about what a rsync daemon setup see info [about passwordless logins](/post/remotelogins/) and rsync daemon setup.
+Snapshot is **not** possible in a rsync daemon setup. 
 
 ## What is a snapshot?
 
