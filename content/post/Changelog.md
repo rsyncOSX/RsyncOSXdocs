@@ -9,9 +9,11 @@ lastmod = "2022-05-04"
 +++
 RsyncOSX is [signed and notarized](/post/notarized/). Please see info about [the latest version of rsync in install](/post/rsync/).
 
-## MInor non critical issue 
+## Minor non critical issue 
 
-If you in the main view select a task and then the logs view, RsyncOSX filter the logs to only the selected task. If you then return to main view, selects another profile, the index to the previous selected task in previous profile is not erased. This might cause the logs view to present only a few or none logs for the new profile. Workaround: select a task and deselect task fixes the issue. Issue is fixed in code.
+7 May 2023
+
+If you in the main view select a task and then to the logs view, RsyncOSX filter the logs for only the selected task. If you then return to main view, select a new profile, the index to the previous selected task in previous profile is not cleared. This might cause the logs view to present only a few or none logs for the new profile. Workaround: select a task and deselect it. Issue is fixed in code.
 
 {{< image src="/images/Temporary/main.png" alt="" position="center" style="border-radius: 8px;" >}}
 {{< image src="/images/Temporary/logs.png" alt="" position="center" style="border-radius: 8px;" >}}
