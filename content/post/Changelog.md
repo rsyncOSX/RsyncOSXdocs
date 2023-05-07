@@ -9,6 +9,13 @@ lastmod = "2022-05-04"
 +++
 RsyncOSX is [signed and notarized](/post/notarized/). Please see info about [the latest version of rsync in install](/post/rsync/).
 
+## MInor non critical issue 
+
+If you in the main view select a task and then the logs view, RsyncOSX filter the logs to only the selected task. If you then return to main view, selects another profile, the index to the previous selected task in previous profile is not erased. This might cause the logs view to present only a few or none logs for the new profile. Workaround: select a task and deselect task fixes the issue. Issue is fixed in code.
+
+{{< image src="/images/Temporary/main.png" alt="" position="center" style="border-radius: 8px;" >}}
+{{< image src="/images/Temporary/logs.png" alt="" position="center" style="border-radius: 8px;" >}}
+
 ## Version 6.8.0 build (22) 
 
 Released 13  April 2023
@@ -35,9 +42,6 @@ This release is **not changed** since the release candidate. There is **no need*
 - there are also some other minor fixes and updates 
 
 If the user decide to skip the dryrun and not verify the result, the user might delete and loose data if parameters to rsync is wrong according to what is expected. Like mixing up source and destination folders will most likely cause data to be deleted.
-
-{{< image src="/images/Temporary/notverified1.png" alt="" position="center" style="border-radius: 8px;" >}}
-{{< image src="/images/Temporary/notverified2.png" alt="" position="center" style="border-radius: 8px;" >}}
 
 ## Version 6.7.5 build (19) 
 
