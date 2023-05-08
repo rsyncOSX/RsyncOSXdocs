@@ -13,21 +13,21 @@ RsyncOSX is only depended upon Cocoa and  Foundation classes which are standard 
 
 To compile you have to either remove signing or replace signing credentials. To remove or replace select Target RsyncOSX and tab "Signing and Capabilities". The first view is my signing credentials.
 
-{{< image src="/images/RsyncOSX/master/compile/signing.png" alt="" position="center" style="border-radius: 8px;" >}}
+{{< figure src="/images/RsyncOSX/master/compile/signing.png" alt="" position="center" style="border-radius: 8px;" >}}
 
 To remove select "Team: none" and "Signing Certificates: Sign to Run Locally".
 
-{{< image src="/images/RsyncOSX/master/compile/nonsigning.png" alt="" position="center" style="border-radius: 8px;" >}}
+{{< figure src="/images/RsyncOSX/master/compile/nonsigning.png" alt="" position="center" style="border-radius: 8px;" >}}
 
 ## Compile scripts
 
 There are two utilities used, [SwiftLint](https://github.com/realm/SwiftLint) and [SwiftFormat](https://github.com/nicklockwood/SwiftFormat). Both can be removed, select tab "Build Phases" and delete the lines. Or you can use [Homebrew](https://brew.sh/index_nb) to install both utilities.
 
-{{< image src="/images/RsyncOSX/master/compile/scripts.png" alt="" position="center" style="border-radius: 8px;" >}}
+{{< figure src="/images/RsyncOSX/master/compile/scripts.png" alt="" position="center" style="border-radius: 8px;" >}}
 
 Remove the build scripts.
 
-{{< image src="/images/RsyncOSX/master/compile/nonscripts.png" alt="" position="center" style="border-radius: 8px;" >}}
+{{< figure src="/images/RsyncOSX/master/compile/nonscripts.png" alt="" position="center" style="border-radius: 8px;" >}}
 
 ## Ready to Compile
 

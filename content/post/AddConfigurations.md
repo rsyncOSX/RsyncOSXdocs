@@ -12,11 +12,11 @@ A task require minimum a **local catalog** and a **remote catalog**. Continue to
 
 Add is selected by choosing `Add task` on the sidebar menu.
 
-{{< image src="/images/RsyncOSX/master/add/addmain.png" alt="" position="center" style="border-radius: 8px;" >}}
+{{< figure src="/images/RsyncOSX/master/add/addmain.png" alt="" position="center" style="border-radius: 8px;" >}}
 
 For remote catalogs only drag and drop for local attached volumes. For remote server catalogs enter by text only.
 
-{{< image src="/images/RsyncOSX/master/add/add.png" alt="" position="center" style="border-radius: 8px;" >}}
+{{< figure src="/images/RsyncOSX/master/add/add.png" alt="" position="center" style="border-radius: 8px;" >}}
 
 ### Catalog parameters
 

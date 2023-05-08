@@ -8,7 +8,7 @@ astmod = "2020-08-24"
 +++
 There are a few parameters to choose in user configuration. Parameters are saved to permanent store.
 
-{{< image src="/images/RsyncOSX/master/userconfig/user.png" alt="" position="center" style="border-radius: 8px;" >}}
+{{< figure src="/images/RsyncOSX/master/userconfig/user.png" alt="" position="center" style="border-radius: 8px;" >}}
 
 ## Rsync
 
