@@ -37,6 +37,10 @@ Please be aware it is an external task not controlled by RsyncOSX which executes
 
 One of many advantages of utilizing `rsync` is that it can restart and continue the synchronize task from where it was aborted.
 
+# Disqus
+
+At the bottom of the page you can use Disqus to ask questions, suggest enhancments and report bugs. 
+
 # Ready to start using RsyncOSX
 
 ## New tasks, verify and synchronize data
