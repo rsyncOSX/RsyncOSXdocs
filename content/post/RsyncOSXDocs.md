@@ -37,6 +37,15 @@ Please be aware it is an external task not controlled by RsyncOSX which executes
 
 One of many advantages of utilizing `rsync` is that it can restart and continue the synchronize task from where it was aborted.
 
+# RsyncOSX vs RsyncUI
+
+RsyncOSX and RsyncUI shares most of the code for *the model components*. RsyncOSX is a pure *Swift* and *Storyboard* based macOS application. RsyncUI is a pure *SwiftUI* and *Swift* based macOS application.  Both apps utilizes another great declarative library Combine developed by Apple. As well as JSON files for storing tasks, logrecords and user configuration. The main difference between the two apps is the UI and how the UI is designed and built. RsyncUI will in the future become the primary application of the two.
+
+| App      | Code | Paradigm |
+| ----------- | ----------- |   ----------- |
+| RsyncOSX   | Swift, Storyboard   | imperativ (Swift)      |
+| RsyncUI   | SwiftUI, Swift | declarativ  (SwiftUI)     |
+
 # Disqus
 
 At the bottom of the page you can use Disqus to ask questions, suggest enhancments and report bugs. 
