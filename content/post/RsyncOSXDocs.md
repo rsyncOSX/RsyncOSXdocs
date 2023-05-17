@@ -33,20 +33,20 @@ The error in bottom of the view is only RsyncOSX complaining about not finding t
 
 ## Aborting a task
 
-Please be aware it is an external task not controlled by RsyncOSX which executes the command line tool `rsync`. RsyncOSX is monitoring the task for progress and termination. The user can abort a task at any time. Please let the abort to finish and cleanup properly before starting a new task. It might take a few seconds. If not the apps might become unresponsive.
+Please be aware it is an external task not controlled by RsyncOSX which executes the command line tool `rsync`. RsyncOSX is monitoring the task for progress and termination. The user can at any time abort a task . Please let the abort to finish and cleanup properly before starting a new task. It might take a few seconds. If not the apps might become unresponsive.
 
 One of many advantages of utilizing `rsync` is that it can restart and continue the synchronize task from where it was aborted.
 
-# RsyncOSX vs RsyncUI
+## RsyncOSX vs RsyncUI
 
-RsyncOSX and RsyncUI shares most of the code for *the model components*. RsyncOSX is a pure *Swift* and *Storyboard* based macOS application. RsyncUI is a pure *SwiftUI* and *Swift* based macOS application.  Both apps utilizes another great declarative library Combine developed by Apple. As well as JSON files for storing tasks, logrecords and user configuration. The main difference between the two apps is the UI and how the UI is designed and built. RsyncUI will in the future become the primary application of the two.
+RsyncOSX and RsyncUI shares most of the code for *the model components*.  The main differences between the two apps are the user interface (UI) and how the UI is built. RsyncUI is deveoped by utilizing **SwiftUI** and Swift.  RsyncOSX is developed by utilizing **Storyboards** and Swift.  Both apps utilizes another great **declarative** library, Combine, developed by Apple and JSON files for storing tasks, logrecords and user configuration. RsyncUI will in the future become the primary application of the two.
 
-| App      | Code | Paradigm |
-| ----------- | ----------- |   ----------- |
-| RsyncOSX   | Swift, Storyboard   | imperativ (Swift)      |
-| RsyncUI   | SwiftUI, Swift | declarativ  (SwiftUI)     |
+| App      | Code | Paradigm | Version 1.0 |
+| ----------- | ----------- |   ----------- | ----------- |
+| RsyncOSX   | Swift, Storyboard   | imperativ (Swift)    | 14 March 2016 |
+| RsyncUI   | SwiftUI, Swift | declarativ  (SwiftUI)     | 6 May 2021 |
 
-# Disqus
+## Disqus
 
 At the bottom of the page you can use Disqus to ask questions, suggest enhancments and report bugs. 
 
