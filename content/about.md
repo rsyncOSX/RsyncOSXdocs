@@ -14,7 +14,7 @@ I have a master degree in computing science, but I am **not** a professional dev
 
 RsyncOSX and RsyncUI are not professional software. There is one developer only, me, and I am doing what I can to keep the applications as stable and user friendly as possible. Nor am I a UI designer and some user might find the UI complicated and less user friendly. The maintenance of RsyncOSX and RsyncUI will be one of my hobbies. As long as there are users of the apps I will continue the maintenance.  If you like using RsyncOSX or RsyncUI please consider giving me a star on the GitHub repository. Every single star is a motivation for me to continue developing and keep the apps updated for the latest version of macOS.
 
-In May 2022 I retired from work at the age of 62. I am a passionate [photographer](https://gallerybythomas.netlify.app), nature and wildlife (birds) and love staying in the Norwegian mountains. Grand kids, photography, continue maintenance of my macOS applications and cross country skiing are keeping me busy.
+In May 2022 I retired from work at the age of 62. I am a passionate [photographer](https://photosbythomas.netlify.app), nature and wildlife (birds) and love staying in the Norwegian mountains. Grand kids, photography, continue maintenance of my macOS applications and cross country skiing are keeping me busy.
 
 ## How are these pages built
 
