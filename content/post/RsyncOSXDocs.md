@@ -46,10 +46,6 @@ RsyncOSX and RsyncUI shares most of the code for *the model components*.  The ma
 | RsyncOSX   | Swift, Storyboard   | imperativ (Swift)    | 14 March 2016 |
 | RsyncUI   | SwiftUI, Swift | declarativ  (SwiftUI)     | 6 May 2021 |
 
-## Disqus
-
-At the bottom of the page you can use Disqus to ask questions, suggest enhancments and report bugs. 
-
 # Ready to start using RsyncOSX
 
 ## New tasks, verify and synchronize data
