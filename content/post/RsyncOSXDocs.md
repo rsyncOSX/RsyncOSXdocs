@@ -7,7 +7,7 @@ categories = ["general information"]
 lastmod = "2022-05-09"
 +++
 
-RsyncOSX is a pure Swift based macOS application utilizing the command line tool `rsync` for synchronizing files. It is `rsync` which executes the actual synchronize task. RsyncOSX is a GUI only ontop of `rsync`. RsyncOSX is signed and notarized by Apple. Apple has verified it for not containing malicious code and digitally signed it. 
+RsyncOSX is a pure Swift based macOS application utilizing the command line tool `rsync` for synchronizing files. It is rsync which executes the actual synchronize task. RsyncOSX is a GUI only ontop of rsync. RsyncOSX is signed and notarized by Apple. Apple has verified it for not containing malicious code and digitally signed it. 
 
 `rsync` is a file based tool for synchronization of files.
 
@@ -15,7 +15,13 @@ RsyncOSX is a pure Swift based macOS application utilizing the command line tool
 
 [RsyncOSX](https://github.com/rsyncOSX/RsyncOSX/releases) is compiled for **macOS Big Sur** and later. See [the changelog](/post/changelog/) for updates. RsyncOSX is built as a Universal macOS Binary and runs natively on Apple Silicon and Intel based Mac computers.
 
-RsyncOSX can be installed by homebrew by command `brew install --cask rsyncosx` or by download [the latest version](https://github.com/rsyncOSX/RsyncOSX/releases). If installed by homebrew the shasum is automatically verified. If downloaded from GitHub please verify the shasum.
+RsyncOSX can be installed by homebrew by command:
+
+```bash
+brew install --cask rsyncosx
+```
+
+or by download [the latest version](https://github.com/rsyncOSX/RsyncOSX/releases). If installed by homebrew the shasum is automatically verified. If downloaded from GitHub please verify the shasum.
 
 ## Remote servers, passwordless logins and local disks
 

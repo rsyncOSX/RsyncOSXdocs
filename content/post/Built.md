@@ -10,8 +10,8 @@ lastmod = "2023-01-03"
 
 | App      | Lines of code | Swift files | Version 1.0 |
 | ----------- | ----------- |   ----------- | -------- |
-| RsyncOSX   | about 160K   | 130       | 14 March 2016 |	
-| RsyncUI   | about 170K        | 170       | 6 May 2021 |
+| RsyncOSX   | about 11K   | 121       | 14 March 2016 |	
+| RsyncUI   | about 14K     | 168       | 6 May 2021 |
 
 # Some building blocks
 
