@@ -39,14 +39,14 @@ Storyboard for the sheetviews:
 
 ### RsyncUI and SwiftUI
 
-*RsyncUI* utilizes *SwiftUI* for the UI. UI components are views, which is a value type `struct` and not a reference type `class`. UI components are added to RsyncUI by code. Example of a view is the [Details view](https://github.com/rsyncOSX/RsyncUI/blob/main/RsyncUI/Views/Detailsview/DetailsView.swift) selecting the `DryRun` button.
-
-The details view:
-{{< figure src="/images/Xcode/detailsview.png" alt="" position="center" style="border-radius: 8px;" >}}
-
+*RsyncUI* utilizes *SwiftUI* for the UI. UI components are views, which is a value type `struct` and not a reference type `class`. UI components are added to RsyncUI by code. 
  A property within a value type can only be modified by a `mutating func`. In  SwitfUI there are special property wrappers like `@State` and `@Binding` for local and private properties and properties for transferring data between views . These property wrappers enables to modify a property within a SwiftUI view. There are property wrapper  like `@StateObject` which are of reference type. The latter property wrapper is initialized in the view as a class of type Observeable object. And there are many other property wrappers to be used within SwiftUI. RsyncUI utilizes only a few.
 
 Every time like a property wrapper is changed the view in a SwiftUI based app is recreated by the runtime. The internal model for creating views is a kind of complex and it is superfast. The cost of creating a value type vs a reference type is way more effective.
+
+### macOS Sonoma and Swift 5.9
+
+ On macOS Sonoma, macOS 14 and Swift 5.9 there is a new Observable macro which replaces the propertywrappers like State, StateObject, ObservedObject, and EnvironmentObject. I have commenced the work to migrate the present property wrappers. For macOS 12 and 13 the present propertywrappers has  to be used.
 
 ## Asynchronous execution - boths apps
 
