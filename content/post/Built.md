@@ -6,12 +6,16 @@ tags = ["built"]
 categories = ["general information"]
 lastmod = "2023-01-03"
 +++
-*Under development.* This page is an overview of the main components of RsyncOSX and RsyncUI. The development of the apps has been an evolving process. The open source community has been and still are a great resource for ideas and how to solve specific tasks. Both apps today are stable and in a state of maintenace. Some numbers:
+*Under development.* This page is an overview of the main components of RsyncOSX and RsyncUI. The development of the apps has been an evolving process. The open source community has been and still are a great resource for ideas and how to solve specific tasks. Both apps today are stable and in a state of maintenace. 
+
+Some numbers:
 
 | App      | Lines of code | Swift files | Version 1.0 |
 | ----------- | ----------- |   ----------- | -------- |
-| RsyncOSX   | about 11K   | 121       | 14 March 2016 |	
-| RsyncUI   | about 14K     | 168       | 6 May 2021 |
+| RsyncOSX   | about 11K   | about 120      | 14 March 2016 |	
+| RsyncUI   | about 14K     | about 170       | 6 May 2021 |
+
+Which application to use? Both applications does the same job. They read and update the same files for tasks and logs which mean you can use both apps, but not at the same time due to locking of files. According to Apple SwiftUI is the future. RsyncUI is built by utilizing SwiftUI and by every new release of macOS, Swift and SwiftUI there are new features supporting the new release of macOS.This is also true for Swift 5.9 and macOS Sonoma (macOS 14). By Swift 5.9 there is a new `Observable` macro which replace the  `@StateObject`. This is a breaking change and there will be two releases for RsyncUI when macOS Sonoma is public. 
 
 # Some building blocks
 
@@ -28,6 +32,17 @@ RsyncUI and RsyncOSX shares most of the code for *the model components*.  The ma
 
 SwiftUI is the latest declarative framework developed by Apple for views, controls, and layout structures for user interface. 
 
+### RsyncUI and SwiftUI
+
+*RsyncUI* utilizes *SwiftUI* for the UI. UI components are views, which is a value type `struct` and not a reference type `class`. UI components are added to RsyncUI by SwiftUI code.  Every time like a property wrapper is changed the view in a SwiftUI based app is recreated by the runtime. The internal model for creating views is a kind of complex and it is superfast. The cost of creating a value type vs a reference type is way more effective.  In SwitfUI there are special property wrappers like `@State` and `@Binding` for local and private properties and properties for transferring data between views . These property wrappers enables to modify a property within a SwiftUI view. 
+
+#### macOS Sonoma
+
+On macOS Sonoma and by Swift 5.9 there is a new `Observable` macro  which replaces `@StateObject`. The new macro makes it even more easy to write code for the model part which automatically communicate updates of data to the view for updates of the view.
+
+#### macOS Monterey and macOS Ventura
+ 
+The property wrapper  `@StateObject` is used in combination with Combine for the model part for automatically communicate updates of data to the view for updates of the view.
 ### RsyncOSX and Storyboard
 
 *RsyncOSX* utilizes *Storyboard*, which is a tool for graphical design of views. UI components like buttons, tables and other UI components are added and placed within the view by the developer utilizing Xcode. After design all UI components are connected by creating bindings to Swift code. The developer manually adds a reference to the Swift source code for every view  within the Storyboard. If the developer misses to bind a UI component, the app will crash with an nil pointer exception every time that view is exposed.
@@ -37,16 +52,6 @@ Storyboard for the tab views:
 Storyboard for the sheetviews:
 {{< figure src="/images/Xcode/storyboard2.png" alt="" position="center" style="border-radius: 8px;" >}}
 
-### RsyncUI and SwiftUI
-
-*RsyncUI* utilizes *SwiftUI* for the UI. UI components are views, which is a value type `struct` and not a reference type `class`. UI components are added to RsyncUI by code. 
- A property within a value type can only be modified by a `mutating func`. In  SwitfUI there are special property wrappers like `@State` and `@Binding` for local and private properties and properties for transferring data between views . These property wrappers enables to modify a property within a SwiftUI view. There are property wrapper  like `@StateObject` which are of reference type. The latter property wrapper is initialized in the view as a class of type Observeable object. And there are many other property wrappers to be used within SwiftUI. RsyncUI utilizes only a few.
-
-Every time like a property wrapper is changed the view in a SwiftUI based app is recreated by the runtime. The internal model for creating views is a kind of complex and it is superfast. The cost of creating a value type vs a reference type is way more effective.
-
-### macOS Sonoma and Swift 5.9
-
- On macOS Sonoma, macOS 14 and Swift 5.9 there is a new Observable macro which replaces the propertywrappers like State, StateObject, ObservedObject, and EnvironmentObject. I have commenced the work to migrate the present property wrappers. For macOS 12 and 13 the present propertywrappers has  to be used.
 
 ## Asynchronous execution - boths apps
 
@@ -95,14 +100,16 @@ The memory footprint about tasks is minimal. Data for tasks are kept in memory f
 
 ## Model for RsyncUI
 
-Data for tasks are read from store and made avaliable for all the views by an Environment property. The [RsyncUIApp](https://github.com/rsyncOSX/RsyncUI/blob/main/RsyncUI/Main/RsyncUIApp.swift) is the main entrance point for RsyncUI. After the app is initialized and started it opens the [main navigation view (RsyncUIView)](https://github.com/rsyncOSX/RsyncUI/blob/main/RsyncUI/Main/RsyncUIView.swift) and read tasks for the default profile or other profile when selected.  Data about [tasks (RsyncUIconfigurations)](https://github.com/rsyncOSX/RsyncUI/blob/main/RsyncUI/Model/Data/RsyncUIconfigurations.swift) is made avaliable for all views by the `.environmentObject` property. 
+### macOS Sonoma
 
-The data about tasks is read into a object of reference type which conforms to `ObservableObject`. Any changes to the model is published and the subscriber will be notified.  This is an asynchron publish and subscribe feature which is enabled by the declarative library Combine which is a important part of SwiftUI. 
+For macOS Sonoma the new `Observable` macro introduces a few changes to the code. 
 
-Data about logs are only read from store when needed. After operation on logs the memory is automatically released. The [SidebarLogsView](https://github.com/rsyncOSX/RsyncUI/blob/main/RsyncUI/Views/Sidebar/SidebarLogsView.swift) takes care of reading data for logs when the user select viewing logs. 
+Data for tasks are read from store and made avaliable for all the views by an Environment property. The [RsyncUIApp](https://github.com/rsyncOSX/RsyncUI/blob/version-1.7.0-macos-sonoma/RsyncUI/Main/RsyncUIApp.swift) is the main entrance point for RsyncUI. After the app is initialized and started it opens the [main navigation view](https://github.com/rsyncOSX/RsyncUI/blob/version-1.7.0-macos-sonoma/RsyncUI/Main/RsyncUIView.swift) and read tasks for the default profile or other profile when selected.  Data about [tasks](https://github.com/rsyncOSX/RsyncUI/blob/version-1.7.0-macos-sonoma/RsyncUI/Model/Data/RsyncUIconfigurations.swift) is made avaliable for all views by the `.environment` property. 
 
-Data used within RsyncUI views are either an `EnvironmentObject` or a `StateObject`, which both are reference types which conforms to `ObservableObject`. Data is read only within a SwiftUI view. The only way to change data within RsyncUI , e.g. add or delete, is to make the reference to the data avaliable for a Swift object of reference type. This object takes care of any changes. 
+### macOS Monterey and macOS Ventura
 
-Any synchronize task is executed asynchron.  [The process object](https://github.com/rsyncOSX/RsyncUI/blob/main/RsyncUI/Model/Process/Main/Async/RsyncProcessAsync.swift), which is responsible for executing the external rsync tasks, is listening for termination of the external process. Here is an [example of one class](https://github.com/rsyncOSX/RsyncUI/blob/main/RsyncUI/Model/Execution/ExecuteMultipleTasks/ExecuteMultipleTasks.swift) which does the real update on data is created within [this SwiftUI view](https://github.com/rsyncOSX/RsyncUI/blob/main/RsyncUI/Views/Tasks/ExecuteEstimatedTasksView.swift). 
+Data for tasks are read from store and made avaliable for all the views by an Environment property. The [RsyncUIApp](https://github.com/rsyncOSX/RsyncUI/blob/main/RsyncUI/Main/RsyncUIApp.swift) is the main entrance point. After the app is initialized and started it opens the [main navigation view](https://github.com/rsyncOSX/RsyncUI/blob/main/RsyncUI/Main/RsyncUIView.swift) and read tasks for the default profile or other profile when selected.  Data about [tasks](https://github.com/rsyncOSX/RsyncUI/blob/main/RsyncUI/Model/Data/RsyncUIconfigurations.swift) is made avaliable for all views by the `.environmentObject` property. 
+
+All synchronize tasks are executed asynchron.  [The process object](https://github.com/rsyncOSX/RsyncUI/blob/main/RsyncUI/Model/Process/Main/Async/RsyncProcessAsync.swift), which is responsible for executing the external rsync tasks, is listening for termination of the external process. Here is an [example of one class](https://github.com/rsyncOSX/RsyncUI/blob/main/RsyncUI/Model/Execution/ExecuteMultipleTasks/ExecuteMultipleTasks.swift) which does the real update on data is created within [this SwiftUI view](https://github.com/rsyncOSX/RsyncUI/blob/main/RsyncUI/Views/Tasks/ExecuteEstimatedTasksView.swift). 
 
 A `StateObject` which is created when a SwiftUI view is created, is updated as progress of task. The update causes the `StateObject` to publish a change message which again trigger an action like all tasks are completed, saved to store and a new of data from store is requiered.
