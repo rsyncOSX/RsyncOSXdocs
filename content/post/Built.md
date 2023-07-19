@@ -12,10 +12,11 @@ Some numbers:
 
 | App      | Lines of code | Swift files | Version 1.0 |
 | ----------- | ----------- |   ----------- | -------- |
-| RsyncOSX   | about 11K   | about 120      | 14 March 2016 |	
 | RsyncUI   | about 14K     | about 170       | 6 May 2021 |
+| RsyncOSX   | about 11K   | about 120      | 14 March 2016 |	
 
-Which application to use? Both applications does the same job. They read and update the same files for tasks and logs which mean you can use both apps, but not at the same time due to locking of files. According to Apple SwiftUI is the future. RsyncUI is built by utilizing SwiftUI and by every new release of macOS, Swift and SwiftUI there are new features supporting the new release of macOS.This is also true for Swift 5.9 and macOS Sonoma (macOS 14). By Swift 5.9 there is a new `Observable` macro which replace the  `@StateObject`. This is a breaking change and there will be two releases for RsyncUI when macOS Sonoma is public. 
+
+Which application to use? Both applications does the same job. They read and update the same files for tasks and logs which mean you can use both apps, but not at the same time due to locking of files. According to Apple SwiftUI is the future. RsyncUI is built by utilizing SwiftUI and by every new release of macOS, Swift and SwiftUI there are new features supporting the new release of macOS. This is also true for Swift 5.9, Xcode 15 and macOS Sonoma (macOS 14). By Swift 5.9 the new `Observable` macro replace the  `@StateObject` property wrapper. This is a *breaking* change and there will be two releases for RsyncUI when macOS Sonoma is public. 
 
 # Some building blocks
 
@@ -23,26 +24,28 @@ The following addresses some of the main building blocks of both apps and the ma
 
 ## RsyncOSX vs RsyncUI
 
-RsyncUI and RsyncOSX shares most of the code for *the model components*.  The main differences between the two apps are the user interface (UI) and how the UI is built. RsyncUI is deveoped by utilizing **SwiftUI** and Swift.  RsyncOSX is developed by utilizing **Storyboards** and Swift.  Both apps utilizes another great **declarative** library, Combine, developed by Apple and JSON files for storing tasks, logrecords and user configuration. RsyncUI will in the future become the primary application of the two.
+RsyncUI and RsyncOSX shares most of *the model components*.  There are though some model components within RsyncUI which are like an interface between the *shared* model and RsyncUI views. The main differences between the two apps are the user interface (UI) and how the UI is built. RsyncUI is deveoped by utilizing **SwiftUI** and Swift.  RsyncOSX is developed by utilizing **Storyboards** and Swift.  Both apps utilizes another great **declarative** library, Combine, developed by Apple and JSON files for storing tasks, logrecords and user configuration. RsyncUI is now the primary application of the two even if RsyncOSX has more users. 
 
 | App      | Code | Paradigm |
 | ----------- | ----------- |   ----------- |
-| RsyncOSX   | Swift, Storyboard   | imperativ (Swift)      |
 | RsyncUI   | SwiftUI, Swift | declarativ  (SwiftUI)     |
+| RsyncOSX   | Swift, Storyboard   | imperativ (Swift)      |
+
 
 SwiftUI is the latest declarative framework developed by Apple for views, controls, and layout structures for user interface. 
 
 ### RsyncUI and SwiftUI
 
-*RsyncUI* utilizes *SwiftUI* for the UI. UI components are views, which is a value type `struct` and not a reference type `class`. UI components are added to RsyncUI by SwiftUI code.  Every time like a property wrapper is changed the view in a SwiftUI based app is recreated by the runtime. The internal model for creating views is a kind of complex and it is superfast. The cost of creating a value type vs a reference type is way more effective.  In SwitfUI there are special property wrappers like `@State` and `@Binding` for local and private properties and properties for transferring data between views . These property wrappers enables to modify a property within a SwiftUI view. 
+*RsyncUI* utilizes *SwiftUI* for the UI. UI components are views, which is a value type `struct` and not a reference type `class`. UI components are added to RsyncUI by code.  Every time a property within a SwiftUI view is changed the view is recreated by the runtime. The internal model for creating views is a kind of complex and it is superfast. The cost of creating a value type vs a reference type is way more effective.  In SwitfUI there are special property wrappers like `@State` and `@Binding` for local and private properties and properties for transferring data between views . These property wrappers enables to modify a property within a SwiftUI view. 
 
 #### macOS Sonoma
 
-On macOS Sonoma and by Swift 5.9 there is a new `Observable` macro  which replaces `@StateObject`. The new macro makes it even more easy to write code for the model part which automatically communicate updates of data to the view for updates of the view.
+On macOS Sonoma and by Swift 5.9 there is a new `Observable` macro  which replaces `@StateObject`. The new macro makes it even more easy to write code for the model part which automatically communicate updates of data to the view for updates.
 
 #### macOS Monterey and macOS Ventura
  
-The property wrapper  `@StateObject` is used in combination with Combine for the model part for automatically communicate updates of data to the view for updates of the view.
+The property wrapper  `@StateObject` is used in combination with Combine for the model part for automatically communicate updates of data to the view for updates.
+
 ### RsyncOSX and Storyboard
 
 *RsyncOSX* utilizes *Storyboard*, which is a tool for graphical design of views. UI components like buttons, tables and other UI components are added and placed within the view by the developer utilizing Xcode. After design all UI components are connected by creating bindings to Swift code. The developer manually adds a reference to the Swift source code for every view  within the Storyboard. If the developer misses to bind a UI component, the app will crash with an nil pointer exception every time that view is exposed.
@@ -55,13 +58,13 @@ Storyboard for the sheetviews:
 
 ## Asynchronous execution - boths apps
 
-Asynchronous execution of tasks are key components of both apps. Every time a `rsync` synchronize or restore task is executed the termination of the task is not known ahead.  When the termination signal is observed some actions are required. Some actions are like stopping a progressview, send a message about task is completed, do some logging and execute next synchronize task.
+Asynchronous execution of tasks are key components of both apps. Every time a `rsync` synchronize and restore task is executed the termination of the task is not known ahead.  When the *termination signal* is observed some actions are required. Some actions are like stopping a progressview, send a message about task is completed, do some logging and execute next synchronize task.
 
 There are two methods for asynchronous execution. One is utilizing *callback functions* or *completion handlers*, which trigger next action when task is completed. The second is utilize Swift´s `async` and `await` utilities for asynchronous execution. Utilizing `async` and `await` makes the code simpler and cleaner. The need for *completion handlers* are reduced.  And lesser code is better code.
 
 Swift concurrency is a seperate and huge topic to discuss. I am not in a position to discuss it. There are structured and unstructered concurrency in Swift. There are no concurrency within the applications. There are only one asynchronous execution at any time except for concurrency within the Swift and SwiftUI libraries such as GUI updates. 
 
-All code which utilizes asynchronous execution are shared between the two apps. The `Process` object is where the real work is done. Input to the `Process` are the command to execute and the parameters for the command. The `Process` object utilizes Combine for monitoring process termination and output, when needed by the apps, from the command.  There are two versions of the process object:
+All code which utilizes asynchronous execution are shared between the two apps. The `Process` object is where the real work is done. Input to the `Process` are the command to execute and the parameters for the command. The `Process` object utilizes Combine for monitoring *process termination* and output, when needed by the apps, from the command.  There are two versions of the process object:
 
 - [the process object](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/RsyncProcess.swift)
 - [the async process object](https://github.com/rsyncOSX/RsyncOSX/blob/master/RsyncOSX/RsyncProcessAsync.swift)
