@@ -7,9 +7,9 @@ categories = ["general information"]
 lastmod = "2022-05-09"
 +++
 
-RsyncOSX is a pure Swift based macOS application utilizing the command line tool `rsync` for synchronizing files. It is rsync which executes the actual synchronize task. RsyncOSX is a GUI only ontop of rsync. RsyncOSX is signed and notarized by Apple. Apple has verified it for not containing malicious code and digitally signed it. 
+RsyncOSX is a pure Swift based macOS application utilizing the command line tool `rsync` for synchronizing files. It is  `rsync` which executes the actual synchronize task. RsyncOSX is a GUI only ontop of rsync. RsyncOSX is *signed* and *notarized* by Apple.There are no third party libraries included in code. There are thought three source code not developed by me included in code. The third part source code is only for support and not critical if removed.
 
-`rsync` is a file based tool for synchronization of files.
+Check out [the tags](/tags) and [the categories](/categories) for information about other topics not linked to on this page.
 
 # Before commenze use of RsyncOSX
 
@@ -20,7 +20,6 @@ RsyncOSX can be installed by homebrew by command:
 ```bash
 brew install --cask rsyncosx
 ```
-
 or by download [the latest version](https://github.com/rsyncOSX/RsyncOSX/releases). If installed by homebrew the shasum is automatically verified. If downloaded from GitHub please verify the shasum.
 
 ## Remote servers, passwordless logins and local disks
@@ -45,12 +44,9 @@ One of many advantages of utilizing `rsync` is that it can restart and continue 
 
 ## RsyncOSX vs RsyncUI
 
-RsyncOSX and RsyncUI shares most of the code for *the model components*.  The main differences between the two apps are the user interface (UI) and how the UI is built. RsyncUI is deveoped by utilizing **SwiftUI** and Swift.  RsyncOSX is developed by utilizing **Storyboards** and Swift.  Both apps utilizes another great **declarative** library, Combine, developed by Apple and JSON files for storing tasks, logrecords and user configuration. RsyncUI will in the future become the primary application of the two.
+For the moment there are more users of RsyncOSX than RsyncUI. But the number of users of RsyncUI are growing. And Apple is clear, SwiftUI which RsyncUI is developed by, is the future. This means that most of my development is now on RsyncUI. RsyncOSX is still supported, but only issues are fixed and no new features.
 
-| App      | Code | Paradigm | Version 1.0 |
-| ----------- | ----------- |   ----------- | ----------- |
-| RsyncOSX   | Swift, Storyboard   | imperativ (Swift)    | 14 March 2016 |
-| RsyncUI   | SwiftUI, Swift | declarativ  (SwiftUI)     | 6 May 2021 |
+RsyncUI and RsyncOSX shares most of the code for *the model components*.  The main differences between the two apps are the user interface (UI) and how the UI is built. RsyncUI is deveoped by utilizing **SwiftUI**.  RsyncOSX is developed by utilizing **Storyboards**.  Both apps utilizes another great **declarative** library, Combine, developed by Apple and JSON files for storing tasks, logrecords and user configuration. 
 
 # Ready to start using RsyncOSX
 
@@ -73,42 +69,4 @@ Rsync has a ton of parameters. In user selected parameters you can add your own 
 
 ## Remote servers and passwordless logins
 
-There are two ways to setup passwordless logins to a remote server. RsyncOSX supports both. It is **strongly** advised to use ssh and ssh-keys because the traffic is encrypted and it is considered more secure.
-
-### Encrypted protocol by ssh and ssh-keys
-
-Using [ssh-keys](https://wiki.archlinux.org/index.php/SSH_keys) is in general considered more safe than standard password solutions (single factor authentication). Ssh-keys are based upon [public-key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography).
-
-- RsyncOSX can assist you [in setting up passwordless logins](/post/ssh/)
-
-Rsync transfer data between client and server by tunneling transfer of data in an encrypted ssh tunnel.
-
-### Not encrypted protocol by rsync daemon
-
-There is also possible to setup RsyncOSX utilizing a rsync daemon setup for synchronizing files to remote servers.
-
-- this is a special setup and require [some tweaking](/post/rsyncdaemon/)
-
-Rsync is reading a local file with password information when connecting to the server side rsync daemon. The transfer of data between client and server is not encrypted.
-
-Snapshots is **not** possible with rsync daemon setup.
-
-## Snapshots
-
-[Snapshot is an effective method](/post/snapshots/) for saving previous versions of data and deleted files in case of a restore.
-
-## Restore of files
-
-Sometimes you need to [restore files](/post/restore/).
-
-## User configuration
-
-There are a few [user selected options](/post/userconfiguration/).
-
-## RsyncOSX config files
-
-Where does RsyncOSX [stores the config files](/post/configfiles/)?
-
-## Compile and how is the apps built
-
-And there is some info about how [to compile RsyncOSX](/post/compile/) and some overview of how the apps are [built](/post/built/).
+RsyncOSX can synchronize your data to either remote servers on Internet and local LAN, or to local attached disks. If you only want to synchronize data to local disks, connect the external disk and just add the source and destination and you are ready for your first task.  If you want to synchronize data to remote servers there are some more setup to do. If you already have enabled **passwordless login** by `ssh` you only have to add login id and servername, the source and destination and you are ready.  If you have not enabled  passwordless login there are some more actions requiered before your first task. 
