@@ -11,7 +11,7 @@ RsyncOSX is a pure Swift based macOS application utilizing the command line tool
 
 Check out [the tags](/tags) and [the categories](/categories) for information about other topics not linked to on this page.
 
-# Before commenze use of RsyncOSX
+## Before commenze use of RsyncOSX
 
 [RsyncOSX](https://github.com/rsyncOSX/RsyncOSX/releases) is compiled for **macOS Big Sur** and later. See [the changelog](/post/changelog/) for updates. RsyncOSX is built as a Universal macOS Binary and runs natively on Apple Silicon and Intel based Mac computers.
 
@@ -26,7 +26,7 @@ or by download [the latest version](https://github.com/rsyncOSX/RsyncOSX/release
 
 RsyncOSX can synchronize your data to either remote servers on Internet and local LAN, or to local attached disks. If you only want to synchronize data to a local attached disk, connect the disk and just add the source and destination and you are ready for your first task. 
 
-If you want to synchronize data to remote servers there are some more setup to do. If you already have enabled **passwordless login** by `ssh` you only have to add login id and servername, the source and destination and you are ready.  If you have not enabled  passwordless login there are some more actions requiered before your first task. See chapter *Remote servers* below.
+If you want to synchronize data to remote servers there are some more setup to do. If you already have enabled **passwordless login** by `ssh` you only have to add login id and servername, the source and destination and you are ready.  If you have not enabled  passwordless login there are some more actions requiered before your first task.
 
 ## First time
 
@@ -48,8 +48,6 @@ For the moment there are more users of RsyncOSX than RsyncUI. But the number of 
 
 RsyncUI and RsyncOSX shares most of the code for *the model components*.  The main differences between the two apps are the user interface (UI) and how the UI is built. RsyncUI is deveoped by utilizing **SwiftUI**.  RsyncOSX is developed by utilizing **Storyboards**.  Both apps utilizes another great **declarative** library, Combine, developed by Apple and JSON files for storing tasks, logrecords and user configuration. 
 
-# Ready to start using RsyncOSX
-
 ## New tasks, verify and synchronize data
 
 After [adding a task](/post/addconfigurations/), a double click on the new task will execute a simulated run or what is called a `dryrun`. Verify the output from rsync by opening the log, top left icon in sidebar of RsyncOSX, either ahead or after the simulated run. 
@@ -59,14 +57,3 @@ After adding a task you are ready to execute a [synchronize data task](/post/sin
 For more experienced users of rsync, select the new task and press the `Command` button. Copy and paste the `Synchronize` string into a terminal view for verification of added task. The rsync command includes the `dryrun` parameter as default within this view. 
 
 **Always** verify, by a `dryrun`,  the result of a **new** task before executing it.
-
-## Add parameters to rsync
-
-Rsync has a ton of parameters. In user selected parameters you can add your own additional parameters to rsync. There is also a set of default rsync parameters.
-
-- default [parameters](/post/rsyncparameters)
-- user selected [parameters](/post/userparameters/)
-
-## Remote servers and passwordless logins
-
-RsyncOSX can synchronize your data to either remote servers on Internet and local LAN, or to local attached disks. If you only want to synchronize data to local disks, connect the external disk and just add the source and destination and you are ready for your first task.  If you want to synchronize data to remote servers there are some more setup to do. If you already have enabled **passwordless login** by `ssh` you only have to add login id and servername, the source and destination and you are ready.  If you have not enabled  passwordless login there are some more actions requiered before your first task. 
