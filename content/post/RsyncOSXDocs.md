@@ -40,8 +40,6 @@ The error in bottom of the view is only RsyncOSX complaining about not finding t
 
 Please be aware it is an external task not controlled by RsyncOSX which executes the command line tool `rsync`. RsyncOSX is monitoring the task for progress and termination. The user can at any time abort a task . Please let the abort to finish and cleanup properly before starting a new task. It might take a few seconds. If not the apps might become unresponsive.
 
-One of many advantages of utilizing `rsync` is that it can restart and continue the synchronize task from where it was aborted.
-
 ## RsyncOSX vs RsyncUI
 
 For the moment there are more users of RsyncOSX than RsyncUI. But the number of users of RsyncUI are growing. And Apple is clear, SwiftUI which RsyncUI is developed by, is the future. This means that most of my development is now on RsyncUI. RsyncOSX is still supported, but only issues are fixed and no new features.
