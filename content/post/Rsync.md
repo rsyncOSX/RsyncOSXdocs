@@ -12,7 +12,7 @@ The default [version 2.6.9 of rsync in macOS](https://download.samba.org/pub/rsy
 It is adviced to install rsync as part of Homebrew. In RsyncOSX select [user configuration](/post/normalsettings/) and set path for optional version of rsync. Install [homebrew](https://brew.sh/) and install the latest version of rsync as part of homebrew. Execute the command
 
 ```bash
-`brew install rsync`
+brew install rsync
 ```
 to install the latest version of rsync.
 
