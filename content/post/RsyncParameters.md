@@ -2,7 +2,7 @@
 author = "Thomas Evensen"
 date = "2021-04-16"
 title =  "Parameters to rsync"
-tags = ["parameters to rsync"]
+tags = ["parameters"]
 categories = ["rsync parameters"]
 description = "RsyncOSX allows the user to set parameters to rsync."
 lastmod = "2020-07-16"
