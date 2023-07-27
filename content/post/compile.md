@@ -45,8 +45,6 @@ The following tools are used in development:
 
 - Xcode (the main tool)
 - make to compile new versions in terminal
-- [create-dmg](https://github.com/sindresorhus/create-dmg) to create new releases
-- [periphery](https://github.com/peripheryapp/periphery) to identify unused code
 - [SwiftLint](https://github.com/realm/SwiftLint) to enforce Swift style and conventions
 - [SwiftFormat](https://github.com/nicklockwood/SwiftFormat) for reformatting Swift code
 
