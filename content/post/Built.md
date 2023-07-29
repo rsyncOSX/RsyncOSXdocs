@@ -16,11 +16,11 @@ Some numbers:
 | RsyncOSX   | about 11K   | about 120      | 14 March 2016 |	
 
 
-Which application to use? Both applications does the same job. They read and update the same files for tasks and logs which mean you can use both apps, but not at the same time due to locking of files. According to Apple SwiftUI is the future. RsyncUI is built by utilizing SwiftUI and by every new release of macOS, Swift and SwiftUI there are new features supporting the new release of macOS. This is also true for Swift 5.9, Xcode 15 and macOS Sonoma (macOS 14). By Swift 5.9 the new `Observable` macro replace the  `@StateObject` property wrapper. This is a *breaking* change and there will be two releases for RsyncUI when macOS Sonoma is public. 
+Which application to use? Both applications does the same job. They read and update the same files for tasks and logs which mean you can use both apps, but not at the same time due to locking of files. According to Apple SwiftUI is the future. RsyncUI is built by utilizing SwiftUI and by every new release of macOS, Swift and SwiftUI there are new features supporting the new release of macOS. This is also true for Swift 5.9, Xcode 15 and macOS Sonoma (macOS 14). By Swift 5.9 the new `Observable` macro replace the  `@StateObject` propertywrapper. This is a *breaking* change and there will be two releases for RsyncUI when macOS Sonoma is public. 
 
-# Some building blocks
+## A few words about the code
 
-The following addresses some of the main building blocks of both apps and the main difference between them. The MVC design pattern is the basis for both apps. 
+Even if I am an educated IT person most of my professional work has been as an IT-manager and not a developer. Most of my coding experience is in private projects such as RsyncOSX and RsyncUI. Google is and has been a great resource for research and advice on how to solve specific problems. Reading other developers' code and discussing is always valuable input for my code. The *MVC pattern* and *single source of truth* are important patterns for both apps. I have also tried to use all Apple Frameworks utilizing most required built-in functions like I **don't write** my own sorting or filter algorithms. And even if there are many lines of code in both apps I have tried to write as little code as possible.  So if you are looking at my code keep this in mind and my code is *only one* of *probably many ways* to solve a problem.  
 
 ## RsyncOSX vs RsyncUI
 
@@ -28,15 +28,14 @@ RsyncUI and RsyncOSX shares most of *the model components*.  There are though so
 
 | App      | Code | Paradigm |
 | ----------- | ----------- |   ----------- |
-| RsyncUI   | SwiftUI, Swift | declarativ  (SwiftUI)     |
-| RsyncOSX   | Swift, Storyboard   | imperativ (Swift)      |
-
+| RsyncUI   | SwiftUI, Swift | declarativ  |
+| RsyncOSX   | Storyboard, Swift  | imperativ |
 
 SwiftUI is the latest declarative framework developed by Apple for views, controls, and layout structures for user interface. 
 
 ### RsyncUI and SwiftUI
 
-*RsyncUI* utilizes *SwiftUI* for the UI. UI components are views, which is a value type `struct` and not a reference type `class`. UI components are added to RsyncUI by code.  Every time a property within a SwiftUI view is changed the view is recreated by the runtime. The internal model for creating views is a kind of complex and it is superfast. The cost of creating a value type vs a reference type is way more effective.  In SwitfUI there are special property wrappers like `@State` and `@Binding` for local and private properties and properties for transferring data between views . These property wrappers enables to modify a property within a SwiftUI view. 
+*RsyncUI* utilizes *SwiftUI* for the UI. UI components are views, which is a value type `struct` and not a reference type `class`. UI components are added to RsyncUI by code.  Every time a property within a SwiftUI view is changed the view is recreated by the runtime. The internal model for creating views is a kind of complex and it is superfast. The cost of creating a value type vs a reference type is way more effective.  In SwitfUI there are special propertywrappers like `@State` and `@Binding` for local and private properties and properties for transferring data between views . These propertywrappers enables to modify a property within a SwiftUI view. 
 
 #### macOS Sonoma
 
@@ -44,7 +43,7 @@ On macOS Sonoma and by Swift 5.9 there is a new `Observable` macro  which replac
 
 #### macOS Monterey and macOS Ventura
  
-The property wrapper  `@StateObject` is used in combination with Combine for the model part for automatically communicate updates of data to the view for updates.
+The propertywrapper  `@StateObject` is used in combination with Combine for the model part for automatically communicate updates of data to the view for updates.
 
 ### RsyncOSX and Storyboard
 
