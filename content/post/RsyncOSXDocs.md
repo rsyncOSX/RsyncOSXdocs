@@ -48,10 +48,10 @@ RsyncUI and RsyncOSX shares most of the code for *the model components*.  The ma
 
 ## New tasks, verify and synchronize data
 
-After [adding a task](/post/addconfigurations/), a double click on the new task will execute a simulated run or what is called a `dryrun`. Verify the output from rsync by opening the log, top left icon in sidebar of RsyncOSX, either ahead or after the simulated run. 
+After [adding a task](/post/addconfigurations/), a double click on the new task will execute a simulated run or what is called a `--dry-run`. Verify the output from rsync by opening the log, top left icon in sidebar of RsyncOSX, either ahead or after the simulated run. 
 
 After adding a task you are ready to execute a [synchronize data task](/post/singletask/).
 
-For more experienced users of rsync, select the new task and press the `Command` button. Copy and paste the `Synchronize` string into a terminal view for verification of added task. The rsync command includes the `dryrun` parameter as default within this view. 
+For more experienced users of rsync, select the new task and press the `Command` button. Copy and paste the `Synchronize` string into a terminal view for verification of added task. The rsync command includes the `--dry-run` parameter as default within this view. 
 
-**Always** verify, by a `dryrun`,  the result of a **new** task before executing it.
+**Always** verify, by a `--dry-run`,  the result of a **new** task before executing it.

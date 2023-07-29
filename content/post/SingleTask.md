@@ -8,7 +8,7 @@ lastmod = "2020-12-13"
 +++
 In Synchronize view tasks can be executed as single tasks. Execute single tasks require two **double clicks**:
 
-- the **first** double click for **estimation** (`dryrun`) and
+- the **first** double click for **estimation** (`--dry-run`) and
 - the **second** double click for **executing** the task
 
 The output from rsync is presented after each run.
@@ -17,7 +17,7 @@ The output from rsync is presented after each run.
 
 ## Verify and execute a single task
 
-Execute a single task is a **two step** operation. The first is an estimation or verify run, a `dryrun` execution. The second one is the real run. A drop down view of the output from rsync is automatically presented after both steps.
+Execute a single task is a **two step** operation. The first is an estimation or verify run, a `--dry-run` execution. The second one is the real run. A drop down view of the output from rsync is automatically presented after both steps.
 
 If Abort is pressed execution is aborted. It is also possible [to execute several tasks](/post/severaltasks/) in one go.
 
