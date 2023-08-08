@@ -13,7 +13,7 @@ Check out [the tags](/tags) and [the categories](/categories) for information ab
 
 ## Before commenze use of RsyncOSX
 
-[RsyncOSX](https://github.com/rsyncOSX/RsyncOSX/releases) is compiled for **macOS Big Sur** and later. See [the changelog](/post/changelog/) for updates. RsyncOSX is built as a Universal macOS Binary and runs natively on Apple Silicon and Intel based Mac computers.
+[RsyncOSX](https://github.com/rsyncOSX/RsyncOSX/releases) is compiled for *macOS Big Sur* and later. See [the changelog](/post/changelog/) for updates. RsyncOSX is built as a Universal macOS Binary and runs natively on Apple Silicon and Intel based Mac computers.
 
 RsyncOSX can be installed by homebrew by command:
 
@@ -26,9 +26,9 @@ or by download [the latest version](https://github.com/rsyncOSX/RsyncOSX/release
 
 RsyncOSX can synchronize your data to either remote servers on Internet and local LAN, or to local attached disks. If you only want to synchronize data to a local attached disk, connect the disk and just add the source and destination and you are ready for your first task. 
 
-If you want to synchronize data to remote servers there are some more setup to do. If you already have enabled **passwordless login** by `ssh` you only have to add login id and servername, the source and destination and you are ready.  If you have not enabled  passwordless login there are some more actions requiered before your first task.
+If you want to synchronize data to remote servers there are some more setup to do. If you already have enabled *passwordless login* by `ssh` you only have to add login id and servername, the source and destination and you are ready.  If you have not enabled  passwordless login there are some more actions requiered before your first task.
 
-## First time
+## New users
 
 The first time RsyncOSX starts it presents a link to [important](/post/important/) information. There is also info about the latest [version of rsync](/post/rsync/) to install.
 
@@ -44,7 +44,7 @@ Please be aware it is an external task not controlled by RsyncOSX which executes
 
 For the moment there are more users of RsyncOSX than RsyncUI. But the number of users of RsyncUI are growing. And Apple is clear, SwiftUI which RsyncUI is developed by, is the future. This means that most of my development is now on RsyncUI. RsyncOSX is still supported, but only issues are fixed and no new features.
 
-RsyncUI and RsyncOSX shares most of the code for *the model components*.  The main differences between the two apps are the user interface (UI) and how the UI is built. RsyncUI is deveoped by utilizing **SwiftUI**.  RsyncOSX is developed by utilizing **Storyboards**.  Both apps utilizes another great **declarative** library, Combine, developed by Apple and JSON files for storing tasks, logrecords and user configuration. 
+RsyncUI and RsyncOSX shares most of the code for *the model components*.  The main differences between the two apps are the user interface (UI) and how the UI is built. RsyncUI is deveoped by utilizing *SwiftUI*.  RsyncOSX is developed by utilizing *Storyboards*.  Both apps utilizes another great *declarative* library, Combine, developed by Apple and JSON files for storing tasks, logrecords and user configuration. 
 
 ## New tasks, verify and synchronize data
 
@@ -54,4 +54,4 @@ After adding a task you are ready to execute a [synchronize data task](/post/sin
 
 For more experienced users of rsync, select the new task and press the `Command` button. Copy and paste the `Synchronize` string into a terminal view for verification of added task. The rsync command includes the `--dry-run` parameter as default within this view. 
 
-**Always** verify, by a `--dry-run`,  the result of a **new** task before executing it.
+Always verify, by a `--dry-run`,  the result of a *new* task before executing it.
