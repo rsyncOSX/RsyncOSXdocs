@@ -13,9 +13,7 @@ Check out  [the tags](/tags) and [the categories](/categories)  for information 
 
 ## Before commencing use of RsyncOSX
 
-[RsyncOSX](https://github.com/rsyncOSX/RsyncOSX/releases)  is compiled for *macOS Big Sur* and later. See the [the changelog](/post/changelog/) for updates. RsyncOSX is built as a Universal macOS Binary and runs natively on Apple Silicon and Intel-based Mac computers.
-
-RsyncOSX can be installed by homebrew by command:
+[RsyncOSX](https://github.com/rsyncOSX/RsyncOSX/releases)  is compiled for *macOS Big Sur* and later. See the [the changelog](/post/changelog/) for updates. RsyncOSX is built as a Universal macOS Binary and runs natively on Apple Silicon and Intel-based Mac computers. RsyncOSX can be installed by homebrew by command:
 
 ```bash
 brew install --cask rsyncosx
@@ -25,9 +23,7 @@ or by downloading  [the latest version](https://github.com/rsyncOSX/RsyncOSX/rel
 
 ## Remote servers, passwordless logins and local disks
 
-RsyncOSX can synchronize your data to either remote servers on the Internet and local LAN, or to local attached disks. If you only want to synchronize data to a local attached disk, connect the disk and just add the source and destination and you are ready for your first task.
-
-If you want to synchronize data to remote servers, there is some more setup to do. If you already have enabled *passwordless login* by ssh you only have to add login id and servername, the source and destination and you are ready. If you have not enabled passwordless login, there are some more actions required before your first task.
+RsyncOSX can synchronize your data to either remote servers on the Internet and local LAN, or to local attached disks. If you only want to synchronize data to a local attached disk, connect the disk and just add the source and destination and you are ready for your first task. If you want to synchronize data to remote servers, there is some more setup to do. If you already have enabled *passwordless login* by ssh you only have to add login id and servername, the source and destination and you are ready. If you have not enabled passwordless login, there are some more actions required before your first task.
 
 ## New users
 
@@ -49,9 +45,7 @@ RsyncUI and RsyncOSX share most of the code for the model components. The main d
 
 ## New tasks; verifying and synchronizing data
 
-After  [adding a task](/post/addconfigurations/), a double click on the new task will execute a simulated run or what is called a `--dry-run`. Verify the output from rsync by opening the log, top left icon on the sidebar of RsyncOSX, either ahead or after the simulated run.
-
-After adding a task, you are ready to execute a [synchronize data task](/post/singletask/).
+After  [adding ](/post/addconfigurations/) a task, a double click on [task](/post/singletask/) will execute a simulated run or what is called a `--dry-run`. Verify the output from rsync by opening the log, top left icon on the sidebar of RsyncOSX, either ahead or after the simulated run.
 
 For more experienced users of rsync, select the new task and press the `Command` button. Copy and paste the `Synchronize` string into a terminal view for verification of the added task. The rsync command includes the `--dry-run` parameter as default within this view.
 
