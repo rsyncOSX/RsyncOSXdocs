@@ -39,11 +39,11 @@ SwiftUI is the latest declarative framework developed by Apple for views, contro
 
 #### macOS Sonoma
 
-On macOS Sonoma and by Swift 5.9 there is a new `Observable` macro  which replaces `@StateObject`. The new macro makes it even more easy to write code for the model part which automatically communicate updates of data to the view for updates.
+On macOS Sonoma and by Swift 5.9 there is a new `Observable` macro  which replaces `@StateObject`. The new macro makes it even more easy to write code for the model part which automatically communicate updates of data to the view for refresh.
 
 #### macOS Monterey and macOS Ventura
  
-The propertywrapper  `@StateObject` is used in combination with Combine for the model part for automatically communicate updates of data to the view for updates.
+The propertywrapper  `@StateObject` is used in combination with Combine for the model part for automatically communicate updates of data to the view for refresh.
 
 ### RsyncOSX and Storyboard
 
@@ -96,7 +96,7 @@ The start of RsyncOSX starts with the attribute `@NSApplicationMain` which kicks
 
 # The model
 
-The model is not equal for the apps. The concept of model is the same, but there are some differences due to the fact that SwiftUI views are value type (structs) and not reference type (class) as for Storyboard and Swift. The model is also responsible for informing the views when there are changes to the model. But both apps share the basic functions like read and write data from store, functions for updating the model and so on. 
+The model is not equal for the apps. The concept of model is the same, but there are some differences due to the fact that SwiftUI views are value type (structs) and not reference type (class) as for Storyboard and Swift. The model is also responsible for informing the views when there are changes to the model. Both apps share the basic functions like read and write data from store, functions for updating the model and so on. 
 
 The memory footprint about tasks is minimal. Data for tasks are kept in memory for both apps during the lifetime of the apps. The memory footprint for logs will grow over time as new logs are created and stored. But logs are only  read from store when viewing logs or updates. When data about logs is not used, the data is automatically released from memory to keep the memory as low as possible.
 
