@@ -13,7 +13,7 @@ Check out  [the tags](/tags) and [the categories](/categories)  for information 
 
 ## Before commencing use of RsyncOSX
 
-[RsyncOSX](https://github.com/rsyncOSX/RsyncOSX/releases)  is compiled for *macOS Big Sur* and later. See the [the changelog](/post/changelog/) for updates. RsyncOSX is built as a Universal macOS Binary and runs natively on Apple Silicon and Intel-based Mac computers. RsyncOSX can be installed by homebrew by command:
+[RsyncOSX](https://github.com/rsyncOSX/RsyncOSX/releases)  is compiled for *macOS Big Sur* and later. See the [the changelog](/post/changelog/) for updates. RsyncOSX is built as a Universal macOS Binary and runs nativly on Apple Silicon and Intel-based Mac computers. RsyncOSX can be installed by homebrew by command:
 
 ```bash
 brew install --cask rsyncosx
