@@ -11,7 +11,7 @@ If you are new to the command line tool `rsync` and RsyncOSX please read this in
 
 ## The --delete parameter and new tasks
 
-The `--delete` parameter is a **default parameter** set by RsyncOSX to `rsync`. The parameter instructs rsync too keep the **source** and **destination** in sync. The parameter instructs rsync to **delete** all files in the destination which are not present in the source. Every time you add a **new task** to RsyncOSX, execute an estimation run and inspect the result before executing a real run. If you by accident set an empty catalog as source, RsyncOSX (rsync) will delete all files in the destination.
+The `--delete` parameter is a *default parameter* set by RsyncOSX to `rsync`. The parameter instructs rsync too keep the *source* and *destination* in sync. The parameter instructs rsync to *delete* all files in the destination which are not present in the source. Every time you add a *new task* to RsyncOSX, execute an estimation run and inspect the result before executing a real run. If you by accident set an empty catalog as source, RsyncOSX (rsync) will delete all files in the destination.
 
 Default parameters set by RsyncOSX to `rsync` can be disabled task by task. If you decide to disable a default parameter, be sure you understand what the result is. A disabled parameter can be enabled again.
 
