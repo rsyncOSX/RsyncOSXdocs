@@ -23,7 +23,7 @@ or by downloading  [the latest version](https://github.com/rsyncOSX/RsyncOSX/rel
 
 ## Remote servers, passwordless logins and local disks
 
-RsyncOSX can synchronize your data to either remote servers on the Internet and local LAN, or to local attached disks. If you only want to synchronize data to a local attached disk, connect the disk and just add the source and destination and you are ready for your first task. If you want to synchronize data to remote servers, there is some more setup to do. If you already have enabled *passwordless login* by ssh you only have to add login id and servername, the source and destination and you are ready. If you have not enabled passwordless login, there are some more actions required before your first task.
+RsyncOSX  can synchronize your data to either remote servers on the Internet, servers on your local LAN and to local attached disk. If you only want to synchronize data to a local attached disk, connect the disk, add source and destination and you are ready for your first task. If you want to synchronize data to a server there is some more setup to do. If you have enabled passwordless login by ssh you only have to add login id, servername, source and destination and you are ready to synchronize. If you have not enabled passwordless login, there are some more actions required before your first task.
 
 ## New users
 
