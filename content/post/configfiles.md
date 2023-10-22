@@ -6,20 +6,17 @@ tags = ["config files"]
 categories = ["general information"]
 lastmod = "2020-10-23"
 +++
-RsyncOSX stores its configurations, schedules and log records and user configurations as [JSON](https://en.wikipedia.org/wiki/JSON) files. The storage of those files is:
-
-`$HOME/.rsyncosx/macserialnumber`
-
-In the `About` the used path for configuration files is shown. RsyncOSX evaluates the computer mac serial number at startup.
+RsyncOSX read and store configurations, log records and user settings as [JSON](https://en.wikipedia.org/wiki/JSON) files. The location of files is: `$HOME/.rsyncosx/macserialnumber`. RsyncOSX evaluates the computer mac serial number at startup. 
 
 ## Configuration files
 
 `$HOME/.rsyncosx/macserialnumber/configurations.json`
+
 If profile is utilized:
 
 `$HOME/.rsyncosx/macserialnumber/profile/configurations.json`
 
-## Schedules and log records
+## Log records
 
 `$HOME/.rsyncosx/macserialnumber/schedules.json`
 
@@ -27,10 +24,10 @@ If profile is utilized:
 
 `$HOME/.rsyncosx/macserialnumber/profile/schedules.json`
 
-## User configurations
+## User settings
 
-The [user configurations](/post/userconfiguration/) is stored as:
+The [user settings](/post/settings/) are stored as:
 
-`$HOME/.rsyncosx/macserialnumber/rsyncosxconfig.json`
+`$HOME/.rsyncosx/macserialnumber/rsyncuiconfig.json`
 
 The user settings applies to all profiles.
