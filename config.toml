@@ -1,79 +1,132 @@
-# This is a simple configuration.
-# If you want to see the full configuration, please check `full-config.toml` .
-# And see https://gohugo.io/getting-started/configuration/ .
-
 baseURL = "https://rsyncosx.netlify.app/"
-title = "RsyncOSX - a GUI for rsync"
-enableRobotsTXT = true
-enableEmoji = true
-theme = "jane"
-
-hasCJKLanguage = false     # has chinese/japanese/korean ? # 自动检测是否包含 中文\日文\韩文
-paginate = 10             # Number of articles displayed on the homepage  # 首页每页显示的文章数
-rssLimit = 20             # Limit Entry Count to Rss file # 限制 Rss 文章输出数量
-# disqusShortname = "https-rsyncosx-netlify-app"      # disqus_shortname
-# googleAnalytics = "UA-168706149-1"
+title = "RsyncOSX "
+theme = "hugo-theme-cleanwhite"
+languageCode = "en-us"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
 googleAnalytics = "G-0GQFP8PZSM"
-copyright = ""            # default: author.name ↓        # 默认为下面配置的author.name ↓
+preserveTaxonomyNames = true
+paginate = 10 #frontpage pagination
+hasCJKLanguage = false
 
-# language support # en / zh-cn / other... translations present in i18n/
-defaultContentLanguage = "en"           # Default language to use
-[languages.en]
-  languageCode = "en"
-
-[author]                  # essential                     # 必需
-  name = "thomas"
-
-[sitemap]                 # essential                     # 必需
-  changefreq = "weekly"
-  priority = 0.5
-  filename = "sitemap.xml"
-
-[[menu.main]]             # config your menu              # 配置目录
-  name = "About"
-  weight = 10
-  identifier = "home"
-  url = "/about"
-[[menu.main]]
-  name = "Archives"
-  weight = 20
-  identifier = "archives"
-  url = "/post/"
-[[menu.main]]
-  name = "Tags"
-  weight = 30
-  identifier = "tags"
-  url = "/tags/"
-[[menu.main]]
-  name = "Categories"
-  weight = 40
-  identifier = "categories"
-  url = "/categories/"
+[outputs]
+home = ["HTML", "RSS"]
 
 [params]
-  since = "2017"            # Site creation time          # 站点建立时间
-  homeFullContent = false   # if false, show post summaries on home page. Otherwise show full content.
-  rssFullContent = true     # if false, Rss feed instead of the summary
+  # header_image = "/images/start/rsyncui.png"
+  SEOTitle = "RsyncOSX"
+  description = "A GUI onto of rsync"
+  keyword = "rsync"
+  # slogan = "路在脚下，心向远方"
 
-  # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
-  logoTitle = "RsyncOSX"        # default: the title value    # 默认值: 上面设置的title值
-  keywords = ["Hugo", "theme","jane"]
-  description = "RsyncOSX documentation."
+  # image_404 = "img/404-bg.jpg"
+  # title_404 = "你来到了没有知识的荒原 :("
+  omit_categories = false
 
-  # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
-  dateFormatToUse = "2006-01-02"
+  # leancloud storage for page view counter
+  page_view_conter = false 
+  leancloud_app_id = ""
+  leancloud_app_key = ""
 
-  # 一些全局开关，你也可以在每一篇内容的 front matter 中针对单篇内容关闭或开启某些功能，在 archetypes/default.md 查看更多信息。
-  # Some global options, you can also close or open something in front matter for a single post, see more information from `archetypes/default.md`.
-  toc = true                                                                            # 是否开启目录
-  photoswipe = false         # see https://github.com/dimsemenov/PhotoSwipe            # 是否启用PhotoSwipe（图片可点击）
-  contentCopyright = '<a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>'
+  # algolia site search
+  algolia_search = false
+  algolia_appId = ""
+  algolia_indexName = ""
+  algolia_apiKey = ""
 
-  # Link custom CSS and JS assets
-  #   (relative to /static/css and /static/js respectively)
-  customCSS = []            # if ['custom.css'], load '/static/css/custom.css' file
-  customJS = []             # if ['custom.js'], load '/static/js/custom.js' file
+  # Sidebar settings
+  # sidebar_about_description = "Software Developer, Open Source Enthusiast and Life Adventurer"
+  #sidebar_avatar = "img/avatar-zhaohuabing.jpg"      # use absolute URL, seeing it's used in both `/` and `/about/`
+  # sidebar_avatar = "img/zhaohuabing.png"      # use absolute URL, seeing it's used in both `/` and `/about/`
 
-  [params.social]                                         # 社交链接
-    a-email = "mailto:thomeven@gmail.com"
-    g-github = "https://github.com/rsyncOSX/RsyncUI"
+  featured_tags = true 
+  # featured_condition_size = 1
+
+  # Baidu Analytics
+  # ba_track_id = ""
+  
+  # We need a proxy to access Disqus api in China
+  # Follow https://github.com/zhaohuabing/disqus-php-api to set up your own disqus proxy
+  # disqus_proxy = ""
+  # disqus_site = ""
+
+  # Twikoo comments
+  # Follow https://twikoo.js.org/ to set up your own env_id
+  # twikoo_env_id = ""
+
+  #Enable wechat pay & alipay to allow readers send reward money if they like the articles 
+  reward = false 
+  # reward_guide = "如果这篇文章对你有用,请随意打赏" 
+
+  friends = false
+  bookmarks = false
+  about_me = true
+
+  # Include any custom CSS and/or JS files, url or relative to /static folder
+  #custom_css = ["css/lightbox.css", "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css", "css/main.css"]
+  #custom_js = ["js/lightbox.js", "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js", "js/main.js"]
+
+  [params.social]
+  rss            = true 
+  email          = "thomeven@gmail.com"
+  #facebook      = "full profile url in facebook"
+  #googleplus    = "full profile url in googleplus"
+  #twitter       = "full profile url in twitter"
+  # linkedin       = "https://www.linkedin.com/in/yourlinkedinid"
+  # stackoverflow  = "https://stackoverflow.com/users/yourstackoverflowid"
+  #instagram     = "full profile url in instagram"
+  github         = "https://github.com/rsyncOSX"
+  #wechat         = "your wechat qr code image"
+  #medium        = "full profile url in medium"
+  #slack         = "full workspace url in slack"
+  #pinterest     = "full profile url in pinterest"
+  #reddit        = "full profile url in reddit"
+  #gitlab        = "full profile url in gitlab"
+  #mastodon      = "full profile url in mastodon"
+  #keybase       = "full profile url in keybase"
+  #xing          = "https://www.xing.com/profile/yourxingid"
+  #git           = "full profile url for git user"
+  
+  # [[params.friend_link]]
+  # title = "Linda的博客"
+  # href =  "https://zhaozhihan.com"
+
+  # [[params.bookmark_link]]
+  # title =  "Martin Fowler"
+  # href =  "https://martinfowler.com"
+ #  [[params.bookmark_link]]
+  # title = "ServiceMesher"
+  # href =  "http://www.servicemesher.com"
+  # [[params.bookmark_link]]
+  # title =  "Pxhere"
+  # href = "https://pxhere.com"
+  # [[params.bookmark_link]]
+  # title = "unsplash"
+  # href = "https://unsplash.com"
+  
+ # [[params.addtional_menus]]
+  # title =  "ARCHIVE"
+  # href =  "/archive/"
+  # [[params.addtional_menus]]
+  # title =  "NOTES"
+  # href =  "/notes/"
+  [[params.addtional_menus]]
+  title =  "ABOUT"
+  href =  "/about/"
+
+[outputFormats.Algolia]
+baseName = "algolia"
+isPlainText = true
+mediaType = "application/json"
+notAlternative = true
+
+[params.algolia]
+vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
+params = ["categories", "tags"] 
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 2
+    startLevel = 1
+  [markup.highlight]
+    style = "dracula"
