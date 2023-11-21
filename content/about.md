@@ -18,16 +18,3 @@ In May 2022, I retired from work at the age of 62. I am a passionate [photograph
 Hugo, which is a static site generator, is the web framework serving these pages. The source for this website is hosted on GitHub. Netlify, which runs the web server, automatically picks up changes on the main branch and rebuilds the server. The Hugo theme used is another open-source project hosted on GitHub.
 
 Every time I change or add pages, I commit the changes to GitHub, and Netlify automatically builds the new server in seconds.
-
-## SwiftUI based
-
-- [RsyncUI](https://github.com/rsyncOSX/RsyncUI) a GUI for rsync
-
-This app is compiled with support for macOS Monterey and later.
-
-## Swift and Storyboard
-
-- [RsyncOSX](https://github.com/rsyncOSX/RsyncOSX) a GUI for rsync
-
-This app is compiled with support for macOS Big Sur and later.
-
