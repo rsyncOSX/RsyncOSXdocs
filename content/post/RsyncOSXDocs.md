@@ -7,9 +7,9 @@ categories = ["general information"]
 lastmod = "2022-05-09"
 +++
 
-RsyncOSX is a pure Swift based macOS application utilizing the command line tool `rsync` for synchronizing files. It is `rsync`  which executes the actual synchronized task. RsyncOSX is a GUI only on top of rsync. RsyncOSX is *signed* and *notarized* by Apple.There are no third party libraries included in the code. There are three source codes not developed by me included in the code. The third part of the source code is only for support and not critical if removed.
+*Some important information about development of RsyncOSX. There are two GUIs for rsync developed by me, RsyncOSX and RsyncUI. More info abot both apps on [my GitHub Readme file](https://github.com/rsyncOSX/RsyncOSX). New development is and has been since beginning av 2023, only for RsyncUI - the SwiftUI based GUI. RsyncOSX is maintained and bugfixes only. Both apps reads and saves configurations and logs to the same files. If you start using RsyncOSX and using RsyncUI later on is no problem because the read and update the same files. If you are a new user I will recommend using RsyncUI.*
 
-Check out  [the categories](/categories)  for information about other topics not linked to on this page.
+RsyncOSX is a pure Swift based macOS application utilizing the command line tool `rsync` for synchronizing files. It is `rsync`  which executes the actual synchronized task. RsyncOSX is a GUI only on top of rsync. RsyncOSX is *signed* and *notarized* by Apple.There are no third party libraries included in the code. There are three source codes not developed by me included in the code. The third part of the source code is only for support and not critical if removed. Check out  [the categories](/categories)  for information about other topics not linked to on this page.
 
 ## Before commencing use of RsyncOSX
 
