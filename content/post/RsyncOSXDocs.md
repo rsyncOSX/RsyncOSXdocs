@@ -13,13 +13,13 @@ RsyncOSX is a pure Swift based macOS application utilizing the command line tool
 
 ## Before commencing use of RsyncOSX
 
-[RsyncOSX](https://github.com/rsyncOSX/RsyncOSX/releases)  is compiled for *macOS Big Sur* and later. See the [the changelog](/post/changelog/) for updates. RsyncOSX is built as a Universal macOS Binary and runs nativly on Apple Silicon and Intel-based Mac computers. RsyncOSX can be installed by homebrew by command:
+[RsyncOSX](https://github.com/rsyncOSX/RsyncOSX/releases)  is compiled for *macOS Big Sur* and later. See the [the changelog](/post/changelog/) for updates. RsyncOSX is built as a Universal macOS Binary and runs nativly on Apple Silicon and Intel-based Mac computers. RsyncOSX can be installed by Homebrew by command:
 
 ```bash
 brew install --cask rsyncosx
 ```
 
-or by downloading  [the latest version](https://github.com/rsyncOSX/RsyncOSX/releases). If installed by homebrew, the shasum is automatically verified. If downloaded from GitHub please verify the shasum.
+or by downloading  [the latest version](https://github.com/rsyncOSX/RsyncOSX/releases). If installed by Homebrew, the shasum is automatically verified. If downloaded from GitHub please verify the shasum.
 
 ## Remote servers, passwordless logins and local disks
 
@@ -37,11 +37,9 @@ The error at the bottom of the view is only RsyncOSX complaining about not findi
 
 Please be aware it is an external task not controlled by RsyncOSX, which executes the command line tool rsync. RsyncOSX is monitoring the task for progress and termination. The user can at any time abort a task . Please let the abort to finish and cleanup properly before starting a new task. It might take a few seconds. If not, the apps might become unresponsive.
 
-## RsyncOSX vs RsyncUI
+## RsyncUI vs RsyncOSX
 
-For the moment, there are more users of RsyncOSX than RsyncUI. But the number of users of RsyncUI is growing. And Apple is clear, SwiftUI, which RsyncUI is developed by, is the future. This means that most of my development is now on RsyncUI. RsyncOSX is still supported, but only issues are fixed and no new features.
-
-RsyncUI and RsyncOSX share most of the code for the model components. The main differences between the two apps are the user interface (UI) and how the UI is built. RsyncUI is developed utilizing SwiftUI. RsyncOSX is developed utilizing Storyboards. Both apps utilize another great declarative library, Combine, developed by Apple and JSON files for storing tasks, logrecords and user configuration.
+For the moment, there are more users of RsyncOSX than of RsyncUI. But the number of users of RsyncUI is growing. And Apple is clear: SwiftUI, which RsyncUI is developed by, is the future. This means that my development is now on RsyncUI. RsyncOSX is still supported, but only issues are fixed and there are no new features. And RsyncUI has a few more features than RsyncOSX. If you are on macOS Sonoma, my recommendation is to use RsyncUI, not RsyncOSX.
 
 ## New tasks, verify and synchronizing data
 
