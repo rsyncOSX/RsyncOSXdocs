@@ -6,17 +6,15 @@ tags = ["snapshot"]
 categories = ["synchronize"]
 lastmod = "2020-12-13"
 +++
-Utilizing snapshot is an effective method for restore of previous versions of data and deleted files. Snapshot utilize [hardlinks](https://en.wikipedia.org/wiki/Hard_link) and only changed and deleted files are saved as separate files in a snapshot. Files which are not changed are hardlinks to the original file.
+Utilizing snapshot is an effective method to restore old versions of data and deleted files. Snapshot utilize [hardlinks](https://en.wikipedia.org/wiki/Hard_link) and only changed and deleted files are saved as separate files in a snapshot. Files which are not changed are hardlinks to the original file.
 
-If a `file.txt` is saved in snapshot number one and never changed or deleted, the file `file.txt` in the latest snapshot is just a hardlink to the original file. If the `file.txt` is deleted from the first snapshot, the filesystem takes care of updating and where to save the original file as part of the delete operation.
+If a `file.txt` is saved in snapshot number one and never changed or deleted, the file `file.txt` in the latest snapshot is a hardlink only to the original file. If the `file.txt` is deleted from the first snapshot, the filesystem takes care of updating and where to save the original file as part of the delete operation. In RsyncUI, even if all snapshots are tagged for delete, *the first* and *last* snapshot are not deleted. The first and last snapshot are removed from the delete list as part of preparation for delete. 
 
-Even if all snapshots are tagged for delete, **the first** and **last** snapshot are not deleted. The first and last snapshot are removed from the delete list as part of preparation (internal) of delete. 
-
-Snapshot is **not** possible in a rsync daemon setup. 
+Snapshot is **not** possible in a rsync daemon setup.
 
 ## What is a snapshot?
 
-A snapshot is a saved state or backup of data at a specific point of time. Every snapshot is in sync with local catalog at the time of creating the snapshot. Previous versions of files can be restored from a snapshot. The snapshot is by utilizing the `--link-dest` parameter to rsync. The rsync parameter for next snapshot to save is:
+A snapshot is a saved state or backup of data at a specific point of time. Every snapshot is in sync with local catalog *at the time* of creating the snapshot. Previous versions of files can be restored from a snapshot. The snapshot is by utilizing the `--link-dest` parameter to rsync. The rsync parameter for next snapshot to save is:
 
 `--link-dest=~/snapshots/n-1 /Volumes/user/data/ user@remote.server:~/snapshots/n`
 
@@ -29,14 +27,12 @@ where
 
 If remote catalog is a local volume full path must be added. The source catalog is **never** touched, only read by rsync.
 
-RsyncOSX creates the snapshots within the remote catalog. The ~ is expanded to the user home catalog on remote server. Utilizing snapshot on local attached disks require full path for remote catalog.
+RsyncUI creates the snapshots within the remote catalog. The ~ is expanded to the user home catalog on remote server. Utilizing snapshot on local attached disks require full path for remote catalog.
 
 `~/snapshots/1`
 
 - snapshot one
 - a full sync when snapshot is created
-
-...
 
 `~/snapshots/n`
 
@@ -45,7 +41,8 @@ RsyncOSX creates the snapshots within the remote catalog. The ~ is expanded to t
 
 ## Create a snapshot
 
-To create a snapshot task select `snapshot` as type in [add tasks](/post/addconfigurations/). Do **not** copy and paste command for execution within a terminal window. RsyncOSX saves the number `n` to the configuration. The number `n` is the next snapshot number.
+To create a snapshot task select `snapshot` as type in [add tasks](/post/addconfigurations/). Do **not** copy and paste command for execution within a terminal window. RsyncUI saves the number `n` to the task. The number `n` is the next snapshot number. The number n is used when computing the parameter for rsync
+and is picked up from the configuration.
 
 ## Snapshot administration
 
@@ -74,4 +71,5 @@ The plan is based upon three parts where the parameter `plan` has an effect on *
 
 ## Tagging and delete snapshots
 
+It is advised to cleanup the number of snapshots. Select a plan, tagg the snapshots and delete the snapshots which are marked for delete.
 It is advised to cleanup the number of snapshots. Select a plan, tagg the snapshots and delete the snapshots which are marked for delete.
