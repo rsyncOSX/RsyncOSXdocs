@@ -41,7 +41,7 @@ Please be aware it is an external task not controlled by RsyncOSX, which execute
 
 For the moment, there are more users of RsyncOSX than of RsyncUI. But the number of users of RsyncUI is growing. And Apple is clear: SwiftUI, which RsyncUI is developed by, is the future.  And RsyncUI has a few more features than RsyncOSX. RsyncOSX is still supported, but only issues are fixed and there are no new features. Last  update of RsyncOSX was in april 2023. 
 
-*If you are on macOS Sonoma, my recommendation is to use RsyncOSX, not RsyncOSX.* 
+*If you are on macOS Sonoma, my recommendation is to use RsyncUI, not RsyncOSX.* 
 
 ## New tasks, verify and synchronizing data
 
