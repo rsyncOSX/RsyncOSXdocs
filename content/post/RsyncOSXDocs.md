@@ -8,7 +8,7 @@ lastmod = "2022-05-09"
 +++
 *Some important information about development of RsyncOSX. There are two GUIs for rsync developed by me, RsyncUI and RsyncOSX. More info abot both apps on [my GitHub Readme file](https://github.com/rsyncOSX/RsyncOSX). New development is and has been since beginning av 2023, only for RsyncUI - the SwiftUI based GUI. RsyncOSX is maintained and bugfixes only.  If you are a new user I will recommend using RsyncUI.*
 
-RsyncOSX is a pure *Swift* and *Storyboar* based macOS application utilizing the command line tool `rsync` for synchronizing files. It is `rsync` which executes the real synchronizing task, not RsyncOSX. RsyncOSX is a GUI only on top of rsync. RsyncOSX is signed and notarized by Apple.  
+RsyncOSX is a pure *Swift* and *Storyboard* based macOS application utilizing the command line tool `rsync` for synchronizing files. It is `rsync` which executes the real synchronizing task, not RsyncOSX. RsyncOSX is a GUI only on top of rsync. RsyncOSX is signed and notarized by Apple.  
 
 Check out  [the categories](/categories)  for information about other topics not linked to on this page.  RsyncOSX is built for *macOS Big Sur and later*.
 
@@ -29,7 +29,7 @@ RsyncOSX can synchronize your data to remote servers on the Internet, servers on
 
 The first time RsyncOSX starts, it presents a link to [important](/post/important/) information. There is also info about the [latest version of rsync](/post/rsync/) to install.
 
-{{< figure src="/images/start/firsttask.png" alt="" position="center" style="border-radius: 8px;" >}}
+{{< figure src="/images/RsyncOSX/master/start/start.png" alt="" position="center" style="border-radius: 8px;" >}}
 
 RsyncOSX can be used in parallel with RsyncOSX. The catalog for storing configuration files is `$HOME/.rsyncosx/macserialnumber/`. RsyncOSX and RsyncOSX do not share user settings, e.g, like enabling version 3.x of rsync, has to be set in both apps.
 
