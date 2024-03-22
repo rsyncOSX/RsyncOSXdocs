@@ -115,7 +115,7 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-   - identifier: About
+    - identifier: About
       name: about
       url: /about/
       weight: 5
