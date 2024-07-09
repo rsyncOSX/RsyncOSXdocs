@@ -11,7 +11,7 @@ RsyncOSX is a pure *Swift* and *Storyboard* based macOS application utilizing th
 
 ## RsyncOSX vs RsyncUI
 
-*Some important information about development of RsyncOSX. There are two GUIs for rsync developed by me, RsyncUI and RsyncOSX. More info abot both apps on [my GitHub Readme file](https://github.com/rsyncOSX/RsyncOSX). New development is and has been since beginning av 2023, only for RsyncUI - the SwiftUI based GUI. RsyncOSX is maintained and bugfixes only.*
+*Some important information about development of RsyncOSX. There are two GUIs for rsync developed by me, RsyncUI and RsyncOSX. More info abot both apps on [my GitHub Readme file](https://github.com/rsyncOSX). New development is and has been since beginning av 2023, only for RsyncUI - the SwiftUI based GUI. RsyncOSX is maintained and bugfixes only.*
 
 *If you are a new user I will recommend using RsyncUI.*
 
